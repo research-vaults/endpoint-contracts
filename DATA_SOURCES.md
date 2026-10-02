@@ -4,6 +4,18 @@ Public accessibility is not a redistribution license. This release therefore
 ships original derived measurements, not the upstream scholarly-text corpora.
 It preserves source paper/task identifiers and scientific attribution.
 
+## Paper and artifact version
+
+The **2 October 2026** artifact accompanies the [revised manuscript dated
+1 October 2026](https://odysseus-personal-website.vercel.app/materials/papers/endpoint-well-posed.pdf),
+*Is the Endpoint Well-Posed? Measurement Contracts for AI-Assisted Scientific
+Discovery*. That 20-page PDF was publicly retrieved on 2 October 2026 with
+SHA-256 `1f777b073d14e2e998cdef8173050625eadc1201cdc3b421ba020c5c63c54ba9`.
+The website may later update the file; this hash identifies the version checked
+for this release. It is a revision after submission, not a claim of identity
+with the accepted workshop upload or a final camera-ready. No PDF or LaTeX
+source is bundled in this code snapshot.
+
 | Material | Shipped | Source / boundary |
 |---|---|---|
 | Disclosure proxy | Item IDs, metrics, embedding vectors and generated predictions; no source excerpts | arXiv/ar5iv papers identified in `results/disclosure_item_ids.json` and numerical rows; per-paper text redistribution permission not established |
@@ -38,17 +50,15 @@ available. There is no turnkey exact recovery of the original disclosure epoch.
 The code fails with an explicit missing-input explanation instead of making
 network requests or fabricating replacements. No paid generation is performed.
 
-## Public export transformations
+## Artifact conventions
 
-Internal analysis directory/script labels were replaced by descriptive
-`contract_checks` names. Legacy protocol prefixes were consistently renamed to
-`measurement-contracts` while retaining their version suffixes. Figure output
-paths now point to `results/figures/`. A `--panel-only` entry point exposes the
-unchanged common-item analysis without requiring withheld corpora. Human-label
-CSVs retain only scoring-relevant anonymous fields; the numerical key no longer
-contains an internal review note. These are packaging/interface changes, not
-new experiments or altered scientific observations. Original source and all
-private evidence remain preserved separately.
+`results/contract_checks/run_manifest.json` describes the historical computation,
+including its input hashes, rather than certifying the current script bytes.
+Paths use descriptive `contract_checks` names and versioned
+`measurement-contracts` protocol names; `SHA256SUMS` and `RELEASE_FILES.json`
+identify this release's files. Figures are written to `results/figures/`.
+The `--panel-only` entry point runs the common-item analysis without source
+corpora. These interface changes do not alter scientific observations.
 
 The extraction-quality ledger retains numeric flags and item IDs but omits
 source-text snippets. Human-result provenance hashes refer to the reduced

@@ -9,8 +9,8 @@
     },
     {
       "path": "DATA_SOURCES.md",
-      "bytes": 4041,
-      "sha256": "3c5e2ee47863ea6a41017cac678b3a74f6a44e32fda5d6e7ca0f3a2b528d9af7"
+      "bytes": 4596,
+      "sha256": "a444ab34f60eed04fdb381257806396f7372bb04a4c1a2700ea3aadd8d3ace89"
     },
     {
       "path": "LICENSE",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6155,
-      "sha256": "973ece89775b2283c63d897e6d2c5cd82948b37e76b17ff946a78c12c8b5332e"
+      "bytes": 6973,
+      "sha256": "75e14b787c4a1515acc23b318a3a8664165ffffebba48a6c995fd6b67f62dd60"
     },
     {
       "path": "data/human_criterion_instrument/pairs_analysis_key.json",
