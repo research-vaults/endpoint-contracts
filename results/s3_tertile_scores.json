@@ -1,0 +1,25 @@
+{
+  "n_cells": 76,
+  "rule": "equal size tertiles by R_availability order on all S3 panel cells; remainder in High",
+  "tertiles": [
+    {
+      "tertile": "Low",
+      "mean_score": 0.048737016071242714,
+      "mean_R": 0.09665275656543375,
+      "n": 26
+    },
+    {
+      "tertile": "Mid",
+      "mean_score": 0.07541126147176445,
+      "mean_R": 0.1904885057368111,
+      "n": 26
+    },
+    {
+      "tertile": "High",
+      "mean_score": 0.10109078842246362,
+      "mean_R": 0.2727762794127382,
+      "n": 24
+    }
+  ],
+  "source": "results/openrouter_panel/panel_rows.json"
+}

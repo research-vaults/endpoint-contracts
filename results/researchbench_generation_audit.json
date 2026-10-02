@@ -1,0 +1,667 @@
+{
+  "protocol": "measurement-contracts-0.6 ResearchBench tiny recoverability with length-nearest identity derangement",
+  "generation": {
+    "n": 12,
+    "mean_R_RQ": 0.3027660398913595,
+    "mean_R_insp": 0.19127202909318183,
+    "mean_R_RQ_insp": 0.24656520035993257,
+    "mean_R_RQ_BG_insp": 0.2934746321875442,
+    "mean_R_shuffled": 0.13474153874028166,
+    "mean_delta_insp": -0.05620083953142691,
+    "mean_delta_shuffle": 0.1118236616196509,
+    "delta_shuffle_ci95": [
+      0.09549697193586419,
+      0.12930402158627924
+    ],
+    "frac_shuffle_hurts": 1.0,
+    "identity_intervention_protocol": "measurement-contracts-0.6 deterministic length-nearest derangement v1",
+    "identity_intervention_length_match": {
+      "algorithm": "deterministic_length_nearest_derangement_v1",
+      "length_unit": "regex_tokens_before_stopword_removal",
+      "n": 12,
+      "donor_unique_count": 12,
+      "self_pair_count": 0,
+      "mean_source_tokens": 327.0833333333333,
+      "mean_donor_tokens": 327.0833333333333,
+      "median_absolute_log_length_ratio": 0.05841076215641451,
+      "p90_absolute_log_length_ratio": 0.09243523771872572,
+      "max_absolute_log_length_ratio": 0.25534669180884456,
+      "fraction_within_10_percent_source_length": 0.8333333333333334,
+      "fraction_within_20_percent_source_length": 0.8333333333333334
+    },
+    "mean_rank_RQ": 1.1666666666666667,
+    "mean_rank_RQ_insp": 1.0833333333333333,
+    "oracle_closure": 0.8849126396755478,
+    "oracle_means": {
+      "weak": 0.31468582753644275,
+      "best": 0.5179538055147285,
+      "oracle": 0.4945602304907187
+    }
+  },
+  "ranking_identifiability": {
+    "n": 12,
+    "mean_R_RQ_to_gold": 0.2785039553220498,
+    "mean_rank_gold": 6.75,
+    "mean_mrr": 0.44667450604950604,
+    "frac_gold_rank1": 0.3333333333333333,
+    "mean_margin_gold_vs_neg": -0.0801161971658684,
+    "frac_gold_outranks_negs": 0.3333333333333333
+  },
+  "generation_rows": [
+    {
+      "sample_id": "Astronomy/101007s00159024001512",
+      "discipline": "Astronomy",
+      "RQ": {
+        "R_avail": 0.33758748238470837,
+        "lex": 0.27586206896551724,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "insp": {
+        "R_avail": 0.23273719563458395,
+        "lex": 0.4827586206896552,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_insp": {
+        "R_avail": 0.28197240744100915,
+        "lex": 0.5862068965517241,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.3377748913748001,
+        "lex": 0.6896551724137931,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.12557998065998285,
+        "lex": 0.3103448275862069,
+        "rank": 3,
+        "mrr": 0.3333333333333333
+      },
+      "BG": {
+        "R_avail": 0.3297948968447151,
+        "lex": 0.5517241379310345,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": -0.055615074943699216,
+      "delta_shuffle": 0.1563924267810263
+    },
+    {
+      "sample_id": "Biology/101007s10311023016823",
+      "discipline": "Biology",
+      "RQ": {
+        "R_avail": 0.3670164544853456,
+        "lex": 0.3684210526315789,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "insp": {
+        "R_avail": 0.16856606151071,
+        "lex": 0.3684210526315789,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_insp": {
+        "R_avail": 0.25556077573728525,
+        "lex": 0.631578947368421,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.31804480250229794,
+        "lex": 0.7894736842105263,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.14637184500797515,
+        "lex": 0.42105263157894735,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "BG": {
+        "R_avail": 0.3426791054047251,
+        "lex": 0.7368421052631579,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": -0.11145567874806034,
+      "delta_shuffle": 0.1091889307293101
+    },
+    {
+      "sample_id": "Business/101007s00146022014150",
+      "discipline": "Business",
+      "RQ": {
+        "R_avail": 0.278952338369285,
+        "lex": 0.35714285714285715,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "insp": {
+        "R_avail": 0.20508352641717292,
+        "lex": 0.35714285714285715,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_insp": {
+        "R_avail": 0.24329489712483315,
+        "lex": 0.42857142857142855,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.22777216542262102,
+        "lex": 0.42857142857142855,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.16596152265789063,
+        "lex": 0.42857142857142855,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "BG": {
+        "R_avail": 0.1807937094043962,
+        "lex": 0.35714285714285715,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": -0.03565744124445186,
+      "delta_shuffle": 0.07733337446694252
+    },
+    {
+      "sample_id": "Cell Biology/101007s11010023047566",
+      "discipline": "Cell Biology",
+      "RQ": {
+        "R_avail": 0.09370107697290117,
+        "lex": 0.09090909090909091,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "insp": {
+        "R_avail": 0.17960132352834293,
+        "lex": 0.36363636363636365,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_insp": {
+        "R_avail": 0.19444812962775943,
+        "lex": 0.4090909090909091,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.2727150453735184,
+        "lex": 0.6818181818181818,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.039901430281781614,
+        "lex": 0.09090909090909091,
+        "rank": 4,
+        "mrr": 0.25
+      },
+      "BG": {
+        "R_avail": 0.2164007192923062,
+        "lex": 0.45454545454545453,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": 0.10074705265485825,
+      "delta_shuffle": 0.1545466993459778
+    },
+    {
+      "sample_id": "Chemistry/101007s10924023030048",
+      "discipline": "Chemistry",
+      "RQ": {
+        "R_avail": 0.2588023194938808,
+        "lex": 0.22580645161290322,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "insp": {
+        "R_avail": 0.14675484010148782,
+        "lex": 0.2903225806451613,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "RQ_insp": {
+        "R_avail": 0.19658845866389368,
+        "lex": 0.3870967741935484,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.23951737811832208,
+        "lex": 0.5161290322580645,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.1000685896081904,
+        "lex": 0.22580645161290322,
+        "rank": 3,
+        "mrr": 0.3333333333333333
+      },
+      "BG": {
+        "R_avail": 0.29484848346233195,
+        "lex": 0.6129032258064516,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": -0.06221386082998709,
+      "delta_shuffle": 0.09651986905570328
+    },
+    {
+      "sample_id": "Earth Science/101007s0012602301203w",
+      "discipline": "Earth Science",
+      "RQ": {
+        "R_avail": 0.3322813999216461,
+        "lex": 0.2608695652173913,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "insp": {
+        "R_avail": 0.15914608937695404,
+        "lex": 0.30434782608695654,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_insp": {
+        "R_avail": 0.18995402882315135,
+        "lex": 0.34782608695652173,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.23221331318766586,
+        "lex": 0.43478260869565216,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.10933776393885475,
+        "lex": 0.2608695652173913,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "BG": {
+        "R_avail": 0.22535984211965887,
+        "lex": 0.391304347826087,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": -0.14232737109849478,
+      "delta_shuffle": 0.0806162648842966
+    },
+    {
+      "sample_id": "Energy Science/101007s00170022107672",
+      "discipline": "Energy Science",
+      "RQ": {
+        "R_avail": 0.16699249682781844,
+        "lex": 0.1794871794871795,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "insp": {
+        "R_avail": 0.15513051832724367,
+        "lex": 0.3333333333333333,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_insp": {
+        "R_avail": 0.18703341523694406,
+        "lex": 0.41025641025641024,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.3370098968840031,
+        "lex": 0.7948717948717948,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.1055582391130857,
+        "lex": 0.23076923076923078,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "BG": {
+        "R_avail": 0.38338082724266775,
+        "lex": 0.7435897435897436,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": 0.020040918409125613,
+      "delta_shuffle": 0.08147517612385835
+    },
+    {
+      "sample_id": "Environmental Science/101007s00181023024604",
+      "discipline": "Environmental Science",
+      "RQ": {
+        "R_avail": 0.5139980187382731,
+        "lex": 0.6111111111111112,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "insp": {
+        "R_avail": 0.2266428590745461,
+        "lex": 0.4444444444444444,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_insp": {
+        "R_avail": 0.337387660296834,
+        "lex": 0.7222222222222222,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.3336905141436064,
+        "lex": 0.7222222222222222,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.2293115489230798,
+        "lex": 0.6111111111111112,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "BG": {
+        "R_avail": 0.2704606284159767,
+        "lex": 0.5,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": -0.17661035844143913,
+      "delta_shuffle": 0.10807611137375417
+    },
+    {
+      "sample_id": "Law/101007s00787022020775",
+      "discipline": "Law",
+      "RQ": {
+        "R_avail": 0.49842032967032973,
+        "lex": 0.625,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "insp": {
+        "R_avail": 0.18094745403987783,
+        "lex": 0.375,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_insp": {
+        "R_avail": 0.33894152882582373,
+        "lex": 0.8125,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.3737156551588934,
+        "lex": 0.875,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.21521665392672862,
+        "lex": 0.625,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "BG": {
+        "R_avail": 0.36201119260192727,
+        "lex": 0.6875,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": -0.159478800844506,
+      "delta_shuffle": 0.12372487489909512
+    },
+    {
+      "sample_id": "Material Science/101007s10924023030048",
+      "discipline": "Material Science",
+      "RQ": {
+        "R_avail": 0.2427545743127585,
+        "lex": 0.25,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "insp": {
+        "R_avail": 0.2281206292019885,
+        "lex": 0.4642857142857143,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_insp": {
+        "R_avail": 0.2384359101841704,
+        "lex": 0.4642857142857143,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.26310627713997836,
+        "lex": 0.5357142857142857,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.12363474221223958,
+        "lex": 0.32142857142857145,
+        "rank": 4,
+        "mrr": 0.25
+      },
+      "BG": {
+        "R_avail": 0.20638333470485704,
+        "lex": 0.39285714285714285,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": -0.0043186641285880845,
+      "delta_shuffle": 0.11480116797193082
+    },
+    {
+      "sample_id": "Math/101007s0018002301376y",
+      "discipline": "Math",
+      "RQ": {
+        "R_avail": 0.31886066544303865,
+        "lex": 0.30434782608695654,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "insp": {
+        "R_avail": 0.26747398662585276,
+        "lex": 0.6086956521739131,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_insp": {
+        "R_avail": 0.2919994549533628,
+        "lex": 0.6521739130434783,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.3292036823577529,
+        "lex": 0.782608695652174,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.1343218669244018,
+        "lex": 0.391304347826087,
+        "rank": 2,
+        "mrr": 0.5
+      },
+      "BG": {
+        "R_avail": 0.2864619800963147,
+        "lex": 0.6521739130434783,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": -0.026861210489675824,
+      "delta_shuffle": 0.15767758802896104
+    },
+    {
+      "sample_id": "Physics/101007s00382022063555",
+      "discipline": "Physics",
+      "RQ": {
+        "R_avail": 0.22382532207632838,
+        "lex": 0.22727272727272727,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "insp": {
+        "R_avail": 0.14505986527942136,
+        "lex": 0.22727272727272727,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_insp": {
+        "R_avail": 0.20316573740412386,
+        "lex": 0.36363636363636365,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_BG_insp": {
+        "R_avail": 0.256931964587071,
+        "lex": 0.4772727272727273,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "RQ_shuffled_insp": {
+        "R_avail": 0.12163428162916919,
+        "lex": 0.25,
+        "rank": 3,
+        "mrr": 0.3333333333333333
+      },
+      "BG": {
+        "R_avail": 0.22777210636649498,
+        "lex": 0.3181818181818182,
+        "rank": 1,
+        "mrr": 1.0
+      },
+      "delta_insp": -0.020659584672204523,
+      "delta_shuffle": 0.08153145577495467
+    }
+  ],
+  "ranking_rows": [
+    {
+      "sample_id": "Astronomy/101007s00159024001512",
+      "discipline": "Astronomy",
+      "R_avail_RQ_to_gold": 0.33758748238470837,
+      "rank_of_gold_among_cands": 1,
+      "mrr": 1.0,
+      "gold_minus_best_neg": 0.08561157709762474,
+      "n_cands": 16
+    },
+    {
+      "sample_id": "Biology/101007s1045302209750x",
+      "discipline": "Biology",
+      "R_avail_RQ_to_gold": 0.15530214970928674,
+      "rank_of_gold_among_cands": 16,
+      "mrr": 0.0625,
+      "gold_minus_best_neg": -0.30540593899424523,
+      "n_cands": 16
+    },
+    {
+      "sample_id": "Business/101007s00146022014150",
+      "discipline": "Business",
+      "R_avail_RQ_to_gold": 0.278952338369285,
+      "rank_of_gold_among_cands": 3,
+      "mrr": 0.3333333333333333,
+      "gold_minus_best_neg": -0.054779196624165194,
+      "n_cands": 16
+    },
+    {
+      "sample_id": "Cell Biology/101007s11010023047566",
+      "discipline": "Cell Biology",
+      "R_avail_RQ_to_gold": 0.09370107697290117,
+      "rank_of_gold_among_cands": 10,
+      "mrr": 0.1,
+      "gold_minus_best_neg": -0.10032513782607633,
+      "n_cands": 16
+    },
+    {
+      "sample_id": "Chemistry/101007s10924023030048",
+      "discipline": "Chemistry",
+      "R_avail_RQ_to_gold": 0.2588023194938808,
+      "rank_of_gold_among_cands": 14,
+      "mrr": 0.07142857142857142,
+      "gold_minus_best_neg": -0.2109250860665024,
+      "n_cands": 16
+    },
+    {
+      "sample_id": "Earth Science/101007s0012602301203w",
+      "discipline": "Earth Science",
+      "R_avail_RQ_to_gold": 0.3322813999216461,
+      "rank_of_gold_among_cands": 1,
+      "mrr": 1.0,
+      "gold_minus_best_neg": 0.154608119271485,
+      "n_cands": 16
+    },
+    {
+      "sample_id": "Energy Science/101007s00170022107672",
+      "discipline": "Energy Science",
+      "R_avail_RQ_to_gold": 0.16699249682781844,
+      "rank_of_gold_among_cands": 13,
+      "mrr": 0.07692307692307693,
+      "gold_minus_best_neg": -0.28612536522115845,
+      "n_cands": 16
+    },
+    {
+      "sample_id": "Environmental Science/101007s00181023024604",
+      "discipline": "Environmental Science",
+      "R_avail_RQ_to_gold": 0.5139980187382731,
+      "rank_of_gold_among_cands": 1,
+      "mrr": 1.0,
+      "gold_minus_best_neg": 0.12151757088758758,
+      "n_cands": 16
+    },
+    {
+      "sample_id": "Law/101007s00787022020775",
+      "discipline": "Law",
+      "R_avail_RQ_to_gold": 0.49842032967032973,
+      "rank_of_gold_among_cands": 1,
+      "mrr": 1.0,
+      "gold_minus_best_neg": 0.058847509188063696,
+      "n_cands": 16
+    },
+    {
+      "sample_id": "Material Science/101007s10924023030048",
+      "discipline": "Material Science",
+      "R_avail_RQ_to_gold": 0.2427545743127585,
+      "rank_of_gold_among_cands": 2,
+      "mrr": 0.5,
+      "gold_minus_best_neg": -0.012550661442148336,
+      "n_cands": 16
+    },
+    {
+      "sample_id": "Math/101007s00208022025127",
+      "discipline": "Math",
+      "R_avail_RQ_to_gold": 0.23942995538738157,
+      "rank_of_gold_among_cands": 8,
+      "mrr": 0.125,
+      "gold_minus_best_neg": -0.22136922589410923,
+      "n_cands": 16
+    },
+    {
+      "sample_id": "Physics/101007s00382022063555",
+      "discipline": "Physics",
+      "R_avail_RQ_to_gold": 0.22382532207632838,
+      "rank_of_gold_among_cands": 11,
+      "mrr": 0.09090909090909091,
+      "gold_minus_best_neg": -0.19049853036677672,
+      "n_cands": 16
+    }
+  ],
+  "claim_ceiling": "ResearchBench public tiny split only (n=12). Full HF release gated. Findings are multi-domain pilot, not full-benchmark population estimates."
+}

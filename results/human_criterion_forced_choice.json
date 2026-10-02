@@ -1,0 +1,70 @@
+{
+  "protocol": "human forced-choice reconstructibility; frozen seed 20260731",
+  "seed": 20260731,
+  "annotator_A": {
+    "released_path": "data/human_criterion_instrument/received/annotatorA_pairs_labels.csv",
+    "n": 60,
+    "acc_vs_higher_R": 0.7333333333333333,
+    "ci95": [
+      0.6166666666666667,
+      0.85
+    ],
+    "binomial_p_upper_vs_chance": 0.00019702162136305077,
+    "by_stratum": {
+      "LOW_HIGH": {
+        "n": 30,
+        "acc": 0.8333333333333334
+      },
+      "LOW_MID": {
+        "n": 10,
+        "acc": 0.8
+      },
+      "MID_HIGH": {
+        "n": 20,
+        "acc": 0.55
+      }
+    },
+    "sha256": "d59a11fcb38dda67846dd631fff4c9d81884a397e9cb9c7ee339e04e92e5ee02"
+  },
+  "note": "Human criterion result for main \u00a75; not model proxy.",
+  "annotator_B": {
+    "released_path": "data/human_criterion_instrument/received/annotatorB_pairs_labels.csv",
+    "n": 60,
+    "acc_vs_R": 0.6833333333333333,
+    "ci95": [
+      0.5666666666666667,
+      0.8
+    ],
+    "binomial_p_upper_vs_chance": 0.0031088013296633353,
+    "by_stratum": {
+      "LOW_HIGH": {
+        "n": 30,
+        "acc": 0.8
+      },
+      "LOW_MID": {
+        "n": 10,
+        "acc": 0.6
+      },
+      "MID_HIGH": {
+        "n": 20,
+        "acc": 0.55
+      }
+    },
+    "sha256": "945d7406403694896fc4bdf3b550d56d957ef91492eacc4ff284071cfdea3d92"
+  },
+  "inter_annotator": {
+    "n_overlap": 60,
+    "exact_agree": 0.9166666666666666,
+    "cohen_kappa": 0.8295454545454545
+  },
+  "primary_report": {
+    "n_pairs": 60,
+    "acc": 0.7333333333333333,
+    "ci95": [
+      0.6166666666666667,
+      0.85
+    ],
+    "kappa": 0.8295454545454545,
+    "n_overlap": 60
+  }
+}

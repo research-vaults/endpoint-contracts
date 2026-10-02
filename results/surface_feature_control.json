@@ -1,0 +1,22 @@
+{
+  "protocol": "measurement-contracts-surface-feature-control-v1",
+  "note": "Clever-Hans-style bound: surface features of input (length/tokens) vs graded R_avail; not a trained answer predictor on gold labels.",
+  "disclosure_S3": {
+    "n": 86,
+    "pearson_r_log_charlen_vs_R_avail": -0.521,
+    "loo_ridge_r_surface_features_to_R_avail": 0.482,
+    "loo_logistic_high_R_tertile_acc": 0.686,
+    "majority_baseline": 0.663,
+    "features": [
+      "log1p(char_len)",
+      "log1p(n_tok)",
+      "uniq_ratio"
+    ]
+  },
+  "panel_item_stage": {
+    "n": 96,
+    "pearson_r_R_vs_score": 0.785,
+    "pearson_r_log_pred_chars_vs_score": 0.425
+  },
+  "interpretation": "Surface length/token features only weakly predict R_avail; R remains a stronger score predictor than generation length. Supports graded overlap over trained answer predictors for this estimand."
+}

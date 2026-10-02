@@ -1,0 +1,70 @@
+{
+  "n_multi_model_items": 20,
+  "flip_rate_point": 0.65,
+  "flip_rate_boot_ci95": [
+    0.45,
+    0.85
+  ],
+  "stage_mean_rankings": {
+    "S0_topic": [
+      {
+        "model": "google/gemma-3-4b-it",
+        "mean_score": 0.03634661257977652
+      },
+      {
+        "model": "meta-llama/llama-3.2-3b-instruct",
+        "mean_score": 0.03055644066272256
+      },
+      {
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "mean_score": 0.02681582629829692
+      },
+      {
+        "model": "openai/gpt-4o-mini",
+        "mean_score": 0.0199816542208232
+      }
+    ],
+    "S1_abstract": [
+      {
+        "model": "meta-llama/llama-3.2-3b-instruct",
+        "mean_score": 0.07238383774293715
+      },
+      {
+        "model": "google/gemma-3-4b-it",
+        "mean_score": 0.0691761971900586
+      },
+      {
+        "model": "openai/gpt-4o-mini",
+        "mean_score": 0.06633635675265195
+      },
+      {
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "mean_score": 0.06616253508972746
+      }
+    ],
+    "S3_methods_mid": [
+      {
+        "model": "meta-llama/llama-3.2-3b-instruct",
+        "mean_score": 0.07693621105305491
+      },
+      {
+        "model": "google/gemma-3-4b-it",
+        "mean_score": 0.07353185977836363
+      },
+      {
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "mean_score": 0.07318381366948745
+      },
+      {
+        "model": "openai/gpt-4o-mini",
+        "mean_score": 0.07175884940695913
+      }
+    ]
+  },
+  "S3_top_model_bootstrap_freq": {
+    "meta-llama/llama-3.2-3b-instruct": 0.501,
+    "google/gemma-3-4b-it": 0.15,
+    "openai/gpt-4o-mini": 0.13,
+    "qwen/qwen-2.5-7b-instruct": 0.219
+  }
+}

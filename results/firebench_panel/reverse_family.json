@@ -1,0 +1,32 @@
+{
+  "protocol": "N005 reverse-family: lexical R vs embedding outcome on FIRE panel",
+  "seed": 20260731,
+  "encoder": "openai/text-embedding-3-small",
+  "definition": "R = R_avail (lexical) on input; s_embed = cos(embed(pred), embed(conclusion))",
+  "n_cells": 260,
+  "conditions": {
+    "instruction": {
+      "n_cells": 140,
+      "n_tasks": 35,
+      "r_Rlex_sembed": 0.1716695006888852,
+      "ci95_item_cluster": [
+        0.019653219922306734,
+        0.3266156858500246
+      ],
+      "mean_s_embed": 0.6942418054223136,
+      "mean_R": 0.25236884658876024
+    },
+    "RQ": {
+      "n_cells": 120,
+      "n_tasks": 30,
+      "r_Rlex_sembed": 0.1476292293102944,
+      "ci95_item_cluster": [
+        -0.15758668673759757,
+        0.4168961548702801
+      ],
+      "mean_s_embed": 0.7596792326874259,
+      "mean_R": 0.521644187075928
+    }
+  },
+  "note": "Demonstration of \u00a73 reverse-family prescription (not a new primary population)."
+}

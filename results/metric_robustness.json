@@ -1,0 +1,34 @@
+{
+  "protocol": "measurement-contracts-0.6 deterministic length-nearest derangement v1",
+  "n": 86,
+  "shuffle_mean": 0.13617994100759914,
+  "ci": [
+    0.11752207195851339,
+    0.15760486039173144
+  ],
+  "frac": 0.9767441860465116,
+  "length_match": {
+    "algorithm": "deterministic_length_nearest_derangement_v1",
+    "length_unit": "regex_tokens_before_stopword_removal",
+    "n": 86,
+    "donor_unique_count": 86,
+    "self_pair_count": 0,
+    "mean_source_tokens": 1353.6744186046512,
+    "mean_donor_tokens": 1353.6744186046512,
+    "median_absolute_log_length_ratio": 0.003218023694200731,
+    "p90_absolute_log_length_ratio": 0.012453461071286557,
+    "max_absolute_log_length_ratio": 0.03221872058016975,
+    "fraction_within_10_percent_source_length": 1.0,
+    "fraction_within_20_percent_source_length": 1.0
+  },
+  "loo_spearman_min": 0.9917363744628426,
+  "loo_spearman_mean": 0.9972493515739043,
+  "full_means": {
+    "S0_topic": 0.017094941283577213,
+    "S1_abstract": 0.12974468579876944,
+    "S2_intro": 0.1880519026367082,
+    "S3_methods_mid": 0.21452469377839964,
+    "S4_body": 0.23540891609732795
+  },
+  "topic_only_vs_S3_delta": 0.19742975249482242
+}

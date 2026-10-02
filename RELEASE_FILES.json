@@ -1,0 +1,386 @@
+{
+  "snapshot": "2026-10-02",
+  "policy": "Explicit reviewed public file inventory; no private histories or text corpora",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 860,
+      "sha256": "2fcc9a8086476405606289da90fe99ef6b00bf75cc642fa328c69568d716482d"
+    },
+    {
+      "path": "DATA_SOURCES.md",
+      "bytes": 4041,
+      "sha256": "3c5e2ee47863ea6a41017cac678b3a74f6a44e32fda5d6e7ca0f3a2b528d9af7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1486,
+      "sha256": "6db6a4a3af7df1854af586735de19cb459bd604fc974fe5d4d19116a4af6ddb5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6155,
+      "sha256": "973ece89775b2283c63d897e6d2c5cd82948b37e76b17ff946a78c12c8b5332e"
+    },
+    {
+      "path": "data/human_criterion_instrument/pairs_analysis_key.json",
+      "bytes": 17857,
+      "sha256": "9cbd3da65feee619a73a7438f03ac3f0acaf9dcf80948259fc1c05a51ebad23f"
+    },
+    {
+      "path": "data/human_criterion_instrument/received/annotatorA_pairs_labels.csv",
+      "bytes": 1933,
+      "sha256": "d59a11fcb38dda67846dd631fff4c9d81884a397e9cb9c7ee339e04e92e5ee02"
+    },
+    {
+      "path": "data/human_criterion_instrument/received/annotatorB_pairs_labels.csv",
+      "bytes": 1934,
+      "sha256": "945d7406403694896fc4bdf3b550d56d957ef91492eacc4ff284071cfdea3d92"
+    },
+    {
+      "path": "data/human_criterion_instrument/score_forced_choice_labels.py",
+      "bytes": 8268,
+      "sha256": "812d1a309156d7205c8f657cb14e4793435d5e632212c11bd4f949ddc0dfc6fa"
+    },
+    {
+      "path": "requirements-tested.txt",
+      "bytes": 340,
+      "sha256": "52cea0f7fb17b520eecfd96320862392239be864e9a92789d8fe27a6d9889a3f"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 137,
+      "sha256": "e8d825e67e629057e1f6365719f0aed8ba85e2746099e78d149ed20d42a26830"
+    },
+    {
+      "path": "results/ai_idea_bench_recoverability_full.json",
+      "bytes": 4276,
+      "sha256": "ad7e04b830ffd1683272b414e30d3cbd342c6549d749eabfb3a10c91b5b78df0"
+    },
+    {
+      "path": "results/ai_idea_bench_recoverability_rows.json",
+      "bytes": 359630,
+      "sha256": "bbb4e5bf7438642281bd965b7fdb0d93f022fe92597b441f6e5e28affc7c8ecd"
+    },
+    {
+      "path": "results/canonical_disclosure_shuffle.json",
+      "bytes": 925,
+      "sha256": "9e8fe5d02a716c638de675f2dbdc392c957f136620b07a2843e20a460f43a39e"
+    },
+    {
+      "path": "results/contract_checks/donor_checks.json",
+      "bytes": 795754,
+      "sha256": "a9308f5769004418ee08f06f533779a26d61de8568a3ffe46d2ef0e5940eb9e3"
+    },
+    {
+      "path": "results/contract_checks/extraction_checks.json",
+      "bytes": 59594,
+      "sha256": "df3c9ff1891f16edbf97b8654b454d5a5f0578940e213205a32ea91a9e834956"
+    },
+    {
+      "path": "results/contract_checks/figure_checks.json",
+      "bytes": 123,
+      "sha256": "54ac1de7a29bc17e4698620ffe98f5c4e1b9504cf38cde8551f025a2eab0bfc2"
+    },
+    {
+      "path": "results/contract_checks/panel_checks.json",
+      "bytes": 28329,
+      "sha256": "4fc75b71d99464a93720a86a002b03aeae07ecf84c61c1349e056836bd2d8e17"
+    },
+    {
+      "path": "results/contract_checks/pool_checks.json",
+      "bytes": 31161,
+      "sha256": "1c85cda8b57dc843a4dac929f33608f7e3d0d478f407f5818b53e44a4ce1b392"
+    },
+    {
+      "path": "results/contract_checks/run_manifest.json",
+      "bytes": 892,
+      "sha256": "2de4bf8669fc506cc07e8562e3b04757f6090b83f499e9c26f56ed14421fb042"
+    },
+    {
+      "path": "results/deep_statistics.json",
+      "bytes": 14612,
+      "sha256": "e1066ed5e4ff174c1eb99d55127c1d0624aab058f8bab00ae7625a8aae135d1e"
+    },
+    {
+      "path": "results/disclosure_item_ids.json",
+      "bytes": 2093,
+      "sha256": "8b46e9d342a2a044e45a204fdc749e14f2243b24321c3938ac2ed5dd97fc3a64"
+    },
+    {
+      "path": "results/domain_rank_stability.json",
+      "bytes": 3189,
+      "sha256": "9236f0e92e18d52ff1338a9e22bdd2257ed60272d39d1280dc74df0d40e7e9e4"
+    },
+    {
+      "path": "results/dual_axis_rid_ravail.json",
+      "bytes": 2649,
+      "sha256": "c87ed8a6e2d3306d7c17a8beec486d090441137d957c53f296c73f83556fa4e9"
+    },
+    {
+      "path": "results/embedding_cache.jsonl",
+      "bytes": 16032836,
+      "sha256": "4df47349de6173a2899d10f96350a4c29b6fbd0e542d7db37c6cf586f263930c"
+    },
+    {
+      "path": "results/embedding_recoverability.json",
+      "bytes": 21913,
+      "sha256": "815cf096ede232a85a6e118fa431e0f3cbacf482a064c1193578eb6adbb71610"
+    },
+    {
+      "path": "results/evidence_interventions.json",
+      "bytes": 31186,
+      "sha256": "696b9b7fc8c402685f631f9b5b3427ad4dc3c5818748db4fe669b7707e4744e0"
+    },
+    {
+      "path": "results/extraction_fail_sensitivity.json",
+      "bytes": 1010,
+      "sha256": "fbaaa50a135e1f77a00792b9ee03f6d1d90581c611c9237eee48e453afc3a1c6"
+    },
+    {
+      "path": "results/extractive_baseline_panel.json",
+      "bytes": 23741,
+      "sha256": "d9c1fc7d362e435ef7a287a38223486029204a2dc4823ccf9791d82da441a548"
+    },
+    {
+      "path": "results/failure_taxonomy.json",
+      "bytes": 3563,
+      "sha256": "52b6dace7e266aa7dc300cf34aac0206cea1d1608b953e23687c0a5421877be2"
+    },
+    {
+      "path": "results/falsifier_matrix.json",
+      "bytes": 4410,
+      "sha256": "66e17d74c0e53b7ba0a43997495de87921e51d8246c1d320c6cbbfa476b6205d"
+    },
+    {
+      "path": "results/firebench_panel/metric_disjoint.json",
+      "bytes": 690,
+      "sha256": "daf766e6c79395a09964dbf98a5e05fc4a895de200f56c1539acad1ae884b6d4"
+    },
+    {
+      "path": "results/firebench_panel/panel_analysis.json",
+      "bytes": 2809,
+      "sha256": "0283038e2928de6a85eea9cbe3ba0665e31d1006647bb3380790ecc79b264bc4"
+    },
+    {
+      "path": "results/firebench_panel/panel_rows.json",
+      "bytes": 60421,
+      "sha256": "356bcbb2d6e62abc6c2e9774b9feb7176878648476bf82a96709b5e91b5f2fab"
+    },
+    {
+      "path": "results/firebench_panel/raw_cache.jsonl",
+      "bytes": 322403,
+      "sha256": "76db98cbc80b181f3852c2163e0fb29a51d838686df5adc3a0ea0851e052bb4a"
+    },
+    {
+      "path": "results/firebench_panel/reverse_family.json",
+      "bytes": 950,
+      "sha256": "b20a2d126582af889678ad2158838b08d7af552b0990f7fe4e71947652caf192"
+    },
+    {
+      "path": "results/firebench_recoverability.json",
+      "bytes": 32863,
+      "sha256": "7c5bd75b58aabfed4c744b59d78dc242e1aecac476a575de26eed3aec47d0704"
+    },
+    {
+      "path": "results/formal_significance.json",
+      "bytes": 8945,
+      "sha256": "49b9124df99c405daf647a08b92fce3ba41b06bc541c60108ab6adff48706b72"
+    },
+    {
+      "path": "results/human_criterion_forced_choice.json",
+      "bytes": 1674,
+      "sha256": "8b26d1291b82c198788bad5880761e973a6ae6105e16fcf6377304d2b7717dc4"
+    },
+    {
+      "path": "results/loo_item_stability.json",
+      "bytes": 281,
+      "sha256": "b216bc703f38e1e22a5826059d55c4eac65e6534002a05d7cb37759692f38d52"
+    },
+    {
+      "path": "results/measure_agreement_S3.json",
+      "bytes": 509,
+      "sha256": "e33081bcc41e18227e846e002565fab29936d53c5917db29a1b87663d2615ec4"
+    },
+    {
+      "path": "results/metric_robustness.json",
+      "bytes": 1175,
+      "sha256": "1e8d0e3044b0b43812ca2022fab5c7fd68ba11f029cb283f305c5608c64f9c02"
+    },
+    {
+      "path": "results/missing_item_tipping_bound.json",
+      "bytes": 2065,
+      "sha256": "ef4a5dcfe18f46e5cceffb7c12cb076bee919ac0dc17699431e56b0725005a01"
+    },
+    {
+      "path": "results/openrouter_panel/panel_analysis.json",
+      "bytes": 435,
+      "sha256": "48ce0fdfa64fd30151fab0aa5a187ff3df0112927e4fe195e5227270955872fe"
+    },
+    {
+      "path": "results/openrouter_panel/panel_rows.json",
+      "bytes": 59873,
+      "sha256": "bbac9d9aa7a85f4a6739678f51c52697e14ad21a2beb9ac6c2346dc6a51ac5b0"
+    },
+    {
+      "path": "results/openrouter_panel/panel_stats_enriched.json",
+      "bytes": 648,
+      "sha256": "eea85d7d41a30fab9e1603eb9788ff3870861903be723256f50f9bb672903a10"
+    },
+    {
+      "path": "results/openrouter_panel/raw_cache.jsonl",
+      "bytes": 85480,
+      "sha256": "5c0962940147dd2bc5374ce49ba96b39de0f4494edaae8c91cbaf4a1db12dd6f"
+    },
+    {
+      "path": "results/oracle_closure.json",
+      "bytes": 586,
+      "sha256": "066f6153678e2a916c346129b54d5eb2b1f1c1f188aea3eb40add9dc9d7334a0"
+    },
+    {
+      "path": "results/panel_adjusted_association.json",
+      "bytes": 8781,
+      "sha256": "b1ecb91898d11c190667542076407d8c632ab406ace44120c60c789c34c56a12"
+    },
+    {
+      "path": "results/panel_correlation_cis.json",
+      "bytes": 1730,
+      "sha256": "284e52158cae40a7792e17b664aeccd6a81a6b93e632cdfbf2e5cc28ebc3119f"
+    },
+    {
+      "path": "results/panel_coverage_balance.json",
+      "bytes": 428,
+      "sha256": "de66f0a9463f821b61b07c35b765ccad129d2d5cac11451700e80c94d9a87a62"
+    },
+    {
+      "path": "results/panel_ranking_stability.json",
+      "bytes": 1657,
+      "sha256": "0296fa4266314807ae122d3506dc8593a18b219bc1fffe8d0b67b4d142c5da2d"
+    },
+    {
+      "path": "results/parity_coverage_suite.json",
+      "bytes": 8107,
+      "sha256": "48b3e001550c14feb76d5a9233095833b625ccbd44dd1d15b384cdffe1e919be"
+    },
+    {
+      "path": "results/pilot_controls.json",
+      "bytes": 7478,
+      "sha256": "9b4283657b775f083b1fa4fd9e34f49cd574081c5c40cf97eed65d2a4b28fcd3"
+    },
+    {
+      "path": "results/pilot_per_item.json",
+      "bytes": 138211,
+      "sha256": "78ec577fafc3b735299338a797b178fa0539070a3a2fa600c2be01fd8b2b14df"
+    },
+    {
+      "path": "results/r_stratified_scores.json",
+      "bytes": 441,
+      "sha256": "ef7ea20a0bd74cceb9b27d083f9e7bd0c0913208e59a637206eede88de6e9169"
+    },
+    {
+      "path": "results/ranking_consequences.json",
+      "bytes": 1429,
+      "sha256": "073c41008b9c0430ebed0eb84763d2ba05a3880e857bbdacf97729c258f3bf19"
+    },
+    {
+      "path": "results/researchbench_generation_audit.json",
+      "bytes": 17830,
+      "sha256": "e1331a6e5fcfbe21e9452955255e18819bc827463e4cb1ba1dd92da35e2714a5"
+    },
+    {
+      "path": "results/researchbench_retrieve_recoverability.json",
+      "bytes": 3172,
+      "sha256": "46d939859a94ffa336d943040b54269a9e1b3f9e9b50ba3f68a36bde8edbb9e9"
+    },
+    {
+      "path": "results/s3_tertile_scores.json",
+      "bytes": 581,
+      "sha256": "8cf3b29376fc402a2da8ce7e7645173315e81be889573c6c0297f7d8307f95a4"
+    },
+    {
+      "path": "results/sample_size_learning_curve.json",
+      "bytes": 1411,
+      "sha256": "8b3381ee66c6f9792befcca9f2ce306a89ea9a8583954af5111ef3575deee871"
+    },
+    {
+      "path": "results/surface_feature_control.json",
+      "bytes": 865,
+      "sha256": "2dc907211be76a65e311b0665a4762ea6b9c4486b68ff88068defb2f135fe056"
+    },
+    {
+      "path": "results/target_extraction_audit.json",
+      "bytes": 12615,
+      "sha256": "f997915c9d7ff7ebf44b58e635449fb0c8f49dc4ad5993303788d7007d87f4c8"
+    },
+    {
+      "path": "scripts/regenerate_dual_axis_ledger.py",
+      "bytes": 5407,
+      "sha256": "7d75dd765b20edb9879a7dd85a41739cafae65f3c35f69844801fb55d2692eb5"
+    },
+    {
+      "path": "scripts/regenerate_formal_significance.py",
+      "bytes": 10670,
+      "sha256": "4938cf31e563fd57b7d72cbc1967b99d5ff3ddc6a0ef9c9505a17a7bde25db90"
+    },
+    {
+      "path": "scripts/regenerate_main_figures.py",
+      "bytes": 9860,
+      "sha256": "ae4a661b1bc3d937d780e0860e8166ee83ea73ac9c1cfaa6e4a42929a7ad8073"
+    },
+    {
+      "path": "scripts/regenerate_metric_robustness.py",
+      "bytes": 1439,
+      "sha256": "460304fed2dad44030f5a83efa55a209d94cc545d1488bc3b27d27f39583fcec"
+    },
+    {
+      "path": "scripts/regenerate_missing_item_tipping_bound.py",
+      "bytes": 4641,
+      "sha256": "5a978e87b427bf6ff0b92d0def4764ec69cd27b5bea6217efd5255ff8348f785"
+    },
+    {
+      "path": "scripts/regenerate_sampling_flow_figure.py",
+      "bytes": 4313,
+      "sha256": "499100308bf968aca4aeb02967759d3f84c26da738ec06d043139e3461b53596"
+    },
+    {
+      "path": "scripts/regenerate_supplement_figures.py",
+      "bytes": 10088,
+      "sha256": "435f1b8802e3c1fc3be6a75a6971f9f2d6971870d5169bee774e04e9d041f92f"
+    },
+    {
+      "path": "scripts/render_candidate_figure.py",
+      "bytes": 4642,
+      "sha256": "3267f78e8b16327a8b13d596665b7746f94149b2fc5ba567aa0b9aac3da4a1c9"
+    },
+    {
+      "path": "scripts/render_contract_figures.py",
+      "bytes": 2903,
+      "sha256": "4f14f366cd6a1d6ebe7287b060b196be8f9e262141caaf98207a5af73490a077"
+    },
+    {
+      "path": "scripts/run_contract_checks.py",
+      "bytes": 18304,
+      "sha256": "9d663f5d3e68d79e6856f0d825d34dce6a182eb76c5f0998db6557f44e77f14a"
+    },
+    {
+      "path": "src/recoverability/__init__.py",
+      "bytes": 337,
+      "sha256": "53996c75205b5254d54527d617c9fb1e3c67a988192564914a6163f860cd15c2"
+    },
+    {
+      "path": "src/recoverability/metrics.py",
+      "bytes": 9249,
+      "sha256": "7010e9ab062ea2ac4cf79df1688e486b0789b2d7b1cbed09aab0f83bb4b402e1"
+    },
+    {
+      "path": "tests/test_formal_and_dual_ledgers.py",
+      "bytes": 5891,
+      "sha256": "717534f62e0724aa1b72b31d85704fe8928e46d07da9466a77ddb7e7e3808882"
+    },
+    {
+      "path": "tests/test_length_matching.py",
+      "bytes": 1393,
+      "sha256": "dcc4ad52cdb1fa9b955ff17a5e15c9018d952774eae75d2c591a3fb8a228c294"
+    }
+  ]
+}

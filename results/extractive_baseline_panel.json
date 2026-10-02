@@ -1,0 +1,800 @@
+{
+  "summary": {
+    "n_unique_item_stage": 96,
+    "pearson_R_vs_extractive_score": 0.8365909071308107,
+    "pearson_by_stage": {
+      "S0_topic": 0.6946045648095716,
+      "S1_abstract": 0.8278405571462021,
+      "S3_methods_mid": 0.7863687752846803
+    },
+    "mean_score_by_stage_extractive": {
+      "S0_topic": 0.007487581345957557,
+      "S1_abstract": 0.08518716889456783,
+      "S3_methods_mid": 0.08016648974251643
+    },
+    "mean_score_by_stage_llm_pool": {
+      "S0_topic": 0.025606140304669088,
+      "S1_abstract": 0.0662496025301098,
+      "S3_methods_mid": 0.0743951860297015
+    },
+    "frac_extractive_beats_mean_llm": 0.5,
+    "frac_extractive_beats_best_llm": 0.4895833333333333,
+    "n_compared": 96,
+    "S3_tertile_means_extractive": [
+      0.05111628960710346,
+      0.06215180043445886,
+      0.11938723094540857
+    ],
+    "note": "Extractive recon is a model-free competing system using input-only spans; same lexical outcome as LLM panel."
+  },
+  "rows": [
+    {
+      "item_id": "arxiv:2503.21248",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.006088913542101303,
+      "score_lex_target_in_pred": 0.003003003003003003,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2503.21248",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.15918347557339185,
+      "score_lex_target_in_pred": 0.0990990990990991,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2503.21248",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.24681999377018396,
+      "score_lex_target_in_pred": 0.07207207207207207,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2411.02429",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.009405918884835952,
+      "score_lex_target_in_pred": 0.00909090909090909,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2411.02429",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.09378532203733561,
+      "score_lex_target_in_pred": 0.05909090909090909,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2411.02429",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.11425916740605643,
+      "score_lex_target_in_pred": 0.05909090909090909,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2409.11363",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.034351931059157445,
+      "score_lex_target_in_pred": 0.00911854103343465,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2409.11363",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.1453082793644736,
+      "score_lex_target_in_pred": 0.0911854103343465,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2409.11363",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.1714422684321203,
+      "score_lex_target_in_pred": 0.0790273556231003,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2502.05151",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.020754505779517055,
+      "score_lex_target_in_pred": 0.013377926421404682,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2502.05151",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.1466780854039009,
+      "score_lex_target_in_pred": 0.13043478260869565,
+      "pred_chars": 1183
+    },
+    {
+      "item_id": "arxiv:2502.05151",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.2090296518695117,
+      "score_lex_target_in_pred": 0.07023411371237458,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2406.06769",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.0,
+      "score_lex_target_in_pred": 0.0,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2406.06769",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.19004031193250062,
+      "score_lex_target_in_pred": 0.11297071129707113,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2406.06769",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.231896618024312,
+      "score_lex_target_in_pred": 0.13807531380753138,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2407.01725",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.016020940816893654,
+      "score_lex_target_in_pred": 0.006825938566552901,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2407.01725",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.1076695714853264,
+      "score_lex_target_in_pred": 0.07849829351535836,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2407.01725",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.11368616816426846,
+      "score_lex_target_in_pred": 0.04778156996587031,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2307.10635",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.02144614490621684,
+      "score_lex_target_in_pred": 0.011904761904761904,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2307.10635",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.09700481007278551,
+      "score_lex_target_in_pred": 0.10119047619047619,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2307.10635",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.18101988080286446,
+      "score_lex_target_in_pred": 0.09523809523809523,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2412.17596",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.0043280637293278326,
+      "score_lex_target_in_pred": 0.0037174721189591076,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2412.17596",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.10322912460207596,
+      "score_lex_target_in_pred": 0.05204460966542751,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2412.17596",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.11957374628055473,
+      "score_lex_target_in_pred": 0.06691449814126393,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2505.13259",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.0,
+      "score_lex_target_in_pred": 0.0,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2505.13259",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.03436054253493116,
+      "score_lex_target_in_pred": 0.025,
+      "pred_chars": 1134
+    },
+    {
+      "item_id": "arxiv:2505.13259",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.27166949429649523,
+      "score_lex_target_in_pred": 0.05,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2503.13657",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.0,
+      "score_lex_target_in_pred": 0.0,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2503.13657",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.04132893310389098,
+      "score_lex_target_in_pred": 0.062111801242236024,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2503.13657",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.06438778744390329,
+      "score_lex_target_in_pred": 0.049689440993788817,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2410.01792",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.007040178345774869,
+      "score_lex_target_in_pred": 0.003787878787878788,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2410.01792",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.18583649818658127,
+      "score_lex_target_in_pred": 0.15151515151515152,
+      "pred_chars": 1178
+    },
+    {
+      "item_id": "arxiv:2410.01792",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.2955860955561047,
+      "score_lex_target_in_pred": 0.10606060606060606,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2501.05465",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.0,
+      "score_lex_target_in_pred": 0.0,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2501.05465",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.12436737251742984,
+      "score_lex_target_in_pred": 0.07806691449814127,
+      "pred_chars": 735
+    },
+    {
+      "item_id": "arxiv:2501.05465",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.22845072881793102,
+      "score_lex_target_in_pred": 0.13011152416356878,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2406.04598",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.029259907552920204,
+      "score_lex_target_in_pred": 0.006006006006006006,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2406.04598",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.16188496249360423,
+      "score_lex_target_in_pred": 0.09009009009009009,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2406.04598",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.18025182783025617,
+      "score_lex_target_in_pred": 0.06006006006006006,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2311.07361",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.04240681815079572,
+      "score_lex_target_in_pred": 0.045454545454545456,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2311.07361",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.036291342068909466,
+      "score_lex_target_in_pred": 0.045454545454545456,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2311.07361",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.03355435235639561,
+      "score_lex_target_in_pred": 0.045454545454545456,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2402.14034",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.00506894952835687,
+      "score_lex_target_in_pred": 0.0056179775280898875,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2402.14034",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.012626948161897224,
+      "score_lex_target_in_pred": 0.02247191011235955,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2402.14034",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.015260982287606095,
+      "score_lex_target_in_pred": 0.0,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2501.09686",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.033749307755035374,
+      "score_lex_target_in_pred": 0.008064516129032258,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2501.09686",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.12251816524398365,
+      "score_lex_target_in_pred": 0.06720430107526881,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2501.09686",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.14524548274305804,
+      "score_lex_target_in_pred": 0.053763440860215055,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2506.12345",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.04338375166599836,
+      "score_lex_target_in_pred": 0.031578947368421054,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2506.12345",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.10273944748202983,
+      "score_lex_target_in_pred": 0.11578947368421053,
+      "pred_chars": 978
+    },
+    {
+      "item_id": "arxiv:2506.12345",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.47344582809579006,
+      "score_lex_target_in_pred": 0.3631578947368421,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2410.19810",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.006338559019056568,
+      "score_lex_target_in_pred": 0.0038461538461538464,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2410.19810",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.2323512453936284,
+      "score_lex_target_in_pred": 0.16923076923076924,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2410.19810",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.25971263606651507,
+      "score_lex_target_in_pred": 0.09230769230769231,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2501.12948",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.01712418971971213,
+      "score_lex_target_in_pred": 0.007168458781362007,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2501.12948",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.11931563489645086,
+      "score_lex_target_in_pred": 0.08960573476702509,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2501.12948",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.24041995766194046,
+      "score_lex_target_in_pred": 0.07885304659498207,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2409.05591",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.009074633960490913,
+      "score_lex_target_in_pred": 0.0024390243902439024,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2409.05591",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.09888113622526842,
+      "score_lex_target_in_pred": 0.06585365853658537,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2409.05591",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.16070782717362214,
+      "score_lex_target_in_pred": 0.03170731707317073,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2502.04364",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.030766164264225557,
+      "score_lex_target_in_pred": 0.007246376811594203,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2502.04364",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.14413536903274232,
+      "score_lex_target_in_pred": 0.10869565217391304,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2502.04364",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.259214468711255,
+      "score_lex_target_in_pred": 0.11231884057971014,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2412.05265",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.0,
+      "score_lex_target_in_pred": 0.0,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2412.05265",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.05232141769756749,
+      "score_lex_target_in_pred": 0.03669724770642202,
+      "pred_chars": 461
+    },
+    {
+      "item_id": "arxiv:2412.05265",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.14317488815083135,
+      "score_lex_target_in_pred": 0.05504587155963303,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2503.09516",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.03306731182255184,
+      "score_lex_target_in_pred": 0.00558659217877095,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2503.09516",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.06711321957227764,
+      "score_lex_target_in_pred": 0.04748603351955307,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2503.09516",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.18089651986535496,
+      "score_lex_target_in_pred": 0.0446927374301676,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2504.01849",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.01177129768043525,
+      "score_lex_target_in_pred": 0.006802721088435374,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2504.01849",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.09514188073230836,
+      "score_lex_target_in_pred": 0.09183673469387756,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2504.01849",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.09280021261592758,
+      "score_lex_target_in_pred": 0.023809523809523808,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2505.03422",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.019084792021841483,
+      "score_lex_target_in_pred": 0.010135135135135136,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2505.03422",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.17480946629226118,
+      "score_lex_target_in_pred": 0.14189189189189189,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2505.03422",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.2161078934816254,
+      "score_lex_target_in_pred": 0.125,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2408.12574",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.02628995615934018,
+      "score_lex_target_in_pred": 0.008032128514056224,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2408.12574",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.144664043267964,
+      "score_lex_target_in_pred": 0.10843373493975904,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2408.12574",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.1588629585632032,
+      "score_lex_target_in_pred": 0.060240963855421686,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2501.07542",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.006744864615820316,
+      "score_lex_target_in_pred": 0.003389830508474576,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2501.07542",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.10988748820572007,
+      "score_lex_target_in_pred": 0.061016949152542375,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2501.07542",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.12417566618984618,
+      "score_lex_target_in_pred": 0.10847457627118644,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2411.14405",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.025947730341750366,
+      "score_lex_target_in_pred": 0.0072992700729927005,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2411.14405",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.10063636109292498,
+      "score_lex_target_in_pred": 0.09124087591240876,
+      "pred_chars": 804
+    },
+    {
+      "item_id": "arxiv:2411.14405",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.2199584834109965,
+      "score_lex_target_in_pred": 0.10218978102189781,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2502.17416",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.03742548140622733,
+      "score_lex_target_in_pred": 0.010344827586206896,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2502.17416",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.15906827972426535,
+      "score_lex_target_in_pred": 0.07586206896551724,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2502.17416",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.21424843943760358,
+      "score_lex_target_in_pred": 0.07241379310344828,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2503.16734",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.025714242310974272,
+      "score_lex_target_in_pred": 0.0031847133757961785,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2503.16734",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.1027039736157388,
+      "score_lex_target_in_pred": 0.10828025477707007,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2503.16734",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.14482129755139758,
+      "score_lex_target_in_pred": 0.054140127388535034,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2407.21783",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.0,
+      "score_lex_target_in_pred": 0.0,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2407.21783",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.09362000082810519,
+      "score_lex_target_in_pred": 0.058823529411764705,
+      "pred_chars": 1157
+    },
+    {
+      "item_id": "arxiv:2407.21783",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.12236144395100465,
+      "score_lex_target_in_pred": 0.054901960784313725,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2504.08734",
+      "stage": "S0_topic",
+      "model": "extractive_recon",
+      "R_availability": 0.012108157359588537,
+      "score_lex_target_in_pred": 0.006578947368421052,
+      "pred_chars": 80
+    },
+    {
+      "item_id": "arxiv:2504.08734",
+      "stage": "S1_abstract",
+      "model": "extractive_recon",
+      "R_availability": 0.17211058185041495,
+      "score_lex_target_in_pred": 0.08881578947368421,
+      "pred_chars": 1200
+    },
+    {
+      "item_id": "arxiv:2504.08734",
+      "stage": "S3_methods_mid",
+      "model": "extractive_recon",
+      "R_availability": 0.22408491925149016,
+      "score_lex_target_in_pred": 0.0625,
+      "pred_chars": 1200
+    }
+  ]
+}

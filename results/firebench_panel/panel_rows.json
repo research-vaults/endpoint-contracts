@@ -1,0 +1,2082 @@
+[
+  {
+    "task_id": "activation_control",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.22126941633173175,
+    "score_lex_target_in_pred": 0.22580645161290322,
+    "pred_chars": 1195
+  },
+  {
+    "task_id": "activation_control",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.22126941633173175,
+    "score_lex_target_in_pred": 0.3225806451612903,
+    "pred_chars": 2085
+  },
+  {
+    "task_id": "activation_control",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.22126941633173175,
+    "score_lex_target_in_pred": 0.22580645161290322,
+    "pred_chars": 1266
+  },
+  {
+    "task_id": "activation_control",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.22126941633173175,
+    "score_lex_target_in_pred": 0.3225806451612903,
+    "pred_chars": 1087
+  },
+  {
+    "task_id": "activation_control",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.4172483458063947,
+    "score_lex_target_in_pred": 0.41935483870967744,
+    "pred_chars": 994
+  },
+  {
+    "task_id": "activation_control",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.4172483458063947,
+    "score_lex_target_in_pred": 0.2903225806451613,
+    "pred_chars": 1377
+  },
+  {
+    "task_id": "activation_control",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.4172483458063947,
+    "score_lex_target_in_pred": 0.2903225806451613,
+    "pred_chars": 624
+  },
+  {
+    "task_id": "activation_control",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.4172483458063947,
+    "score_lex_target_in_pred": 0.3548387096774194,
+    "pred_chars": 804
+  },
+  {
+    "task_id": "awareness_detection",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.3496263036185525,
+    "score_lex_target_in_pred": 0.42857142857142855,
+    "pred_chars": 1256
+  },
+  {
+    "task_id": "awareness_detection",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.3496263036185525,
+    "score_lex_target_in_pred": 0.8571428571428571,
+    "pred_chars": 1130
+  },
+  {
+    "task_id": "awareness_detection",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.3496263036185525,
+    "score_lex_target_in_pred": 0.5714285714285714,
+    "pred_chars": 1739
+  },
+  {
+    "task_id": "awareness_detection",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.3496263036185525,
+    "score_lex_target_in_pred": 0.5714285714285714,
+    "pred_chars": 1466
+  },
+  {
+    "task_id": "awareness_detection",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.8907956842837972,
+    "score_lex_target_in_pred": 0.5714285714285714,
+    "pred_chars": 1020
+  },
+  {
+    "task_id": "awareness_detection",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.8907956842837972,
+    "score_lex_target_in_pred": 0.6428571428571429,
+    "pred_chars": 1214
+  },
+  {
+    "task_id": "awareness_detection",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.8907956842837972,
+    "score_lex_target_in_pred": 0.5714285714285714,
+    "pred_chars": 717
+  },
+  {
+    "task_id": "awareness_detection",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.8907956842837972,
+    "score_lex_target_in_pred": 0.5,
+    "pred_chars": 804
+  },
+  {
+    "task_id": "charxiv_chart_understanding",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.22892777017934332,
+    "score_lex_target_in_pred": 0.5263157894736842,
+    "pred_chars": 1248
+  },
+  {
+    "task_id": "charxiv_chart_understanding",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.22892777017934332,
+    "score_lex_target_in_pred": 0.05263157894736842,
+    "pred_chars": 133
+  },
+  {
+    "task_id": "charxiv_chart_understanding",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.22892777017934332,
+    "score_lex_target_in_pred": 0.3684210526315789,
+    "pred_chars": 1170
+  },
+  {
+    "task_id": "charxiv_chart_understanding",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.22892777017934332,
+    "score_lex_target_in_pred": 0.47368421052631576,
+    "pred_chars": 1205
+  },
+  {
+    "task_id": "charxiv_chart_understanding",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.46316085825246117,
+    "score_lex_target_in_pred": 0.3684210526315789,
+    "pred_chars": 1026
+  },
+  {
+    "task_id": "charxiv_chart_understanding",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.46316085825246117,
+    "score_lex_target_in_pred": 0.47368421052631576,
+    "pred_chars": 227
+  },
+  {
+    "task_id": "charxiv_chart_understanding",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.46316085825246117,
+    "score_lex_target_in_pred": 0.47368421052631576,
+    "pred_chars": 860
+  },
+  {
+    "task_id": "charxiv_chart_understanding",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.46316085825246117,
+    "score_lex_target_in_pred": 0.42105263157894735,
+    "pred_chars": 797
+  },
+  {
+    "task_id": "cot_faithfulness_gaps",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.30565591449453156,
+    "score_lex_target_in_pred": 0.5454545454545454,
+    "pred_chars": 1009
+  },
+  {
+    "task_id": "cot_faithfulness_gaps",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.30565591449453156,
+    "score_lex_target_in_pred": 0.9090909090909091,
+    "pred_chars": 1633
+  },
+  {
+    "task_id": "cot_faithfulness_gaps",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.30565591449453156,
+    "score_lex_target_in_pred": 0.8181818181818182,
+    "pred_chars": 1099
+  },
+  {
+    "task_id": "cot_faithfulness_gaps",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.30565591449453156,
+    "score_lex_target_in_pred": 0.7272727272727273,
+    "pred_chars": 1163
+  },
+  {
+    "task_id": "cot_faithfulness_gaps",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.7722794080624467,
+    "score_lex_target_in_pred": 0.6363636363636364,
+    "pred_chars": 931
+  },
+  {
+    "task_id": "cot_faithfulness_gaps",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.7722794080624467,
+    "score_lex_target_in_pred": 0.8181818181818182,
+    "pred_chars": 1193
+  },
+  {
+    "task_id": "cot_faithfulness_gaps",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.7722794080624467,
+    "score_lex_target_in_pred": 0.7272727272727273,
+    "pred_chars": 954
+  },
+  {
+    "task_id": "cot_faithfulness_gaps",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.7722794080624467,
+    "score_lex_target_in_pred": 0.7272727272727273,
+    "pred_chars": 1067
+  },
+  {
+    "task_id": "cot_in_planning",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.30302010460643847,
+    "score_lex_target_in_pred": 0.4782608695652174,
+    "pred_chars": 1384
+  },
+  {
+    "task_id": "cot_in_planning",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.30302010460643847,
+    "score_lex_target_in_pred": 0.5217391304347826,
+    "pred_chars": 1957
+  },
+  {
+    "task_id": "cot_in_planning",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.30302010460643847,
+    "score_lex_target_in_pred": 0.6086956521739131,
+    "pred_chars": 1286
+  },
+  {
+    "task_id": "cot_in_planning",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.30302010460643847,
+    "score_lex_target_in_pred": 0.6086956521739131,
+    "pred_chars": 1552
+  },
+  {
+    "task_id": "cot_in_planning",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.6805946702309016,
+    "score_lex_target_in_pred": 0.34782608695652173,
+    "pred_chars": 1055
+  },
+  {
+    "task_id": "cot_in_planning",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.6805946702309016,
+    "score_lex_target_in_pred": 0.5652173913043478,
+    "pred_chars": 1029
+  },
+  {
+    "task_id": "cot_in_planning",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.6805946702309016,
+    "score_lex_target_in_pred": 0.5652173913043478,
+    "pred_chars": 1030
+  },
+  {
+    "task_id": "cot_in_planning",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.6805946702309016,
+    "score_lex_target_in_pred": 0.4782608695652174,
+    "pred_chars": 1031
+  },
+  {
+    "task_id": "cot_without_prompting",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.2552693041914218,
+    "score_lex_target_in_pred": 0.34615384615384615,
+    "pred_chars": 994
+  },
+  {
+    "task_id": "cot_without_prompting",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.2552693041914218,
+    "score_lex_target_in_pred": 0.3076923076923077,
+    "pred_chars": 1299
+  },
+  {
+    "task_id": "cot_without_prompting",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2552693041914218,
+    "score_lex_target_in_pred": 0.34615384615384615,
+    "pred_chars": 1148
+  },
+  {
+    "task_id": "cot_without_prompting",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.2552693041914218,
+    "score_lex_target_in_pred": 0.4230769230769231,
+    "pred_chars": 1232
+  },
+  {
+    "task_id": "cot_without_prompting",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.47518842060109207,
+    "score_lex_target_in_pred": 0.34615384615384615,
+    "pred_chars": 977
+  },
+  {
+    "task_id": "cot_without_prompting",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.47518842060109207,
+    "score_lex_target_in_pred": 0.34615384615384615,
+    "pred_chars": 1120
+  },
+  {
+    "task_id": "cot_without_prompting",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.47518842060109207,
+    "score_lex_target_in_pred": 0.46153846153846156,
+    "pred_chars": 931
+  },
+  {
+    "task_id": "cot_without_prompting",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.47518842060109207,
+    "score_lex_target_in_pred": 0.38461538461538464,
+    "pred_chars": 779
+  },
+  {
+    "task_id": "counterfactual_simulatability",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.41715814777251914,
+    "score_lex_target_in_pred": 0.7692307692307693,
+    "pred_chars": 1710
+  },
+  {
+    "task_id": "counterfactual_simulatability",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.41715814777251914,
+    "score_lex_target_in_pred": 0.9230769230769231,
+    "pred_chars": 1034
+  },
+  {
+    "task_id": "counterfactual_simulatability",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.41715814777251914,
+    "score_lex_target_in_pred": 0.6923076923076923,
+    "pred_chars": 1353
+  },
+  {
+    "task_id": "counterfactual_simulatability",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 1.0,
+    "score_lex_target_in_pred": 0.8461538461538461,
+    "pred_chars": 1187
+  },
+  {
+    "task_id": "counterfactual_simulatability",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 1.0,
+    "score_lex_target_in_pred": 0.8461538461538461,
+    "pred_chars": 733
+  },
+  {
+    "task_id": "counterfactual_simulatability",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 1.0,
+    "score_lex_target_in_pred": 0.7692307692307693,
+    "pred_chars": 887
+  },
+  {
+    "task_id": "distributive_fairness",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.1975134627773844,
+    "score_lex_target_in_pred": 0.3125,
+    "pred_chars": 1173
+  },
+  {
+    "task_id": "distributive_fairness",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.1975134627773844,
+    "score_lex_target_in_pred": 0.28125,
+    "pred_chars": 2000
+  },
+  {
+    "task_id": "distributive_fairness",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.1975134627773844,
+    "score_lex_target_in_pred": 0.375,
+    "pred_chars": 1355
+  },
+  {
+    "task_id": "distributive_fairness",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.1975134627773844,
+    "score_lex_target_in_pred": 0.3125,
+    "pred_chars": 1217
+  },
+  {
+    "task_id": "distributive_fairness",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.3928683661710267,
+    "score_lex_target_in_pred": 0.25,
+    "pred_chars": 1193
+  },
+  {
+    "task_id": "distributive_fairness",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.3928683661710267,
+    "score_lex_target_in_pred": 0.3125,
+    "pred_chars": 772
+  },
+  {
+    "task_id": "distributive_fairness",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.3928683661710267,
+    "score_lex_target_in_pred": 0.3125,
+    "pred_chars": 843
+  },
+  {
+    "task_id": "fallback_behaviors",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.11169581984832638,
+    "score_lex_target_in_pred": 0.2727272727272727,
+    "pred_chars": 465
+  },
+  {
+    "task_id": "fallback_behaviors",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.11169581984832638,
+    "score_lex_target_in_pred": 0.3181818181818182,
+    "pred_chars": 1314
+  },
+  {
+    "task_id": "fallback_behaviors",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.11169581984832638,
+    "score_lex_target_in_pred": 0.3181818181818182,
+    "pred_chars": 1043
+  },
+  {
+    "task_id": "fallback_behaviors",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.2387822686776234,
+    "score_lex_target_in_pred": 0.22727272727272727,
+    "pred_chars": 846
+  },
+  {
+    "task_id": "fallback_behaviors",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2387822686776234,
+    "score_lex_target_in_pred": 0.2727272727272727,
+    "pred_chars": 686
+  },
+  {
+    "task_id": "fallback_behaviors",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.2387822686776234,
+    "score_lex_target_in_pred": 0.2727272727272727,
+    "pred_chars": 920
+  },
+  {
+    "task_id": "fractal_complexity_of_language",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.27591007252021105,
+    "score_lex_target_in_pred": 0.55,
+    "pred_chars": 1553
+  },
+  {
+    "task_id": "fractal_complexity_of_language",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.27591007252021105,
+    "score_lex_target_in_pred": 0.5,
+    "pred_chars": 1289
+  },
+  {
+    "task_id": "fractal_complexity_of_language",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.27591007252021105,
+    "score_lex_target_in_pred": 0.55,
+    "pred_chars": 1193
+  },
+  {
+    "task_id": "fractal_complexity_of_language",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.46931615972658985,
+    "score_lex_target_in_pred": 0.4,
+    "pred_chars": 1569
+  },
+  {
+    "task_id": "fractal_complexity_of_language",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.46931615972658985,
+    "score_lex_target_in_pred": 0.35,
+    "pred_chars": 921
+  },
+  {
+    "task_id": "fractal_complexity_of_language",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.46931615972658985,
+    "score_lex_target_in_pred": 0.35,
+    "pred_chars": 1048
+  },
+  {
+    "task_id": "hallucination_awareness",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.2632562055115571,
+    "score_lex_target_in_pred": 0.3888888888888889,
+    "pred_chars": 1740
+  },
+  {
+    "task_id": "hallucination_awareness",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2632562055115571,
+    "score_lex_target_in_pred": 0.2777777777777778,
+    "pred_chars": 1436
+  },
+  {
+    "task_id": "hallucination_awareness",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.2632562055115571,
+    "score_lex_target_in_pred": 0.4444444444444444,
+    "pred_chars": 1156
+  },
+  {
+    "task_id": "hallucination_awareness",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.5934433619633035,
+    "score_lex_target_in_pred": 0.2222222222222222,
+    "pred_chars": 1222
+  },
+  {
+    "task_id": "hallucination_awareness",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.5934433619633035,
+    "score_lex_target_in_pred": 0.3333333333333333,
+    "pred_chars": 754
+  },
+  {
+    "task_id": "hallucination_awareness",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.5934433619633035,
+    "score_lex_target_in_pred": 0.4444444444444444,
+    "pred_chars": 841
+  },
+  {
+    "task_id": "hallucination_snowballing",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.24731661848582756,
+    "score_lex_target_in_pred": 0.3333333333333333,
+    "pred_chars": 1328
+  },
+  {
+    "task_id": "hallucination_snowballing",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.24731661848582756,
+    "score_lex_target_in_pred": 0.2962962962962963,
+    "pred_chars": 1101
+  },
+  {
+    "task_id": "hallucination_snowballing",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.24731661848582756,
+    "score_lex_target_in_pred": 0.4444444444444444,
+    "pred_chars": 1123
+  },
+  {
+    "task_id": "hallucination_snowballing",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.30734434691018686,
+    "score_lex_target_in_pred": 0.5185185185185185,
+    "pred_chars": 1407
+  },
+  {
+    "task_id": "hallucination_snowballing",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.30734434691018686,
+    "score_lex_target_in_pred": 0.4444444444444444,
+    "pred_chars": 934
+  },
+  {
+    "task_id": "hallucination_snowballing",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.30734434691018686,
+    "score_lex_target_in_pred": 0.4074074074074074,
+    "pred_chars": 846
+  },
+  {
+    "task_id": "hallusionbench_illusion",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.298498286343235,
+    "score_lex_target_in_pred": 0.6666666666666666,
+    "pred_chars": 1726
+  },
+  {
+    "task_id": "hallusionbench_illusion",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.298498286343235,
+    "score_lex_target_in_pred": 0.5714285714285714,
+    "pred_chars": 1149
+  },
+  {
+    "task_id": "hallusionbench_illusion",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.298498286343235,
+    "score_lex_target_in_pred": 0.6190476190476191,
+    "pred_chars": 1622
+  },
+  {
+    "task_id": "hallusionbench_illusion",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.6178893417747464,
+    "score_lex_target_in_pred": 0.6666666666666666,
+    "pred_chars": 1043
+  },
+  {
+    "task_id": "hallusionbench_illusion",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.6178893417747464,
+    "score_lex_target_in_pred": 0.6666666666666666,
+    "pred_chars": 974
+  },
+  {
+    "task_id": "hallusionbench_illusion",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.6178893417747464,
+    "score_lex_target_in_pred": 0.6666666666666666,
+    "pred_chars": 1131
+  },
+  {
+    "task_id": "icl_from_repetition",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.2822118042728754,
+    "score_lex_target_in_pred": 0.4666666666666667,
+    "pred_chars": 1988
+  },
+  {
+    "task_id": "icl_from_repetition",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2822118042728754,
+    "score_lex_target_in_pred": 0.5,
+    "pred_chars": 1357
+  },
+  {
+    "task_id": "icl_from_repetition",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.2822118042728754,
+    "score_lex_target_in_pred": 0.5666666666666667,
+    "pred_chars": 1153
+  },
+  {
+    "task_id": "icl_from_repetition",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.49339138792170206,
+    "score_lex_target_in_pred": 0.5333333333333333,
+    "pred_chars": 1673
+  },
+  {
+    "task_id": "icl_from_repetition",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.49339138792170206,
+    "score_lex_target_in_pred": 0.5333333333333333,
+    "pred_chars": 1154
+  },
+  {
+    "task_id": "icl_from_repetition",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.49339138792170206,
+    "score_lex_target_in_pred": 0.5,
+    "pred_chars": 1020
+  },
+  {
+    "task_id": "introspective_learning",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.30411588480857044,
+    "score_lex_target_in_pred": 0.25,
+    "pred_chars": 233
+  },
+  {
+    "task_id": "introspective_learning",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.30411588480857044,
+    "score_lex_target_in_pred": 0.6071428571428571,
+    "pred_chars": 1394
+  },
+  {
+    "task_id": "introspective_learning",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.30411588480857044,
+    "score_lex_target_in_pred": 0.5,
+    "pred_chars": 1050
+  },
+  {
+    "task_id": "introspective_learning",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.5147274202602389,
+    "score_lex_target_in_pred": 0.4642857142857143,
+    "pred_chars": 1028
+  },
+  {
+    "task_id": "introspective_learning",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.5147274202602389,
+    "score_lex_target_in_pred": 0.5714285714285714,
+    "pred_chars": 804
+  },
+  {
+    "task_id": "introspective_learning",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.5147274202602389,
+    "score_lex_target_in_pred": 0.5,
+    "pred_chars": 846
+  },
+  {
+    "task_id": "lifebench_length_following",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.17899746402119182,
+    "score_lex_target_in_pred": 0.3333333333333333,
+    "pred_chars": 1207
+  },
+  {
+    "task_id": "lifebench_length_following",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.17899746402119182,
+    "score_lex_target_in_pred": 0.23333333333333334,
+    "pred_chars": 1376
+  },
+  {
+    "task_id": "lifebench_length_following",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.17899746402119182,
+    "score_lex_target_in_pred": 0.3333333333333333,
+    "pred_chars": 1172
+  },
+  {
+    "task_id": "lifebench_length_following",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.23146633779137724,
+    "score_lex_target_in_pred": 0.26666666666666666,
+    "pred_chars": 1215
+  },
+  {
+    "task_id": "lifebench_length_following",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.23146633779137724,
+    "score_lex_target_in_pred": 0.36666666666666664,
+    "pred_chars": 845
+  },
+  {
+    "task_id": "lifebench_length_following",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.23146633779137724,
+    "score_lex_target_in_pred": 0.3333333333333333,
+    "pred_chars": 871
+  },
+  {
+    "task_id": "llm_confidence_elicitation",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.23378922654483456,
+    "score_lex_target_in_pred": 0.25,
+    "pred_chars": 1235
+  },
+  {
+    "task_id": "llm_confidence_elicitation",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.23378922654483456,
+    "score_lex_target_in_pred": 0.5,
+    "pred_chars": 1825
+  },
+  {
+    "task_id": "llm_confidence_elicitation",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.23378922654483456,
+    "score_lex_target_in_pred": 0.5,
+    "pred_chars": 1142
+  },
+  {
+    "task_id": "llm_confidence_elicitation",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.23378922654483456,
+    "score_lex_target_in_pred": 0.4583333333333333,
+    "pred_chars": 924
+  },
+  {
+    "task_id": "llm_confidence_elicitation",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.37023344017766696,
+    "score_lex_target_in_pred": 0.5,
+    "pred_chars": 1314
+  },
+  {
+    "task_id": "llm_confidence_elicitation",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.37023344017766696,
+    "score_lex_target_in_pred": 0.5416666666666666,
+    "pred_chars": 783
+  },
+  {
+    "task_id": "llm_confidence_elicitation",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.37023344017766696,
+    "score_lex_target_in_pred": 0.5416666666666666,
+    "pred_chars": 925
+  },
+  {
+    "task_id": "llm_racial_bias_in_medicine",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.16300648840973156,
+    "score_lex_target_in_pred": 0.3870967741935484,
+    "pred_chars": 1421
+  },
+  {
+    "task_id": "llm_racial_bias_in_medicine",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.16300648840973156,
+    "score_lex_target_in_pred": 0.3870967741935484,
+    "pred_chars": 2082
+  },
+  {
+    "task_id": "llm_racial_bias_in_medicine",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.16300648840973156,
+    "score_lex_target_in_pred": 0.45161290322580644,
+    "pred_chars": 1218
+  },
+  {
+    "task_id": "llm_racial_bias_in_medicine",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.16300648840973156,
+    "score_lex_target_in_pred": 0.3225806451612903,
+    "pred_chars": 1139
+  },
+  {
+    "task_id": "llm_value_consistency",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.2868160924491045,
+    "score_lex_target_in_pred": 0.65,
+    "pred_chars": 2055
+  },
+  {
+    "task_id": "llm_value_consistency",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2868160924491045,
+    "score_lex_target_in_pred": 0.65,
+    "pred_chars": 981
+  },
+  {
+    "task_id": "llm_value_consistency",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.2868160924491045,
+    "score_lex_target_in_pred": 0.45,
+    "pred_chars": 1258
+  },
+  {
+    "task_id": "llm_value_consistency",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.6008227577446732,
+    "score_lex_target_in_pred": 0.4,
+    "pred_chars": 1155
+  },
+  {
+    "task_id": "llm_value_consistency",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.6008227577446732,
+    "score_lex_target_in_pred": 0.45,
+    "pred_chars": 1193
+  },
+  {
+    "task_id": "llm_value_consistency",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.6008227577446732,
+    "score_lex_target_in_pred": 0.45,
+    "pred_chars": 938
+  },
+  {
+    "task_id": "llm_value_consistency",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.6008227577446732,
+    "score_lex_target_in_pred": 0.55,
+    "pred_chars": 887
+  },
+  {
+    "task_id": "llms_assume_rationality",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.12043850168108838,
+    "score_lex_target_in_pred": 0.10344827586206896,
+    "pred_chars": 267
+  },
+  {
+    "task_id": "llms_assume_rationality",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.12043850168108838,
+    "score_lex_target_in_pred": 0.2413793103448276,
+    "pred_chars": 1266
+  },
+  {
+    "task_id": "llms_assume_rationality",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.12043850168108838,
+    "score_lex_target_in_pred": 0.27586206896551724,
+    "pred_chars": 1196
+  },
+  {
+    "task_id": "llms_lack_self_correction",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.27446219309563347,
+    "score_lex_target_in_pred": 0.65,
+    "pred_chars": 316
+  },
+  {
+    "task_id": "llms_lack_self_correction",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.27446219309563347,
+    "score_lex_target_in_pred": 0.65,
+    "pred_chars": 965
+  },
+  {
+    "task_id": "llms_lack_self_correction",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.27446219309563347,
+    "score_lex_target_in_pred": 0.65,
+    "pred_chars": 1260
+  },
+  {
+    "task_id": "llms_lack_self_correction",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.702663024366979,
+    "score_lex_target_in_pred": 0.4,
+    "pred_chars": 152
+  },
+  {
+    "task_id": "llms_lack_self_correction",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.702663024366979,
+    "score_lex_target_in_pred": 0.65,
+    "pred_chars": 894
+  },
+  {
+    "task_id": "llms_lack_self_correction",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.702663024366979,
+    "score_lex_target_in_pred": 0.65,
+    "pred_chars": 955
+  },
+  {
+    "task_id": "lost_in_the_middle",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.17220752482883625,
+    "score_lex_target_in_pred": 0.47058823529411764,
+    "pred_chars": 1282
+  },
+  {
+    "task_id": "lost_in_the_middle",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.17220752482883625,
+    "score_lex_target_in_pred": 0.4117647058823529,
+    "pred_chars": 390
+  },
+  {
+    "task_id": "lost_in_the_middle",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.17220752482883625,
+    "score_lex_target_in_pred": 0.7058823529411765,
+    "pred_chars": 1198
+  },
+  {
+    "task_id": "lost_in_the_middle",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.17220752482883625,
+    "score_lex_target_in_pred": 0.5882352941176471,
+    "pred_chars": 1172
+  },
+  {
+    "task_id": "lost_in_the_middle",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.4737472677580985,
+    "score_lex_target_in_pred": 0.5294117647058824,
+    "pred_chars": 1197
+  },
+  {
+    "task_id": "lost_in_the_middle",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.4737472677580985,
+    "score_lex_target_in_pred": 0.5294117647058824,
+    "pred_chars": 590
+  },
+  {
+    "task_id": "lost_in_the_middle",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.4737472677580985,
+    "score_lex_target_in_pred": 0.7058823529411765,
+    "pred_chars": 971
+  },
+  {
+    "task_id": "mathvista_visual_math",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.1433981712687026,
+    "score_lex_target_in_pred": 0.35,
+    "pred_chars": 1946
+  },
+  {
+    "task_id": "mathvista_visual_math",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.1433981712687026,
+    "score_lex_target_in_pred": 0.35,
+    "pred_chars": 1157
+  },
+  {
+    "task_id": "mathvista_visual_math",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.1433981712687026,
+    "score_lex_target_in_pred": 0.3,
+    "pred_chars": 1452
+  },
+  {
+    "task_id": "mathvista_visual_math",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.2409088488683818,
+    "score_lex_target_in_pred": 0.3,
+    "pred_chars": 1052
+  },
+  {
+    "task_id": "mathvista_visual_math",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.2409088488683818,
+    "score_lex_target_in_pred": 0.3,
+    "pred_chars": 718
+  },
+  {
+    "task_id": "mathvista_visual_math",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2409088488683818,
+    "score_lex_target_in_pred": 0.35,
+    "pred_chars": 973
+  },
+  {
+    "task_id": "mathvista_visual_math",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.2409088488683818,
+    "score_lex_target_in_pred": 0.3,
+    "pred_chars": 987
+  },
+  {
+    "task_id": "mcq_selection_bias",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.18228510054044858,
+    "score_lex_target_in_pred": 0.22580645161290322,
+    "pred_chars": 1138
+  },
+  {
+    "task_id": "mcq_selection_bias",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.18228510054044858,
+    "score_lex_target_in_pred": 0.25806451612903225,
+    "pred_chars": 227
+  },
+  {
+    "task_id": "mcq_selection_bias",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.18228510054044858,
+    "score_lex_target_in_pred": 0.3225806451612903,
+    "pred_chars": 958
+  },
+  {
+    "task_id": "mcq_selection_bias",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.18228510054044858,
+    "score_lex_target_in_pred": 0.3548387096774194,
+    "pred_chars": 1120
+  },
+  {
+    "task_id": "mcq_selection_bias",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.3224485638234966,
+    "score_lex_target_in_pred": 0.3225806451612903,
+    "pred_chars": 1347
+  },
+  {
+    "task_id": "mcq_selection_bias",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.3224485638234966,
+    "score_lex_target_in_pred": 0.3870967741935484,
+    "pred_chars": 897
+  },
+  {
+    "task_id": "mcq_selection_bias",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.3224485638234966,
+    "score_lex_target_in_pred": 0.2903225806451613,
+    "pred_chars": 959
+  },
+  {
+    "task_id": "object_hallucination_pope",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.3167242719049653,
+    "score_lex_target_in_pred": 0.21052631578947367,
+    "pred_chars": 1115
+  },
+  {
+    "task_id": "object_hallucination_pope",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.3167242719049653,
+    "score_lex_target_in_pred": 0.42105263157894735,
+    "pred_chars": 518
+  },
+  {
+    "task_id": "object_hallucination_pope",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.3167242719049653,
+    "score_lex_target_in_pred": 0.631578947368421,
+    "pred_chars": 1314
+  },
+  {
+    "task_id": "object_hallucination_pope",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.3167242719049653,
+    "score_lex_target_in_pred": 0.5789473684210527,
+    "pred_chars": 1480
+  },
+  {
+    "task_id": "object_hallucination_pope",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.5663214466075892,
+    "score_lex_target_in_pred": 0.5263157894736842,
+    "pred_chars": 797
+  },
+  {
+    "task_id": "object_hallucination_pope",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.5663214466075892,
+    "score_lex_target_in_pred": 0.47368421052631576,
+    "pred_chars": 1298
+  },
+  {
+    "task_id": "object_hallucination_pope",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.5663214466075892,
+    "score_lex_target_in_pred": 0.631578947368421,
+    "pred_chars": 798
+  },
+  {
+    "task_id": "object_hallucination_pope",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.5663214466075892,
+    "score_lex_target_in_pred": 0.5789473684210527,
+    "pred_chars": 1080
+  },
+  {
+    "task_id": "persona_reasoning_biases",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.26113826550809627,
+    "score_lex_target_in_pred": 0.0,
+    "pred_chars": 95
+  },
+  {
+    "task_id": "persona_reasoning_biases",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.26113826550809627,
+    "score_lex_target_in_pred": 0.5833333333333334,
+    "pred_chars": 879
+  },
+  {
+    "task_id": "persona_reasoning_biases",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.26113826550809627,
+    "score_lex_target_in_pred": 0.75,
+    "pred_chars": 1114
+  },
+  {
+    "task_id": "persona_reasoning_biases",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.5179220606679633,
+    "score_lex_target_in_pred": 0.4166666666666667,
+    "pred_chars": 963
+  },
+  {
+    "task_id": "persona_reasoning_biases",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.5179220606679633,
+    "score_lex_target_in_pred": 0.5833333333333334,
+    "pred_chars": 1321
+  },
+  {
+    "task_id": "persona_reasoning_biases",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.5179220606679633,
+    "score_lex_target_in_pred": 0.5,
+    "pred_chars": 776
+  },
+  {
+    "task_id": "persona_reasoning_biases",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.5179220606679633,
+    "score_lex_target_in_pred": 0.6666666666666666,
+    "pred_chars": 876
+  },
+  {
+    "task_id": "persona_with_catch",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.19970031213035053,
+    "score_lex_target_in_pred": 0.37037037037037035,
+    "pred_chars": 1220
+  },
+  {
+    "task_id": "persona_with_catch",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.19970031213035053,
+    "score_lex_target_in_pred": 0.3333333333333333,
+    "pred_chars": 347
+  },
+  {
+    "task_id": "persona_with_catch",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.19970031213035053,
+    "score_lex_target_in_pred": 0.5185185185185185,
+    "pred_chars": 1148
+  },
+  {
+    "task_id": "persona_with_catch",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.19970031213035053,
+    "score_lex_target_in_pred": 0.4444444444444444,
+    "pred_chars": 1107
+  },
+  {
+    "task_id": "premise_order_effects",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.23953919888442143,
+    "score_lex_target_in_pred": 0.48,
+    "pred_chars": 1073
+  },
+  {
+    "task_id": "premise_order_effects",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.23953919888442143,
+    "score_lex_target_in_pred": 0.0,
+    "pred_chars": 81
+  },
+  {
+    "task_id": "premise_order_effects",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.23953919888442143,
+    "score_lex_target_in_pred": 0.52,
+    "pred_chars": 847
+  },
+  {
+    "task_id": "premise_order_effects",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.23953919888442143,
+    "score_lex_target_in_pred": 0.52,
+    "pred_chars": 908
+  },
+  {
+    "task_id": "premise_order_effects",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.25087986751730124,
+    "score_lex_target_in_pred": 0.36,
+    "pred_chars": 735
+  },
+  {
+    "task_id": "premise_order_effects",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.25087986751730124,
+    "score_lex_target_in_pred": 0.4,
+    "pred_chars": 1268
+  },
+  {
+    "task_id": "premise_order_effects",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.25087986751730124,
+    "score_lex_target_in_pred": 0.56,
+    "pred_chars": 949
+  },
+  {
+    "task_id": "premise_order_effects",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.25087986751730124,
+    "score_lex_target_in_pred": 0.36,
+    "pred_chars": 856
+  },
+  {
+    "task_id": "prompt_formatting_sensitivity",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.2873115633129669,
+    "score_lex_target_in_pred": 0.45161290322580644,
+    "pred_chars": 926
+  },
+  {
+    "task_id": "prompt_formatting_sensitivity",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.2873115633129669,
+    "score_lex_target_in_pred": 0.5483870967741935,
+    "pred_chars": 1807
+  },
+  {
+    "task_id": "prompt_formatting_sensitivity",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2873115633129669,
+    "score_lex_target_in_pred": 0.5483870967741935,
+    "pred_chars": 1117
+  },
+  {
+    "task_id": "prompt_formatting_sensitivity",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.2873115633129669,
+    "score_lex_target_in_pred": 0.5806451612903226,
+    "pred_chars": 1394
+  },
+  {
+    "task_id": "prompt_formatting_sensitivity",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.44217965758199945,
+    "score_lex_target_in_pred": 0.45161290322580644,
+    "pred_chars": 895
+  },
+  {
+    "task_id": "prompt_formatting_sensitivity",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.44217965758199945,
+    "score_lex_target_in_pred": 0.3870967741935484,
+    "pred_chars": 453
+  },
+  {
+    "task_id": "prompt_formatting_sensitivity",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.44217965758199945,
+    "score_lex_target_in_pred": 0.5483870967741935,
+    "pred_chars": 712
+  },
+  {
+    "task_id": "prompt_formatting_sensitivity",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.44217965758199945,
+    "score_lex_target_in_pred": 0.41935483870967744,
+    "pred_chars": 913
+  },
+  {
+    "task_id": "questbench",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.34781609621625914,
+    "score_lex_target_in_pred": 0.45161290322580644,
+    "pred_chars": 1086
+  },
+  {
+    "task_id": "questbench",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.34781609621625914,
+    "score_lex_target_in_pred": 0.41935483870967744,
+    "pred_chars": 1941
+  },
+  {
+    "task_id": "questbench",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.34781609621625914,
+    "score_lex_target_in_pred": 0.6451612903225806,
+    "pred_chars": 1289
+  },
+  {
+    "task_id": "questbench",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.34781609621625914,
+    "score_lex_target_in_pred": 0.5806451612903226,
+    "pred_chars": 1424
+  },
+  {
+    "task_id": "seca_hallucination",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.3849559519146088,
+    "score_lex_target_in_pred": 0.6923076923076923,
+    "pred_chars": 974
+  },
+  {
+    "task_id": "seca_hallucination",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.3849559519146088,
+    "score_lex_target_in_pred": 0.5384615384615384,
+    "pred_chars": 1970
+  },
+  {
+    "task_id": "seca_hallucination",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.3849559519146088,
+    "score_lex_target_in_pred": 0.7692307692307693,
+    "pred_chars": 1176
+  },
+  {
+    "task_id": "seca_hallucination",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.3849559519146088,
+    "score_lex_target_in_pred": 0.7692307692307693,
+    "pred_chars": 1290
+  },
+  {
+    "task_id": "seca_hallucination",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 1.0,
+    "score_lex_target_in_pred": 0.7692307692307693,
+    "pred_chars": 826
+  },
+  {
+    "task_id": "seca_hallucination",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 1.0,
+    "score_lex_target_in_pred": 0.9230769230769231,
+    "pred_chars": 1224
+  },
+  {
+    "task_id": "seca_hallucination",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 1.0,
+    "score_lex_target_in_pred": 0.8461538461538461,
+    "pred_chars": 914
+  },
+  {
+    "task_id": "seca_hallucination",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 1.0,
+    "score_lex_target_in_pred": 0.6923076923076923,
+    "pred_chars": 871
+  },
+  {
+    "task_id": "space_time_representations",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.25640687983388555,
+    "score_lex_target_in_pred": 0.42857142857142855,
+    "pred_chars": 1417
+  },
+  {
+    "task_id": "space_time_representations",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.25640687983388555,
+    "score_lex_target_in_pred": 0.5238095238095238,
+    "pred_chars": 1805
+  },
+  {
+    "task_id": "space_time_representations",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.25640687983388555,
+    "score_lex_target_in_pred": 0.42857142857142855,
+    "pred_chars": 1090
+  },
+  {
+    "task_id": "space_time_representations",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.25640687983388555,
+    "score_lex_target_in_pred": 0.6666666666666666,
+    "pred_chars": 1200
+  },
+  {
+    "task_id": "space_time_representations",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.45198681339534474,
+    "score_lex_target_in_pred": 0.5238095238095238,
+    "pred_chars": 1075
+  },
+  {
+    "task_id": "space_time_representations",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.45198681339534474,
+    "score_lex_target_in_pred": 0.6190476190476191,
+    "pred_chars": 1304
+  },
+  {
+    "task_id": "space_time_representations",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.45198681339534474,
+    "score_lex_target_in_pred": 0.42857142857142855,
+    "pred_chars": 831
+  },
+  {
+    "task_id": "space_time_representations",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.45198681339534474,
+    "score_lex_target_in_pred": 0.6190476190476191,
+    "pred_chars": 944
+  },
+  {
+    "task_id": "to_cot_or_not_to_cot",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.19448067037322364,
+    "score_lex_target_in_pred": 0.4583333333333333,
+    "pred_chars": 897
+  },
+  {
+    "task_id": "to_cot_or_not_to_cot",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.19448067037322364,
+    "score_lex_target_in_pred": 0.4583333333333333,
+    "pred_chars": 1724
+  },
+  {
+    "task_id": "to_cot_or_not_to_cot",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.19448067037322364,
+    "score_lex_target_in_pred": 0.375,
+    "pred_chars": 1113
+  },
+  {
+    "task_id": "to_cot_or_not_to_cot",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.19448067037322364,
+    "score_lex_target_in_pred": 0.4583333333333333,
+    "pred_chars": 1112
+  },
+  {
+    "task_id": "uncertainty_in_instruction_following",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.1845128091514024,
+    "score_lex_target_in_pred": 0.2962962962962963,
+    "pred_chars": 1278
+  },
+  {
+    "task_id": "uncertainty_in_instruction_following",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.1845128091514024,
+    "score_lex_target_in_pred": 0.3333333333333333,
+    "pred_chars": 1782
+  },
+  {
+    "task_id": "uncertainty_in_instruction_following",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.1845128091514024,
+    "score_lex_target_in_pred": 0.4074074074074074,
+    "pred_chars": 1333
+  },
+  {
+    "task_id": "uncertainty_in_instruction_following",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.1845128091514024,
+    "score_lex_target_in_pred": 0.4074074074074074,
+    "pred_chars": 1259
+  },
+  {
+    "task_id": "uncertainty_in_instruction_following",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.2904910678102305,
+    "score_lex_target_in_pred": 0.1111111111111111,
+    "pred_chars": 992
+  },
+  {
+    "task_id": "uncertainty_in_instruction_following",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.2904910678102305,
+    "score_lex_target_in_pred": 0.4444444444444444,
+    "pred_chars": 1491
+  },
+  {
+    "task_id": "uncertainty_in_instruction_following",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2904910678102305,
+    "score_lex_target_in_pred": 0.3333333333333333,
+    "pred_chars": 980
+  },
+  {
+    "task_id": "uncertainty_in_instruction_following",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.2904910678102305,
+    "score_lex_target_in_pred": 0.4444444444444444,
+    "pred_chars": 947
+  },
+  {
+    "task_id": "vlms_are_blind",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.3434777327743232,
+    "score_lex_target_in_pred": 0.6818181818181818,
+    "pred_chars": 1070
+  },
+  {
+    "task_id": "vlms_are_blind",
+    "condition": "instruction",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.3434777327743232,
+    "score_lex_target_in_pred": 0.7727272727272727,
+    "pred_chars": 1694
+  },
+  {
+    "task_id": "vlms_are_blind",
+    "condition": "instruction",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.3434777327743232,
+    "score_lex_target_in_pred": 0.7727272727272727,
+    "pred_chars": 1315
+  },
+  {
+    "task_id": "vlms_are_blind",
+    "condition": "instruction",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.3434777327743232,
+    "score_lex_target_in_pred": 0.7727272727272727,
+    "pred_chars": 1157
+  },
+  {
+    "task_id": "vlms_are_blind",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.8602244175242318,
+    "score_lex_target_in_pred": 0.6818181818181818,
+    "pred_chars": 945
+  },
+  {
+    "task_id": "vlms_are_blind",
+    "condition": "RQ",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.8602244175242318,
+    "score_lex_target_in_pred": 0.8181818181818182,
+    "pred_chars": 1261
+  },
+  {
+    "task_id": "vlms_are_blind",
+    "condition": "RQ",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.8602244175242318,
+    "score_lex_target_in_pred": 0.7272727272727273,
+    "pred_chars": 876
+  },
+  {
+    "task_id": "vlms_are_blind",
+    "condition": "RQ",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.8602244175242318,
+    "score_lex_target_in_pred": 0.6818181818181818,
+    "pred_chars": 750
+  },
+  {
+    "task_id": "counterfactual_simulatability",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.41715814777251914,
+    "score_lex_target_in_pred": 0.6923076923076923,
+    "pred_chars": 1025
+  },
+  {
+    "task_id": "counterfactual_simulatability",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 1.0,
+    "score_lex_target_in_pred": 0.6923076923076923,
+    "pred_chars": 810
+  },
+  {
+    "task_id": "distributive_fairness",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.3928683661710267,
+    "score_lex_target_in_pred": 0.34375,
+    "pred_chars": 865
+  },
+  {
+    "task_id": "fallback_behaviors",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.11169581984832638,
+    "score_lex_target_in_pred": 0.36363636363636365,
+    "pred_chars": 1172
+  },
+  {
+    "task_id": "fallback_behaviors",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.2387822686776234,
+    "score_lex_target_in_pred": 0.2727272727272727,
+    "pred_chars": 894
+  },
+  {
+    "task_id": "fractal_complexity_of_language",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.27591007252021105,
+    "score_lex_target_in_pred": 0.5,
+    "pred_chars": 1149
+  },
+  {
+    "task_id": "fractal_complexity_of_language",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.46931615972658985,
+    "score_lex_target_in_pred": 0.35,
+    "pred_chars": 1087
+  },
+  {
+    "task_id": "hallucination_awareness",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.2632562055115571,
+    "score_lex_target_in_pred": 0.4444444444444444,
+    "pred_chars": 1126
+  },
+  {
+    "task_id": "hallucination_awareness",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.5934433619633035,
+    "score_lex_target_in_pred": 0.3888888888888889,
+    "pred_chars": 890
+  },
+  {
+    "task_id": "hallucination_snowballing",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.24731661848582756,
+    "score_lex_target_in_pred": 0.2962962962962963,
+    "pred_chars": 974
+  },
+  {
+    "task_id": "hallucination_snowballing",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.30734434691018686,
+    "score_lex_target_in_pred": 0.2962962962962963,
+    "pred_chars": 1122
+  },
+  {
+    "task_id": "hallusionbench_illusion",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.298498286343235,
+    "score_lex_target_in_pred": 0.6190476190476191,
+    "pred_chars": 1318
+  },
+  {
+    "task_id": "hallusionbench_illusion",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.6178893417747464,
+    "score_lex_target_in_pred": 0.5714285714285714,
+    "pred_chars": 866
+  },
+  {
+    "task_id": "icl_from_repetition",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.2822118042728754,
+    "score_lex_target_in_pred": 0.43333333333333335,
+    "pred_chars": 1138
+  },
+  {
+    "task_id": "icl_from_repetition",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.49339138792170206,
+    "score_lex_target_in_pred": 0.6333333333333333,
+    "pred_chars": 792
+  },
+  {
+    "task_id": "introspective_learning",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.30411588480857044,
+    "score_lex_target_in_pred": 0.42857142857142855,
+    "pred_chars": 989
+  },
+  {
+    "task_id": "introspective_learning",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.5147274202602389,
+    "score_lex_target_in_pred": 0.35714285714285715,
+    "pred_chars": 653
+  },
+  {
+    "task_id": "lifebench_length_following",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.17899746402119182,
+    "score_lex_target_in_pred": 0.3333333333333333,
+    "pred_chars": 980
+  },
+  {
+    "task_id": "lifebench_length_following",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.23146633779137724,
+    "score_lex_target_in_pred": 0.3333333333333333,
+    "pred_chars": 664
+  },
+  {
+    "task_id": "llm_confidence_elicitation",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.37023344017766696,
+    "score_lex_target_in_pred": 0.5416666666666666,
+    "pred_chars": 904
+  },
+  {
+    "task_id": "llm_value_consistency",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.2868160924491045,
+    "score_lex_target_in_pred": 0.45,
+    "pred_chars": 1360
+  },
+  {
+    "task_id": "llms_assume_rationality",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.12043850168108838,
+    "score_lex_target_in_pred": 0.3103448275862069,
+    "pred_chars": 1232
+  },
+  {
+    "task_id": "llms_lack_self_correction",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.27446219309563347,
+    "score_lex_target_in_pred": 0.6,
+    "pred_chars": 1114
+  },
+  {
+    "task_id": "llms_lack_self_correction",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.702663024366979,
+    "score_lex_target_in_pred": 0.55,
+    "pred_chars": 743
+  },
+  {
+    "task_id": "lost_in_the_middle",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.4737472677580985,
+    "score_lex_target_in_pred": 0.5882352941176471,
+    "pred_chars": 883
+  },
+  {
+    "task_id": "mathvista_visual_math",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.1433981712687026,
+    "score_lex_target_in_pred": 0.3,
+    "pred_chars": 1102
+  },
+  {
+    "task_id": "mcq_selection_bias",
+    "condition": "RQ",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.3224485638234966,
+    "score_lex_target_in_pred": 0.25806451612903225,
+    "pred_chars": 845
+  },
+  {
+    "task_id": "persona_reasoning_biases",
+    "condition": "instruction",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.26113826550809627,
+    "score_lex_target_in_pred": 0.3333333333333333,
+    "pred_chars": 969
+  }
+]

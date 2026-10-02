@@ -1,0 +1,155 @@
+{
+  "protocol": "measurement-contracts-0.6 falsifier-matrix-v1; canonical four-measure R with deterministic length-nearest identity intervention",
+  "seed": 20260731,
+  "metric_contract": {
+    "family": "R_availability_four_measure_mean",
+    "components": [
+      "lexical_coverage",
+      "token_jaccard",
+      "rouge_l_f1",
+      "bow_cosine"
+    ],
+    "intervention": "true evidence versus deterministic itemwise length-nearest derangement"
+  },
+  "falsifiers": {
+    "F1": "positive: R rises under a prespecified information ladder; mixed when unmatched field addition is not monotone",
+    "F2": "true target > random other-item target on high-info inputs",
+    "F3": "true beats hard negative under partial disclosure",
+    "F4": "itemwise length-nearest identity derangement hurts R (mean Delta>0, high fraction)"
+  },
+  "rows": {
+    "disclosure_proxy": {
+      "n": 86,
+      "F1": {
+        "status": "pass",
+        "detail": "S0->S4 mean 0.017->0.235; all four mean steps increase"
+      },
+      "F2": {
+        "status": "pass",
+        "detail": "S4 true 0.235 vs random 0.081; gap +0.154"
+      },
+      "F3": {
+        "status": "pass",
+        "detail": "true beats hard at S1 for 66/86=77%"
+      },
+      "F4": {
+        "status": "pass",
+        "detail": "S3 length-nearest derangement Delta 0.136 CI[0.118,0.158]; 98% hurt"
+      },
+      "extract_qa": "7/86 hard-fail retained"
+    },
+    "ai_idea": {
+      "n": 3495,
+      "F1": {
+        "status": "mixed",
+        "detail": "four-measure topic 0.241 vs topic+refs 0.233; Delta -0.008 CI[-0.009,-0.007]; lexical-coverage-only 0.121->0.175"
+      },
+      "F2": {
+        "status": "pass",
+        "detail": "true>random under topic+refs: frac=0.997; gap=0.172",
+        "ledger": "ai_idea_falsifier_F2F3.json"
+      },
+      "F3": {
+        "status": "pass",
+        "detail": "true beats hard-neg: frac=0.983",
+        "ledger": "ai_idea_falsifier_F2F3.json"
+      },
+      "F4": {
+        "status": "pass",
+        "detail": "length-nearest ref derangement Delta 0.065 CI[0.063,0.066]; 94.2% hurt"
+      },
+      "extract_qa": "gold fields (public)"
+    },
+    "researchbench_tiny": {
+      "n": 12,
+      "F1": {
+        "status": "partial",
+        "detail": "RQ-only already high (0.303); not a disclosure ladder"
+      },
+      "F2": {
+        "status": "pass",
+        "detail": "true>random under RQ+insp: frac=1.000; gap=0.225",
+        "ledger": "researchbench_falsifier_F2F3.json"
+      },
+      "F3": {
+        "status": "pass",
+        "detail": "true beats hard-neg: frac=0.917",
+        "ledger": "researchbench_falsifier_F2F3.json"
+      },
+      "F4": {
+        "status": "pass",
+        "detail": "generation length-nearest derangement Delta 0.112 CI[0.095,0.129]; 100% hurt"
+      },
+      "extract_qa": "gold fields (tiny)"
+    },
+    "firebench": {
+      "n": 35,
+      "F1": {
+        "status": "pass",
+        "detail": "instruction R 0.252 > shuffled 0.066; RQ 0.522"
+      },
+      "F2": {
+        "status": "pass",
+        "detail": "true-random lexical gap mean 0.415; 100% true>random"
+      },
+      "F3": {
+        "status": "sc",
+        "detail": "hard-negative pool not defined",
+        "na_type": "out_of_scope"
+      },
+      "F4": {
+        "status": "pass",
+        "detail": "length-nearest derangement Delta 0.187 CI[0.165,0.209]; 100% hurt"
+      },
+      "extract_qa": "gold conclusions (public)"
+    }
+  },
+  "display": {
+    "headers": [
+      "Setting",
+      "F1+",
+      "F2 rand",
+      "F3 hard",
+      "F4 shuf"
+    ],
+    "cells": [
+      [
+        "Disc.",
+        "pass",
+        "pass",
+        "pass 77%",
+        "pass 98%"
+      ],
+      [
+        "AI Idea",
+        "mixed",
+        "pass 99.7%",
+        "pass 98.3%",
+        "pass 94%"
+      ],
+      [
+        "RB tiny",
+        "partial",
+        "pass 100%",
+        "pass 92%",
+        "pass 100%"
+      ],
+      [
+        "FIRE",
+        "pass",
+        "pass 100%",
+        "sc",
+        "pass 100%"
+      ]
+    ],
+    "legend": {
+      "sc": "out of protocol scope (inapplicable)"
+    }
+  },
+  "authorities": {
+    "disclosure": "pilot_controls.json + formal_significance.json",
+    "ai_idea": "ai_idea_bench_recoverability_full.json + ai_idea_falsifier_F2F3.json",
+    "researchbench": "researchbench_generation_audit.json + researchbench_falsifier_F2F3.json",
+    "fire": "firebench_recoverability.json"
+  }
+}

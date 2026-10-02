@@ -1,0 +1,127 @@
+{
+  "benchmark": "FIRE-Bench",
+  "n_tasks": 35,
+  "n_rows": 260,
+  "models": [
+    "google/gemma-3-4b-it",
+    "meta-llama/llama-3.2-3b-instruct",
+    "qwen/qwen-2.5-7b-instruct",
+    "openai/gpt-4o-mini"
+  ],
+  "instruction": {
+    "n": 140,
+    "pooled_r": 0.6440793114462258,
+    "pooled_r_ci95_item_cluster": [
+      0.4711597930181781,
+      0.7688087139799988
+    ],
+    "per_model": {
+      "google/gemma-3-4b-it": {
+        "r": 0.6114911813670998,
+        "n": 35,
+        "ci95": [
+          0.35905382147681786,
+          0.7924814948325649
+        ]
+      },
+      "meta-llama/llama-3.2-3b-instruct": {
+        "r": 0.5900780629102819,
+        "n": 35,
+        "ci95": [
+          0.3939213772824599,
+          0.7563451634412056
+        ]
+      },
+      "qwen/qwen-2.5-7b-instruct": {
+        "r": 0.7413167734951099,
+        "n": 35,
+        "ci95": [
+          0.5210720116197252,
+          0.8820502969326985
+        ]
+      },
+      "openai/gpt-4o-mini": {
+        "r": 0.7870052807772859,
+        "n": 35,
+        "ci95": [
+          0.6412360084097743,
+          0.8911343902414955
+        ]
+      }
+    },
+    "n_tasks": 35
+  },
+  "RQ": {
+    "n": 120,
+    "pooled_r": 0.762320543537085,
+    "pooled_r_ci95_item_cluster": [
+      0.5840187616589168,
+      0.8611164216688987
+    ],
+    "per_model": {
+      "google/gemma-3-4b-it": {
+        "r": 0.7741039350876567,
+        "n": 30,
+        "ci95": [
+          0.5775209901877248,
+          0.8915835190877748
+        ]
+      },
+      "meta-llama/llama-3.2-3b-instruct": {
+        "r": 0.7789731182598929,
+        "n": 30,
+        "ci95": [
+          0.5308908211180766,
+          0.9023898606584788
+        ]
+      },
+      "qwen/qwen-2.5-7b-instruct": {
+        "r": 0.7955453434275119,
+        "n": 30,
+        "ci95": [
+          0.5877346749652995,
+          0.9176663992986848
+        ]
+      },
+      "openai/gpt-4o-mini": {
+        "r": 0.7457961312121383,
+        "n": 30,
+        "ci95": [
+          0.5518362975865342,
+          0.8757162197506503
+        ]
+      }
+    },
+    "n_tasks": 30
+  },
+  "winner_flips_RQ_vs_instruction": {
+    "flips": 19,
+    "comparable": 30,
+    "rate": 0.6333333333333333
+  },
+  "gemma_coverage": {
+    "instruction": 35,
+    "RQ": 30
+  },
+  "protocol": "measurement-contracts-0.8 FIRE panel same harness as disclosure panel; temperature 0.2; lexical outcome",
+  "metric_disjoint": {
+    "instruction": {
+      "n_cells": 140,
+      "n_tasks": 35,
+      "r_Rembed_slex": 0.1713714535718553,
+      "ci95_item_cluster": [
+        -0.07480269365959523,
+        0.41273784182850637
+      ]
+    },
+    "RQ": {
+      "n_cells": 120,
+      "n_tasks": 30,
+      "r_Rembed_slex": 0.5395780985959125,
+      "ci95_item_cluster": [
+        0.23964018317184146,
+        0.7356078148118469
+      ]
+    }
+  }
+}

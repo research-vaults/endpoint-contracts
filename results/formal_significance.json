@@ -1,0 +1,301 @@
+{
+  "disclosure_shuffle": {
+    "protocol": "measurement-contracts-0.6 deterministic length-nearest derangement v1",
+    "seed": 20260730,
+    "n_boot": 5000,
+    "n": 86,
+    "mean": 0.13617994100759914,
+    "ci95": [
+      0.11752207195851339,
+      0.15760486039173144
+    ],
+    "frac_pos": 0.9767441860465116,
+    "no_op_count": 0,
+    "perm_p_greater": 0.0001999600079984003,
+    "length_match": {
+      "algorithm": "deterministic_length_nearest_derangement_v1",
+      "length_unit": "regex_tokens_before_stopword_removal",
+      "n": 86,
+      "donor_unique_count": 86,
+      "self_pair_count": 0,
+      "mean_source_tokens": 1353.6744186046512,
+      "mean_donor_tokens": 1353.6744186046512,
+      "median_absolute_log_length_ratio": 0.003218023694200731,
+      "p90_absolute_log_length_ratio": 0.012453461071286557,
+      "max_absolute_log_length_ratio": 0.03221872058016975,
+      "fraction_within_10_percent_source_length": 1.0,
+      "fraction_within_20_percent_source_length": 1.0
+    },
+    "source": "canonical_disclosure_shuffle.json"
+  },
+  "disclosure_S0_to_S4": {
+    "mean": 0.21831397481375076,
+    "ci95": [
+      0.19494271579552663,
+      0.24637961012165563
+    ],
+    "perm_p_greater": 0.0001999600079984003,
+    "frac_pos": 1.0,
+    "n": 86
+  },
+  "panel_pooled_r": {
+    "r": 0.7493517499989469,
+    "ci95": [
+      0.6759712988982135,
+      0.8296131959453902
+    ],
+    "n": 228,
+    "n_items": 32,
+    "method": "item_cluster_bootstrap"
+  },
+  "panel_r_S0_topic": {
+    "r": -0.40477008768002,
+    "ci95": [
+      -0.6026031128606785,
+      -0.17236443304743435
+    ],
+    "n": 76,
+    "n_items": 32,
+    "method": "item_cluster_bootstrap"
+  },
+  "panel_r_S1_abstract": {
+    "r": 0.7362502718593611,
+    "ci95": [
+      0.5574066808937111,
+      0.8569857289372729
+    ],
+    "n": 76,
+    "n_items": 32,
+    "method": "item_cluster_bootstrap"
+  },
+  "panel_r_S3_methods_mid": {
+    "r": 0.6004655842496716,
+    "ci95": [
+      0.37175908058180646,
+      0.8300370831484148
+    ],
+    "n": 76,
+    "n_items": 32,
+    "method": "item_cluster_bootstrap"
+  },
+  "ai_idea": {
+    "metric_family": "R_availability_four_measure_mean",
+    "components": [
+      "lexical_coverage",
+      "token_jaccard",
+      "rouge_l_f1",
+      "bow_cosine"
+    ],
+    "n": 3495,
+    "delta_refs_vs_topic": {
+      "mean": -0.00805426173104504,
+      "ci95": [
+        -0.009377436220901335,
+        -0.006706252870160867
+      ],
+      "frac": 0.41030042918454934
+    },
+    "delta_shuffle": {
+      "mean": 0.06478751613847651,
+      "ci95": [
+        0.0633370048842145,
+        0.06622755100351604
+      ],
+      "frac": 0.9419170243204578
+    },
+    "lexical_coverage_component": {
+      "mean_title": 0.08817757887893779,
+      "mean_topic": 0.12060461717225386,
+      "mean_refs": 0.09886491656129653,
+      "mean_topic_refs": 0.17479074613406032,
+      "mean_topic_shuffled_refs": 0.1423357479728023
+    },
+    "source": "ai_idea_bench_recoverability_full.json"
+  },
+  "fire_shuffle": {
+    "mean": 0.187234789785962,
+    "ci95": [
+      0.16536785979702937,
+      0.20886485388478077
+    ],
+    "n": 35,
+    "frac_pos": 1.0,
+    "source": "firebench_recoverability.json"
+  },
+  "cross_bench_table": [
+    {
+      "bench": "Disclosure proxy",
+      "n": 86,
+      "R_shuffled": 0.0783447527708005,
+      "R_true": 0.21452469377839964,
+      "delta_interv": 0.13617994100759914,
+      "interv_frac": 0.9767441860465116,
+      "note": "length-nearest deranged S3 / true S3",
+      "source": "pilot_controls.json + canonical_disclosure_shuffle.json"
+    },
+    {
+      "bench": "AI Idea Bench",
+      "n": 3495,
+      "R_shuffled": 0.16843836766842318,
+      "R_true": 0.23322588380689968,
+      "delta_interv": 0.06478751613847651,
+      "interv_frac": 0.9419170243204578,
+      "note": "topic+length-nearest deranged refs / topic+true refs",
+      "source": "ai_idea_bench_recoverability_full.json"
+    },
+    {
+      "bench": "ResearchBench tiny",
+      "n": 12,
+      "R_shuffled": 0.13474153874028166,
+      "R_true": 0.24656520035993257,
+      "delta_interv": 0.1118236616196509,
+      "interv_frac": 1.0,
+      "note": "RQ+length-nearest deranged inspirations / RQ+true inspirations",
+      "source": "researchbench_generation_audit.json"
+    },
+    {
+      "bench": "FIRE-Bench",
+      "n": 35,
+      "R_shuffled": 0.06513405680279803,
+      "R_true": 0.25236884658876,
+      "delta_interv": 0.187234789785962,
+      "interv_frac": 1.0,
+      "note": "length-nearest deranged instruction / true instruction",
+      "source": "firebench_recoverability.json"
+    }
+  ],
+  "rb_shuffle": {
+    "mean": 0.1118236616196509,
+    "ci95": [
+      0.09549697193586419,
+      0.12930402158627924
+    ],
+    "n": 12,
+    "frac_pos": 1.0,
+    "source": "researchbench_generation_audit.json"
+  },
+  "bootstrap_note": "Panel correlations use item-clustered bootstrap (resample items, keep all cells of selected items).",
+  "canonical_seed": 20260730,
+  "cross_bench_metric_contract": {
+    "metric": "R_availability",
+    "family": "four-measure lexical mean",
+    "components": [
+      "lexical_coverage",
+      "token_jaccard",
+      "rouge_l_f1",
+      "bow_cosine"
+    ],
+    "contrast": "true evidence minus itemwise length-nearest deranged evidence",
+    "identity_intervention": "deterministic_length_nearest_derangement_v1",
+    "epoch": "measurement-contracts-0.6"
+  },
+  "confirmatory_family": {
+    "family_id": "TRA_primary_freeze_v1",
+    "m": 5,
+    "alpha": 0.05,
+    "method": "one-sided Monte Carlo sign flip with plus-one correction; Holm step-down family control",
+    "seed": 20260730,
+    "draws_per_test": 5000,
+    "rng_contract": "independently reset to the frozen seed for each predeclared item vector",
+    "minimum_attainable_p": 0.0001999600079984003,
+    "all_raw_p_below_0_001": true,
+    "all_holm_significant": true,
+    "tests": [
+      {
+        "test_id": "disclosure_S0_to_S4",
+        "label": "Disclosure S0\u2192S4 positive control",
+        "source": "pilot_per_item.json",
+        "n": 86,
+        "effect_mean": 0.21831397481375076,
+        "alternative": "greater",
+        "seed": 20260730,
+        "draws": 5000,
+        "rng_reset_per_test": true,
+        "exceedances": 0,
+        "plus_one_numerator": 1,
+        "plus_one_denominator": 5001,
+        "raw_p_fraction": "1/5001",
+        "raw_p": 0.0001999600079984003,
+        "holm_rank": 1,
+        "holm_threshold": 0.01,
+        "holm_reject": true
+      },
+      {
+        "test_id": "disclosure_identity",
+        "label": "Disclosure S3 true minus length-nearest deranged",
+        "source": "evidence_interventions.json",
+        "n": 86,
+        "effect_mean": 0.13617994100759914,
+        "alternative": "greater",
+        "seed": 20260730,
+        "draws": 5000,
+        "rng_reset_per_test": true,
+        "exceedances": 0,
+        "plus_one_numerator": 1,
+        "plus_one_denominator": 5001,
+        "raw_p_fraction": "1/5001",
+        "raw_p": 0.0001999600079984003,
+        "holm_rank": 2,
+        "holm_threshold": 0.0125,
+        "holm_reject": true
+      },
+      {
+        "test_id": "fire_identity",
+        "label": "FIRE instruction true minus length-nearest deranged",
+        "source": "firebench_recoverability.json",
+        "n": 35,
+        "effect_mean": 0.187234789785962,
+        "alternative": "greater",
+        "seed": 20260730,
+        "draws": 5000,
+        "rng_reset_per_test": true,
+        "exceedances": 0,
+        "plus_one_numerator": 1,
+        "plus_one_denominator": 5001,
+        "raw_p_fraction": "1/5001",
+        "raw_p": 0.0001999600079984003,
+        "holm_rank": 3,
+        "holm_threshold": 0.016666666666666666,
+        "holm_reject": true
+      },
+      {
+        "test_id": "researchbench_identity",
+        "label": "ResearchBench tiny true minus length-nearest deranged",
+        "source": "researchbench_generation_audit.json",
+        "n": 12,
+        "effect_mean": 0.1118236616196509,
+        "alternative": "greater",
+        "seed": 20260730,
+        "draws": 5000,
+        "rng_reset_per_test": true,
+        "exceedances": 1,
+        "plus_one_numerator": 2,
+        "plus_one_denominator": 5001,
+        "raw_p_fraction": "2/5001",
+        "raw_p": 0.0003999200159968006,
+        "holm_rank": 5,
+        "holm_threshold": 0.05,
+        "holm_reject": true
+      },
+      {
+        "test_id": "hard_negative_S1",
+        "label": "Disclosure S1 true minus hard negative",
+        "source": "pilot_per_item.json",
+        "n": 86,
+        "effect_mean": 0.0458814693078529,
+        "alternative": "greater",
+        "seed": 20260730,
+        "draws": 5000,
+        "rng_reset_per_test": true,
+        "exceedances": 0,
+        "plus_one_numerator": 1,
+        "plus_one_denominator": 5001,
+        "raw_p_fraction": "1/5001",
+        "raw_p": 0.0001999600079984003,
+        "holm_rank": 4,
+        "holm_threshold": 0.025,
+        "holm_reject": true
+      }
+    ]
+  }
+}

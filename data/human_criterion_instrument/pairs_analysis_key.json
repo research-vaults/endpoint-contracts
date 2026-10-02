@@ -1,0 +1,610 @@
+{
+  "warning": "Do not open until after labeling. Used only to score agreement with continuous R.",
+  "seed": 20260731,
+  "n_pairs": 60,
+  "design": "Forced-choice: which endpoint is MORE reconstructible from its S3 input?",
+  "observed_overlap": "Both anonymous readers judged all 60 pairs.",
+  "analysis": "Accuracy vs higher_R_side; kappa on overlap; report n, strata, agreement.",
+  "pairs": [
+    {
+      "pair_id": "LOW_HIGH_20",
+      "higher_R_side": "left",
+      "left_R": 0.25159792915502993,
+      "right_R": 0.1442605715884871,
+      "delta_R": 0.10733735756654283,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2501.04866",
+      "right_id": "arxiv:2411.14199"
+    },
+    {
+      "pair_id": "LOW_HIGH_18",
+      "higher_R_side": "right",
+      "left_R": 0.057144245002690934,
+      "right_R": 0.2586766496734146,
+      "delta_R": 0.20153240467072364,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2311.07361",
+      "right_id": "arxiv:2502.04364"
+    },
+    {
+      "pair_id": "LOW_MID_04",
+      "higher_R_side": "left",
+      "left_R": 0.21379219241108496,
+      "right_R": 0.14706544026403723,
+      "delta_R": 0.06672675214704774,
+      "stratum": "LOW_MID",
+      "left_id": "arxiv:2412.10360",
+      "right_id": "arxiv:2411.09137"
+    },
+    {
+      "pair_id": "LOW_HIGH_02",
+      "higher_R_side": "left",
+      "left_R": 0.2586766496734146,
+      "right_R": 0.09124535715277303,
+      "delta_R": 0.16743129252064154,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2502.04364",
+      "right_id": "arxiv:2502.02561"
+    },
+    {
+      "pair_id": "MID_HIGH_05",
+      "higher_R_side": "left",
+      "left_R": 0.2525303067265244,
+      "right_R": 0.15784802067411463,
+      "delta_R": 0.09468228605240975,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2504.03838",
+      "right_id": "arxiv:2410.05258"
+    },
+    {
+      "pair_id": "LOW_HIGH_29",
+      "higher_R_side": "left",
+      "left_R": 0.7612673116143984,
+      "right_R": 0.11831922448867677,
+      "delta_R": 0.6429480871257216,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2501.13949",
+      "right_id": "arxiv:2409.05591"
+    },
+    {
+      "pair_id": "LOW_MID_02",
+      "higher_R_side": "left",
+      "left_R": 0.18465470153190922,
+      "right_R": 0.08392243078411557,
+      "delta_R": 0.10073227074779365,
+      "stratum": "LOW_MID",
+      "left_id": "arxiv:2410.24198",
+      "right_id": "arxiv:2504.12371"
+    },
+    {
+      "pair_id": "LOW_MID_06",
+      "higher_R_side": "left",
+      "left_R": 0.2043369899261962,
+      "right_R": 0.08392243078411557,
+      "delta_R": 0.12041455914208063,
+      "stratum": "LOW_MID",
+      "left_id": "arxiv:2605.30284",
+      "right_id": "arxiv:2504.12371"
+    },
+    {
+      "pair_id": "MID_HIGH_09",
+      "higher_R_side": "right",
+      "left_R": 0.19680249504182118,
+      "right_R": 0.2586766496734146,
+      "delta_R": 0.0618741546315934,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2503.16734",
+      "right_id": "arxiv:2502.04364"
+    },
+    {
+      "pair_id": "LOW_HIGH_01",
+      "higher_R_side": "right",
+      "left_R": 0.13825161414324444,
+      "right_R": 0.24950079284859214,
+      "delta_R": 0.1112491787053477,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2502.21231",
+      "right_id": "arxiv:2409.15277"
+    },
+    {
+      "pair_id": "LOW_HIGH_08",
+      "higher_R_side": "right",
+      "left_R": 0.09218674359593576,
+      "right_R": 0.25159792915502993,
+      "delta_R": 0.15941118555909417,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2409.18486",
+      "right_id": "arxiv:2501.04866"
+    },
+    {
+      "pair_id": "MID_HIGH_16",
+      "higher_R_side": "left",
+      "left_R": 0.297499666454444,
+      "right_R": 0.2043369899261962,
+      "delta_R": 0.09316267652824778,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2501.05465",
+      "right_id": "arxiv:2605.30284"
+    },
+    {
+      "pair_id": "LOW_MID_05",
+      "higher_R_side": "right",
+      "left_R": 0.1356037400042864,
+      "right_R": 0.21936307954744239,
+      "delta_R": 0.08375933954315598,
+      "stratum": "LOW_MID",
+      "left_id": "arxiv:2504.01849",
+      "right_id": "arxiv:2505.00671"
+    },
+    {
+      "pair_id": "MID_HIGH_11",
+      "higher_R_side": "right",
+      "left_R": 0.20466929288569197,
+      "right_R": 0.2710703638981745,
+      "delta_R": 0.06640107101248255,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2505.03422",
+      "right_id": "arxiv:2505.04358"
+    },
+    {
+      "pair_id": "MID_HIGH_10",
+      "higher_R_side": "right",
+      "left_R": 0.21379219241108496,
+      "right_R": 0.27894450932526615,
+      "delta_R": 0.06515231691418119,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2412.10360",
+      "right_id": "arxiv:2505.07271"
+    },
+    {
+      "pair_id": "MID_HIGH_14",
+      "higher_R_side": "left",
+      "left_R": 0.23829289466370338,
+      "right_R": 0.22616843581140472,
+      "delta_R": 0.012124458852298653,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2503.20009",
+      "right_id": "arxiv:2502.15707"
+    },
+    {
+      "pair_id": "MID_HIGH_03",
+      "higher_R_side": "left",
+      "left_R": 0.23829289466370338,
+      "right_R": 0.19680249504182118,
+      "delta_R": 0.041490399621882196,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2503.20009",
+      "right_id": "arxiv:2503.16734"
+    },
+    {
+      "pair_id": "LOW_HIGH_09",
+      "higher_R_side": "right",
+      "left_R": 0.04687058323520892,
+      "right_R": 0.39132570459433924,
+      "delta_R": 0.3444551213591303,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2402.14034",
+      "right_id": "arxiv:2503.13612"
+    },
+    {
+      "pair_id": "LOW_HIGH_06",
+      "higher_R_side": "left",
+      "left_R": 0.31598729422292626,
+      "right_R": 0.14706544026403723,
+      "delta_R": 0.16892185395888903,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2406.06769",
+      "right_id": "arxiv:2411.09137"
+    },
+    {
+      "pair_id": "LOW_MID_01",
+      "higher_R_side": "left",
+      "left_R": 0.16386076825063722,
+      "right_R": 0.04687058323520892,
+      "delta_R": 0.1169901850154283,
+      "stratum": "LOW_MID",
+      "left_id": "arxiv:2503.05555",
+      "right_id": "arxiv:2402.14034"
+    },
+    {
+      "pair_id": "MID_HIGH_00",
+      "higher_R_side": "right",
+      "left_R": 0.16491944775212825,
+      "right_R": 0.7612673116143984,
+      "delta_R": 0.5963478638622701,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2504.16041",
+      "right_id": "arxiv:2501.13949"
+    },
+    {
+      "pair_id": "MID_HIGH_19",
+      "higher_R_side": "left",
+      "left_R": 0.7569832536802057,
+      "right_R": 0.17956666221173664,
+      "delta_R": 0.577416591468469,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2607.22368",
+      "right_id": "arxiv:2501.00663"
+    },
+    {
+      "pair_id": "MID_HIGH_18",
+      "higher_R_side": "right",
+      "left_R": 0.17865317305373357,
+      "right_R": 0.25821373721258245,
+      "delta_R": 0.07956056415884888,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2307.10635",
+      "right_id": "arxiv:2504.08734"
+    },
+    {
+      "pair_id": "LOW_HIGH_03",
+      "higher_R_side": "left",
+      "left_R": 0.2305469069574606,
+      "right_R": 0.15294684099588918,
+      "delta_R": 0.07760006596157143,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2410.19810",
+      "right_id": "arxiv:2502.09614"
+    },
+    {
+      "pair_id": "LOW_HIGH_21",
+      "higher_R_side": "left",
+      "left_R": 0.2710703638981745,
+      "right_R": 0.10669773729598868,
+      "delta_R": 0.16437262660218582,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2505.04358",
+      "right_id": "arxiv:2407.01725"
+    },
+    {
+      "pair_id": "LOW_MID_07",
+      "higher_R_side": "right",
+      "left_R": 0.11729220320196462,
+      "right_R": 0.16386076825063722,
+      "delta_R": 0.0465685650486726,
+      "stratum": "LOW_MID",
+      "left_id": "arxiv:2503.21778",
+      "right_id": "arxiv:2503.05555"
+    },
+    {
+      "pair_id": "LOW_HIGH_00",
+      "higher_R_side": "left",
+      "left_R": 0.25159792915502993,
+      "right_R": 0.04687058323520892,
+      "delta_R": 0.204727345919821,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2501.04866",
+      "right_id": "arxiv:2402.14034"
+    },
+    {
+      "pair_id": "MID_HIGH_17",
+      "higher_R_side": "left",
+      "left_R": 0.3642275830709353,
+      "right_R": 0.22616843581140472,
+      "delta_R": 0.13805914725953056,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2505.13259",
+      "right_id": "arxiv:2502.15707"
+    },
+    {
+      "pair_id": "MID_HIGH_12",
+      "higher_R_side": "left",
+      "left_R": 0.23713132519026547,
+      "right_R": 0.1761199493380502,
+      "delta_R": 0.06101137585221528,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2412.06438",
+      "right_id": "arxiv:2502.08791"
+    },
+    {
+      "pair_id": "LOW_HIGH_16",
+      "higher_R_side": "left",
+      "left_R": 0.23829289466370338,
+      "right_R": 0.14650406753088757,
+      "delta_R": 0.0917888271328158,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2503.20009",
+      "right_id": "arxiv:2412.17596"
+    },
+    {
+      "pair_id": "LOW_MID_00",
+      "higher_R_side": "left",
+      "left_R": 0.20466929288569197,
+      "right_R": 0.10292602463977649,
+      "delta_R": 0.10174326824591548,
+      "stratum": "LOW_MID",
+      "left_id": "arxiv:2505.03422",
+      "right_id": "arxiv:2606.26158"
+    },
+    {
+      "pair_id": "LOW_MID_08",
+      "higher_R_side": "right",
+      "left_R": 0.12772826346259564,
+      "right_R": 0.18465470153190922,
+      "delta_R": 0.05692643806931358,
+      "stratum": "LOW_MID",
+      "left_id": "arxiv:2410.11939",
+      "right_id": "arxiv:2410.24198"
+    },
+    {
+      "pair_id": "MID_HIGH_07",
+      "higher_R_side": "right",
+      "left_R": 0.22616843581140472,
+      "right_R": 0.293986760258906,
+      "delta_R": 0.0678183244475013,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2502.15707",
+      "right_id": "arxiv:2605.24060"
+    },
+    {
+      "pair_id": "MID_HIGH_06",
+      "higher_R_side": "left",
+      "left_R": 0.23713132519026547,
+      "right_R": 0.1661069190329288,
+      "delta_R": 0.07102440615733668,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2412.06438",
+      "right_id": "arxiv:2407.07061"
+    },
+    {
+      "pair_id": "LOW_HIGH_10",
+      "higher_R_side": "left",
+      "left_R": 0.2906648243609531,
+      "right_R": 0.1442605715884871,
+      "delta_R": 0.146404252772466,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2408.04628",
+      "right_id": "arxiv:2411.14199"
+    },
+    {
+      "pair_id": "LOW_HIGH_26",
+      "higher_R_side": "right",
+      "left_R": 0.15498383504005597,
+      "right_R": 0.2675947970225706,
+      "delta_R": 0.11261096198251463,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2503.09516",
+      "right_id": "arxiv:2605.23701"
+    },
+    {
+      "pair_id": "MID_HIGH_02",
+      "higher_R_side": "left",
+      "left_R": 0.7612673116143984,
+      "right_R": 0.20993047930044828,
+      "delta_R": 0.5513368323139501,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2501.13949",
+      "right_id": "arxiv:2412.21154"
+    },
+    {
+      "pair_id": "MID_HIGH_01",
+      "higher_R_side": "right",
+      "left_R": 0.21936307954744239,
+      "right_R": 0.2480362084052969,
+      "delta_R": 0.028673128857854502,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2505.00671",
+      "right_id": "arxiv:2501.17161"
+    },
+    {
+      "pair_id": "LOW_HIGH_25",
+      "higher_R_side": "left",
+      "left_R": 0.7612673116143984,
+      "right_R": 0.15294684099588918,
+      "delta_R": 0.6083204706185092,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2501.13949",
+      "right_id": "arxiv:2502.09614"
+    },
+    {
+      "pair_id": "MID_HIGH_08",
+      "higher_R_side": "right",
+      "left_R": 0.1796912482835269,
+      "right_R": 0.24036029796396763,
+      "delta_R": 0.060669049680440734,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2406.04598",
+      "right_id": "arxiv:2406.18532"
+    },
+    {
+      "pair_id": "LOW_HIGH_23",
+      "higher_R_side": "left",
+      "left_R": 0.7612673116143984,
+      "right_R": 0.1442605715884871,
+      "delta_R": 0.6170067400259114,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2501.13949",
+      "right_id": "arxiv:2411.14199"
+    },
+    {
+      "pair_id": "LOW_MID_09",
+      "higher_R_side": "left",
+      "left_R": 0.2043369899261962,
+      "right_R": 0.14706544026403723,
+      "delta_R": 0.05727154966215897,
+      "stratum": "LOW_MID",
+      "left_id": "arxiv:2605.30284",
+      "right_id": "arxiv:2411.09137"
+    },
+    {
+      "pair_id": "LOW_HIGH_13",
+      "higher_R_side": "left",
+      "left_R": 0.25159792915502993,
+      "right_R": 0.1356037400042864,
+      "delta_R": 0.11599418915074353,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2501.04866",
+      "right_id": "arxiv:2504.01849"
+    },
+    {
+      "pair_id": "MID_HIGH_15",
+      "higher_R_side": "right",
+      "left_R": 0.15784802067411463,
+      "right_R": 0.297499666454444,
+      "delta_R": 0.13965164578032935,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2410.05258",
+      "right_id": "arxiv:2501.05465"
+    },
+    {
+      "pair_id": "LOW_HIGH_07",
+      "higher_R_side": "left",
+      "left_R": 0.23713132519026547,
+      "right_R": 0.13326664546157888,
+      "delta_R": 0.1038646797286866,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2412.06438",
+      "right_id": "arxiv:2501.19375"
+    },
+    {
+      "pair_id": "LOW_HIGH_27",
+      "higher_R_side": "left",
+      "left_R": 0.297499666454444,
+      "right_R": 0.14241220775346564,
+      "delta_R": 0.15508745870097834,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2501.05465",
+      "right_id": "arxiv:2411.02429"
+    },
+    {
+      "pair_id": "LOW_HIGH_11",
+      "higher_R_side": "right",
+      "left_R": 0.10744989326520125,
+      "right_R": 0.2956078897558039,
+      "delta_R": 0.1881579964906026,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2504.21039",
+      "right_id": "arxiv:2410.01792"
+    },
+    {
+      "pair_id": "LOW_HIGH_17",
+      "higher_R_side": "left",
+      "left_R": 0.25821373721258245,
+      "right_R": 0.15294684099588918,
+      "delta_R": 0.10526689621669327,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2504.08734",
+      "right_id": "arxiv:2502.09614"
+    },
+    {
+      "pair_id": "LOW_HIGH_15",
+      "higher_R_side": "left",
+      "left_R": 0.2406522515151472,
+      "right_R": 0.10932965925655128,
+      "delta_R": 0.1313225922585959,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2503.21248",
+      "right_id": "arxiv:2505.18098"
+    },
+    {
+      "pair_id": "LOW_MID_03",
+      "higher_R_side": "left",
+      "left_R": 0.18799951824977418,
+      "right_R": 0.14860089251055758,
+      "delta_R": 0.0393986257392166,
+      "stratum": "LOW_MID",
+      "left_id": "arxiv:2504.07640",
+      "right_id": "arxiv:2407.21783"
+    },
+    {
+      "pair_id": "LOW_HIGH_19",
+      "higher_R_side": "left",
+      "left_R": 0.2305469069574606,
+      "right_R": 0.08392243078411557,
+      "delta_R": 0.14662447617334504,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2410.19810",
+      "right_id": "arxiv:2504.12371"
+    },
+    {
+      "pair_id": "LOW_HIGH_28",
+      "higher_R_side": "right",
+      "left_R": 0.04687058323520892,
+      "right_R": 0.2586766496734146,
+      "delta_R": 0.21180606643820565,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2402.14034",
+      "right_id": "arxiv:2502.04364"
+    },
+    {
+      "pair_id": "LOW_HIGH_12",
+      "higher_R_side": "right",
+      "left_R": 0.12772826346259564,
+      "right_R": 0.23713132519026547,
+      "delta_R": 0.10940306172766984,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2410.11939",
+      "right_id": "arxiv:2412.06438"
+    },
+    {
+      "pair_id": "MID_HIGH_13",
+      "higher_R_side": "right",
+      "left_R": 0.19036950516169016,
+      "right_R": 0.7612673116143984,
+      "delta_R": 0.5708978064527083,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2409.11363",
+      "right_id": "arxiv:2501.13949"
+    },
+    {
+      "pair_id": "LOW_HIGH_04",
+      "higher_R_side": "right",
+      "left_R": 0.1356037400042864,
+      "right_R": 0.3498903743242887,
+      "delta_R": 0.2142866343200023,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2504.01849",
+      "right_id": "arxiv:2504.12582"
+    },
+    {
+      "pair_id": "MID_HIGH_04",
+      "higher_R_side": "left",
+      "left_R": 0.7621652359957327,
+      "right_R": 0.2221835209520634,
+      "delta_R": 0.5399817150436693,
+      "stratum": "MID_HIGH",
+      "left_id": "arxiv:2506.12345",
+      "right_id": "arxiv:2501.07542"
+    },
+    {
+      "pair_id": "LOW_HIGH_24",
+      "higher_R_side": "left",
+      "left_R": 0.24036029796396763,
+      "right_R": 0.057144245002690934,
+      "delta_R": 0.1832160529612767,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2406.18532",
+      "right_id": "arxiv:2311.07361"
+    },
+    {
+      "pair_id": "LOW_HIGH_22",
+      "higher_R_side": "right",
+      "left_R": 0.13784304647785078,
+      "right_R": 0.2406522515151472,
+      "delta_R": 0.1028092050372964,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2408.12574",
+      "right_id": "arxiv:2503.21248"
+    },
+    {
+      "pair_id": "LOW_HIGH_14",
+      "higher_R_side": "left",
+      "left_R": 0.7569832536802057,
+      "right_R": 0.14860089251055758,
+      "delta_R": 0.6083823611696482,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2607.22368",
+      "right_id": "arxiv:2407.21783"
+    },
+    {
+      "pair_id": "LOW_HIGH_05",
+      "higher_R_side": "left",
+      "left_R": 0.23829289466370338,
+      "right_R": 0.09218674359593576,
+      "delta_R": 0.14610615106776761,
+      "stratum": "LOW_HIGH",
+      "left_id": "arxiv:2503.20009",
+      "right_id": "arxiv:2409.18486"
+    }
+  ]
+}

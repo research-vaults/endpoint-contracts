@@ -1,0 +1,251 @@
+{
+  "protocol": "measurement-contracts-1.1 distribution/temporal and within-item fixed-effect panel association",
+  "purpose": "Sensitivity analysis for whether the model score-recoverability association is explained by benchmark composition, publication year, model assignment, disclosure stage, or text-length surfaces.",
+  "population": {
+    "panel_rows": 228,
+    "disclosure_items": 32,
+    "stages": [
+      "S0_topic",
+      "S1_abstract",
+      "S3_methods_mid"
+    ],
+    "models": [
+      "google/gemma-3-4b-it",
+      "meta-llama/llama-3.2-3b-instruct",
+      "openai/gpt-4o-mini",
+      "qwen/qwen-2.5-7b-instruct"
+    ],
+    "publication_years": [
+      "2023",
+      "2024",
+      "2025"
+    ]
+  },
+  "outcome": "score_lex_target_in_pred",
+  "exposure": "R_availability",
+  "models": {
+    "base_surface_temporal": {
+      "estimand": "OLS change in lexical endpoint score per unit R_avail, conditional on listed controls",
+      "beta_R_avail": 0.24658417920424627,
+      "controls": [
+        "stage=S1_abstract",
+        "stage=S3_methods_mid",
+        "model=meta-llama/llama-3.2-3b-instruct",
+        "model=openai/gpt-4o-mini",
+        "model=qwen/qwen-2.5-7b-instruct",
+        "publication_year=2024",
+        "publication_year=2025",
+        "log1p_input_chars",
+        "log1p_target_chars"
+      ],
+      "design_rank": 11,
+      "design_columns": 11,
+      "full_column_rank": true,
+      "item_cluster_bootstrap": {
+        "unit": "disclosure item (all model-stage rows retained together)",
+        "seed": 20260802,
+        "replicates": 5000,
+        "ci95_percentile": [
+          0.14597392630658332,
+          0.40923555957059665
+        ],
+        "median": 0.2662473514526205,
+        "fraction_positive": 1.0
+      }
+    },
+    "plus_generation_length_conservative": {
+      "estimand": "OLS change in lexical endpoint score per unit R_avail, conditional on listed controls",
+      "beta_R_avail": 0.2549793608163088,
+      "controls": [
+        "stage=S1_abstract",
+        "stage=S3_methods_mid",
+        "model=meta-llama/llama-3.2-3b-instruct",
+        "model=openai/gpt-4o-mini",
+        "model=qwen/qwen-2.5-7b-instruct",
+        "publication_year=2024",
+        "publication_year=2025",
+        "log1p_input_chars",
+        "log1p_target_chars",
+        "log1p_prediction_chars"
+      ],
+      "design_rank": 12,
+      "design_columns": 12,
+      "full_column_rank": true,
+      "item_cluster_bootstrap": {
+        "unit": "disclosure item (all model-stage rows retained together)",
+        "seed": 20260802,
+        "replicates": 5000,
+        "ci95_percentile": [
+          0.14793808167079325,
+          0.41906201557575123
+        ],
+        "median": 0.2728624974719399,
+        "fraction_positive": 1.0
+      }
+    }
+  },
+  "stage_specific_temporal_check": {
+    "S0_topic": {
+      "n_rows": 76,
+      "rows_by_publication_year": {
+        "2023": 6,
+        "2024": 36,
+        "2025": 34
+      },
+      "pearson_after_publication_year_mean_residualization": -0.3766619988493106
+    },
+    "S1_abstract": {
+      "n_rows": 76,
+      "rows_by_publication_year": {
+        "2023": 6,
+        "2024": 36,
+        "2025": 34
+      },
+      "pearson_after_publication_year_mean_residualization": 0.7536038170698125
+    },
+    "S3_methods_mid": {
+      "n_rows": 76,
+      "rows_by_publication_year": {
+        "2023": 6,
+        "2024": 36,
+        "2025": 34
+      },
+      "pearson_after_publication_year_mean_residualization": 0.5566525037826053
+    }
+  },
+  "within_item_fixed_effects": {
+    "estimand": "Within-paper association between lexical endpoint score and R_avail across repeated disclosure stages, conditional on stage, model, time-varying input length, and one fixed intercept per paper.",
+    "absorbed_stable_item_attributes": [
+      "publication year",
+      "domain and paper identity",
+      "target length",
+      "stable writing and extraction properties",
+      "all other observed or unobserved time-invariant paper attributes"
+    ],
+    "base": {
+      "beta_R_avail": 0.17900238500824045,
+      "design_rank": 39,
+      "design_columns": 39,
+      "full_column_rank": true,
+      "condition_number": 101.6954090282503,
+      "controls": [
+        "stage=S1_abstract",
+        "stage=S3_methods_mid",
+        "model=meta-llama/llama-3.2-3b-instruct",
+        "model=openai/gpt-4o-mini",
+        "model=qwen/qwen-2.5-7b-instruct",
+        "centered_log1p_input_chars"
+      ],
+      "item_fixed_effect_count": 32,
+      "item_cluster_bootstrap": {
+        "ci95_percentile": [
+          0.1003768887711546,
+          0.31146645412721075
+        ],
+        "median": 0.17996923459327507,
+        "fraction_positive": 1.0
+      }
+    },
+    "plus_generation_length_conservative": {
+      "beta_R_avail": 0.17907837171330704,
+      "design_rank": 40,
+      "design_columns": 40,
+      "full_column_rank": true,
+      "condition_number": 101.83090797030009,
+      "controls": [
+        "stage=S1_abstract",
+        "stage=S3_methods_mid",
+        "model=meta-llama/llama-3.2-3b-instruct",
+        "model=openai/gpt-4o-mini",
+        "model=qwen/qwen-2.5-7b-instruct",
+        "centered_log1p_input_chars",
+        "centered_log1p_prediction_chars"
+      ],
+      "item_fixed_effect_count": 32,
+      "item_cluster_bootstrap": {
+        "ci95_percentile": [
+          0.09691391206664657,
+          0.31740061336455166
+        ],
+        "median": 0.18094785511609687,
+        "fraction_positive": 1.0
+      }
+    },
+    "stage_interactions": {
+      "beta_R_avail": -0.04876778300897365,
+      "design_rank": 41,
+      "design_columns": 41,
+      "full_column_rank": true,
+      "condition_number": 559.352869551002,
+      "controls": [
+        "stage=S1_abstract",
+        "stage=S3_methods_mid",
+        "model=meta-llama/llama-3.2-3b-instruct",
+        "model=openai/gpt-4o-mini",
+        "model=qwen/qwen-2.5-7b-instruct",
+        "centered_log1p_input_chars"
+      ],
+      "item_fixed_effect_count": 32,
+      "stage_specific_beta_R_avail": {
+        "S0_topic": -0.04876778300897365,
+        "S1_abstract": 0.21853231735484746,
+        "S3_methods_mid": 0.1742556709115744
+      },
+      "item_cluster_bootstrap_by_stage": {
+        "S0_topic": {
+          "ci95_percentile": [
+            -0.5894004244216912,
+            0.2845694445079224
+          ],
+          "median": -0.07694467204503706,
+          "fraction_positive": 0.35133333333333333
+        },
+        "S1_abstract": {
+          "ci95_percentile": [
+            0.13125984246705444,
+            0.3484561888704426
+          ],
+          "median": 0.21437557759299958,
+          "fraction_positive": 1.0
+        },
+        "S3_methods_mid": {
+          "ci95_percentile": [
+            0.08605780573253842,
+            0.3212829979084869
+          ],
+          "median": 0.1748501163536924,
+          "fraction_positive": 1.0
+        }
+      }
+    },
+    "bootstrap_contract": {
+      "unit": "disclosure item (all model-stage rows retained together)",
+      "seed": 20260802,
+      "replicates": 3000
+    },
+    "leave_one_item_out": {
+      "unit": "disclosure item",
+      "folds": 32,
+      "beta_R_avail_range": [
+        0.16480799173615812,
+        0.23511006791939193
+      ],
+      "median": 0.17819366903522438,
+      "all_positive": true
+    }
+  },
+  "interpretation": "The positive R_avail slope survives simultaneous stage, model, publication-year, input-length, and target-length adjustment. It also survives a stronger within-paper specification that absorbs every stable item attribute; stage interactions localize the positive association to S1 and S3 rather than the near-floor S0 stage.",
+  "limitations": [
+    "This is an associational sensitivity analysis, not a causal effect of recoverability on model score.",
+    "Publication year is a coarse temporal proxy and does not establish model-specific training exposure or absence of contamination.",
+    "The panel has budget-driven, unbalanced model coverage; model fixed effects and item-cluster resampling mitigate but do not remove every selection concern.",
+    "Prediction length may be downstream of model behavior, so the generation-length-adjusted model is a conservative secondary specification.",
+    "The primary exposure and outcome are lexical-family measures; scorer-disjoint and reverse-family analyses remain separate authorities.",
+    "Item fixed effects remove stable paper-level heterogeneity but not unmeasured stage-varying confounding; the within-paper estimates remain associational.",
+    "The stage-interaction model is a secondary heterogeneity analysis and the S0 slope is imprecise because recoverability is near its floor."
+  ],
+  "sources": [
+    "results/openrouter_panel/panel_rows.json",
+    "data/disclosure_pilot/items.jsonl"
+  ]
+}

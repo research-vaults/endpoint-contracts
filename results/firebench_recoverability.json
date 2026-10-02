@@ -1,0 +1,1248 @@
+{
+  "benchmark": "FIRE-Bench-verified",
+  "source": "data/firebench/tasks.jsonl",
+  "protocol": "measurement-contracts-0.6 FIRE-Bench instruction\u2192conclusion recoverability with length-nearest identity derangement",
+  "summary": {
+    "n": 35,
+    "mean_R_RQ": 0.5216441870759282,
+    "mean_R_instruction": 0.25236884658876,
+    "mean_R_RQ_plus_instruction": 0.2716246698309934,
+    "mean_R_shuffled_instruction": 0.06513405680279803,
+    "mean_delta_inst_vs_rq": -0.2613952683493966,
+    "mean_delta_shuffle": 0.187234789785962,
+    "delta_shuffle_ci95": [
+      0.16536785979702937,
+      0.20886485388478077
+    ],
+    "frac_shuffle_hurts": 1.0,
+    "identity_intervention_protocol": "measurement-contracts-0.6 deterministic length-nearest derangement v1",
+    "identity_intervention_length_match": {
+      "algorithm": "deterministic_length_nearest_derangement_v1",
+      "length_unit": "regex_tokens_before_stopword_removal",
+      "n": 35,
+      "donor_unique_count": 35,
+      "self_pair_count": 0,
+      "mean_source_tokens": 276.8,
+      "mean_donor_tokens": 276.8,
+      "median_absolute_log_length_ratio": 0.025975486403260677,
+      "p90_absolute_log_length_ratio": 0.0694568009779911,
+      "max_absolute_log_length_ratio": 0.13580154115906182,
+      "fraction_within_10_percent_source_length": 0.9428571428571428,
+      "fraction_within_20_percent_source_length": 1.0
+    },
+    "gold_rank1_rate_instruction": 0.8857142857142857,
+    "mean_rank_instruction": 1.2857142857142858,
+    "mean_mrr_instruction": 0.927891156462585,
+    "true_minus_random_lex": {
+      "mean": 0.4153104526056977,
+      "ci95": [
+        0.34338365008929955,
+        0.4888870720810265
+      ],
+      "frac_pos": 1.0
+    }
+  },
+  "rows": [
+    {
+      "task_id": "activation_control",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.4172483458063947,
+        "lex": 0.3225806451612903,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.22126941633173175,
+        "lex": 0.41935483870967744,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.2524103890059264,
+        "lex": 0.7096774193548387,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.23779095877531198,
+        "lex": 0.41935483870967744,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.03254740312317951,
+        "lex": 0.06451612903225806,
+        "mrr": 0.04,
+        "rank": 25
+      },
+      "delta_shuffle": 0.18872201320855225,
+      "delta_inst_vs_rq": -0.19597892947466294
+    },
+    {
+      "task_id": "awareness_detection",
+      "dataset_source": "Download dataset.json and put it in /data folder\nhttps://huggingface.co/datasets/jjpn2/eval_awareness",
+      "RQ": {
+        "R_avail": 0.8907956842837972,
+        "lex": 0.8571428571428571,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.3496263036185525,
+        "lex": 0.9285714285714286,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.3379608857710189,
+        "lex": 0.9285714285714286,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.38263156253390634,
+        "lex": 0.9285714285714286,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.09396228499257535,
+        "lex": 0.21428571428571427,
+        "mrr": 0.07142857142857142,
+        "rank": 14
+      },
+      "delta_shuffle": 0.25566401862597715,
+      "delta_inst_vs_rq": -0.5411693806652447
+    },
+    {
+      "task_id": "charxiv_chart_understanding",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.46316085825246117,
+        "lex": 0.42105263157894735,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.22892777017934332,
+        "lex": 0.5789473684210527,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": null,
+      "RQ_plus_instruction": {
+        "R_avail": 0.24356736002295648,
+        "lex": 0.5789473684210527,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.017883127337156635,
+        "lex": 0.05263157894736842,
+        "mrr": 0.030303030303030304,
+        "rank": 33
+      },
+      "delta_shuffle": 0.21104464284218669,
+      "delta_inst_vs_rq": -0.23423308807311785
+    },
+    {
+      "task_id": "cot_faithfulness_gaps",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.7722794080624467,
+        "lex": 0.8181818181818182,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.30565591449453156,
+        "lex": 0.8181818181818182,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.23221604040871732,
+        "lex": 0.8181818181818182,
+        "mrr": 0.2,
+        "rank": 5
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.3427074136245789,
+        "lex": 0.8181818181818182,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.09091060451142843,
+        "lex": 0.18181818181818182,
+        "mrr": 0.14285714285714285,
+        "rank": 7
+      },
+      "delta_shuffle": 0.21474530998310312,
+      "delta_inst_vs_rq": -0.4666234935679151
+    },
+    {
+      "task_id": "cot_in_planning",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.6805946702309016,
+        "lex": 0.6956521739130435,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.30302010460643847,
+        "lex": 0.8260869565217391,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.2552595888222364,
+        "lex": 0.8260869565217391,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.32645863972766065,
+        "lex": 0.8260869565217391,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.032171020778874335,
+        "lex": 0.08695652173913043,
+        "mrr": 0.03333333333333333,
+        "rank": 30
+      },
+      "delta_shuffle": 0.2708490838275641,
+      "delta_inst_vs_rq": -0.3775745656244631
+    },
+    {
+      "task_id": "cot_without_prompting",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.47518842060109207,
+        "lex": 0.4230769230769231,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.2552693041914218,
+        "lex": 0.46153846153846156,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.27203724525934186,
+        "lex": 0.6923076923076923,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.2938403672632367,
+        "lex": 0.46153846153846156,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.04380333454097375,
+        "lex": 0.07692307692307693,
+        "mrr": 0.058823529411764705,
+        "rank": 17
+      },
+      "delta_shuffle": 0.21146596965044806,
+      "delta_inst_vs_rq": -0.21991911640967027
+    },
+    {
+      "task_id": "counterfactual_simulatability",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 1.0,
+        "lex": 1.0,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.41715814777251914,
+        "lex": 1.0,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.30082374836520964,
+        "lex": 1.0,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.4546705824079933,
+        "lex": 1.0,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.09095581918580062,
+        "lex": 0.23076923076923078,
+        "mrr": 0.1111111111111111,
+        "rank": 9
+      },
+      "delta_shuffle": 0.3262023285867185,
+      "delta_inst_vs_rq": -0.5828418522274809
+    },
+    {
+      "task_id": "distributive_fairness",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.3928683661710267,
+        "lex": 0.3125,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.1975134627773844,
+        "lex": 0.34375,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.1938581243346154,
+        "lex": 0.5625,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.21363538993097098,
+        "lex": 0.34375,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.08077509071619059,
+        "lex": 0.15625,
+        "mrr": 0.08333333333333333,
+        "rank": 12
+      },
+      "delta_shuffle": 0.11673837206119382,
+      "delta_inst_vs_rq": -0.1953549033936423
+    },
+    {
+      "task_id": "fallback_behaviors",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.2387822686776234,
+        "lex": 0.22727272727272727,
+        "mrr": 0.5,
+        "rank": 2
+      },
+      "instruction": {
+        "R_avail": 0.11169581984832638,
+        "lex": 0.22727272727272727,
+        "mrr": 0.5,
+        "rank": 2
+      },
+      "instruction_gt": {
+        "R_avail": 0.15453592141194383,
+        "lex": 0.5,
+        "mrr": 0.2,
+        "rank": 5
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.12183143908967345,
+        "lex": 0.22727272727272727,
+        "mrr": 0.5,
+        "rank": 2
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.04017899148868369,
+        "lex": 0.09090909090909091,
+        "mrr": 0.03333333333333333,
+        "rank": 30
+      },
+      "delta_shuffle": 0.0715168283596427,
+      "delta_inst_vs_rq": -0.127086448829297
+    },
+    {
+      "task_id": "fractal_complexity_of_language",
+      "dataset_source": "Pick a small subset of GAGLE dataset named processed_data.jsonl in /data/gagle folder\nhttps://huggingface.co/datasets/ibomohsin/gagle",
+      "RQ": {
+        "R_avail": 0.46931615972658985,
+        "lex": 0.45,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.27591007252021105,
+        "lex": 0.65,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.22018572221068095,
+        "lex": 0.7,
+        "mrr": 0.2,
+        "rank": 5
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.2979440390598197,
+        "lex": 0.65,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.039102609312569384,
+        "lex": 0.1,
+        "mrr": 0.03125,
+        "rank": 32
+      },
+      "delta_shuffle": 0.23680746320764168,
+      "delta_inst_vs_rq": -0.1934060872063788
+    },
+    {
+      "task_id": "hallucination_awareness",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.5934433619633035,
+        "lex": 0.5,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.2632562055115571,
+        "lex": 0.6111111111111112,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.21707862677681772,
+        "lex": 0.7222222222222222,
+        "mrr": 0.3333333333333333,
+        "rank": 3
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.28544228238093583,
+        "lex": 0.6111111111111112,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.06457105272702963,
+        "lex": 0.16666666666666666,
+        "mrr": 0.07142857142857142,
+        "rank": 14
+      },
+      "delta_shuffle": 0.19868515278452747,
+      "delta_inst_vs_rq": -0.3301871564517464
+    },
+    {
+      "task_id": "hallucination_snowballing",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.30734434691018686,
+        "lex": 0.25925925925925924,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.24731661848582756,
+        "lex": 0.5185185185185185,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.19240547546300216,
+        "lex": 0.5925925925925926,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.25944408127035185,
+        "lex": 0.5185185185185185,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.07119285556974982,
+        "lex": 0.14814814814814814,
+        "mrr": 0.08333333333333333,
+        "rank": 12
+      },
+      "delta_shuffle": 0.17612376291607773,
+      "delta_inst_vs_rq": -0.0600277284243593
+    },
+    {
+      "task_id": "hallusionbench_illusion",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.6178893417747464,
+        "lex": 0.6666666666666666,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.298498286343235,
+        "lex": 0.7142857142857143,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": null,
+      "RQ_plus_instruction": {
+        "R_avail": 0.31930107291980775,
+        "lex": 0.7142857142857143,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.1030999876082177,
+        "lex": 0.23809523809523808,
+        "mrr": 0.25,
+        "rank": 4
+      },
+      "delta_shuffle": 0.1953982987350173,
+      "delta_inst_vs_rq": -0.3193910554315114
+    },
+    {
+      "task_id": "icl_from_repetition",
+      "dataset_source": "GSM8K (grade school math word problems) from HuggingFace\nhttps://huggingface.co/datasets/openai/gsm8k",
+      "RQ": {
+        "R_avail": 0.49339138792170206,
+        "lex": 0.5,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.2822118042728754,
+        "lex": 0.5333333333333333,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.22962630903990727,
+        "lex": 0.6666666666666666,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.3178714590673346,
+        "lex": 0.5333333333333333,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.07767275426780891,
+        "lex": 0.13333333333333333,
+        "mrr": 0.0625,
+        "rank": 16
+      },
+      "delta_shuffle": 0.2045390500050665,
+      "delta_inst_vs_rq": -0.21117958364882666
+    },
+    {
+      "task_id": "introspective_learning",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.5147274202602389,
+        "lex": 0.5714285714285714,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.30411588480857044,
+        "lex": 0.5714285714285714,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": null,
+      "RQ_plus_instruction": {
+        "R_avail": 0.3313196206059179,
+        "lex": 0.5714285714285714,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.07866164142498931,
+        "lex": 0.14285714285714285,
+        "mrr": 0.07142857142857142,
+        "rank": 14
+      },
+      "delta_shuffle": 0.2254542433835811,
+      "delta_inst_vs_rq": -0.21061153545166844
+    },
+    {
+      "task_id": "lifebench_length_following",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.23146633779137724,
+        "lex": 0.16666666666666666,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.17899746402119182,
+        "lex": 0.3,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.18315000576206167,
+        "lex": 0.43333333333333335,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.19124384894116092,
+        "lex": 0.3,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.0731970565860639,
+        "lex": 0.13333333333333333,
+        "mrr": 0.125,
+        "rank": 8
+      },
+      "delta_shuffle": 0.10580040743512792,
+      "delta_inst_vs_rq": -0.052468873770185415
+    },
+    {
+      "task_id": "llm_confidence_elicitation",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.37023344017766696,
+        "lex": 0.4166666666666667,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.23378922654483456,
+        "lex": 0.4166666666666667,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.15087200655277497,
+        "lex": 0.4583333333333333,
+        "mrr": 0.16666666666666666,
+        "rank": 6
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.2561249721344898,
+        "lex": 0.4166666666666667,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.034984650693906064,
+        "lex": 0.041666666666666664,
+        "mrr": 0.1,
+        "rank": 10
+      },
+      "delta_shuffle": 0.19880457585092848,
+      "delta_inst_vs_rq": -0.1364442136328324
+    },
+    {
+      "task_id": "llm_racial_bias_in_medicine",
+      "dataset_source": "Extract a subset of PMC patients from https://huggingface.co/datasets/zhengyun21/PMC-Patients, at benchmark/papers/medical_bias/data/PMC-Patients_subset100.json",
+      "RQ": null,
+      "instruction": {
+        "R_avail": 0.16300648840973156,
+        "lex": 0.41935483870967744,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.172204626347142,
+        "lex": 0.5161290322580645,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.16300648840973156,
+        "lex": 0.41935483870967744,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.0397477094218419,
+        "lex": 0.06451612903225806,
+        "mrr": 0.05555555555555555,
+        "rank": 18
+      },
+      "delta_shuffle": 0.12325877898788966
+    },
+    {
+      "task_id": "llm_value_consistency",
+      "dataset_source": "57-item Portrait Value Questionnaire\u2014Revised (PVQ-RR), downloaded as a Word document\nhttps://scholarworks.gvsu.edu/orpc/vol2/iss2/9/",
+      "RQ": {
+        "R_avail": 0.6008227577446732,
+        "lex": 0.65,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.2868160924491045,
+        "lex": 0.75,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.2562766942089307,
+        "lex": 0.75,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.3037900893071691,
+        "lex": 0.75,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.13128213384208556,
+        "lex": 0.4,
+        "mrr": 0.05,
+        "rank": 20
+      },
+      "delta_shuffle": 0.15553395860701894,
+      "delta_inst_vs_rq": -0.3140066652955687
+    },
+    {
+      "task_id": "llms_assume_rationality",
+      "dataset_source": "",
+      "RQ": null,
+      "instruction": {
+        "R_avail": 0.12043850168108838,
+        "lex": 0.2413793103448276,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.1670479924574536,
+        "lex": 0.4827586206896552,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.12043850168108838,
+        "lex": 0.2413793103448276,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.04081846133058221,
+        "lex": 0.10344827586206896,
+        "mrr": 0.03333333333333333,
+        "rank": 30
+      },
+      "delta_shuffle": 0.07962004035050618
+    },
+    {
+      "task_id": "llms_lack_self_correction",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.702663024366979,
+        "lex": 0.65,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.27446219309563347,
+        "lex": 0.65,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.259288461558482,
+        "lex": 0.8,
+        "mrr": 0.3333333333333333,
+        "rank": 3
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.29864769704584426,
+        "lex": 0.65,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.09139248799741358,
+        "lex": 0.2,
+        "mrr": 0.1,
+        "rank": 10
+      },
+      "delta_shuffle": 0.1830697050982199,
+      "delta_inst_vs_rq": -0.42820083127134556
+    },
+    {
+      "task_id": "lost_in_the_middle",
+      "dataset_source": "Multi-document QA dataset in https://github.com/nelson-liu/lost-in-the-middle",
+      "RQ": {
+        "R_avail": 0.4737472677580985,
+        "lex": 0.4117647058823529,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.17220752482883625,
+        "lex": 0.47058823529411764,
+        "mrr": 0.3333333333333333,
+        "rank": 3
+      },
+      "instruction_gt": {
+        "R_avail": 0.16081125079543107,
+        "lex": 0.5294117647058824,
+        "mrr": 0.125,
+        "rank": 8
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.1901694225578159,
+        "lex": 0.47058823529411764,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.07907654021298224,
+        "lex": 0.17647058823529413,
+        "mrr": 0.09090909090909091,
+        "rank": 11
+      },
+      "delta_shuffle": 0.093130984615854,
+      "delta_inst_vs_rq": -0.3015397429292622
+    },
+    {
+      "task_id": "mathvista_visual_math",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.2409088488683818,
+        "lex": 0.25,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.1433981712687026,
+        "lex": 0.4,
+        "mrr": 0.14285714285714285,
+        "rank": 7
+      },
+      "instruction_gt": null,
+      "RQ_plus_instruction": {
+        "R_avail": 0.1508293537159177,
+        "lex": 0.4,
+        "mrr": 0.2,
+        "rank": 5
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.08937419077092383,
+        "lex": 0.25,
+        "mrr": 0.07142857142857142,
+        "rank": 14
+      },
+      "delta_shuffle": 0.054023980497778776,
+      "delta_inst_vs_rq": -0.09751067759967919
+    },
+    {
+      "task_id": "mcq_selection_bias",
+      "dataset_source": "MMLU from HuggingFace\nhttps://huggingface.co/datasets/cais/mmlu",
+      "RQ": {
+        "R_avail": 0.3224485638234966,
+        "lex": 0.3225806451612903,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.18228510054044858,
+        "lex": 0.3225806451612903,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.22822961105184852,
+        "lex": 0.6451612903225806,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.19665314348908167,
+        "lex": 0.3225806451612903,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.053304857411310025,
+        "lex": 0.0967741935483871,
+        "mrr": 0.038461538461538464,
+        "rank": 26
+      },
+      "delta_shuffle": 0.12898024312913856,
+      "delta_inst_vs_rq": -0.14016346328304805
+    },
+    {
+      "task_id": "object_hallucination_pope",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.5663214466075892,
+        "lex": 0.5263157894736842,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.3167242719049653,
+        "lex": 0.7368421052631579,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": null,
+      "RQ_plus_instruction": {
+        "R_avail": 0.3339351223531436,
+        "lex": 0.7368421052631579,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.05523203712426247,
+        "lex": 0.15789473684210525,
+        "mrr": 0.02857142857142857,
+        "rank": 35
+      },
+      "delta_shuffle": 0.2614922347807028,
+      "delta_inst_vs_rq": -0.24959717470262388
+    },
+    {
+      "task_id": "persona_reasoning_biases",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.5179220606679633,
+        "lex": 0.5833333333333334,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.26113826550809627,
+        "lex": 0.5833333333333334,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.21801114863020754,
+        "lex": 0.6666666666666666,
+        "mrr": 0.5,
+        "rank": 2
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.29613259912981976,
+        "lex": 0.5833333333333334,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.03982259570494864,
+        "lex": 0.08333333333333333,
+        "mrr": 0.04,
+        "rank": 25
+      },
+      "delta_shuffle": 0.22131566980314762,
+      "delta_inst_vs_rq": -0.25678379515986705
+    },
+    {
+      "task_id": "persona_with_catch",
+      "dataset_source": "",
+      "RQ": null,
+      "instruction": {
+        "R_avail": 0.19970031213035053,
+        "lex": 0.37037037037037035,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.1880906970512764,
+        "lex": 0.4444444444444444,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.19970031213035053,
+        "lex": 0.37037037037037035,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.0,
+        "lex": 0.0,
+        "mrr": 0.029411764705882353,
+        "rank": 34
+      },
+      "delta_shuffle": 0.19970031213035053
+    },
+    {
+      "task_id": "premise_order_effects",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.25087986751730124,
+        "lex": 0.2,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.23953919888442143,
+        "lex": 0.48,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.24990814345823142,
+        "lex": 0.68,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.2503656558222912,
+        "lex": 0.48,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.07835733172870338,
+        "lex": 0.16,
+        "mrr": 0.125,
+        "rank": 8
+      },
+      "delta_shuffle": 0.16118186715571806,
+      "delta_inst_vs_rq": -0.011340668632879802
+    },
+    {
+      "task_id": "prompt_formatting_sensitivity",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.44217965758199945,
+        "lex": 0.41935483870967744,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.2873115633129669,
+        "lex": 0.4838709677419355,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.22021703246340668,
+        "lex": 0.6451612903225806,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.30964848442004506,
+        "lex": 0.4838709677419355,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.1005931161311206,
+        "lex": 0.16129032258064516,
+        "mrr": 0.16666666666666666,
+        "rank": 6
+      },
+      "delta_shuffle": 0.18671844718184633,
+      "delta_inst_vs_rq": -0.15486809426903253
+    },
+    {
+      "task_id": "questbench",
+      "dataset_source": "",
+      "RQ": null,
+      "instruction": {
+        "R_avail": 0.34781609621625914,
+        "lex": 0.6129032258064516,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.23374247236897233,
+        "lex": 0.6451612903225806,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.34781609621625914,
+        "lex": 0.6129032258064516,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.0695044785757771,
+        "lex": 0.12903225806451613,
+        "mrr": 0.1,
+        "rank": 10
+      },
+      "delta_shuffle": 0.27831161764048207
+    },
+    {
+      "task_id": "seca_hallucination",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 1.0,
+        "lex": 1.0,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.3849559519146088,
+        "lex": 1.0,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.2955170760821462,
+        "lex": 1.0,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.4211554271617841,
+        "lex": 1.0,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.08448391292738122,
+        "lex": 0.23076923076923078,
+        "mrr": 0.045454545454545456,
+        "rank": 22
+      },
+      "delta_shuffle": 0.3004720389872276,
+      "delta_inst_vs_rq": -0.6150440480853911
+    },
+    {
+      "task_id": "space_time_representations",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.45198681339534474,
+        "lex": 0.47619047619047616,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.25640687983388555,
+        "lex": 0.47619047619047616,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.19007293827261068,
+        "lex": 0.6190476190476191,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.2844989671060792,
+        "lex": 0.47619047619047616,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.08378401203339107,
+        "lex": 0.14285714285714285,
+        "mrr": 0.0625,
+        "rank": 16
+      },
+      "delta_shuffle": 0.17262286780049446,
+      "delta_inst_vs_rq": -0.1955799335614592
+    },
+    {
+      "task_id": "to_cot_or_not_to_cot",
+      "dataset_source": "",
+      "RQ": null,
+      "instruction": {
+        "R_avail": 0.19448067037322364,
+        "lex": 0.5,
+        "mrr": 0.5,
+        "rank": 2
+      },
+      "instruction_gt": {
+        "R_avail": 0.18757238756145625,
+        "lex": 0.5833333333333334,
+        "mrr": 0.2,
+        "rank": 5
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.19448067037322364,
+        "lex": 0.5,
+        "mrr": 0.5,
+        "rank": 2
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.03246113975237116,
+        "lex": 0.08333333333333333,
+        "mrr": 0.029411764705882353,
+        "rank": 34
+      },
+      "delta_shuffle": 0.16201953062085248
+    },
+    {
+      "task_id": "uncertainty_in_instruction_following",
+      "dataset_source": "https://github.com/apple/ml-uncertainty-llms-instruction-following",
+      "RQ": {
+        "R_avail": 0.2904910678102305,
+        "lex": 0.25925925925925924,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.1845128091514024,
+        "lex": 0.4074074074074074,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": {
+        "R_avail": 0.17624117805537995,
+        "lex": 0.48148148148148145,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "RQ_plus_instruction": {
+        "R_avail": 0.19702020073010448,
+        "lex": 0.4074074074074074,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.09411226979682771,
+        "lex": 0.2222222222222222,
+        "mrr": 0.1,
+        "rank": 10
+      },
+      "delta_shuffle": 0.09040053935457468,
+      "delta_inst_vs_rq": -0.1059782586588281
+    },
+    {
+      "task_id": "vlms_are_blind",
+      "dataset_source": "",
+      "RQ": {
+        "R_avail": 0.8602244175242318,
+        "lex": 0.8181818181818182,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction": {
+        "R_avail": 0.3434777327743232,
+        "lex": 0.8636363636363636,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "instruction_gt": null,
+      "RQ_plus_instruction": {
+        "R_avail": 0.37275012267891355,
+        "lex": 0.8636363636363636,
+        "mrr": 1.0,
+        "rank": 1
+      },
+      "shuffled_instruction": {
+        "R_avail": 0.0506744284708108,
+        "lex": 0.13636363636363635,
+        "mrr": 0.041666666666666664,
+        "rank": 24
+      },
+      "delta_shuffle": 0.2928033043035124,
+      "delta_inst_vs_rq": -0.5167466847499087
+    }
+  ],
+  "claim_ceiling": "FIRE-Bench rediscovery tasks; instruction may include experimental scaffolding. Not multi-agent system scores; endpoint is paper conclusion text."
+}

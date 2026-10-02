@@ -1,0 +1,73 @@
+{
+  "protocol": "P003 extraction-fail and low-R taxonomy",
+  "seed": 20260731,
+  "hard_fail": {
+    "n": 7,
+    "modes": {
+      "chrome_only": 1,
+      "checklist_form": 1,
+      "prompt_residue": 3,
+      "references_block": 2
+    },
+    "rows": [
+      {
+        "item_id": "arxiv:2311.07361",
+        "mode": "chrome_only",
+        "title": "The Impact of Large Language Models on Scientific Discovery: a Preliminary Study using GPT-4",
+        "head": "conclusion. \u25c4 Feeling lucky? Conversion report Report an issue View&nbsp;original on&nbsp;arXiv \u25ba Copyright Privacy Policy Generated on Tue Feb 27 19:41:49 2024"
+      },
+      {
+        "item_id": "arxiv:2410.24198",
+        "mode": "checklist_form",
+        "title": "SelfCodeAlign: Self-Alignment for Code Generation",
+        "head": "conclusions of the paper (regardless of whether the code and data are provided or not)? Answer: [Yes] Justification: In addition to the general technique in Sec"
+      },
+      {
+        "item_id": "arxiv:2412.17596",
+        "mode": "prompt_residue",
+        "title": "Evaluating LLMs' Divergent Thinking Capabilities for Scientific Idea Generation with Minimal Context",
+        "head": "conclusion, we appended a directive to the original prompt, explicitly instructing the model to provide its final answer after the marker \"Final Idea:\" . This e"
+      },
+      {
+        "item_id": "arxiv:2501.07542",
+        "mode": "prompt_residue",
+        "title": "Imagine while Reasoning in Space: Multimodal Visualization-of-Thought",
+        "head": "Conclusion\u2019, \u2018Reasoning\u2019 and \u2018Action\u2019, or 2) to onclude the answer when \u2018previous observation aligns with one of the options\u2019 or \u2018all the actions are completed\u2019"
+      },
+      {
+        "item_id": "arxiv:2502.02561",
+        "mode": "references_block",
+        "title": "Decision Theoretic Foundations for Conformal Prediction: Optimal Uncertainty Quantification for Risk-Averse Agents",
+        "head": "discussions. References Angelopoulos et al., (2020) Angelopoulos, A., Bates, S., Malik, J., and Jordan, M. I. (2020). Uncertainty sets for image classifiers usi"
+      },
+      {
+        "item_id": "arxiv:2504.12371",
+        "mode": "references_block",
+        "title": "Geometry of soft scalars at one loop",
+        "head": "discussions and Julio Parra-Martinez for comments on the manuscript. TC is supported by the U.S. Department of Energy Grant No. DE-SC0011640. FN and IP are part"
+      },
+      {
+        "item_id": "arxiv:2503.13657",
+        "mode": "prompt_residue",
+        "title": "Why Do Multi-Agent LLM Systems Fail?",
+        "head": "conclusion , which approves the accuracy of our solution . Great team work , Agents . [ Agent Verifier ] SOLUTION_FOUND \\\\ boxed {17} Appendix F ChatDev Prompt "
+      }
+    ],
+    "retention": "retained in primary N=86 as quality flags (N001)",
+    "mode_defs": {
+      "chrome_only": "ar5iv footer/chrome with no usable body",
+      "checklist_form": "checklist/justification form text not a conclusion",
+      "prompt_residue": "prompt/instruction residue rather than endpoint prose",
+      "references_block": "references/acknowledgements rather than conclusion",
+      "too_short_body": "stripped body too short",
+      "other_non_conclusion": "other non-endpoint extraction"
+    }
+  },
+  "low_R_S3_tertile": {
+    "modes": {
+      "diffuse_long_target": 23,
+      "extract_hard_fail": 5
+    },
+    "note": "Bottom third of disclosure items by S3 R_avail when per-item ledger available"
+  }
+}

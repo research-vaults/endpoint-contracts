@@ -1,0 +1,16 @@
+{
+  "protocol": "contract-checks-v1",
+  "seed": 20260928,
+  "bootstrap": 5000,
+  "status": "retrospective exploratory",
+  "inputs": {
+    "data/disclosure_pilot/items.jsonl": "870d7b3210d7c114a878eafc487d1f8c19912cfe579ce6e856f45045ef98184f",
+    "data/firebench/tasks.jsonl": "35e6807e3fc2e8f20d2dd649dd75ffcecb4187441164961f03af86cd4999c9b1",
+    "results/embedding_cache.jsonl": "4df47349de6173a2899d10f96350a4c29b6fbd0e542d7db37c6cf586f263930c",
+    "results/openrouter_panel/panel_rows.json": "bbac9d9aa7a85f4a6739678f51c52697e14ad21a2beb9ac6c2346dc6a51ac5b0",
+    "results/evidence_interventions.json": "6e6757dc833b739f23160f3bd9edb1d74cb2fd352b8836c38598b074ab0ddcbc",
+    "results/oracle_closure.json": "066f6153678e2a916c346129b54d5eb2b1f1c1f188aea3eb40add9dc9d7334a0"
+  },
+  "script_sha256": "1542cf76967c61276b866d2d304e67db8ba215a50d48122e7fdf2eba8b67b38d",
+  "numpy": "2.4.6"
+}

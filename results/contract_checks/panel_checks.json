@@ -1,0 +1,1196 @@
+{
+  "four_models": {
+    "n": 12,
+    "models": [
+      "google/gemma-3-4b-it",
+      "meta-llama/llama-3.2-3b-instruct",
+      "openai/gpt-4o-mini",
+      "qwen/qwen-2.5-7b-instruct"
+    ],
+    "stages": {
+      "S0_topic": {
+        "means": {
+          "google/gemma-3-4b-it": {
+            "n": 12,
+            "mean": 0.03634661257977651,
+            "ci95": [
+              0.02730063519924369,
+              0.04537553185186349
+            ],
+            "positive_fraction": 1.0
+          },
+          "meta-llama/llama-3.2-3b-instruct": {
+            "n": 12,
+            "mean": 0.030556440662722565,
+            "ci95": [
+              0.02421543866830719,
+              0.036675594687367426
+            ],
+            "positive_fraction": 1.0
+          },
+          "openai/gpt-4o-mini": {
+            "n": 12,
+            "mean": 0.02151027635065564,
+            "ci95": [
+              0.015084260483554763,
+              0.028514324772166654
+            ],
+            "positive_fraction": 1.0
+          },
+          "qwen/qwen-2.5-7b-instruct": {
+            "n": 12,
+            "mean": 0.026868326448342392,
+            "ci95": [
+              0.0205471869575893,
+              0.03325968309212268
+            ],
+            "positive_fraction": 1.0
+          }
+        },
+        "ranking": [
+          "google/gemma-3-4b-it",
+          "meta-llama/llama-3.2-3b-instruct",
+          "qwen/qwen-2.5-7b-instruct",
+          "openai/gpt-4o-mini"
+        ],
+        "top_minus_runner_up": {
+          "n": 12,
+          "mean": 0.005790171917053954,
+          "ci95": [
+            -0.003071659825166639,
+            0.015647928299841633
+          ],
+          "positive_fraction": 0.4166666666666667
+        },
+        "tied_items": 3,
+        "median_top_margin": 0.00892068978378983
+      },
+      "S3_methods_mid": {
+        "means": {
+          "google/gemma-3-4b-it": {
+            "n": 12,
+            "mean": 0.07353185977836364,
+            "ci95": [
+              0.058753284320803054,
+              0.08981775336704449
+            ],
+            "positive_fraction": 1.0
+          },
+          "meta-llama/llama-3.2-3b-instruct": {
+            "n": 12,
+            "mean": 0.07693621105305491,
+            "ci95": [
+              0.060450723388468,
+              0.09534649699344533
+            ],
+            "positive_fraction": 1.0
+          },
+          "openai/gpt-4o-mini": {
+            "n": 12,
+            "mean": 0.07570884403977572,
+            "ci95": [
+              0.05840210855166404,
+              0.09341321654714733
+            ],
+            "positive_fraction": 1.0
+          },
+          "qwen/qwen-2.5-7b-instruct": {
+            "n": 12,
+            "mean": 0.08015264137608999,
+            "ci95": [
+              0.06627060721452914,
+              0.09446337447913218
+            ],
+            "positive_fraction": 1.0
+          }
+        },
+        "ranking": [
+          "qwen/qwen-2.5-7b-instruct",
+          "meta-llama/llama-3.2-3b-instruct",
+          "openai/gpt-4o-mini",
+          "google/gemma-3-4b-it"
+        ],
+        "top_minus_runner_up": {
+          "n": 12,
+          "mean": 0.003216430323035074,
+          "ci95": [
+            -0.01183807505231081,
+            0.018524796149272216
+          ],
+          "positive_fraction": 0.5833333333333334
+        },
+        "tied_items": 4,
+        "median_top_margin": 0.005312240950538824
+      }
+    },
+    "margin_sensitivity": {
+      "0": {
+        "eligible": 6,
+        "flips": 5
+      },
+      "0.005": {
+        "eligible": 3,
+        "flips": 3
+      },
+      "0.01": {
+        "eligible": 2,
+        "flips": 2
+      },
+      "0.02": {
+        "eligible": 0,
+        "flips": 0
+      }
+    },
+    "rows": [
+      {
+        "item_id": "arxiv:2307.10635",
+        "winner_sets": [
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.017857142857142856,
+          0.0
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2406.06769",
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.020920502092050215,
+          0.01255230125523013
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2407.01725",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "meta-llama/llama-3.2-3b-instruct",
+            "openai/gpt-4o-mini"
+          ]
+        ],
+        "margins": [
+          0.01706484641638225,
+          0.0
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2409.11363",
+        "winner_sets": [
+          [
+            "meta-llama/llama-3.2-3b-instruct",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.0,
+          0.006079027355623101
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2410.01792",
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.03787878787878787,
+          0.011363636363636354
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2411.02429",
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it"
+          ],
+          [
+            "google/gemma-3-4b-it"
+          ]
+        ],
+        "margins": [
+          0.013636363636363641,
+          0.004545454545454547
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2412.17596",
+        "winner_sets": [
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.003717472118959106,
+          0.0
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2501.05465",
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it"
+          ],
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ]
+        ],
+        "margins": [
+          0.011152416356877318,
+          0.0037174721189591198
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2502.05151",
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it"
+          ],
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ]
+        ],
+        "margins": [
+          0.006688963210702344,
+          0.0066889632107023506
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2503.13657",
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it",
+            "meta-llama/llama-3.2-3b-instruct",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "google/gemma-3-4b-it",
+            "meta-llama/llama-3.2-3b-instruct"
+          ]
+        ],
+        "margins": [
+          0.0,
+          0.0
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2503.21248",
+        "winner_sets": [
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.0030030030030030047,
+          0.009009009009009014
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2505.13259",
+        "winner_sets": [
+          [
+            "meta-llama/llama-3.2-3b-instruct",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ]
+        ],
+        "margins": [
+          0.0,
+          0.018750000000000003
+        ],
+        "disjoint_winner_sets": false
+      }
+    ],
+    "all_pairwise_stage_contrasts": {
+      "S0_topic": {
+        "google/gemma-3-4b-it minus meta-llama/llama-3.2-3b-instruct": {
+          "n": 12,
+          "mean": 0.005790171917053954,
+          "ci95": [
+            -0.003071659825166639,
+            0.015647928299841633
+          ],
+          "positive_fraction": 0.4166666666666667
+        },
+        "google/gemma-3-4b-it minus openai/gpt-4o-mini": {
+          "n": 12,
+          "mean": 0.014836336229120874,
+          "ci95": [
+            0.008088758559146788,
+            0.022519005013497934
+          ],
+          "positive_fraction": 0.8333333333333334
+        },
+        "google/gemma-3-4b-it minus qwen/qwen-2.5-7b-instruct": {
+          "n": 12,
+          "mean": 0.009478286131434125,
+          "ci95": [
+            -0.0007231501360309074,
+            0.020915784013454758
+          ],
+          "positive_fraction": 0.5
+        },
+        "meta-llama/llama-3.2-3b-instruct minus openai/gpt-4o-mini": {
+          "n": 12,
+          "mean": 0.00904616431206692,
+          "ci95": [
+            0.002072543732142587,
+            0.01692453412198686
+          ],
+          "positive_fraction": 0.6666666666666666
+        },
+        "meta-llama/llama-3.2-3b-instruct minus qwen/qwen-2.5-7b-instruct": {
+          "n": 12,
+          "mean": 0.0036881142143801696,
+          "ci95": [
+            -0.002775786796689509,
+            0.01055107976143526
+          ],
+          "positive_fraction": 0.5
+        },
+        "openai/gpt-4o-mini minus qwen/qwen-2.5-7b-instruct": {
+          "n": 12,
+          "mean": -0.00535805009768675,
+          "ci95": [
+            -0.012635554079568803,
+            0.002122705752569231
+          ],
+          "positive_fraction": 0.3333333333333333
+        }
+      },
+      "S3_methods_mid": {
+        "google/gemma-3-4b-it minus meta-llama/llama-3.2-3b-instruct": {
+          "n": 12,
+          "mean": -0.003404351274691277,
+          "ci95": [
+            -0.015579404143297485,
+            0.00866510630770714
+          ],
+          "positive_fraction": 0.3333333333333333
+        },
+        "google/gemma-3-4b-it minus openai/gpt-4o-mini": {
+          "n": 12,
+          "mean": -0.0021769842614120937,
+          "ci95": [
+            -0.013219199166227656,
+            0.008920382516687095
+          ],
+          "positive_fraction": 0.4166666666666667
+        },
+        "google/gemma-3-4b-it minus qwen/qwen-2.5-7b-instruct": {
+          "n": 12,
+          "mean": -0.006620781597726351,
+          "ci95": [
+            -0.017659639416993687,
+            0.006293320103612909
+          ],
+          "positive_fraction": 0.3333333333333333
+        },
+        "meta-llama/llama-3.2-3b-instruct minus openai/gpt-4o-mini": {
+          "n": 12,
+          "mean": 0.0012273670132791833,
+          "ci95": [
+            -0.013100409111187905,
+            0.018159284828551208
+          ],
+          "positive_fraction": 0.5
+        },
+        "meta-llama/llama-3.2-3b-instruct minus qwen/qwen-2.5-7b-instruct": {
+          "n": 12,
+          "mean": -0.003216430323035074,
+          "ci95": [
+            -0.018524796149272223,
+            0.011838075052310808
+          ],
+          "positive_fraction": 0.4166666666666667
+        },
+        "openai/gpt-4o-mini minus qwen/qwen-2.5-7b-instruct": {
+          "n": 12,
+          "mean": -0.004443797336314257,
+          "ci95": [
+            -0.01716950470976985,
+            0.0073227753175150795
+          ],
+          "positive_fraction": 0.25
+        }
+      }
+    }
+  },
+  "gpt_qwen": {
+    "n": 20,
+    "models": [
+      "openai/gpt-4o-mini",
+      "qwen/qwen-2.5-7b-instruct"
+    ],
+    "stages": {
+      "S0_topic": {
+        "means": {
+          "openai/gpt-4o-mini": {
+            "n": 20,
+            "mean": 0.0199816542208232,
+            "ci95": [
+              0.013954441394473377,
+              0.02617018165323726
+            ],
+            "positive_fraction": 0.9
+          },
+          "qwen/qwen-2.5-7b-instruct": {
+            "n": 20,
+            "mean": 0.026815826298296923,
+            "ci95": [
+              0.0183286899573306,
+              0.03668088163007817
+            ],
+            "positive_fraction": 0.85
+          }
+        },
+        "ranking": [
+          "qwen/qwen-2.5-7b-instruct",
+          "openai/gpt-4o-mini"
+        ],
+        "top_minus_runner_up": {
+          "n": 20,
+          "mean": 0.006834172077473717,
+          "ci95": [
+            0.00013440578842101986,
+            0.01402050722984682
+          ],
+          "positive_fraction": 0.6
+        },
+        "tied_items": 3,
+        "median_top_margin": 0.010969103360407708
+      },
+      "S3_methods_mid": {
+        "means": {
+          "openai/gpt-4o-mini": {
+            "n": 20,
+            "mean": 0.07175884940695912,
+            "ci95": [
+              0.05416039979303468,
+              0.08876994659916228
+            ],
+            "positive_fraction": 0.9
+          },
+          "qwen/qwen-2.5-7b-instruct": {
+            "n": 20,
+            "mean": 0.07318381366948747,
+            "ci95": [
+              0.057709209161030235,
+              0.08728810352457884
+            ],
+            "positive_fraction": 0.9
+          }
+        },
+        "ranking": [
+          "qwen/qwen-2.5-7b-instruct",
+          "openai/gpt-4o-mini"
+        ],
+        "top_minus_runner_up": {
+          "n": 20,
+          "mean": 0.0014249642625283308,
+          "ci95": [
+            -0.0076054690921714884,
+            0.01078901601279617
+          ],
+          "positive_fraction": 0.45
+        },
+        "tied_items": 5,
+        "median_top_margin": 0.010393066494048253
+      }
+    },
+    "margin_sensitivity": {
+      "0": {
+        "eligible": 14,
+        "flips": 7
+      },
+      "0.005": {
+        "eligible": 11,
+        "flips": 7
+      },
+      "0.01": {
+        "eligible": 7,
+        "flips": 5
+      },
+      "0.02": {
+        "eligible": 2,
+        "flips": 2
+      }
+    },
+    "rows": [
+      {
+        "item_id": "arxiv:2307.10635",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.011904761904761904,
+          0.0
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2311.07361",
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.0,
+          0.0
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2402.14034",
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.0,
+          0.0
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2406.04598",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.006006006006006008,
+          0.009009009009009014
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2406.06769",
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.008368200836820083,
+          0.01255230125523013
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2407.01725",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini"
+          ]
+        ],
+        "margins": [
+          0.02389078498293515,
+          0.020477815699658702
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2409.05591",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini"
+          ]
+        ],
+        "margins": [
+          0.012195121951219511,
+          0.007317073170731707
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2409.11363",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.006079027355623099,
+          0.006079027355623101
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2410.01792",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.003787878787878788,
+          0.018939393939393936
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2410.19810",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini"
+          ]
+        ],
+        "margins": [
+          0.05384615384615385,
+          0.04230769230769231
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2411.02429",
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.01818181818181818,
+          0.01818181818181818
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2412.17596",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.01858736059479554,
+          0.0
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2501.05465",
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini"
+          ],
+          [
+            "openai/gpt-4o-mini"
+          ]
+        ],
+        "margins": [
+          0.003717472118959113,
+          0.03717472118959107
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2501.09686",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini"
+          ]
+        ],
+        "margins": [
+          0.016129032258064516,
+          0.010752688172043001
+        ],
+        "disjoint_winner_sets": true
+      },
+      {
+        "item_id": "arxiv:2501.12948",
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.0,
+          0.010752688172043015
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2502.05151",
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini"
+          ],
+          [
+            "openai/gpt-4o-mini"
+          ]
+        ],
+        "margins": [
+          0.010033444816053512,
+          0.010033444816053505
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2503.13657",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.024844720496894408,
+          0.0
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2503.21248",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.0030030030030030012,
+          0.009009009009009014
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2505.13259",
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.0125,
+          0.05625
+        ],
+        "disjoint_winner_sets": false
+      },
+      {
+        "item_id": "arxiv:2506.12345",
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ],
+        "margins": [
+          0.015789473684210527,
+          0.01578947368421052
+        ],
+        "disjoint_winner_sets": true
+      }
+    ],
+    "all_pairwise_stage_contrasts": {
+      "S0_topic": {
+        "openai/gpt-4o-mini minus qwen/qwen-2.5-7b-instruct": {
+          "n": 20,
+          "mean": -0.006834172077473717,
+          "ci95": [
+            -0.014020507229846824,
+            -0.00013440578842102116
+          ],
+          "positive_fraction": 0.25
+        }
+      },
+      "S3_methods_mid": {
+        "openai/gpt-4o-mini minus qwen/qwen-2.5-7b-instruct": {
+          "n": 20,
+          "mean": -0.0014249642625283308,
+          "ci95": [
+            -0.010789016012796172,
+            0.007605469092171482
+          ],
+          "positive_fraction": 0.3
+        }
+      }
+    }
+  },
+  "historical_heterogeneous": {
+    "n": 20,
+    "original_flips": 13,
+    "tie_aware_flips": 12,
+    "rows": [
+      {
+        "item_id": "arxiv:2307.10635",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2311.07361",
+        "original_flip": false,
+        "disjoint_winner_sets": false,
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2402.14034",
+        "original_flip": false,
+        "disjoint_winner_sets": false,
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2406.04598",
+        "original_flip": false,
+        "disjoint_winner_sets": false,
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2406.06769",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2407.01725",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "meta-llama/llama-3.2-3b-instruct",
+            "openai/gpt-4o-mini"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2409.05591",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2409.11363",
+        "original_flip": true,
+        "disjoint_winner_sets": false,
+        "winner_sets": [
+          [
+            "meta-llama/llama-3.2-3b-instruct",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2410.01792",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2410.19810",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2411.02429",
+        "original_flip": false,
+        "disjoint_winner_sets": false,
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it"
+          ],
+          [
+            "google/gemma-3-4b-it"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2412.17596",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2501.05465",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it"
+          ],
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2501.09686",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "openai/gpt-4o-mini"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2501.12948",
+        "original_flip": false,
+        "disjoint_winner_sets": false,
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2502.05151",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it"
+          ],
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2503.13657",
+        "original_flip": false,
+        "disjoint_winner_sets": false,
+        "winner_sets": [
+          [
+            "google/gemma-3-4b-it",
+            "meta-llama/llama-3.2-3b-instruct",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "google/gemma-3-4b-it",
+            "meta-llama/llama-3.2-3b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2503.21248",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2505.13259",
+        "original_flip": false,
+        "disjoint_winner_sets": false,
+        "winner_sets": [
+          [
+            "meta-llama/llama-3.2-3b-instruct",
+            "qwen/qwen-2.5-7b-instruct"
+          ],
+          [
+            "meta-llama/llama-3.2-3b-instruct"
+          ]
+        ]
+      },
+      {
+        "item_id": "arxiv:2506.12345",
+        "original_flip": true,
+        "disjoint_winner_sets": true,
+        "winner_sets": [
+          [
+            "openai/gpt-4o-mini"
+          ],
+          [
+            "qwen/qwen-2.5-7b-instruct"
+          ]
+        ]
+      }
+    ]
+  }
+}

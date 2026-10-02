@@ -1,0 +1,4474 @@
+[
+  {
+    "item_id": "arxiv:2503.21248",
+    "title": "ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition",
+    "S0_topic": {
+      "R_availability": 0.006088913542101303,
+      "R_identifiability": 0.017241379310344827,
+      "R_composite": 0.011665146426223065,
+      "lexical_coverage": 0.003003003003003003,
+      "id_rank": 58
+    },
+    "S1_abstract": {
+      "R_availability": 0.15918347557339185,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5795917377866959,
+      "lexical_coverage": 0.11711711711711711,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.24355032810868738,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6217751640543436,
+      "lexical_coverage": 0.2132132132132132,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2406522515151472,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6203261257575736,
+      "lexical_coverage": 0.23723723723723725,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2850239623257007,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6425119811628504,
+      "lexical_coverage": 0.32432432432432434,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.11215359618125864,
+      "R_composite": 0.07220583034869384,
+      "id_rank": 31,
+      "paired_item": "arxiv:2411.02429"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.15918347557339185,
+      "hard_R_avail": 0.11375452992416102,
+      "true_rank": 1,
+      "hard_item": "arxiv:2605.30284",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "title": "IdeaBench: Benchmarking Large Language Models for Research Idea Generation",
+    "S0_topic": {
+      "R_availability": 0.009405918884835952,
+      "R_identifiability": 0.017241379310344827,
+      "R_composite": 0.01332364909759039,
+      "lexical_coverage": 0.00909090909090909,
+      "id_rank": 58
+    },
+    "S1_abstract": {
+      "R_availability": 0.09378532203733561,
+      "R_identifiability": 0.25,
+      "R_composite": 0.1718926610186678,
+      "lexical_coverage": 0.07727272727272727,
+      "id_rank": 4
+    },
+    "S2_intro": {
+      "R_availability": 0.10133519173732275,
+      "R_identifiability": 0.02702702702702703,
+      "R_composite": 0.06418110938217489,
+      "lexical_coverage": 0.10909090909090909,
+      "id_rank": 37
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.14241220775346564,
+      "R_identifiability": 0.25,
+      "R_composite": 0.19620610387673282,
+      "lexical_coverage": 0.17727272727272728,
+      "id_rank": 4
+    },
+    "S4_body": {
+      "R_availability": 0.1197607364120647,
+      "R_identifiability": 0.027777777777777776,
+      "R_composite": 0.07376925709492124,
+      "lexical_coverage": 0.16818181818181818,
+      "id_rank": 36
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.18296011402632242,
+      "R_composite": 0.2581467236798279,
+      "id_rank": 3,
+      "paired_item": "arxiv:2502.05151"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.09378532203733561,
+      "hard_R_avail": 0.13217211751206367,
+      "true_rank": 4,
+      "hard_item": "arxiv:2503.21248",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "title": "CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark",
+    "S0_topic": {
+      "R_availability": 0.034351931059157445,
+      "R_identifiability": 0.08333333333333333,
+      "R_composite": 0.05884263219624539,
+      "lexical_coverage": 0.00911854103343465,
+      "id_rank": 12
+    },
+    "S1_abstract": {
+      "R_availability": 0.1453082793644736,
+      "R_identifiability": 0.25,
+      "R_composite": 0.1976541396822368,
+      "lexical_coverage": 0.11550151975683891,
+      "id_rank": 4
+    },
+    "S2_intro": {
+      "R_availability": 0.17072419320542376,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5853620966027119,
+      "lexical_coverage": 0.1519756838905775,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.19036950516169016,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5951847525808451,
+      "lexical_coverage": 0.1945288753799392,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.21582930798033745,
+      "R_identifiability": 0.5,
+      "R_composite": 0.35791465399016875,
+      "lexical_coverage": 0.24012158054711247,
+      "id_rank": 2
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.18377453163653848,
+      "R_composite": 0.19188726581826926,
+      "id_rank": 5,
+      "paired_item": "arxiv:2407.01725"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1453082793644736,
+      "hard_R_avail": 0.12847285446656223,
+      "true_rank": 4,
+      "hard_item": "arxiv:2407.07061",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "title": "Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation",
+    "S0_topic": {
+      "R_availability": 0.020754505779517055,
+      "R_identifiability": 0.025,
+      "R_composite": 0.022877252889758528,
+      "lexical_coverage": 0.013377926421404682,
+      "id_rank": 40
+    },
+    "S1_abstract": {
+      "R_availability": 0.1466780854039009,
+      "R_identifiability": 0.5,
+      "R_composite": 0.32333904270195046,
+      "lexical_coverage": 0.13043478260869565,
+      "id_rank": 2
+    },
+    "S2_intro": {
+      "R_availability": 0.18181259310480097,
+      "R_identifiability": 0.5,
+      "R_composite": 0.34090629655240046,
+      "lexical_coverage": 0.19732441471571907,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.22395394811186115,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6119769740559305,
+      "lexical_coverage": 0.25752508361204013,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.25349596744114766,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.29341465038724046,
+      "lexical_coverage": 0.28762541806020064,
+      "id_rank": 3
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.08166534144263657,
+      "R_composite": 0.04852497841362598,
+      "id_rank": 65,
+      "paired_item": "arxiv:2412.17596"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1466780854039009,
+      "hard_R_avail": 0.12032562087709484,
+      "true_rank": 2,
+      "hard_item": "arxiv:2605.30284",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "title": "DISCOVERYWORLD: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.013888888888888888,
+      "R_composite": 0.006944444444444444,
+      "lexical_coverage": 0.0,
+      "id_rank": 72
+    },
+    "S1_abstract": {
+      "R_availability": 0.19004031193250062,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5950201559662504,
+      "lexical_coverage": 0.17573221757322174,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.21722857258719608,
+      "R_identifiability": 1.0,
+      "R_composite": 0.608614286293598,
+      "lexical_coverage": 0.2301255230125523,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.31598729422292626,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6579936471114631,
+      "lexical_coverage": 0.4602510460251046,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2754527607504343,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6377263803752171,
+      "lexical_coverage": 0.41841004184100417,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.09298571171187058,
+      "R_composite": 0.06572362508670451,
+      "id_rank": 26,
+      "paired_item": "arxiv:2503.13657"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.19004031193250062,
+      "hard_R_avail": 0.1267906433603558,
+      "true_rank": 1,
+      "hard_item": "arxiv:2605.30284",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "title": "DiscoveryBench: Towards Data-Driven Discovery with Large Language Models",
+    "S0_topic": {
+      "R_availability": 0.016020940816893654,
+      "R_identifiability": 0.023809523809523808,
+      "R_composite": 0.01991523231320873,
+      "lexical_coverage": 0.006825938566552901,
+      "id_rank": 42
+    },
+    "S1_abstract": {
+      "R_availability": 0.1076695714853264,
+      "R_identifiability": 0.16666666666666666,
+      "R_composite": 0.13716811907599652,
+      "lexical_coverage": 0.09897610921501707,
+      "id_rank": 6
+    },
+    "S2_intro": {
+      "R_availability": 0.11741046927197628,
+      "R_identifiability": 0.14285714285714285,
+      "R_composite": 0.13013380606455957,
+      "lexical_coverage": 0.1296928327645051,
+      "id_rank": 7
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.10669773729598868,
+      "R_identifiability": 0.14285714285714285,
+      "R_composite": 0.12477744007656577,
+      "lexical_coverage": 0.14675767918088736,
+      "id_rank": 7
+    },
+    "S4_body": {
+      "R_availability": 0.1174134828271266,
+      "R_identifiability": 0.1111111111111111,
+      "R_composite": 0.11426229696911885,
+      "lexical_coverage": 0.18430034129692832,
+      "id_rank": 9
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.10915091014501431,
+      "R_composite": 0.08398721977838951,
+      "id_rank": 17,
+      "paired_item": "arxiv:2501.05465"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1076695714853264,
+      "hard_R_avail": 0.11035657150930625,
+      "true_rank": 6,
+      "hard_item": "arxiv:2605.30284",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "title": "SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models",
+    "S0_topic": {
+      "R_availability": 0.02144614490621684,
+      "R_identifiability": 0.03125,
+      "R_composite": 0.02634807245310842,
+      "lexical_coverage": 0.011904761904761904,
+      "id_rank": 32
+    },
+    "S1_abstract": {
+      "R_availability": 0.09700481007278551,
+      "R_identifiability": 0.25,
+      "R_composite": 0.17350240503639275,
+      "lexical_coverage": 0.10714285714285714,
+      "id_rank": 4
+    },
+    "S2_intro": {
+      "R_availability": 0.1805719159623161,
+      "R_identifiability": 0.03225806451612903,
+      "R_composite": 0.10641499023922256,
+      "lexical_coverage": 0.24404761904761904,
+      "id_rank": 31
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.17865317305373357,
+      "R_identifiability": 0.023255813953488372,
+      "R_composite": 0.10095449350361096,
+      "lexical_coverage": 0.27380952380952384,
+      "id_rank": 43
+    },
+    "S4_body": {
+      "R_availability": 0.2251172517706444,
+      "R_identifiability": 0.03571428571428571,
+      "R_composite": 0.13041576874246505,
+      "lexical_coverage": 0.39880952380952384,
+      "id_rank": 28
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.025573164353731314,
+      "R_composite": 0.01866893511804213,
+      "id_rank": 85,
+      "paired_item": "arxiv:2311.07361"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.09700481007278551,
+      "hard_R_avail": 0.09106960705326599,
+      "true_rank": 4,
+      "hard_item": "arxiv:2503.21248",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "title": "Evaluating LLMs' Divergent Thinking Capabilities for Scientific Idea Generation with Minimal Context",
+    "S0_topic": {
+      "R_availability": 0.0043280637293278326,
+      "R_identifiability": 0.014705882352941176,
+      "R_composite": 0.009516973041134504,
+      "lexical_coverage": 0.0037174721189591076,
+      "id_rank": 68
+    },
+    "S1_abstract": {
+      "R_availability": 0.10322912460207596,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.21828122896770463,
+      "lexical_coverage": 0.08178438661710037,
+      "id_rank": 3
+    },
+    "S2_intro": {
+      "R_availability": 0.11911761205794892,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.2262254726956411,
+      "lexical_coverage": 0.12267657992565056,
+      "id_rank": 3
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.14650406753088757,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.23991870043211044,
+      "lexical_coverage": 0.18587360594795538,
+      "id_rank": 3
+    },
+    "S4_body": {
+      "R_availability": 0.12420329630863056,
+      "R_identifiability": 0.05555555555555555,
+      "R_composite": 0.08987942593209305,
+      "lexical_coverage": 0.1895910780669145,
+      "id_rank": 18
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.10083933856653995,
+      "R_composite": 0.0712530026166033,
+      "id_rank": 24,
+      "paired_item": "arxiv:2501.09686"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.10322912460207596,
+      "hard_R_avail": 0.11131460022906868,
+      "true_rank": 3,
+      "hard_item": "arxiv:2503.21248",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "title": "From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.013888888888888888,
+      "R_composite": 0.006944444444444444,
+      "lexical_coverage": 0.0,
+      "id_rank": 72
+    },
+    "S1_abstract": {
+      "R_availability": 0.03436054253493116,
+      "R_identifiability": 0.022222222222222223,
+      "R_composite": 0.028291382378576695,
+      "lexical_coverage": 0.025,
+      "id_rank": 45
+    },
+    "S2_intro": {
+      "R_availability": 0.15988484548185194,
+      "R_identifiability": 0.2,
+      "R_composite": 0.17994242274092598,
+      "lexical_coverage": 0.1875,
+      "id_rank": 5
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.3642275830709353,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6821137915354676,
+      "lexical_coverage": 0.5125,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.24231941622831632,
+      "R_identifiability": 0.5,
+      "R_composite": 0.37115970811415816,
+      "lexical_coverage": 0.35,
+      "id_rank": 2
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.14137557345664986,
+      "R_composite": 0.08854492958546778,
+      "id_rank": 28,
+      "paired_item": "arxiv:2410.19810"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.03436054253493116,
+      "hard_R_avail": 0.10398934528607162,
+      "true_rank": 45,
+      "hard_item": "arxiv:2605.30284",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "title": "Why Do Multi-Agent LLM Systems Fail?",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.0136986301369863,
+      "R_composite": 0.00684931506849315,
+      "lexical_coverage": 0.0,
+      "id_rank": 73
+    },
+    "S1_abstract": {
+      "R_availability": 0.04132893310389098,
+      "R_identifiability": 0.018518518518518517,
+      "R_composite": 0.029923725811204747,
+      "lexical_coverage": 0.06832298136645963,
+      "id_rank": 54
+    },
+    "S2_intro": {
+      "R_availability": 0.06076902588407396,
+      "R_identifiability": 0.015151515151515152,
+      "R_composite": 0.037960270517794555,
+      "lexical_coverage": 0.12422360248447205,
+      "id_rank": 66
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.1124152199212079,
+      "R_identifiability": 0.019230769230769232,
+      "R_composite": 0.06582299457598856,
+      "lexical_coverage": 0.2422360248447205,
+      "id_rank": 52
+    },
+    "S4_body": {
+      "R_availability": 0.11146960415385763,
+      "R_identifiability": 0.01639344262295082,
+      "R_composite": 0.06393152338840423,
+      "lexical_coverage": 0.2857142857142857,
+      "id_rank": 61
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.14350055838085557,
+      "R_composite": 0.11021181765196625,
+      "id_rank": 13,
+      "paired_item": "arxiv:2409.05591"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.04132893310389098,
+      "hard_R_avail": 0.08384614774483472,
+      "true_rank": 54,
+      "hard_item": "arxiv:2411.02429",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "title": "When a language model is optimized for reasoning, does it still show embers of autoregression? An analysis of OpenAI o1",
+    "S0_topic": {
+      "R_availability": 0.007040178345774869,
+      "R_identifiability": 0.017543859649122806,
+      "R_composite": 0.012292018997448837,
+      "lexical_coverage": 0.003787878787878788,
+      "id_rank": 57
+    },
+    "S1_abstract": {
+      "R_availability": 0.18583649818658127,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5929182490932906,
+      "lexical_coverage": 0.15151515151515152,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.25752205652359533,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6287610282617977,
+      "lexical_coverage": 0.25757575757575757,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2956078897558039,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6478039448779019,
+      "lexical_coverage": 0.3522727272727273,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.3008045330561029,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6504022665280514,
+      "lexical_coverage": 0.4053030303030303,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.07047665817685506,
+      "R_composite": 0.041904995755094196,
+      "id_rank": 75,
+      "paired_item": "arxiv:2412.05265"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.18583649818658127,
+      "hard_R_avail": 0.09346784481496592,
+      "true_rank": 1,
+      "hard_item": "arxiv:2412.21154",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "title": "Small Language Models (SLMs) Can Still Pack a Punch: A survey (updated 2026)",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.013333333333333334,
+      "R_composite": 0.006666666666666667,
+      "lexical_coverage": 0.0,
+      "id_rank": 75
+    },
+    "S1_abstract": {
+      "R_availability": 0.12436737251742984,
+      "R_identifiability": 1.0,
+      "R_composite": 0.562183686258715,
+      "lexical_coverage": 0.07806691449814127,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.20015867904848939,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6000793395242447,
+      "lexical_coverage": 0.20817843866171004,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.297499666454444,
+      "R_identifiability": 1.0,
+      "R_composite": 0.648749833227222,
+      "lexical_coverage": 0.4200743494423792,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2525083853009715,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6262541926504858,
+      "lexical_coverage": 0.379182156133829,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.06883860005725262,
+      "R_composite": 0.043510209119535403,
+      "id_rank": 55,
+      "paired_item": "arxiv:2504.01849"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.12436737251742984,
+      "hard_R_avail": 0.07948305016173327,
+      "true_rank": 1,
+      "hard_item": "arxiv:2412.21154",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2406.04598",
+    "title": "OCDB: Revisiting Causal Discovery with a Comprehensive Benchmark and Evaluation Framework",
+    "S0_topic": {
+      "R_availability": 0.029259907552920204,
+      "R_identifiability": 0.06666666666666667,
+      "R_composite": 0.04796328710979343,
+      "lexical_coverage": 0.006006006006006006,
+      "id_rank": 15
+    },
+    "S1_abstract": {
+      "R_availability": 0.16188496249360423,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5809424812468021,
+      "lexical_coverage": 0.1021021021021021,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.18330143065778554,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5916507153288928,
+      "lexical_coverage": 0.13813813813813813,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.1796912482835269,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5898456241417634,
+      "lexical_coverage": 0.16516516516516516,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2097763863877645,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6048881931938822,
+      "lexical_coverage": 0.2132132132132132,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.07258278799934831,
+      "R_composite": 0.04819615590443606,
+      "id_rank": 42,
+      "paired_item": "arxiv:2408.12574"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.16188496249360423,
+      "hard_R_avail": 0.06739798313649605,
+      "true_rank": 1,
+      "hard_item": "arxiv:2412.21154",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2311.07361",
+    "title": "The Impact of Large Language Models on Scientific Discovery: a Preliminary Study using GPT-4",
+    "S0_topic": {
+      "R_availability": 0.04240681815079572,
+      "R_identifiability": 0.023255813953488372,
+      "R_composite": 0.03283131605214205,
+      "lexical_coverage": 0.045454545454545456,
+      "id_rank": 43
+    },
+    "S1_abstract": {
+      "R_availability": 0.036291342068909466,
+      "R_identifiability": 0.014084507042253521,
+      "R_composite": 0.025187924555581494,
+      "lexical_coverage": 0.09090909090909091,
+      "id_rank": 71
+    },
+    "S2_intro": {
+      "R_availability": 0.033810014985068,
+      "R_identifiability": 0.0136986301369863,
+      "R_composite": 0.02375432256102715,
+      "lexical_coverage": 0.09090909090909091,
+      "id_rank": 73
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.057144245002690934,
+      "R_identifiability": 0.013333333333333334,
+      "R_composite": 0.03523878916801213,
+      "lexical_coverage": 0.18181818181818182,
+      "id_rank": 75
+    },
+    "S4_body": {
+      "R_availability": 0.046691382807411176,
+      "R_identifiability": 0.014084507042253521,
+      "R_composite": 0.03038794492483235,
+      "lexical_coverage": 0.13636363636363635,
+      "id_rank": 71
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.09282851304836469,
+      "R_composite": 0.062039256524182344,
+      "id_rank": 32,
+      "paired_item": "arxiv:2411.14405"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.036291342068909466,
+      "hard_R_avail": 0.1325348355272752,
+      "true_rank": 71,
+      "hard_item": "arxiv:2605.30284",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2402.14034",
+    "title": "AgentScope: A Flexible yet Robust Multi-Agent Platform",
+    "S0_topic": {
+      "R_availability": 0.00506894952835687,
+      "R_identifiability": 0.014492753623188406,
+      "R_composite": 0.009780851575772638,
+      "lexical_coverage": 0.0056179775280898875,
+      "id_rank": 69
+    },
+    "S1_abstract": {
+      "R_availability": 0.012626948161897224,
+      "R_identifiability": 0.012048192771084338,
+      "R_composite": 0.01233757046649078,
+      "lexical_coverage": 0.02247191011235955,
+      "id_rank": 83
+    },
+    "S2_intro": {
+      "R_availability": 0.015580323274672514,
+      "R_identifiability": 0.011904761904761904,
+      "R_composite": 0.013742542589717209,
+      "lexical_coverage": 0.033707865168539325,
+      "id_rank": 84
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.04687058323520892,
+      "R_identifiability": 0.012658227848101266,
+      "R_composite": 0.029764405541655093,
+      "lexical_coverage": 0.10674157303370786,
+      "id_rank": 79
+    },
+    "S4_body": {
+      "R_availability": 0.04604161058025226,
+      "R_identifiability": 0.0125,
+      "R_composite": 0.02927080529012613,
+      "lexical_coverage": 0.11797752808988764,
+      "id_rank": 80
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.1240690097044564,
+      "R_composite": 0.10748905030677366,
+      "id_rank": 11,
+      "paired_item": "arxiv:2503.16734"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.012626948161897224,
+      "hard_R_avail": 0.06970069431211556,
+      "true_rank": 83,
+      "hard_item": "arxiv:2412.21154",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2501.09686",
+    "title": "Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models",
+    "S0_topic": {
+      "R_availability": 0.033749307755035374,
+      "R_identifiability": 0.125,
+      "R_composite": 0.07937465387751769,
+      "lexical_coverage": 0.008064516129032258,
+      "id_rank": 8
+    },
+    "S1_abstract": {
+      "R_availability": 0.12251816524398365,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.2279257492886585,
+      "lexical_coverage": 0.09408602150537634,
+      "id_rank": 3
+    },
+    "S2_intro": {
+      "R_availability": 0.14611372076213208,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.2397235270477327,
+      "lexical_coverage": 0.13709677419354838,
+      "id_rank": 3
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.15911061009646604,
+      "R_identifiability": 0.2,
+      "R_composite": 0.17955530504823303,
+      "lexical_coverage": 0.1693548387096774,
+      "id_rank": 5
+    },
+    "S4_body": {
+      "R_availability": 0.13499642870037315,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.23416488101685323,
+      "lexical_coverage": 0.1693548387096774,
+      "id_rank": 3
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.115342562841842,
+      "R_composite": 0.0839870708946052,
+      "id_rank": 19,
+      "paired_item": "arxiv:2504.08734"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.12251816524398365,
+      "hard_R_avail": 0.11798489368676081,
+      "true_rank": 3,
+      "hard_item": "arxiv:2502.17416",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2506.12345",
+    "title": "Extracting Composition-Dependent Diffusion Coefficients Over a Very Large Composition Range in NiCoFeCrMn High Entropy Alloy Following Strategic Design of Diffusion Couples and Physics Informed Neural Network Numerical Method",
+    "S0_topic": {
+      "R_availability": 0.04338375166599836,
+      "R_identifiability": 0.058823529411764705,
+      "R_composite": 0.05110364053888153,
+      "lexical_coverage": 0.031578947368421054,
+      "id_rank": 17
+    },
+    "S1_abstract": {
+      "R_availability": 0.10273944748202983,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5513697237410149,
+      "lexical_coverage": 0.11578947368421053,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.48701055571004376,
+      "R_identifiability": 1.0,
+      "R_composite": 0.7435052778550219,
+      "lexical_coverage": 0.5947368421052631,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.7621652359957327,
+      "R_identifiability": 1.0,
+      "R_composite": 0.8810826179978664,
+      "lexical_coverage": 0.9947368421052631,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.7831228510075231,
+      "R_identifiability": 1.0,
+      "R_composite": 0.8915614255037616,
+      "lexical_coverage": 0.9947368421052631,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.04129661874639923,
+      "R_composite": 0.04064830937319962,
+      "id_rank": 25,
+      "paired_item": "arxiv:2410.05258"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.10273944748202983,
+      "hard_R_avail": 0.04089228196688387,
+      "true_rank": 1,
+      "hard_item": "arxiv:2411.05003",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2410.19810",
+    "title": "Training Compute-Optimal Vision Transformers for Brain Encoding",
+    "S0_topic": {
+      "R_availability": 0.006338559019056568,
+      "R_identifiability": 0.01694915254237288,
+      "R_composite": 0.011643855780714724,
+      "lexical_coverage": 0.0038461538461538464,
+      "id_rank": 59
+    },
+    "S1_abstract": {
+      "R_availability": 0.2323512453936284,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6161756226968143,
+      "lexical_coverage": 0.2,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.25979903186450126,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6298995159322507,
+      "lexical_coverage": 0.25,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2305469069574606,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6152734534787303,
+      "lexical_coverage": 0.27692307692307694,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2682011182382767,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6341005591191383,
+      "lexical_coverage": 0.3576923076923077,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.05309916966992431,
+      "R_composite": 0.03532151465952356,
+      "id_rank": 57,
+      "paired_item": "arxiv:2502.06807"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.2323512453936284,
+      "hard_R_avail": 0.09735079243908379,
+      "true_rank": 1,
+      "hard_item": "arxiv:2411.17465",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2501.12948",
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "S0_topic": {
+      "R_availability": 0.01712418971971213,
+      "R_identifiability": 0.02631578947368421,
+      "R_composite": 0.021719989596698172,
+      "lexical_coverage": 0.007168458781362007,
+      "id_rank": 38
+    },
+    "S1_abstract": {
+      "R_availability": 0.11931563489645086,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3096578174482254,
+      "lexical_coverage": 0.08960573476702509,
+      "id_rank": 2
+    },
+    "S2_intro": {
+      "R_availability": 0.24641937442309564,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6232096872115478,
+      "lexical_coverage": 0.2222222222222222,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.24889648251689556,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6244482412584478,
+      "lexical_coverage": 0.26881720430107525,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.28762514629797853,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6438125731489892,
+      "lexical_coverage": 0.34050179211469533,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.08227123276470558,
+      "R_composite": 0.04882792407466048,
+      "id_rank": 65,
+      "paired_item": "arxiv:2504.16041"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.11931563489645086,
+      "hard_R_avail": 0.10387809995015179,
+      "true_rank": 2,
+      "hard_item": "arxiv:2502.17416",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2409.05591",
+    "title": "MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation",
+    "S0_topic": {
+      "R_availability": 0.009074633960490913,
+      "R_identifiability": 0.02040816326530612,
+      "R_composite": 0.014741398612898516,
+      "lexical_coverage": 0.0024390243902439024,
+      "id_rank": 49
+    },
+    "S1_abstract": {
+      "R_availability": 0.09888113622526842,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5494405681126342,
+      "lexical_coverage": 0.07804878048780488,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.1623022557416144,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5811511278708072,
+      "lexical_coverage": 0.13658536585365855,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.11831922448867677,
+      "R_identifiability": 0.25,
+      "R_composite": 0.18415961224433838,
+      "lexical_coverage": 0.14146341463414633,
+      "id_rank": 4
+    },
+    "S4_body": {
+      "R_availability": 0.15742249195914676,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5787112459795734,
+      "lexical_coverage": 0.16829268292682928,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.1318367619712191,
+      "R_composite": 0.31591838098560954,
+      "id_rank": 2,
+      "paired_item": "arxiv:2503.04388"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.09888113622526842,
+      "hard_R_avail": 0.07200202015940863,
+      "true_rank": 1,
+      "hard_item": "arxiv:2501.00663",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2502.04364",
+    "title": "Lost in Edits? A $\u03bb$-Compass for AIGC Provenance",
+    "S0_topic": {
+      "R_availability": 0.030766164264225557,
+      "R_identifiability": 0.06666666666666667,
+      "R_composite": 0.04871641546544611,
+      "lexical_coverage": 0.007246376811594203,
+      "id_rank": 15
+    },
+    "S1_abstract": {
+      "R_availability": 0.14413536903274232,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5720676845163711,
+      "lexical_coverage": 0.12681159420289856,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.2603840799264806,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6301920399632404,
+      "lexical_coverage": 0.2318840579710145,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2586766496734146,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6293383248367073,
+      "lexical_coverage": 0.27898550724637683,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.3272631371943337,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6636315685971669,
+      "lexical_coverage": 0.4057971014492754,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.14558913392864567,
+      "R_composite": 0.09660409077384664,
+      "id_rank": 21,
+      "paired_item": "arxiv:2502.09614"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.14413536903274232,
+      "hard_R_avail": 0.04662595048917646,
+      "true_rank": 1,
+      "hard_item": "arxiv:2501.17161",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2412.05265",
+    "title": "Reinforcement Learning: An Overview",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.013333333333333334,
+      "R_composite": 0.006666666666666667,
+      "lexical_coverage": 0.0,
+      "id_rank": 75
+    },
+    "S1_abstract": {
+      "R_availability": 0.05232141769756749,
+      "R_identifiability": 0.25,
+      "R_composite": 0.15116070884878374,
+      "lexical_coverage": 0.03669724770642202,
+      "id_rank": 4
+    },
+    "S2_intro": {
+      "R_availability": 0.1184512410704616,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5592256205352308,
+      "lexical_coverage": 0.12385321100917432,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.16660404064246676,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5833020203212333,
+      "lexical_coverage": 0.22935779816513763,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.21696928752885059,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6084846437644253,
+      "lexical_coverage": 0.2706422018348624,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.030126797717084243,
+      "R_composite": 0.022206256001399263,
+      "id_rank": 70,
+      "paired_item": "arxiv:2411.05003"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.05232141769756749,
+      "hard_R_avail": 0.0926953561131741,
+      "true_rank": 4,
+      "hard_item": "arxiv:2501.17161",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2503.09516",
+    "title": "Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning",
+    "S0_topic": {
+      "R_availability": 0.03306731182255184,
+      "R_identifiability": 0.14285714285714285,
+      "R_composite": 0.08796222733984735,
+      "lexical_coverage": 0.00558659217877095,
+      "id_rank": 7
+    },
+    "S1_abstract": {
+      "R_availability": 0.06711321957227764,
+      "R_identifiability": 0.09090909090909091,
+      "R_composite": 0.07901115524068428,
+      "lexical_coverage": 0.05307262569832402,
+      "id_rank": 11
+    },
+    "S2_intro": {
+      "R_availability": 0.18292778903504645,
+      "R_identifiability": 0.5,
+      "R_composite": 0.34146389451752324,
+      "lexical_coverage": 0.13128491620111732,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.15498383504005597,
+      "R_identifiability": 0.5,
+      "R_composite": 0.327491917520028,
+      "lexical_coverage": 0.13966480446927373,
+      "id_rank": 2
+    },
+    "S4_body": {
+      "R_availability": 0.21780522635013716,
+      "R_identifiability": 0.25,
+      "R_composite": 0.23390261317506858,
+      "lexical_coverage": 0.1787709497206704,
+      "id_rank": 4
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.06499225516968317,
+      "R_composite": 0.04175538684410084,
+      "id_rank": 54,
+      "paired_item": "arxiv:2605.23701"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.06711321957227764,
+      "hard_R_avail": 0.1073770025135638,
+      "true_rank": 11,
+      "hard_item": "arxiv:2501.17161",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2504.01849",
+    "title": "An Approach to Technical AGI Safety and Security",
+    "S0_topic": {
+      "R_availability": 0.01177129768043525,
+      "R_identifiability": 0.019230769230769232,
+      "R_composite": 0.01550103345560224,
+      "lexical_coverage": 0.006802721088435374,
+      "id_rank": 52
+    },
+    "S1_abstract": {
+      "R_availability": 0.09514188073230836,
+      "R_identifiability": 0.5,
+      "R_composite": 0.29757094036615417,
+      "lexical_coverage": 0.09183673469387756,
+      "id_rank": 2
+    },
+    "S2_intro": {
+      "R_availability": 0.09364602216365864,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5468230110818293,
+      "lexical_coverage": 0.11904761904761904,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.1356037400042864,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5678018700021432,
+      "lexical_coverage": 0.17006802721088435,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.14257506658820862,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5712875332941043,
+      "lexical_coverage": 0.21768707482993196,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.08458861338969742,
+      "R_composite": 0.20896097336151537,
+      "id_rank": 3,
+      "paired_item": "arxiv:2607.22368"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.09514188073230836,
+      "hard_R_avail": 0.092541864543602,
+      "true_rank": 2,
+      "hard_item": "arxiv:2407.21783",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2505.03422",
+    "title": "LiftFeat: 3D Geometry-Aware Local Feature Matching",
+    "S0_topic": {
+      "R_availability": 0.019084792021841483,
+      "R_identifiability": 0.024390243902439025,
+      "R_composite": 0.021737517962140254,
+      "lexical_coverage": 0.010135135135135136,
+      "id_rank": 41
+    },
+    "S1_abstract": {
+      "R_availability": 0.17480946629226118,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5874047331461306,
+      "lexical_coverage": 0.14864864864864866,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.21585496821074518,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6079274841053726,
+      "lexical_coverage": 0.24662162162162163,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.20466929288569197,
+      "R_identifiability": 1.0,
+      "R_composite": 0.602334646442846,
+      "lexical_coverage": 0.27702702702702703,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.20798497904294716,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6039924895214736,
+      "lexical_coverage": 0.30743243243243246,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.04348092930587369,
+      "R_composite": 0.02868490909738129,
+      "id_rank": 72,
+      "paired_item": "arxiv:2606.26158"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.17480946629226118,
+      "hard_R_avail": 0.06459998777982898,
+      "true_rank": 1,
+      "hard_item": "arxiv:2503.21778",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2408.12574",
+    "title": "MuMA-ToM: Multi-modal Multi-Agent Theory of Mind",
+    "S0_topic": {
+      "R_availability": 0.02628995615934018,
+      "R_identifiability": 0.05263157894736842,
+      "R_composite": 0.0394607675533543,
+      "lexical_coverage": 0.008032128514056224,
+      "id_rank": 19
+    },
+    "S1_abstract": {
+      "R_availability": 0.144664043267964,
+      "R_identifiability": 1.0,
+      "R_composite": 0.572332021633982,
+      "lexical_coverage": 0.14859437751004015,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.1575224689579346,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5787612344789673,
+      "lexical_coverage": 0.18473895582329317,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.13784304647785078,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5689215232389254,
+      "lexical_coverage": 0.1927710843373494,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.27572221678072617,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6378611083903631,
+      "lexical_coverage": 0.3373493975903614,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.051191589601642704,
+      "R_composite": 0.03366031092985361,
+      "id_rank": 62,
+      "paired_item": "arxiv:2503.13612"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.144664043267964,
+      "hard_R_avail": 0.060234914165321354,
+      "true_rank": 1,
+      "hard_item": "arxiv:2502.17416",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2501.07542",
+    "title": "Imagine while Reasoning in Space: Multimodal Visualization-of-Thought",
+    "S0_topic": {
+      "R_availability": 0.006744864615820316,
+      "R_identifiability": 0.017857142857142856,
+      "R_composite": 0.012301003736481585,
+      "lexical_coverage": 0.003389830508474576,
+      "id_rank": 56
+    },
+    "S1_abstract": {
+      "R_availability": 0.10988748820572007,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5549437441028601,
+      "lexical_coverage": 0.061016949152542375,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.12260532802197573,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3113026640109879,
+      "lexical_coverage": 0.09830508474576272,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2221835209520634,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6110917604760318,
+      "lexical_coverage": 0.26101694915254237,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.15383116720275342,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5769155836013767,
+      "lexical_coverage": 0.16610169491525423,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.11935259615093158,
+      "R_composite": 0.22634296474213245,
+      "id_rank": 3,
+      "paired_item": "arxiv:2501.05452"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.10988748820572007,
+      "hard_R_avail": 0.09532288857617699,
+      "true_rank": 1,
+      "hard_item": "arxiv:2502.17416",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2411.14405",
+    "title": "Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions",
+    "S0_topic": {
+      "R_availability": 0.025947730341750366,
+      "R_identifiability": 0.058823529411764705,
+      "R_composite": 0.042385629876757536,
+      "lexical_coverage": 0.0072992700729927005,
+      "id_rank": 17
+    },
+    "S1_abstract": {
+      "R_availability": 0.10063636109292498,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3003181805464625,
+      "lexical_coverage": 0.09124087591240876,
+      "id_rank": 2
+    },
+    "S2_intro": {
+      "R_availability": 0.22445311962263542,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6122265598113177,
+      "lexical_coverage": 0.23722627737226276,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.20351545477320918,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6017577273866046,
+      "lexical_coverage": 0.28102189781021897,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.23110859637682746,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6155542981884137,
+      "lexical_coverage": 0.36496350364963503,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.1815984766195224,
+      "R_composite": 0.3407992383097612,
+      "id_rank": 2,
+      "paired_item": "arxiv:2411.14199"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.10063636109292498,
+      "hard_R_avail": 0.06897577172032845,
+      "true_rank": 2,
+      "hard_item": "arxiv:2501.17161",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2502.17416",
+    "title": "Reasoning with Latent Thoughts: On the Power of Looped Transformers",
+    "S0_topic": {
+      "R_availability": 0.03742548140622733,
+      "R_identifiability": 0.16666666666666666,
+      "R_composite": 0.102046074036447,
+      "lexical_coverage": 0.010344827586206896,
+      "id_rank": 6
+    },
+    "S1_abstract": {
+      "R_availability": 0.15906827972426535,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5795341398621326,
+      "lexical_coverage": 0.09310344827586207,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.22036708385677878,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6101835419283894,
+      "lexical_coverage": 0.1482758620689655,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.20657765861042787,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6032888293052139,
+      "lexical_coverage": 0.16551724137931034,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.23812460465441748,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6190623023272087,
+      "lexical_coverage": 0.21724137931034482,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.07859109785565903,
+      "R_composite": 0.048224120356400946,
+      "id_rank": 56,
+      "paired_item": "arxiv:2505.00671"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.15906827972426535,
+      "hard_R_avail": 0.11212896948838487,
+      "true_rank": 1,
+      "hard_item": "arxiv:2411.14199",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2503.16734",
+    "title": "Towards Agentic Recommender Systems in the Era of Multimodal Large Language Models",
+    "S0_topic": {
+      "R_availability": 0.025714242310974272,
+      "R_identifiability": 0.0625,
+      "R_composite": 0.044107121155487136,
+      "lexical_coverage": 0.0031847133757961785,
+      "id_rank": 16
+    },
+    "S1_abstract": {
+      "R_availability": 0.1027039736157388,
+      "R_identifiability": 0.25,
+      "R_composite": 0.1763519868078694,
+      "lexical_coverage": 0.12420382165605096,
+      "id_rank": 4
+    },
+    "S2_intro": {
+      "R_availability": 0.14531805077860563,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3226590253893028,
+      "lexical_coverage": 0.17834394904458598,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.19680249504182118,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.26506791418757725,
+      "lexical_coverage": 0.2484076433121019,
+      "id_rank": 3
+    },
+    "S4_body": {
+      "R_availability": 0.2144977314387128,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.27391553238602306,
+      "lexical_coverage": 0.2961783439490446,
+      "id_rank": 3
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.1267859650135883,
+      "R_composite": 0.07655087724363625,
+      "id_rank": 38,
+      "paired_item": "arxiv:2501.17161"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1027039736157388,
+      "hard_R_avail": 0.074038897743164,
+      "true_rank": 4,
+      "hard_item": "arxiv:2412.21154",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2407.21783",
+    "title": "The Llama 3 Herd of Models",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.012987012987012988,
+      "R_composite": 0.006493506493506494,
+      "lexical_coverage": 0.0,
+      "id_rank": 77
+    },
+    "S1_abstract": {
+      "R_availability": 0.09362000082810519,
+      "R_identifiability": 0.2,
+      "R_composite": 0.1468100004140526,
+      "lexical_coverage": 0.058823529411764705,
+      "id_rank": 5
+    },
+    "S2_intro": {
+      "R_availability": 0.12062832142682735,
+      "R_identifiability": 0.5,
+      "R_composite": 0.31031416071341367,
+      "lexical_coverage": 0.10980392156862745,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.14860089251055758,
+      "R_identifiability": 0.25,
+      "R_composite": 0.1993004462552788,
+      "lexical_coverage": 0.19607843137254902,
+      "id_rank": 4
+    },
+    "S4_body": {
+      "R_availability": 0.1556598593470599,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.2444965963401966,
+      "lexical_coverage": 0.21568627450980393,
+      "id_rank": 3
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.15595138522742197,
+      "R_composite": 0.1494042640422824,
+      "id_rank": 7,
+      "paired_item": "arxiv:2410.24198"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.09362000082810519,
+      "hard_R_avail": 0.10552724760214532,
+      "true_rank": 5,
+      "hard_item": "arxiv:2501.12948",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2504.08734",
+    "title": "Towards an Understanding of Context Utilization in Code Intelligence",
+    "S0_topic": {
+      "R_availability": 0.012108157359588537,
+      "R_identifiability": 0.02,
+      "R_composite": 0.01605407867979427,
+      "lexical_coverage": 0.006578947368421052,
+      "id_rank": 50
+    },
+    "S1_abstract": {
+      "R_availability": 0.17211058185041495,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5860552909252075,
+      "lexical_coverage": 0.10526315789473684,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.22408491925149016,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6120424596257451,
+      "lexical_coverage": 0.18421052631578946,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.25821373721258245,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6291068686062913,
+      "lexical_coverage": 0.23684210526315788,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2775386158329095,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6387693079164547,
+      "lexical_coverage": 0.2894736842105263,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.0856267944422429,
+      "R_composite": 0.05128797349230789,
+      "id_rank": 59,
+      "paired_item": "arxiv:2504.21039"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.17211058185041495,
+      "hard_R_avail": 0.0909924785586331,
+      "true_rank": 1,
+      "hard_item": "arxiv:2410.24198",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2505.18098",
+    "title": "Planning without Search: Refining Frontier LLMs with Offline Goal-Conditioned RL",
+    "S0_topic": {
+      "R_availability": 0.0055151260236290045,
+      "R_identifiability": 0.014925373134328358,
+      "R_composite": 0.010220249578978682,
+      "lexical_coverage": 0.005714285714285714,
+      "id_rank": 67
+    },
+    "S1_abstract": {
+      "R_availability": 0.059232954774403976,
+      "R_identifiability": 0.024390243902439025,
+      "R_composite": 0.041811599338421504,
+      "lexical_coverage": 0.08571428571428572,
+      "id_rank": 41
+    },
+    "S2_intro": {
+      "R_availability": 0.08133302828474903,
+      "R_identifiability": 0.018518518518518517,
+      "R_composite": 0.049925773401633775,
+      "lexical_coverage": 0.13714285714285715,
+      "id_rank": 54
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.10932965925655128,
+      "R_identifiability": 0.02040816326530612,
+      "R_composite": 0.0648689112609287,
+      "lexical_coverage": 0.21142857142857144,
+      "id_rank": 49
+    },
+    "S4_body": {
+      "R_availability": 0.11922313911608431,
+      "R_identifiability": 0.015873015873015872,
+      "R_composite": 0.0675480774945501,
+      "lexical_coverage": 0.2914285714285714,
+      "id_rank": 63
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.09702542024657596,
+      "R_composite": 0.06167060486013008,
+      "id_rank": 38,
+      "paired_item": "arxiv:2501.19375"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.059232954774403976,
+      "hard_R_avail": 0.102494385030766,
+      "true_rank": 41,
+      "hard_item": "arxiv:2501.17161",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2410.05258",
+    "title": "Differential Transformer",
+    "S0_topic": {
+      "R_availability": 0.017885741733328603,
+      "R_identifiability": 0.03333333333333333,
+      "R_composite": 0.025609537533330968,
+      "lexical_coverage": 0.0031446540880503146,
+      "id_rank": 30
+    },
+    "S1_abstract": {
+      "R_availability": 0.17621805399009738,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5881090269950486,
+      "lexical_coverage": 0.11635220125786164,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.1775155616485731,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5887577808242865,
+      "lexical_coverage": 0.13836477987421383,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.15784802067411463,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5789240103370573,
+      "lexical_coverage": 0.16666666666666666,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.15357956663834071,
+      "R_identifiability": 0.5,
+      "R_composite": 0.32678978331917036,
+      "lexical_coverage": 0.16981132075471697,
+      "id_rank": 2
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.08259902721615514,
+      "R_composite": 0.0621328469414109,
+      "id_rank": 24,
+      "paired_item": "arxiv:2407.07061"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.17621805399009738,
+      "hard_R_avail": 0.0830328115677627,
+      "true_rank": 1,
+      "hard_item": "arxiv:2501.05465",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2501.00663",
+    "title": "Titans: Learning to Memorize at Test Time",
+    "S0_topic": {
+      "R_availability": 0.03698077414682108,
+      "R_identifiability": 0.16666666666666666,
+      "R_composite": 0.10182372040674387,
+      "lexical_coverage": 0.008571428571428572,
+      "id_rank": 6
+    },
+    "S1_abstract": {
+      "R_availability": 0.1782445498367753,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5891222749183876,
+      "lexical_coverage": 0.12285714285714286,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.19051036890377476,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5952551844518874,
+      "lexical_coverage": 0.15714285714285714,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.17956666221173664,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5897833311058683,
+      "lexical_coverage": 0.18,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.19995626652013881,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5999781332600694,
+      "lexical_coverage": 0.21142857142857144,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.04536882291430131,
+      "R_composite": 0.0321183737213016,
+      "id_rank": 53,
+      "paired_item": "arxiv:2410.07025"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1782445498367753,
+      "hard_R_avail": 0.09617129415407982,
+      "true_rank": 1,
+      "hard_item": "arxiv:2412.16178",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2502.06807",
+    "title": "Competitive Programming with Large Reasoning Models",
+    "S0_topic": {
+      "R_availability": 0.027073281031526193,
+      "R_identifiability": 0.05555555555555555,
+      "R_composite": 0.04131441829354087,
+      "lexical_coverage": 0.007434944237918215,
+      "id_rank": 18
+    },
+    "S1_abstract": {
+      "R_availability": 0.08862895206181369,
+      "R_identifiability": 0.14285714285714285,
+      "R_composite": 0.11574304745947828,
+      "lexical_coverage": 0.06691449814126393,
+      "id_rank": 7
+    },
+    "S2_intro": {
+      "R_availability": 0.12630725714587135,
+      "R_identifiability": 0.2,
+      "R_composite": 0.1631536285729357,
+      "lexical_coverage": 0.13011152416356878,
+      "id_rank": 5
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.09070694428843107,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.2120201388108822,
+      "lexical_coverage": 0.15613382899628253,
+      "id_rank": 3
+    },
+    "S4_body": {
+      "R_availability": 0.12909206760396397,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.23121270046864864,
+      "lexical_coverage": 0.17843866171003717,
+      "id_rank": 3
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.1058196056888768,
+      "R_composite": 0.07922559231812261,
+      "id_rank": 19,
+      "paired_item": "arxiv:2411.17465"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.08862895206181369,
+      "hard_R_avail": 0.08823006637623065,
+      "true_rank": 7,
+      "hard_item": "arxiv:2502.17416",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2406.18532",
+    "title": "Symbolic Learning Enables Self-Evolving Agents",
+    "S0_topic": {
+      "R_availability": 0.007333917880786493,
+      "R_identifiability": 0.018867924528301886,
+      "R_composite": 0.013100921204544189,
+      "lexical_coverage": 0.002785515320334262,
+      "id_rank": 53
+    },
+    "S1_abstract": {
+      "R_availability": 0.16989113794062405,
+      "R_identifiability": 0.5,
+      "R_composite": 0.334945568970312,
+      "lexical_coverage": 0.11420612813370473,
+      "id_rank": 2
+    },
+    "S2_intro": {
+      "R_availability": 0.22981257751371847,
+      "R_identifiability": 0.5,
+      "R_composite": 0.36490628875685927,
+      "lexical_coverage": 0.17548746518105848,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.24036029796396763,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6201801489819838,
+      "lexical_coverage": 0.20612813370473537,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.26287336090161334,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6314366804508067,
+      "lexical_coverage": 0.25069637883008355,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.05613321740751443,
+      "R_composite": 0.03439572262780785,
+      "id_rank": 79,
+      "paired_item": "arxiv:2409.18486"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.16989113794062405,
+      "hard_R_avail": 0.1551841770193123,
+      "true_rank": 2,
+      "hard_item": "arxiv:2412.21154",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2504.16041",
+    "title": "Muon Optimizer Accelerates Grokking",
+    "S0_topic": {
+      "R_availability": 0.03807757758855229,
+      "R_identifiability": 0.25,
+      "R_composite": 0.14403878879427615,
+      "lexical_coverage": 0.00975609756097561,
+      "id_rank": 4
+    },
+    "S1_abstract": {
+      "R_availability": 0.1296057459076597,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5648028729538298,
+      "lexical_coverage": 0.13170731707317074,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.16759551421782184,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5837977571089109,
+      "lexical_coverage": 0.2097560975609756,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.16491944775212825,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5824597238760642,
+      "lexical_coverage": 0.2634146341463415,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.17195751953450594,
+      "R_identifiability": 1.0,
+      "R_composite": 0.585978759767253,
+      "lexical_coverage": 0.28292682926829266,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.037341897984778584,
+      "R_composite": 0.025813806135246434,
+      "id_rank": 70,
+      "paired_item": "arxiv:2504.03838"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1296057459076597,
+      "hard_R_avail": 0.06350959052082536,
+      "true_rank": 1,
+      "hard_item": "arxiv:2501.17161",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2412.10360",
+    "title": "Apollo: An Exploration of Video Understanding in Large Multimodal Models",
+    "S0_topic": {
+      "R_availability": 0.006196333870515774,
+      "R_identifiability": 0.01639344262295082,
+      "R_composite": 0.011294888246733296,
+      "lexical_coverage": 0.004081632653061225,
+      "id_rank": 61
+    },
+    "S1_abstract": {
+      "R_availability": 0.1370387058911614,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5685193529455808,
+      "lexical_coverage": 0.11836734693877551,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.17894514353078417,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5894725717653921,
+      "lexical_coverage": 0.19591836734693877,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.21379219241108496,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6068960962055425,
+      "lexical_coverage": 0.2693877551020408,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2370506902152349,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6185253451076175,
+      "lexical_coverage": 0.3510204081632653,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.042993952574542464,
+      "R_composite": 0.0281636429539379,
+      "id_rank": 75,
+      "paired_item": "arxiv:2501.13949"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1370387058911614,
+      "hard_R_avail": 0.09089768967996285,
+      "true_rank": 1,
+      "hard_item": "arxiv:2505.07271",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2503.04388",
+    "title": "More Documents, Same Length: Isolating the Challenge of Multiple Documents in RAG",
+    "S0_topic": {
+      "R_availability": 0.015524380856226408,
+      "R_identifiability": 0.02857142857142857,
+      "R_composite": 0.02204790471382749,
+      "lexical_coverage": 0.002932551319648094,
+      "id_rank": 35
+    },
+    "S1_abstract": {
+      "R_availability": 0.09566157545136322,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5478307877256816,
+      "lexical_coverage": 0.09090909090909091,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.15827560806237984,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5791378040311899,
+      "lexical_coverage": 0.17302052785923755,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.17018961300294594,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5850948065014729,
+      "lexical_coverage": 0.22287390029325513,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.19606659132563078,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5980332956628154,
+      "lexical_coverage": 0.28152492668621704,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.07595751243371611,
+      "R_composite": 0.04617547752833347,
+      "id_rank": 61,
+      "paired_item": "arxiv:2408.04628"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.09566157545136322,
+      "hard_R_avail": 0.0690352817235744,
+      "true_rank": 1,
+      "hard_item": "arxiv:2412.21154",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2409.15277",
+    "title": "A Preliminary Study of o1 in Medicine: Are We Closer to an AI Doctor?",
+    "S0_topic": {
+      "R_availability": 0.031954679896150945,
+      "R_identifiability": 0.1,
+      "R_composite": 0.06597733994807548,
+      "lexical_coverage": 0.004166666666666667,
+      "id_rank": 10
+    },
+    "S1_abstract": {
+      "R_availability": 0.11286346441081328,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5564317322054066,
+      "lexical_coverage": 0.10416666666666667,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.16201392929780195,
+      "R_identifiability": 0.5,
+      "R_composite": 0.331006964648901,
+      "lexical_coverage": 0.15833333333333333,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.24950079284859214,
+      "R_identifiability": 0.16666666666666666,
+      "R_composite": 0.2080837297576294,
+      "lexical_coverage": 0.35,
+      "id_rank": 6
+    },
+    "S4_body": {
+      "R_availability": 0.3449741740783583,
+      "R_identifiability": 0.14285714285714285,
+      "R_composite": 0.24391565846775057,
+      "lexical_coverage": 0.5416666666666666,
+      "id_rank": 7
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.07338905993932876,
+      "R_composite": 0.04502786330299771,
+      "id_rank": 60,
+      "paired_item": "arxiv:2411.09137"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.11286346441081328,
+      "hard_R_avail": 0.11401745557981671,
+      "true_rank": 1,
+      "hard_item": "arxiv:2501.12948",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2502.09614",
+    "title": "DexTrack: Towards Generalizable Neural Tracking Control for Dexterous Manipulation from Human References",
+    "S0_topic": {
+      "R_availability": 0.01793953898413253,
+      "R_identifiability": 0.030303030303030304,
+      "R_composite": 0.024121284643581417,
+      "lexical_coverage": 0.00554016620498615,
+      "id_rank": 33
+    },
+    "S1_abstract": {
+      "R_availability": 0.0920374323123695,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5460187161561847,
+      "lexical_coverage": 0.07756232686980609,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.1711776468285997,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5855888234142999,
+      "lexical_coverage": 0.13850415512465375,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.15294684099588918,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5764734204979446,
+      "lexical_coverage": 0.15789473684210525,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.21660236641275776,
+      "R_identifiability": 0.25,
+      "R_composite": 0.23330118320637888,
+      "lexical_coverage": 0.21052631578947367,
+      "id_rank": 4
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.0519111536023744,
+      "R_composite": 0.033098433944044346,
+      "id_rank": 70,
+      "paired_item": "arxiv:2504.12582"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.0920374323123695,
+      "hard_R_avail": 0.0728931339878606,
+      "true_rank": 1,
+      "hard_item": "arxiv:2501.08528",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2504.05186",
+    "title": "Training state-of-the-art pathology foundation models with orders of magnitude less data",
+    "S0_topic": {
+      "R_availability": 0.017920388487161983,
+      "R_identifiability": 0.02631578947368421,
+      "R_composite": 0.022118088980423098,
+      "lexical_coverage": 0.006329113924050633,
+      "id_rank": 38
+    },
+    "S1_abstract": {
+      "R_availability": 0.17267773304391296,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5863388665219564,
+      "lexical_coverage": 0.12341772151898735,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.1964465390109596,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5982232695054798,
+      "lexical_coverage": 0.16772151898734178,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.1890130209727173,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5945065104863586,
+      "lexical_coverage": 0.2120253164556962,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.21580386442681748,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6079019322134087,
+      "lexical_coverage": 0.28164556962025317,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.08313867640174402,
+      "R_composite": 0.054727232937714115,
+      "id_rank": 38,
+      "paired_item": "arxiv:2501.04866"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.17267773304391296,
+      "hard_R_avail": 0.08531836461435169,
+      "true_rank": 1,
+      "hard_item": "arxiv:2505.07271",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2411.05003",
+    "title": "ReCapture: Generative Video Camera Controls for User-Provided Videos using Masked Video Fine-Tuning",
+    "S0_topic": {
+      "R_availability": 0.015523003583960943,
+      "R_identifiability": 0.027777777777777776,
+      "R_composite": 0.02165039068086936,
+      "lexical_coverage": 0.003484320557491289,
+      "id_rank": 36
+    },
+    "S1_abstract": {
+      "R_availability": 0.11435083703195115,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3071754185159756,
+      "lexical_coverage": 0.0627177700348432,
+      "id_rank": 2
+    },
+    "S2_intro": {
+      "R_availability": 0.1435456740066115,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3217728370033057,
+      "lexical_coverage": 0.11846689895470383,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.1505434634320177,
+      "R_identifiability": 0.5,
+      "R_composite": 0.32527173171600887,
+      "lexical_coverage": 0.156794425087108,
+      "id_rank": 2
+    },
+    "S4_body": {
+      "R_availability": 0.15432963319686938,
+      "R_identifiability": 0.5,
+      "R_composite": 0.32716481659843466,
+      "lexical_coverage": 0.17421602787456447,
+      "id_rank": 2
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.07634929153494358,
+      "R_composite": 0.064490435241156,
+      "id_rank": 19,
+      "paired_item": "arxiv:2411.02429"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.11435083703195115,
+      "hard_R_avail": 0.1016753482076993,
+      "true_rank": 2,
+      "hard_item": "arxiv:2412.10360",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2506.12993",
+    "title": "Fine-tuning problems in type IIA string theory",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.012987012987012988,
+      "R_composite": 0.006493506493506494,
+      "lexical_coverage": 0.0,
+      "id_rank": 77
+    },
+    "S1_abstract": {
+      "R_availability": 0.22791477256355697,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6139573862817784,
+      "lexical_coverage": 0.1606425702811245,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.2724568101774354,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6362284050887177,
+      "lexical_coverage": 0.23694779116465864,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.26470665560107776,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6323533278005389,
+      "lexical_coverage": 0.28112449799196787,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.26122184955805644,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6306109247790282,
+      "lexical_coverage": 0.3654618473895582,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.026451429856846995,
+      "R_composite": 0.02155904826175683,
+      "id_rank": 60,
+      "paired_item": "arxiv:2502.05151"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.22791477256355697,
+      "hard_R_avail": 0.05023426845465821,
+      "true_rank": 1,
+      "hard_item": "arxiv:2411.17465",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2605.23701",
+    "title": "Metadata Predictability Is Not Evidence Dependence: An Intervention-Based Audit for Weak-Label Benchmarks",
+    "S0_topic": {
+      "R_availability": 0.013507051931837575,
+      "R_identifiability": 0.02127659574468085,
+      "R_composite": 0.017391823838259213,
+      "lexical_coverage": 0.007434944237918215,
+      "id_rank": 47
+    },
+    "S1_abstract": {
+      "R_availability": 0.17295212547675082,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5864760627383754,
+      "lexical_coverage": 0.1412639405204461,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.19311720673546973,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5965586033677348,
+      "lexical_coverage": 0.1970260223048327,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2675947970225706,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6337973985112852,
+      "lexical_coverage": 0.35687732342007433,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.3145098174786951,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6572549087393476,
+      "lexical_coverage": 0.46096654275092935,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.04258230200126058,
+      "R_composite": 0.07684670655618583,
+      "id_rank": 9,
+      "paired_item": "arxiv:2407.01725"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.17295212547675082,
+      "hard_R_avail": 0.0673866254496748,
+      "true_rank": 1,
+      "hard_item": "arxiv:2504.21039",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2605.24060",
+    "title": "Same Ranking, Different Winner: How Scoring Targets Shape LLM Memory Benchmarks",
+    "S0_topic": {
+      "R_availability": 0.011415146751271876,
+      "R_identifiability": 0.020833333333333332,
+      "R_composite": 0.016124240042302604,
+      "lexical_coverage": 0.003952569169960474,
+      "id_rank": 48
+    },
+    "S1_abstract": {
+      "R_availability": 0.21023216672018105,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6051160833600905,
+      "lexical_coverage": 0.18181818181818182,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.24740988953437504,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6237049447671875,
+      "lexical_coverage": 0.2648221343873518,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.293986760258906,
+      "R_identifiability": 1.0,
+      "R_composite": 0.646993380129453,
+      "lexical_coverage": 0.3438735177865613,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.30215729734906993,
+      "R_identifiability": 1.0,
+      "R_composite": 0.651078648674535,
+      "lexical_coverage": 0.4308300395256917,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.04124080046512843,
+      "R_composite": 0.027030656642820623,
+      "id_rank": 78,
+      "paired_item": "arxiv:2412.17596"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.21023216672018105,
+      "hard_R_avail": 0.04128687055580191,
+      "true_rank": 1,
+      "hard_item": "arxiv:2501.00663",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2607.22368",
+    "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+    "S0_topic": {
+      "R_availability": 0.04784035888138811,
+      "R_identifiability": 0.09090909090909091,
+      "R_composite": 0.0693747248952395,
+      "lexical_coverage": 0.031413612565445025,
+      "id_rank": 11
+    },
+    "S1_abstract": {
+      "R_availability": 0.0989429371513747,
+      "R_identifiability": 0.5,
+      "R_composite": 0.29947146857568735,
+      "lexical_coverage": 0.13089005235602094,
+      "id_rank": 2
+    },
+    "S2_intro": {
+      "R_availability": 0.5459188081880093,
+      "R_identifiability": 1.0,
+      "R_composite": 0.7729594040940047,
+      "lexical_coverage": 0.6649214659685864,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.7569832536802057,
+      "R_identifiability": 1.0,
+      "R_composite": 0.8784916268401028,
+      "lexical_coverage": 1.0,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.7682763530472838,
+      "R_identifiability": 1.0,
+      "R_composite": 0.8841381765236419,
+      "lexical_coverage": 1.0,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.05015250774559221,
+      "R_composite": 0.032538940439960286,
+      "id_rank": 67,
+      "paired_item": "arxiv:2503.13657"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.0989429371513747,
+      "hard_R_avail": 0.08171131217777884,
+      "true_rank": 2,
+      "hard_item": "arxiv:2605.24060",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2606.01789",
+    "title": "Consistency evaluation of benchmarks used for causal discovery",
+    "S0_topic": {
+      "R_availability": 0.03468293224062963,
+      "R_identifiability": 0.03225806451612903,
+      "R_composite": 0.03347049837837933,
+      "lexical_coverage": 0.03278688524590164,
+      "id_rank": 31
+    },
+    "S1_abstract": {
+      "R_availability": 0.09078179937408003,
+      "R_identifiability": 0.14285714285714285,
+      "R_composite": 0.11681947111561145,
+      "lexical_coverage": 0.13114754098360656,
+      "id_rank": 7
+    },
+    "S2_intro": {
+      "R_availability": 0.0941876902119125,
+      "R_identifiability": 0.09090909090909091,
+      "R_composite": 0.09254839056050171,
+      "lexical_coverage": 0.19672131147540983,
+      "id_rank": 11
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.1338106806796407,
+      "R_identifiability": 0.25,
+      "R_composite": 0.19190534033982035,
+      "lexical_coverage": 0.32786885245901637,
+      "id_rank": 4
+    },
+    "S4_body": {
+      "R_availability": 0.16336105823535693,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3316805291176785,
+      "lexical_coverage": 0.3770491803278688,
+      "id_rank": 2
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.08722725917141246,
+      "R_composite": 0.05472474069681734,
+      "id_rank": 45,
+      "paired_item": "arxiv:2501.05465"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.09078179937408003,
+      "hard_R_avail": 0.11639937123067054,
+      "true_rank": 7,
+      "hard_item": "arxiv:2406.04598",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2606.26158",
+    "title": "Life After Benchmark Saturation: A Case Study of CORE-Bench",
+    "S0_topic": {
+      "R_availability": 0.03701226452351557,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.18517279892842445,
+      "lexical_coverage": 0.006944444444444444,
+      "id_rank": 3
+    },
+    "S1_abstract": {
+      "R_availability": 0.12237070292021848,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5611853514601093,
+      "lexical_coverage": 0.11458333333333333,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.12750653360629471,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5637532668031473,
+      "lexical_coverage": 0.1423611111111111,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.10292602463977649,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.2181296789865549,
+      "lexical_coverage": 0.15625,
+      "id_rank": 3
+    },
+    "S4_body": {
+      "R_availability": 0.13876290303866468,
+      "R_identifiability": 0.5,
+      "R_composite": 0.31938145151933234,
+      "lexical_coverage": 0.21875,
+      "id_rank": 2
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.052450680343416885,
+      "R_composite": 0.03224943655725061,
+      "id_rank": 83,
+      "paired_item": "arxiv:2311.07361"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.12237070292021848,
+      "hard_R_avail": 0.07994870902422929,
+      "true_rank": 1,
+      "hard_item": "arxiv:2407.07061",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2605.30284",
+    "title": "ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs Under Progressive Information Disclosure",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.01282051282051282,
+      "R_composite": 0.00641025641025641,
+      "lexical_coverage": 0.0,
+      "id_rank": 78
+    },
+    "S1_abstract": {
+      "R_availability": 0.16954719573534682,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5847735978676734,
+      "lexical_coverage": 0.14074074074074075,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.18195775112108065,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5909788755605403,
+      "lexical_coverage": 0.16296296296296298,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2043369899261962,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6021684949630981,
+      "lexical_coverage": 0.23703703703703705,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.23260245264738644,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6163012263236932,
+      "lexical_coverage": 0.32222222222222224,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.0831700913917782,
+      "R_composite": 0.0615850456958891,
+      "id_rank": 25,
+      "paired_item": "arxiv:2501.09686"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.16954719573534682,
+      "hard_R_avail": 0.103529512917615,
+      "true_rank": 1,
+      "hard_item": "arxiv:2503.21248",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2503.13612",
+    "title": "Searching for rotation in X-COP galaxy clusters",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.012658227848101266,
+      "R_composite": 0.006329113924050633,
+      "lexical_coverage": 0.0,
+      "id_rank": 79
+    },
+    "S1_abstract": {
+      "R_availability": 0.3194345184555561,
+      "R_identifiability": 1.0,
+      "R_composite": 0.659717259227778,
+      "lexical_coverage": 0.3384615384615385,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.35804635234314997,
+      "R_identifiability": 1.0,
+      "R_composite": 0.679023176171575,
+      "lexical_coverage": 0.4256410256410256,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.39132570459433924,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6956628522971696,
+      "lexical_coverage": 0.5282051282051282,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.36353034424324265,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6817651721216214,
+      "lexical_coverage": 0.6153846153846154,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.11404558597747265,
+      "R_composite": 0.07876192342351893,
+      "id_rank": 23,
+      "paired_item": "arxiv:2410.19810"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.3194345184555561,
+      "hard_R_avail": 0.05736110418497145,
+      "true_rank": 1,
+      "hard_item": "arxiv:2504.21039",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2412.06438",
+    "title": "Can foundation models actively gather information in interactive environments to test hypotheses?",
+    "S0_topic": {
+      "R_availability": 0.02033065187550619,
+      "R_identifiability": 0.041666666666666664,
+      "R_composite": 0.03099865927108643,
+      "lexical_coverage": 0.006211180124223602,
+      "id_rank": 24
+    },
+    "S1_abstract": {
+      "R_availability": 0.09977391587794496,
+      "R_identifiability": 0.25,
+      "R_composite": 0.17488695793897246,
+      "lexical_coverage": 0.08385093167701864,
+      "id_rank": 4
+    },
+    "S2_intro": {
+      "R_availability": 0.24861003108924717,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6243050155446236,
+      "lexical_coverage": 0.2484472049689441,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.23713132519026547,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6185656625951328,
+      "lexical_coverage": 0.2857142857142857,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.3276689216121395,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6638344608060698,
+      "lexical_coverage": 0.36335403726708076,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.16895245792620966,
+      "R_composite": 0.10947622896310483,
+      "id_rank": 20,
+      "paired_item": "arxiv:2409.05591"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.09977391587794496,
+      "hard_R_avail": 0.09862879734015711,
+      "true_rank": 4,
+      "hard_item": "arxiv:2502.17416",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2501.05452",
+    "title": "ReFocus: Visual Editing as a Chain of Thought for Structured Image Understanding",
+    "S0_topic": {
+      "R_availability": 0.018220452489405774,
+      "R_identifiability": 0.03571428571428571,
+      "R_composite": 0.026967369101845745,
+      "lexical_coverage": 0.003134796238244514,
+      "id_rank": 28
+    },
+    "S1_abstract": {
+      "R_availability": 0.14271597622529109,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5713579881126456,
+      "lexical_coverage": 0.12852664576802508,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.16465402774820115,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5823270138741006,
+      "lexical_coverage": 0.1724137931034483,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.1639484872314908,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5819742436157453,
+      "lexical_coverage": 0.1974921630094044,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.17694269550631336,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5884713477531567,
+      "lexical_coverage": 0.22570532915360503,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.07736868888914883,
+      "R_composite": 0.04526329181299547,
+      "id_rank": 76,
+      "paired_item": "arxiv:2412.05265"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.14271597622529109,
+      "hard_R_avail": 0.09181022281823557,
+      "true_rank": 1,
+      "hard_item": "arxiv:2411.17465",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2502.08791",
+    "title": "VL-Explore: Zero-shot Vision-Language Exploration and Target Discovery by Mobile Robots",
+    "S0_topic": {
+      "R_availability": 0.022370211706027997,
+      "R_identifiability": 0.034482758620689655,
+      "R_composite": 0.028426485163358828,
+      "lexical_coverage": 0.009708737864077669,
+      "id_rank": 29
+    },
+    "S1_abstract": {
+      "R_availability": 0.16794354637143205,
+      "R_identifiability": 1.0,
+      "R_composite": 0.583971773185716,
+      "lexical_coverage": 0.16181229773462782,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.21354965541487858,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6067748277074393,
+      "lexical_coverage": 0.23300970873786409,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.1761199493380502,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5880599746690252,
+      "lexical_coverage": 0.23948220064724918,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2336952023956816,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6168476011978408,
+      "lexical_coverage": 0.3333333333333333,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.05055639085322134,
+      "R_composite": 0.03334271155564293,
+      "id_rank": 62,
+      "paired_item": "arxiv:2504.01849"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.16794354637143205,
+      "hard_R_avail": 0.06784761150608425,
+      "true_rank": 1,
+      "hard_item": "arxiv:2412.06438",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2411.14199",
+    "title": "OpenScholar: Synthesizing Scientific Literature with Retrieval-augmented LMs",
+    "S0_topic": {
+      "R_availability": 0.004982407772108784,
+      "R_identifiability": 0.014925373134328358,
+      "R_composite": 0.00995389045321857,
+      "lexical_coverage": 0.004424778761061947,
+      "id_rank": 67
+    },
+    "S1_abstract": {
+      "R_availability": 0.07865467823971217,
+      "R_identifiability": 0.5,
+      "R_composite": 0.2893273391198561,
+      "lexical_coverage": 0.07964601769911504,
+      "id_rank": 2
+    },
+    "S2_intro": {
+      "R_availability": 0.09041982002528123,
+      "R_identifiability": 0.25,
+      "R_composite": 0.17020991001264063,
+      "lexical_coverage": 0.12831858407079647,
+      "id_rank": 4
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.1442605715884871,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3221302857942435,
+      "lexical_coverage": 0.23893805309734514,
+      "id_rank": 2
+    },
+    "S4_body": {
+      "R_availability": 0.18095252745545948,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.2571429303943964,
+      "lexical_coverage": 0.3141592920353982,
+      "id_rank": 3
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.1194464626948124,
+      "R_composite": 0.09543751706169191,
+      "id_rank": 14,
+      "paired_item": "arxiv:2408.12574"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.07865467823971217,
+      "hard_R_avail": 0.072888980101044,
+      "true_rank": 2,
+      "hard_item": "arxiv:2504.21039",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2504.12371",
+    "title": "Geometry of soft scalars at one loop",
+    "S0_topic": {
+      "R_availability": 0.006817375008844619,
+      "R_identifiability": 0.014285714285714285,
+      "R_composite": 0.010551544647279452,
+      "lexical_coverage": 0.008620689655172414,
+      "id_rank": 70
+    },
+    "S1_abstract": {
+      "R_availability": 0.03923583695217582,
+      "R_identifiability": 0.02,
+      "R_composite": 0.029617918476087912,
+      "lexical_coverage": 0.0603448275862069,
+      "id_rank": 50
+    },
+    "S2_intro": {
+      "R_availability": 0.05526105649989265,
+      "R_identifiability": 0.037037037037037035,
+      "R_composite": 0.046149046768464846,
+      "lexical_coverage": 0.1206896551724138,
+      "id_rank": 27
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.08392243078411557,
+      "R_identifiability": 0.05263157894736842,
+      "R_composite": 0.068277004865742,
+      "lexical_coverage": 0.21551724137931033,
+      "id_rank": 19
+    },
+    "S4_body": {
+      "R_availability": 0.11907927882662576,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5595396394133129,
+      "lexical_coverage": 0.28448275862068967,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.03329021320928349,
+      "R_composite": 0.024457606604641746,
+      "id_rank": 64,
+      "paired_item": "arxiv:2411.14405"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.03923583695217582,
+      "hard_R_avail": 0.03300322960772959,
+      "true_rank": 50,
+      "hard_item": "arxiv:2501.17161",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2505.00671",
+    "title": "Multi-Constraint Safe Reinforcement Learning via Closed-form Solution for Log-Sum-Exp Approximation of Control Barrier Functions",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.0125,
+      "R_composite": 0.00625,
+      "lexical_coverage": 0.0,
+      "id_rank": 80
+    },
+    "S1_abstract": {
+      "R_availability": 0.16408554789086527,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5820427739454326,
+      "lexical_coverage": 0.14285714285714285,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.21545652312013047,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6077282615600652,
+      "lexical_coverage": 0.2184873949579832,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.21936307954744239,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6096815397737212,
+      "lexical_coverage": 0.2773109243697479,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.3044942675448323,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6522471337724162,
+      "lexical_coverage": 0.40336134453781514,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.13382646917214028,
+      "R_composite": 0.09816323458607014,
+      "id_rank": 16,
+      "paired_item": "arxiv:2503.16734"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.16408554789086527,
+      "hard_R_avail": 0.07460376942430874,
+      "true_rank": 1,
+      "hard_item": "arxiv:2501.17161",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2408.08309",
+    "title": "Moments of random multiplicative functions over function fields",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.012345679012345678,
+      "R_composite": 0.006172839506172839,
+      "lexical_coverage": 0.0,
+      "id_rank": 81
+    },
+    "S1_abstract": {
+      "R_availability": 0.014733781154372306,
+      "R_identifiability": 0.01282051282051282,
+      "R_composite": 0.013777146987442562,
+      "lexical_coverage": 0.02564102564102564,
+      "id_rank": 78
+    },
+    "S2_intro": {
+      "R_availability": 0.2030860605186286,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6015430302593143,
+      "lexical_coverage": 0.24358974358974358,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.3467790344192738,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6733895172096369,
+      "lexical_coverage": 0.34615384615384615,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.3926805462406636,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6963402731203319,
+      "lexical_coverage": 0.5641025641025641,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.027446702906551726,
+      "R_composite": 0.04497335145327586,
+      "id_rank": 16,
+      "paired_item": "arxiv:2504.08734"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.014733781154372306,
+      "hard_R_avail": 0.033706287650400533,
+      "true_rank": 78,
+      "hard_item": "arxiv:2504.07640",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2501.17161",
+    "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+    "S0_topic": {
+      "R_availability": 0.046129233526128285,
+      "R_identifiability": 0.5,
+      "R_composite": 0.27306461676306415,
+      "lexical_coverage": 0.011406844106463879,
+      "id_rank": 2
+    },
+    "S1_abstract": {
+      "R_availability": 0.20222626376786457,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6011131318839322,
+      "lexical_coverage": 0.1444866920152091,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.26262862035861617,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6313143101793081,
+      "lexical_coverage": 0.24714828897338403,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2480362084052969,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.2906847708693151,
+      "lexical_coverage": 0.29277566539923955,
+      "id_rank": 3
+    },
+    "S4_body": {
+      "R_availability": 0.26417250781906404,
+      "R_identifiability": 0.09090909090909091,
+      "R_composite": 0.17754079936407746,
+      "lexical_coverage": 0.3612167300380228,
+      "id_rank": 11
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.1781747724072436,
+      "R_composite": 0.12754892466516027,
+      "id_rank": 13,
+      "paired_item": "arxiv:2410.05258"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.20222626376786457,
+      "hard_R_avail": 0.1035754211645257,
+      "true_rank": 1,
+      "hard_item": "arxiv:2501.12948",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2503.05555",
+    "title": "ALMAGAL I. The ALMA evolutionary study of high-mass protocluster formation in the Galaxy. Presentation of the survey and early results",
+    "S0_topic": {
+      "R_availability": 0.010739868127857134,
+      "R_identifiability": 0.015873015873015872,
+      "R_composite": 0.013306442000436503,
+      "lexical_coverage": 0.011363636363636364,
+      "id_rank": 63
+    },
+    "S1_abstract": {
+      "R_availability": 0.11445875621379048,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5572293781068952,
+      "lexical_coverage": 0.17045454545454544,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.10692861159631135,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3034643057981557,
+      "lexical_coverage": 0.26136363636363635,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.16386076825063722,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.24859705079198527,
+      "lexical_coverage": 0.4090909090909091,
+      "id_rank": 3
+    },
+    "S4_body": {
+      "R_availability": 0.09585432943539432,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5479271647176972,
+      "lexical_coverage": 0.2727272727272727,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.026458983809800957,
+      "R_composite": 0.029358524162964993,
+      "id_rank": 31,
+      "paired_item": "arxiv:2502.06807"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.11445875621379048,
+      "hard_R_avail": 0.04369280438448889,
+      "true_rank": 1,
+      "hard_item": "arxiv:2409.15277",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2410.24198",
+    "title": "SelfCodeAlign: Self-Alignment for Code Generation",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.012195121951219513,
+      "R_composite": 0.006097560975609756,
+      "lexical_coverage": 0.0,
+      "id_rank": 82
+    },
+    "S1_abstract": {
+      "R_availability": 0.10703525272015857,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3035176263600793,
+      "lexical_coverage": 0.10625,
+      "id_rank": 2
+    },
+    "S2_intro": {
+      "R_availability": 0.13160037868064647,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3158001893403232,
+      "lexical_coverage": 0.15,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.18465470153190922,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5923273507659546,
+      "lexical_coverage": 0.225,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.19701915332509612,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5985095766625481,
+      "lexical_coverage": 0.30625,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.07923999144488468,
+      "R_composite": 0.04781671703391775,
+      "id_rank": 61,
+      "paired_item": "arxiv:2504.16041"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.10703525272015857,
+      "hard_R_avail": 0.17104583237983678,
+      "true_rank": 2,
+      "hard_item": "arxiv:2411.14199",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2502.21231",
+    "title": "ByteScale: Efficient Scaling of LLM Training with a 2048K Context Length on More Than 12,000 GPUs",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.012048192771084338,
+      "R_composite": 0.006024096385542169,
+      "lexical_coverage": 0.0,
+      "id_rank": 83
+    },
+    "S1_abstract": {
+      "R_availability": 0.11849733493975023,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3092486674698751,
+      "lexical_coverage": 0.11904761904761904,
+      "id_rank": 2
+    },
+    "S2_intro": {
+      "R_availability": 0.16595544889568087,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5829777244478405,
+      "lexical_coverage": 0.16666666666666666,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.13825161414324444,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3191258070716222,
+      "lexical_coverage": 0.16666666666666666,
+      "id_rank": 2
+    },
+    "S4_body": {
+      "R_availability": 0.19883964933882875,
+      "R_identifiability": 0.25,
+      "R_composite": 0.22441982466941438,
+      "lexical_coverage": 0.2222222222222222,
+      "id_rank": 4
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.16026370881503033,
+      "R_composite": 0.13013185440751518,
+      "id_rank": 10,
+      "paired_item": "arxiv:2503.04388"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.11849733493975023,
+      "hard_R_avail": 0.08010015042310631,
+      "true_rank": 2,
+      "hard_item": "arxiv:2411.17465",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2504.21039",
+    "title": "Llama-3.1-FoundationAI-SecurityLLM-Base-8B Technical Report",
+    "S0_topic": {
+      "R_availability": 0.040926400515541986,
+      "R_identifiability": 0.09090909090909091,
+      "R_composite": 0.06591774571231646,
+      "lexical_coverage": 0.016597510373443983,
+      "id_rank": 11
+    },
+    "S1_abstract": {
+      "R_availability": 0.06262182059632233,
+      "R_identifiability": 0.16666666666666666,
+      "R_composite": 0.1146442436314945,
+      "lexical_coverage": 0.04979253112033195,
+      "id_rank": 6
+    },
+    "S2_intro": {
+      "R_availability": 0.0863564286947481,
+      "R_identifiability": 0.125,
+      "R_composite": 0.10567821434737405,
+      "lexical_coverage": 0.1037344398340249,
+      "id_rank": 8
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.10744989326520125,
+      "R_identifiability": 0.125,
+      "R_composite": 0.11622494663260063,
+      "lexical_coverage": 0.17427385892116182,
+      "id_rank": 8
+    },
+    "S4_body": {
+      "R_availability": 0.19118286444586463,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3455914322229323,
+      "lexical_coverage": 0.34024896265560167,
+      "id_rank": 2
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.051707358401228226,
+      "R_composite": 0.03478225062918554,
+      "id_rank": 56,
+      "paired_item": "arxiv:2502.09614"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.06262182059632233,
+      "hard_R_avail": 0.08048361442607554,
+      "true_rank": 6,
+      "hard_item": "arxiv:2501.12948",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2412.21154",
+    "title": "Aviary: training language agents on challenging scientific tasks",
+    "S0_topic": {
+      "R_availability": 0.022860018135561707,
+      "R_identifiability": 0.038461538461538464,
+      "R_composite": 0.030660778298550087,
+      "lexical_coverage": 0.009230769230769232,
+      "id_rank": 26
+    },
+    "S1_abstract": {
+      "R_availability": 0.17960625229391408,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5898031261469571,
+      "lexical_coverage": 0.10461538461538461,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.22470771315836435,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6123538565791822,
+      "lexical_coverage": 0.16307692307692306,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.20993047930044828,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6049652396502241,
+      "lexical_coverage": 0.18461538461538463,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2443004101392201,
+      "R_identifiability": 1.0,
+      "R_composite": 0.62215020506961,
+      "lexical_coverage": 0.2553846153846154,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.030636502461668953,
+      "R_composite": 0.021728507641090886,
+      "id_rank": 78,
+      "paired_item": "arxiv:2411.05003"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.17960625229391408,
+      "hard_R_avail": 0.08893150664065874,
+      "true_rank": 1,
+      "hard_item": "arxiv:2406.06769",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2501.19375",
+    "title": "A topological theory for qLDPC: non-Clifford gates and magic state fountain on homological product codes with constant rate and beyond the $N^{1/3}$ distance barrier",
+    "S0_topic": {
+      "R_availability": 0.019117560035931437,
+      "R_identifiability": 0.037037037037037035,
+      "R_composite": 0.028077298536484236,
+      "lexical_coverage": 0.004366812227074236,
+      "id_rank": 27
+    },
+    "S1_abstract": {
+      "R_availability": 0.13059331678485217,
+      "R_identifiability": 1.0,
+      "R_composite": 0.565296658392426,
+      "lexical_coverage": 0.08733624454148471,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.14207355361853047,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5710367768092652,
+      "lexical_coverage": 0.1222707423580786,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.13326664546157888,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5666333227307895,
+      "lexical_coverage": 0.13973799126637554,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.1591825452051774,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5795912726025887,
+      "lexical_coverage": 0.19213973799126638,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.02198806467056113,
+      "R_composite": 0.018136889478137706,
+      "id_rank": 70,
+      "paired_item": "arxiv:2605.23701"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.13059331678485217,
+      "hard_R_avail": 0.04475407836227495,
+      "true_rank": 1,
+      "hard_item": "arxiv:2410.24198",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2503.21778",
+    "title": "HS-SLAM: Hybrid Representation with Structural Supervision for Improved Dense SLAM",
+    "S0_topic": {
+      "R_availability": 0.016134739035638175,
+      "R_identifiability": 0.022727272727272728,
+      "R_composite": 0.01943100588145545,
+      "lexical_coverage": 0.009146341463414634,
+      "id_rank": 44
+    },
+    "S1_abstract": {
+      "R_availability": 0.0977345649646883,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5488672824823442,
+      "lexical_coverage": 0.08536585365853659,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.1631874386985434,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5815937193492717,
+      "lexical_coverage": 0.17073170731707318,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.11729220320196462,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.22531276826764896,
+      "lexical_coverage": 0.1798780487804878,
+      "id_rank": 3
+    },
+    "S4_body": {
+      "R_availability": 0.15594069455445997,
+      "R_identifiability": 1.0,
+      "R_composite": 0.57797034727723,
+      "lexical_coverage": 0.21646341463414634,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.04926477899931022,
+      "R_composite": 0.03138914625641187,
+      "id_rank": 74,
+      "paired_item": "arxiv:2607.22368"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.0977345649646883,
+      "hard_R_avail": 0.047317084255718705,
+      "true_rank": 1,
+      "hard_item": "arxiv:2505.03422",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2407.07061",
+    "title": "Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence",
+    "S0_topic": {
+      "R_availability": 0.0233256668975712,
+      "R_identifiability": 0.02702702702702703,
+      "R_composite": 0.025176346962299114,
+      "lexical_coverage": 0.012605042016806723,
+      "id_rank": 37
+    },
+    "S1_abstract": {
+      "R_availability": 0.1251184030989285,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5625592015494643,
+      "lexical_coverage": 0.08823529411764706,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.13415352516990786,
+      "R_identifiability": 0.5,
+      "R_composite": 0.31707676258495393,
+      "lexical_coverage": 0.11764705882352941,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.1661069190329288,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5830534595164644,
+      "lexical_coverage": 0.20168067226890757,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.19157190187065914,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5957859509353296,
+      "lexical_coverage": 0.27310924369747897,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.06370122971272633,
+      "R_composite": 0.04128457712051411,
+      "id_rank": 53,
+      "paired_item": "arxiv:2606.26158"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1251184030989285,
+      "hard_R_avail": 0.09951988018385088,
+      "true_rank": 1,
+      "hard_item": "arxiv:2412.21154",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2505.07271",
+    "title": "On the Robustness of Reward Models for Language Model Alignment",
+    "S0_topic": {
+      "R_availability": 0.024474513223156566,
+      "R_identifiability": 0.047619047619047616,
+      "R_composite": 0.03604678042110209,
+      "lexical_coverage": 0.006896551724137931,
+      "id_rank": 21
+    },
+    "S1_abstract": {
+      "R_availability": 0.21719071501606604,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6085953575080331,
+      "lexical_coverage": 0.15862068965517243,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.28998302234486817,
+      "R_identifiability": 1.0,
+      "R_composite": 0.644991511172434,
+      "lexical_coverage": 0.21724137931034482,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.27894450932526615,
+      "R_identifiability": 1.0,
+      "R_composite": 0.639472254662633,
+      "lexical_coverage": 0.24482758620689654,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2472891726229023,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6236445863114511,
+      "lexical_coverage": 0.25862068965517243,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.06916506075306936,
+      "R_composite": 0.0435111018051061,
+      "id_rank": 56,
+      "paired_item": "arxiv:2503.13612"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.21719071501606604,
+      "hard_R_avail": 0.1060343184612773,
+      "true_rank": 1,
+      "hard_item": "arxiv:2411.14199",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2410.07025",
+    "title": "CheXalign: Preference fine-tuning in chest X-ray interpretation models without human feedback",
+    "S0_topic": {
+      "R_availability": 0.01013544546093211,
+      "R_identifiability": 0.0196078431372549,
+      "R_composite": 0.014871644299093507,
+      "lexical_coverage": 0.0056179775280898875,
+      "id_rank": 51
+    },
+    "S1_abstract": {
+      "R_availability": 0.10006594262059815,
+      "R_identifiability": 1.0,
+      "R_composite": 0.550032971310299,
+      "lexical_coverage": 0.08426966292134831,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.1435330777641625,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5717665388820813,
+      "lexical_coverage": 0.14606741573033707,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.1550580365068393,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5775290182534196,
+      "lexical_coverage": 0.1853932584269663,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.15198695999241008,
+      "R_identifiability": 1.0,
+      "R_composite": 0.575993479996205,
+      "lexical_coverage": 0.19662921348314608,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.05262431857679854,
+      "R_composite": 0.03651624092105233,
+      "id_rank": 49,
+      "paired_item": "arxiv:2501.05452"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.10006594262059815,
+      "hard_R_avail": 0.06183181594000331,
+      "true_rank": 1,
+      "hard_item": "arxiv:2409.15277",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2504.07640",
+    "title": "Enhancing Large Language Models through Neuro-Symbolic Integration and Ontological Reasoning",
+    "S0_topic": {
+      "R_availability": 0.03495497509254415,
+      "R_identifiability": 0.1111111111111111,
+      "R_composite": 0.07303304310182762,
+      "lexical_coverage": 0.009404388714733543,
+      "id_rank": 9
+    },
+    "S1_abstract": {
+      "R_availability": 0.15098529815144013,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5754926490757201,
+      "lexical_coverage": 0.12539184952978055,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.1764886494933871,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5882443247466935,
+      "lexical_coverage": 0.18181818181818182,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.18799951824977418,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5939997591248871,
+      "lexical_coverage": 0.2225705329153605,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.190406931648349,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5952034658241745,
+      "lexical_coverage": 0.2445141065830721,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.1351509640769481,
+      "R_composite": 0.19257548203847405,
+      "id_rank": 4,
+      "paired_item": "arxiv:2411.14199"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.15098529815144013,
+      "hard_R_avail": 0.07403325422987947,
+      "true_rank": 1,
+      "hard_item": "arxiv:2412.21154",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2411.17465",
+    "title": "ShowUI: One Vision-Language-Action Model for GUI Visual Agent",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.011904761904761904,
+      "R_composite": 0.005952380952380952,
+      "lexical_coverage": 0.0,
+      "id_rank": 84
+    },
+    "S1_abstract": {
+      "R_availability": 0.2085203180765531,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6042601590382766,
+      "lexical_coverage": 0.1795774647887324,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.23967879231426426,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6198393961571321,
+      "lexical_coverage": 0.24295774647887325,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2623454721077079,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6311727360538539,
+      "lexical_coverage": 0.3345070422535211,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.29842036986835596,
+      "R_identifiability": 1.0,
+      "R_composite": 0.649210184934178,
+      "lexical_coverage": 0.40492957746478875,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.05661486963449901,
+      "R_composite": 0.035553811628843704,
+      "id_rank": 69,
+      "paired_item": "arxiv:2505.00671"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.2085203180765531,
+      "hard_R_avail": 0.08483298023238829,
+      "true_rank": 1,
+      "hard_item": "arxiv:2406.06769",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2501.08528",
+    "title": "Dynamic Portfolio Optimization via Augmented DDPG with Quantum Price Levels-Based Trading Strategy",
+    "S0_topic": {
+      "R_availability": 0.014568181684673569,
+      "R_identifiability": 0.022222222222222223,
+      "R_composite": 0.018395201953447897,
+      "lexical_coverage": 0.008333333333333333,
+      "id_rank": 45
+    },
+    "S1_abstract": {
+      "R_availability": 0.1688112624785577,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5844056312392789,
+      "lexical_coverage": 0.1375,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.2284873468984465,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6142436734492233,
+      "lexical_coverage": 0.2,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.21572085741947603,
+      "R_identifiability": 1.0,
+      "R_composite": 0.607860428709738,
+      "lexical_coverage": 0.24583333333333332,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2335531198128375,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6167765599064188,
+      "lexical_coverage": 0.3125,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.09364640413524485,
+      "R_composite": 0.08015653540095576,
+      "id_rank": 15,
+      "paired_item": "arxiv:2501.17161"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1688112624785577,
+      "hard_R_avail": 0.08788342370416387,
+      "true_rank": 1,
+      "hard_item": "arxiv:2506.12993",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2409.18486",
+    "title": "Evaluation of OpenAI o1: Opportunities and Challenges of AGI",
+    "S0_topic": {
+      "R_availability": 0.009432645077723656,
+      "R_identifiability": 0.01818181818181818,
+      "R_composite": 0.013807231629770919,
+      "lexical_coverage": 0.007874015748031496,
+      "id_rank": 55
+    },
+    "S1_abstract": {
+      "R_availability": 0.06725014581111771,
+      "R_identifiability": 0.02,
+      "R_composite": 0.04362507290555886,
+      "lexical_coverage": 0.11811023622047244,
+      "id_rank": 50
+    },
+    "S2_intro": {
+      "R_availability": 0.06720671622303755,
+      "R_identifiability": 0.030303030303030304,
+      "R_composite": 0.048754873263033925,
+      "lexical_coverage": 0.14173228346456693,
+      "id_rank": 33
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.09218674359593576,
+      "R_identifiability": 0.02857142857142857,
+      "R_composite": 0.060379086083682164,
+      "lexical_coverage": 0.2125984251968504,
+      "id_rank": 35
+    },
+    "S4_body": {
+      "R_availability": 0.08612622571933967,
+      "R_identifiability": 0.043478260869565216,
+      "R_composite": 0.06480224329445244,
+      "lexical_coverage": 0.2047244094488189,
+      "id_rank": 23
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.06257326797513854,
+      "R_composite": 0.040058563812130674,
+      "id_rank": 57,
+      "paired_item": "arxiv:2410.24198"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.06725014581111771,
+      "hard_R_avail": 0.10390226231951884,
+      "true_rank": 50,
+      "hard_item": "arxiv:2412.21154",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2502.02561",
+    "title": "Decision Theoretic Foundations for Conformal Prediction: Optimal Uncertainty Quantification for Risk-Averse Agents",
+    "S0_topic": {
+      "R_availability": 0.023118461265521945,
+      "R_identifiability": 0.047619047619047616,
+      "R_composite": 0.03536875444228478,
+      "lexical_coverage": 0.0041841004184100415,
+      "id_rank": 21
+    },
+    "S1_abstract": {
+      "R_availability": 0.059835389621742424,
+      "R_identifiability": 0.5,
+      "R_composite": 0.2799176948108712,
+      "lexical_coverage": 0.0502092050209205,
+      "id_rank": 2
+    },
+    "S2_intro": {
+      "R_availability": 0.07151758965816431,
+      "R_identifiability": 0.5,
+      "R_composite": 0.2857587948290822,
+      "lexical_coverage": 0.08368200836820083,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.09124535715277303,
+      "R_identifiability": 0.5,
+      "R_composite": 0.2956226785763865,
+      "lexical_coverage": 0.13807531380753138,
+      "id_rank": 2
+    },
+    "S4_body": {
+      "R_availability": 0.11313963319915468,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3065698165995773,
+      "lexical_coverage": 0.1799163179916318,
+      "id_rank": 2
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.06949958408527353,
+      "R_composite": 0.0555831253759701,
+      "id_rank": 24,
+      "paired_item": "arxiv:2504.21039"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.059835389621742424,
+      "hard_R_avail": 0.07979431685769965,
+      "true_rank": 2,
+      "hard_item": "arxiv:2504.12582",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2504.03838",
+    "title": "High-energy gamma-ray emission from memory-burdened primordial black holes",
+    "S0_topic": {
+      "R_availability": 0.028761730685212622,
+      "R_identifiability": 0.07692307692307693,
+      "R_composite": 0.052842403804144775,
+      "lexical_coverage": 0.007246376811594203,
+      "id_rank": 13
+    },
+    "S1_abstract": {
+      "R_availability": 0.19602697523924684,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5980134876196235,
+      "lexical_coverage": 0.15579710144927536,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.3280623641586835,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6640311820793418,
+      "lexical_coverage": 0.30434782608695654,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2525303067265244,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6262651533632622,
+      "lexical_coverage": 0.32971014492753625,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2538108021936706,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.293572067763502,
+      "lexical_coverage": 0.34782608695652173,
+      "id_rank": 3
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.11622907137597069,
+      "R_composite": 0.07663305420650386,
+      "id_rank": 27,
+      "paired_item": "arxiv:2501.19375"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.19602697523924684,
+      "hard_R_avail": 0.04325958827574651,
+      "true_rank": 1,
+      "hard_item": "arxiv:2410.11939",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2410.11939",
+    "title": "SCExAO/CHARIS Near-Infrared Scattered-Light Imaging and Integral Field Spectropolarimetry of the AB Aurigae Protoplanetary System",
+    "S0_topic": {
+      "R_availability": 0.05039505041583814,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5251975252079191,
+      "lexical_coverage": 0.011904761904761904,
+      "id_rank": 1
+    },
+    "S1_abstract": {
+      "R_availability": 0.03391546608164474,
+      "R_identifiability": 0.125,
+      "R_composite": 0.07945773304082238,
+      "lexical_coverage": 0.03571428571428571,
+      "id_rank": 8
+    },
+    "S2_intro": {
+      "R_availability": 0.07232296318682199,
+      "R_identifiability": 0.3333333333333333,
+      "R_composite": 0.20282814826007767,
+      "lexical_coverage": 0.12698412698412698,
+      "id_rank": 3
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.12772826346259564,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5638641317312978,
+      "lexical_coverage": 0.1626984126984127,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.23620061831751912,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6181003091587596,
+      "lexical_coverage": 0.24206349206349206,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.03480531475930215,
+      "R_composite": 0.024159414136407834,
+      "id_rank": 74,
+      "paired_item": "arxiv:2407.07061"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.03391546608164474,
+      "hard_R_avail": 0.037836096288268575,
+      "true_rank": 8,
+      "hard_item": "arxiv:2411.14199",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2501.13949",
+    "title": "Can OpenAI o1 Reason Well in Ophthalmology? A 6,990-Question Head-to-Head Evaluation Study",
+    "S0_topic": {
+      "R_availability": 0.047817537982762046,
+      "R_identifiability": 0.1,
+      "R_composite": 0.07390876899138102,
+      "lexical_coverage": 0.03125,
+      "id_rank": 10
+    },
+    "S1_abstract": {
+      "R_availability": 0.07706425736330433,
+      "R_identifiability": 0.06666666666666667,
+      "R_composite": 0.0718654620149855,
+      "lexical_coverage": 0.09375,
+      "id_rank": 15
+    },
+    "S2_intro": {
+      "R_availability": 0.5560182347282037,
+      "R_identifiability": 1.0,
+      "R_composite": 0.7780091173641018,
+      "lexical_coverage": 0.6614583333333334,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.7612673116143984,
+      "R_identifiability": 1.0,
+      "R_composite": 0.8806336558071992,
+      "lexical_coverage": 1.0,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.7723949002283913,
+      "R_identifiability": 1.0,
+      "R_composite": 0.8861974501141956,
+      "lexical_coverage": 1.0,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.04108967700404447,
+      "R_composite": 0.030961505168688903,
+      "id_rank": 48,
+      "paired_item": "arxiv:2410.07025"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.07706425736330433,
+      "hard_R_avail": 0.09396948492849261,
+      "true_rank": 15,
+      "hard_item": "arxiv:2410.01792",
+      "true_beats_hard_avail": false
+    }
+  },
+  {
+    "item_id": "arxiv:2503.20009",
+    "title": "Completely Centrally Essential Rings",
+    "S0_topic": {
+      "R_availability": 0.010232493711661378,
+      "R_identifiability": 0.016666666666666666,
+      "R_composite": 0.013449580189164022,
+      "lexical_coverage": 0.011299435028248588,
+      "id_rank": 60
+    },
+    "S1_abstract": {
+      "R_availability": 0.222896636222496,
+      "R_identifiability": 1.0,
+      "R_composite": 0.611448318111248,
+      "lexical_coverage": 0.096045197740113,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.2540304610786505,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6270152305393253,
+      "lexical_coverage": 0.1751412429378531,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.23829289466370338,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6191464473318516,
+      "lexical_coverage": 0.22033898305084745,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.2637769590764545,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6318884795382272,
+      "lexical_coverage": 0.2598870056497175,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.02707355858837354,
+      "R_composite": 0.06909233484974232,
+      "id_rank": 9,
+      "paired_item": "arxiv:2411.17465"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.222896636222496,
+      "hard_R_avail": 0.018638471541616575,
+      "true_rank": 1,
+      "hard_item": "arxiv:2606.26158",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2408.04628",
+    "title": "LogogramNLP: Comparing Visual and Textual Representations of Ancient Logographic Writing Systems for NLP",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.011764705882352941,
+      "R_composite": 0.0058823529411764705,
+      "lexical_coverage": 0.0,
+      "id_rank": 85
+    },
+    "S1_abstract": {
+      "R_availability": 0.1891653321972802,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5945826660986401,
+      "lexical_coverage": 0.11494252873563218,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.24971884227868435,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6248594211393421,
+      "lexical_coverage": 0.20689655172413793,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2906648243609531,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6453324121804765,
+      "lexical_coverage": 0.3218390804597701,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.31687821635307095,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6584391081765355,
+      "lexical_coverage": 0.41379310344827586,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.06676908249846576,
+      "R_composite": 0.03979479765948929,
+      "id_rank": 78,
+      "paired_item": "arxiv:2409.18486"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1891653321972802,
+      "hard_R_avail": 0.08260437534167553,
+      "true_rank": 1,
+      "hard_item": "arxiv:2411.17465",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2505.04358",
+    "title": "Reduced Cloud Cover Errors in a Hybrid AI-Climate Model Through Equation Discovery And Automatic Tuning",
+    "S0_topic": {
+      "R_availability": 0.0,
+      "R_identifiability": 0.011627906976744186,
+      "R_composite": 0.005813953488372093,
+      "lexical_coverage": 0.0,
+      "id_rank": 86
+    },
+    "S1_abstract": {
+      "R_availability": 0.17892504010898844,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5894625200544942,
+      "lexical_coverage": 0.1935483870967742,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.227082621113684,
+      "R_identifiability": 1.0,
+      "R_composite": 0.613541310556842,
+      "lexical_coverage": 0.3010752688172043,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.2710703638981745,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6355351819490873,
+      "lexical_coverage": 0.44623655913978494,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.29934326787891413,
+      "R_identifiability": 1.0,
+      "R_composite": 0.649671633939457,
+      "lexical_coverage": 0.543010752688172,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.04750354839874889,
+      "R_composite": 0.031564274199374444,
+      "id_rank": 64,
+      "paired_item": "arxiv:2504.03838"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.17892504010898844,
+      "hard_R_avail": 0.06724825956640057,
+      "true_rank": 1,
+      "hard_item": "arxiv:2505.07271",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2411.09137",
+    "title": "Fast probabilistic snake algorithm",
+    "S0_topic": {
+      "R_availability": 0.007723704588130334,
+      "R_identifiability": 0.015873015873015872,
+      "R_composite": 0.011798360230573103,
+      "lexical_coverage": 0.005988023952095809,
+      "id_rank": 63
+    },
+    "S1_abstract": {
+      "R_availability": 0.09789979253842124,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5489498962692106,
+      "lexical_coverage": 0.07784431137724551,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.15861700728189077,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3293085036409454,
+      "lexical_coverage": 0.19161676646706588,
+      "id_rank": 2
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.14706544026403723,
+      "R_identifiability": 0.5,
+      "R_composite": 0.3235327201320186,
+      "lexical_coverage": 0.23353293413173654,
+      "id_rank": 2
+    },
+    "S4_body": {
+      "R_availability": 0.15171631408364197,
+      "R_identifiability": 0.5,
+      "R_composite": 0.325858157041821,
+      "lexical_coverage": 0.2634730538922156,
+      "id_rank": 2
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.04051311313858337,
+      "R_composite": 0.026208937521672637,
+      "id_rank": 84,
+      "paired_item": "arxiv:2501.13949"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.09789979253842124,
+      "hard_R_avail": 0.044539002326413196,
+      "true_rank": 1,
+      "hard_item": "arxiv:2502.17416",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2502.15707",
+    "title": "Evaluating the Efficacy of Next.js: A Comparative Analysis with React.js on Performance, SEO, and Global Network Equity",
+    "S0_topic": {
+      "R_availability": 0.004214857623062473,
+      "R_identifiability": 0.014925373134328358,
+      "R_composite": 0.009570115378695416,
+      "lexical_coverage": 0.0035087719298245615,
+      "id_rank": 67
+    },
+    "S1_abstract": {
+      "R_availability": 0.14906509704706083,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5745325485235304,
+      "lexical_coverage": 0.11228070175438597,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.18424842677841258,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5921242133892063,
+      "lexical_coverage": 0.17543859649122806,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.22616843581140472,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6130842179057023,
+      "lexical_coverage": 0.2771929824561403,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.24803250705061558,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6240162535253078,
+      "lexical_coverage": 0.3368421052631579,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.07987897985513653,
+      "R_composite": 0.05035615659423493,
+      "id_rank": 48,
+      "paired_item": "arxiv:2408.04628"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.14906509704706083,
+      "hard_R_avail": 0.056568542436249356,
+      "true_rank": 1,
+      "hard_item": "arxiv:2504.21039",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2504.12582",
+    "title": "Fair Conformal Prediction for Incomplete Covariate Data",
+    "S0_topic": {
+      "R_availability": 0.006755119266323969,
+      "R_identifiability": 0.015625,
+      "R_composite": 0.011190059633161985,
+      "lexical_coverage": 0.005847953216374269,
+      "id_rank": 64
+    },
+    "S1_abstract": {
+      "R_availability": 0.1899690484242838,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5949845242121419,
+      "lexical_coverage": 0.1286549707602339,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.2902905853211288,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6451452926605644,
+      "lexical_coverage": 0.3391812865497076,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.3498903743242887,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6749451871621444,
+      "lexical_coverage": 0.45614035087719296,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.35414405054274045,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6770720252713702,
+      "lexical_coverage": 0.5380116959064327,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.03780704770414769,
+      "R_composite": 0.026149900663668048,
+      "id_rank": 69,
+      "paired_item": "arxiv:2411.09137"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1899690484242838,
+      "hard_R_avail": 0.07524355231844407,
+      "true_rank": 1,
+      "hard_item": "arxiv:2502.02561",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2412.16178",
+    "title": "Context Clues: Evaluating Long Context Models for Clinical Prediction Tasks on EHRs",
+    "S0_topic": {
+      "R_availability": 0.014091964711210308,
+      "R_identifiability": 0.02564102564102564,
+      "R_composite": 0.019866495176117972,
+      "lexical_coverage": 0.0026041666666666665,
+      "id_rank": 39
+    },
+    "S1_abstract": {
+      "R_availability": 0.1594064988890851,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5797032494445425,
+      "lexical_coverage": 0.11197916666666667,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.1602216115849664,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5801108057924832,
+      "lexical_coverage": 0.13020833333333334,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.21258544914908378,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6062927245745419,
+      "lexical_coverage": 0.18229166666666666,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.24462038259749094,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6223101912987454,
+      "lexical_coverage": 0.21875,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.07534864757274759,
+      "R_composite": 0.04587104509784921,
+      "id_rank": 61,
+      "paired_item": "arxiv:2504.12582"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.1594064988890851,
+      "hard_R_avail": 0.09920197033083025,
+      "true_rank": 1,
+      "hard_item": "arxiv:2410.24198",
+      "true_beats_hard_avail": true
+    }
+  },
+  {
+    "item_id": "arxiv:2501.04866",
+    "title": "Identifying Flare Locations Through Exoplanet Transit Occultations",
+    "S0_topic": {
+      "R_availability": 0.014388473662382415,
+      "R_identifiability": 0.021739130434782608,
+      "R_composite": 0.01806380204858251,
+      "lexical_coverage": 0.007936507936507936,
+      "id_rank": 46
+    },
+    "S1_abstract": {
+      "R_availability": 0.17577386297152608,
+      "R_identifiability": 1.0,
+      "R_composite": 0.5878869314857631,
+      "lexical_coverage": 0.1626984126984127,
+      "id_rank": 1
+    },
+    "S2_intro": {
+      "R_availability": 0.23158094817723102,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6157904740886155,
+      "lexical_coverage": 0.23015873015873015,
+      "id_rank": 1
+    },
+    "S3_methods_mid": {
+      "R_availability": 0.25159792915502993,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6257989645775149,
+      "lexical_coverage": 0.32142857142857145,
+      "id_rank": 1
+    },
+    "S4_body": {
+      "R_availability": 0.28746093302884934,
+      "R_identifiability": 1.0,
+      "R_composite": 0.6437304665144247,
+      "lexical_coverage": 0.4087301587301587,
+      "id_rank": 1
+    },
+    "neg_random_target_S4": {
+      "R_availability": 0.0885134122254141,
+      "R_composite": 0.058962588465648225,
+      "id_rank": 34,
+      "paired_item": "arxiv:2503.21248"
+    },
+    "hard_neg_S1": {
+      "true_R_avail": 0.17577386297152608,
+      "hard_R_avail": 0.03474239658245715,
+      "true_rank": 1,
+      "hard_item": "arxiv:2504.03838",
+      "true_beats_hard_avail": true
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "n_rows": 72,
+  "pooled_pearson_R_vs_score": 0.7074117609317153,
+  "bootstrap_ci95": [
+    0.592880809842599,
+    0.7920387494570963
+  ],
+  "mean_score_by_stage": {
+    "S0_topic": {
+      "mean_score": 0.03345152662124954,
+      "mean_R": 0.009953049755318745,
+      "n": 24
+    },
+    "S1_abstract": {
+      "mean_score": 0.07078001746649788,
+      "mean_R": 0.11906602723455198,
+      "n": 24
+    },
+    "S3_methods_mid": {
+      "mean_score": 0.07523403541570928,
+      "mean_R": 0.18731846673869218,
+      "n": 24
+    }
+  },
+  "item_winner_flip_S0_vs_S3": {
+    "flips": 4,
+    "comparable_items": 12,
+    "rate": 0.3333333333333333
+  }
+}

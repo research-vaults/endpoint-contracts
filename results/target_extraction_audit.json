@@ -1,0 +1,451 @@
+{
+  "protocol": "target extraction quality audit v4",
+  "seed": 20260731,
+  "n_sample": 42,
+  "sampling": "14 per target-length tercile from N=86",
+  "sample_summary": {
+    "n": 42,
+    "usable_rate": 0.9523809523809523,
+    "conclusion_like_rate": 0.8809523809523809,
+    "fail_rate": 0.047619047619047616,
+    "footer_rate": 0.14285714285714285,
+    "pass_clean": 33,
+    "pass_with_footer": 4,
+    "partial": 3,
+    "fail": 2
+  },
+  "population_summary": {
+    "n": 86,
+    "usable_rate": 0.9186046511627907,
+    "conclusion_like_rate": 0.8372093023255814,
+    "fail_rate": 0.08139534883720931,
+    "footer_rate": 0.12790697674418605,
+    "pass_clean": 65,
+    "pass_with_footer": 7,
+    "partial": 7,
+    "fail": 7
+  },
+  "criteria": {
+    "fail": "too short after footer strip, pure references, appendix-dominant, table-dominant, or chrome-only",
+    "pass_clean": "conclusion header/language, no ar5iv footer",
+    "pass_with_footer": "conclusion header/language, trailing ar5iv footer chrome only",
+    "partial": "non-fail body without clear conclusion language",
+    "usable": "pass_clean + pass_with_footer + partial"
+  },
+  "display": {
+    "n_audited": 42,
+    "usable_rate": 0.95,
+    "conclusion_like_rate": 0.88,
+    "fail_rate": 0.05,
+    "footer_rate": 0.14,
+    "pop86_usable_rate": 0.92,
+    "pop86_fail_rate": 0.08,
+    "pop86_footer_rate": 0.13
+  },
+  "sample_rows": [
+    {
+      "item_id": "arxiv:2311.07361",
+      "label": "fail",
+      "hard": [
+        "too_short_body",
+        "chrome_only"
+      ],
+      "flags": [
+        "trailing_ar5iv_footer"
+      ],
+      "body_len": 13,
+      "total_len": 175,
+      "title": "The Impact of Large Language Models on Scientific Discovery: a Preliminary Study"
+    },
+    {
+      "item_id": "arxiv:2411.09137",
+      "label": "pass_with_footer",
+      "hard": [],
+      "flags": [
+        "trailing_ar5iv_footer"
+      ],
+      "body_len": 1892,
+      "total_len": 2053,
+      "title": "Fast probabilistic snake algorithm"
+    },
+    {
+      "item_id": "arxiv:2607.22368",
+      "label": "partial",
+      "hard": [],
+      "flags": [],
+      "body_len": 3000,
+      "total_len": 3000,
+      "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic "
+    },
+    {
+      "item_id": "arxiv:2506.12345",
+      "label": "partial",
+      "hard": [],
+      "flags": [],
+      "body_len": 3000,
+      "total_len": 3000,
+      "title": "Extracting Composition-Dependent Diffusion Coefficients Over a Very Large Compos"
+    },
+    {
+      "item_id": "arxiv:2307.10635",
+      "label": "partial",
+      "hard": [],
+      "flags": [
+        "trailing_ar5iv_footer"
+      ],
+      "body_len": 2838,
+      "total_len": 3000,
+      "title": "SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large"
+    },
+    {
+      "item_id": "arxiv:2505.18098",
+      "label": "pass_with_footer",
+      "hard": [],
+      "flags": [
+        "trailing_ar5iv_footer"
+      ],
+      "body_len": 3531,
+      "total_len": 3692,
+      "title": "Planning without Search: Refining Frontier LLMs with Offline Goal-Conditioned RL"
+    },
+    {
+      "item_id": "arxiv:2411.14405",
+      "label": "pass_with_footer",
+      "hard": [],
+      "flags": [
+        "trailing_ar5iv_footer"
+      ],
+      "body_len": 3785,
+      "total_len": 3946,
+      "title": "Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions"
+    },
+    {
+      "item_id": "arxiv:2412.05265",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Reinforcement Learning: An Overview"
+    },
+    {
+      "item_id": "arxiv:2504.21039",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Llama-3.1-FoundationAI-SecurityLLM-Base-8B Technical Report"
+    },
+    {
+      "item_id": "arxiv:2505.13259",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "From Automation to Autonomy: A Survey on Large Language Models in Scientific Dis"
+    },
+    {
+      "item_id": "arxiv:2504.03838",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "High-energy gamma-ray emission from memory-burdened primordial black holes"
+    },
+    {
+      "item_id": "arxiv:2502.08791",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "VL-Explore: Zero-shot Vision-Language Exploration and Target Discovery by Mobile"
+    },
+    {
+      "item_id": "arxiv:2503.09516",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcemen"
+    },
+    {
+      "item_id": "arxiv:2406.06769",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "DISCOVERYWORLD: A Virtual Environment for Developing and Evaluating Automated Sc"
+    },
+    {
+      "item_id": "arxiv:2504.07640",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Enhancing Large Language Models through Neuro-Symbolic Integration and Ontologic"
+    },
+    {
+      "item_id": "arxiv:2501.09686",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Lang"
+    },
+    {
+      "item_id": "arxiv:2504.05186",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Training state-of-the-art pathology foundation models with orders of magnitude l"
+    },
+    {
+      "item_id": "arxiv:2504.12582",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Fair Conformal Prediction for Incomplete Covariate Data"
+    },
+    {
+      "item_id": "arxiv:2503.04388",
+      "label": "pass_with_footer",
+      "hard": [],
+      "flags": [
+        "trailing_ar5iv_footer"
+      ],
+      "body_len": 3841,
+      "total_len": 4000,
+      "title": "More Documents, Same Length: Isolating the Challenge of Multiple Documents in RA"
+    },
+    {
+      "item_id": "arxiv:2505.00671",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Multi-Constraint Safe Reinforcement Learning via Closed-form Solution for Log-Su"
+    },
+    {
+      "item_id": "arxiv:2412.17596",
+      "label": "fail",
+      "hard": [
+        "appendix_dominant"
+      ],
+      "flags": [],
+      "body_len": 3999,
+      "total_len": 3999,
+      "title": "Evaluating LLMs' Divergent Thinking Capabilities for Scientific Idea Generation "
+    },
+    {
+      "item_id": "arxiv:2407.07061",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Inte"
+    },
+    {
+      "item_id": "arxiv:2406.04598",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 3999,
+      "total_len": 3999,
+      "title": "OCDB: Revisiting Causal Discovery with a Comprehensive Benchmark and Evaluation "
+    },
+    {
+      "item_id": "arxiv:2408.12574",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "MuMA-ToM: Multi-modal Multi-Agent Theory of Mind"
+    },
+    {
+      "item_id": "arxiv:2502.05151",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 3999,
+      "total_len": 3999,
+      "title": "Transforming Science with Large Language Models: A Survey on AI-assisted Scienti"
+    },
+    {
+      "item_id": "arxiv:2501.04866",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Identifying Flare Locations Through Exoplanet Transit Occultations"
+    },
+    {
+      "item_id": "arxiv:2501.05452",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "ReFocus: Visual Editing as a Chain of Thought for Structured Image Understanding"
+    },
+    {
+      "item_id": "arxiv:2410.19810",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Training Compute-Optimal Vision Transformers for Brain Encoding"
+    },
+    {
+      "item_id": "arxiv:2407.21783",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "The Llama 3 Herd of Models"
+    },
+    {
+      "item_id": "arxiv:2505.04358",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Reduced Cloud Cover Errors in a Hybrid AI-Climate Model Through Equation Discove"
+    },
+    {
+      "item_id": "arxiv:2505.07271",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 3999,
+      "total_len": 3999,
+      "title": "On the Robustness of Reward Models for Language Model Alignment"
+    },
+    {
+      "item_id": "arxiv:2407.01725",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 3999,
+      "total_len": 3999,
+      "title": "DiscoveryBench: Towards Data-Driven Discovery with Large Language Models"
+    },
+    {
+      "item_id": "arxiv:2410.07025",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 3999,
+      "total_len": 3999,
+      "title": "CheXalign: Preference fine-tuning in chest X-ray interpretation models without h"
+    },
+    {
+      "item_id": "arxiv:2605.30284",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs Under Progr"
+    },
+    {
+      "item_id": "arxiv:2502.17416",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Reasoning with Latent Thoughts: On the Power of Looped Transformers"
+    },
+    {
+      "item_id": "arxiv:2504.01849",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "An Approach to Technical AGI Safety and Security"
+    },
+    {
+      "item_id": "arxiv:2503.21248",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 3999,
+      "total_len": 3999,
+      "title": "ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based T"
+    },
+    {
+      "item_id": "arxiv:2411.05003",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "ReCapture: Generative Video Camera Controls for User-Provided Videos using Maske"
+    },
+    {
+      "item_id": "arxiv:2410.01792",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "When a language model is optimized for reasoning, does it still show embers of a"
+    },
+    {
+      "item_id": "arxiv:2502.21231",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "ByteScale: Efficient Scaling of LLM Training with a 2048K Context Length on More"
+    },
+    {
+      "item_id": "arxiv:2412.16178",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Context Clues: Evaluating Long Context Models for Clinical Prediction Tasks on E"
+    },
+    {
+      "item_id": "arxiv:2501.05465",
+      "label": "pass_clean",
+      "hard": [],
+      "flags": [],
+      "body_len": 4000,
+      "total_len": 4000,
+      "title": "Small Language Models (SLMs) Can Still Pack a Punch: A survey (updated 2026)"
+    }
+  ],
+  "population_fail_ids": [
+    "arxiv:2503.13657",
+    "arxiv:2504.12371",
+    "arxiv:2502.02561",
+    "arxiv:2412.17596",
+    "arxiv:2410.24198",
+    "arxiv:2501.07542",
+    "arxiv:2311.07361"
+  ]
+}

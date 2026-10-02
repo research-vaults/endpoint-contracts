@@ -1,0 +1,46 @@
+{
+  "protocol": "measurement-contracts-0.9 fixed-observed-pair worst-case attrition completion",
+  "estimand": "mean true-minus-length-nearest-deranged R_avail contrast over the 97-item convenience sampling frame, holding the 86 observed pair contrasts fixed",
+  "population": {
+    "sampling_frame_n": 97,
+    "observed_full_html_n": 86,
+    "missing_full_html_n": 11,
+    "missing_reason": "full ar5iv HTML unavailable"
+  },
+  "metric_contract": {
+    "R_avail_range": [
+      0.0,
+      1.0
+    ],
+    "item_contrast": "R_avail(true S3) - R_avail(frozen length-nearest deranged S3)",
+    "item_contrast_range": [
+      -1.0,
+      1.0
+    ]
+  },
+  "observed": {
+    "sum_item_contrasts": 11.711474926653525,
+    "mean_item_contrast": 0.13617994100759911,
+    "fraction_positive": 0.9767441860465116
+  },
+  "worst_case_completion": {
+    "full_frame_mean_identification_region": [
+      0.007334793058283758,
+      0.23413891676962395
+    ],
+    "lower_bound_assumption": "all 11 missing item contrasts equal -1",
+    "upper_bound_assumption": "all 11 missing item contrasts equal +1",
+    "required_missing_mean_for_full_frame_zero": -1.064679538786684,
+    "required_missing_mean_is_feasible": false,
+    "minimum_missing_items_at_delta_minus_one_for_nonpositive_mean": 12,
+    "actual_missing_items": 11,
+    "sign_identified_positive_under_fixed_pair_completion": true
+  },
+  "interpretation": "Under a fixed-observed-pair completion, the 11 unavailable items cannot reverse the positive mean even if every missing contrast is set to its mathematical minimum of -1.",
+  "limitations": [
+    "This bound holds the 86 observed donor assignments and item contrasts fixed; it does not rerun length-nearest matching on a hypothetical 97-item complete corpus.",
+    "It bounds attrition inside the author-constructed convenience frame only; it does not transport to official ProjectionBench or another target population.",
+    "The identification region is a deterministic bound, not a confidence interval."
+  ],
+  "source": "results/evidence_interventions.json"
+}

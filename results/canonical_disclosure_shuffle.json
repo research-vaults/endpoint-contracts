@@ -1,0 +1,28 @@
+{
+  "protocol": "measurement-contracts-0.6 deterministic length-nearest derangement v1",
+  "seed": 20260730,
+  "n_boot": 5000,
+  "n": 86,
+  "mean": 0.13617994100759914,
+  "ci95": [
+    0.11752207195851339,
+    0.15760486039173144
+  ],
+  "frac_pos": 0.9767441860465116,
+  "no_op_count": 0,
+  "perm_p_greater": 0.0001999600079984003,
+  "length_match": {
+    "algorithm": "deterministic_length_nearest_derangement_v1",
+    "length_unit": "regex_tokens_before_stopword_removal",
+    "n": 86,
+    "donor_unique_count": 86,
+    "self_pair_count": 0,
+    "mean_source_tokens": 1353.6744186046512,
+    "mean_donor_tokens": 1353.6744186046512,
+    "median_absolute_log_length_ratio": 0.003218023694200731,
+    "p90_absolute_log_length_ratio": 0.012453461071286557,
+    "max_absolute_log_length_ratio": 0.03221872058016975,
+    "fraction_within_10_percent_source_length": 1.0,
+    "fraction_within_20_percent_source_length": 1.0
+  }
+}

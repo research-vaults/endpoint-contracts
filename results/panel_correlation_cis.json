@@ -1,0 +1,62 @@
+{
+  "per_model_item_cluster_ci": {
+    "google/gemma-3-4b-it": {
+      "r": 0.7067190996997705,
+      "n": 36,
+      "item_cluster_ci95": [
+        0.6093160842291728,
+        0.8245240826862642
+      ]
+    },
+    "meta-llama/llama-3.2-3b-instruct": {
+      "r": 0.7127273690017982,
+      "n": 36,
+      "item_cluster_ci95": [
+        0.57385792148618,
+        0.8267867768470696
+      ]
+    },
+    "qwen/qwen-2.5-7b-instruct": {
+      "r": 0.7949259044758731,
+      "n": 96,
+      "item_cluster_ci95": [
+        0.7195001270626212,
+        0.8815119186742885
+      ]
+    },
+    "openai/gpt-4o-mini": {
+      "r": 0.7400266348387049,
+      "n": 60,
+      "item_cluster_ci95": [
+        0.6180894287342057,
+        0.8880432147310471
+      ]
+    }
+  },
+  "seed": 20260731,
+  "n_boot": 3000,
+  "holm_note": {
+    "confirmatory_family_m": 5,
+    "family_id": "TRA_primary_freeze_v1",
+    "seed": 20260730,
+    "draws_per_test": 5000,
+    "plus_one_denominator": 5001,
+    "tests": [
+      "Disclosure S0\u2192S4 positive control",
+      "Disclosure S3 true minus length-nearest deranged",
+      "FIRE instruction true minus length-nearest deranged",
+      "ResearchBench tiny true minus length-nearest deranged",
+      "Disclosure S1 true minus hard negative"
+    ],
+    "raw_plus_one_p_values": {
+      "disclosure_S0_to_S4": "1/5001",
+      "disclosure_identity": "1/5001",
+      "fire_identity": "1/5001",
+      "researchbench_identity": "2/5001",
+      "hard_negative_S1": "1/5001"
+    },
+    "raw_p_statement": "four raw p=1/5001 and ResearchBench p=2/5001; all raw p<.001",
+    "holm_alpha_0.05": "all five remain significant after Holm step-down correction",
+    "source": "formal_significance.json#confirmatory_family"
+  }
+}

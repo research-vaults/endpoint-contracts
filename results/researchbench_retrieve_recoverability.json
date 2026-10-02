@@ -1,0 +1,119 @@
+{
+  "n": 12,
+  "mean_best_gold_rank": 2.8333333333333335,
+  "mean_mrr": 0.639520202020202,
+  "frac_gold_in_top3": 0.6666666666666666,
+  "frac_gold_in_top10": 0.9166666666666666,
+  "mean_R_RQ": 0.09321087800433195,
+  "mean_R_RQBG": 0.2101482477255076,
+  "rows": [
+    {
+      "discipline": "Astronomy",
+      "n_gold": 3,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 11,
+      "mrr_proxy": 0.09090909090909091,
+      "R_RQ_to_gold_abs": 0.06768023851023099,
+      "R_RQBG_to_gold_abs": 0.17044218256337684
+    },
+    {
+      "discipline": "Biology",
+      "n_gold": 4,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 1,
+      "mrr_proxy": 1.0,
+      "R_RQ_to_gold_abs": 0.08112178644642298,
+      "R_RQBG_to_gold_abs": 0.18774896055815277
+    },
+    {
+      "discipline": "Business",
+      "n_gold": 2,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 1,
+      "mrr_proxy": 1.0,
+      "R_RQ_to_gold_abs": 0.10432892829991541,
+      "R_RQBG_to_gold_abs": 0.22118119793677868
+    },
+    {
+      "discipline": "Cell Biology",
+      "n_gold": 2,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 4,
+      "mrr_proxy": 0.25,
+      "R_RQ_to_gold_abs": 0.10378299311230532,
+      "R_RQBG_to_gold_abs": 0.18680549485277337
+    },
+    {
+      "discipline": "Chemistry",
+      "n_gold": 2,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 1,
+      "mrr_proxy": 1.0,
+      "R_RQ_to_gold_abs": 0.07306780906154456,
+      "R_RQBG_to_gold_abs": 0.2317787089258752
+    },
+    {
+      "discipline": "Earth Science",
+      "n_gold": 2,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 1,
+      "mrr_proxy": 1.0,
+      "R_RQ_to_gold_abs": 0.09212760878166365,
+      "R_RQBG_to_gold_abs": 0.17566854371125984
+    },
+    {
+      "discipline": "Energy Science",
+      "n_gold": 3,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 4,
+      "mrr_proxy": 0.25,
+      "R_RQ_to_gold_abs": 0.0883548355579979,
+      "R_RQBG_to_gold_abs": 0.19108546549167826
+    },
+    {
+      "discipline": "Environmental Science",
+      "n_gold": 2,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 2,
+      "mrr_proxy": 0.5,
+      "R_RQ_to_gold_abs": 0.10389449930665665,
+      "R_RQBG_to_gold_abs": 0.31369012723759754
+    },
+    {
+      "discipline": "Law",
+      "n_gold": 2,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 4,
+      "mrr_proxy": 0.25,
+      "R_RQ_to_gold_abs": 0.10627798807944172,
+      "R_RQBG_to_gold_abs": 0.18761587218680312
+    },
+    {
+      "discipline": "Material Science",
+      "n_gold": 3,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 1,
+      "mrr_proxy": 1.0,
+      "R_RQ_to_gold_abs": 0.09629747787221674,
+      "R_RQBG_to_gold_abs": 0.21637847708661273
+    },
+    {
+      "discipline": "Math",
+      "n_gold": 4,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 1,
+      "mrr_proxy": 1.0,
+      "R_RQ_to_gold_abs": 0.11152033569025885,
+      "R_RQBG_to_gold_abs": 0.22635678115359026
+    },
+    {
+      "discipline": "Physics",
+      "n_gold": 2,
+      "n_cands": 75,
+      "best_gold_rank_by_RQ": 3,
+      "mrr_proxy": 0.3333333333333333,
+      "R_RQ_to_gold_abs": 0.09007603533332856,
+      "R_RQBG_to_gold_abs": 0.21302716100159286
+    }
+  ]
+}

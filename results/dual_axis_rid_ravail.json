@@ -1,0 +1,86 @@
+{
+  "protocol": "measurement-contracts-dual-axis-R_avail-x-R_id-v2",
+  "R_avail_metric_contract": {
+    "family": "R_availability_four_measure_mean",
+    "components": [
+      "lexical_coverage",
+      "token_jaccard",
+      "rouge_l_f1",
+      "bow_cosine"
+    ],
+    "aggregation": "unweighted mean of four components",
+    "lexical_coverage_policy": "component only; never stored under R_avail"
+  },
+  "R_id_metric_contract": "MRR/gold@1 where candidate pools exist; sc = no candidate pool",
+  "note": "Joint report of over-determination (R_avail) and under-determination (R_id) where candidate pools exist.",
+  "settings": [
+    {
+      "setting": "RB ranking (RQ alone)",
+      "n": 12,
+      "R_avail": 0.2785039553220498,
+      "R_id_MRR": 0.44667450604950604,
+      "gold_at_1_k": 4,
+      "gold_at_1_n": 12,
+      "gold_at_1_wilson": [
+        0.14,
+        0.61
+      ],
+      "mean_rank": 6.75,
+      "margin_vs_neg": -0.0801161971658684,
+      "source": "researchbench_generation_audit.json#ranking_identifiability"
+    },
+    {
+      "setting": "FIRE instruction\u2192conclusion",
+      "n": 35,
+      "R_avail": 0.25236884658876,
+      "R_id_MRR": 0.927891156462585,
+      "gold_at_1_k": 31,
+      "gold_at_1_n": 35,
+      "gold_at_1_wilson": [
+        0.74,
+        0.95
+      ],
+      "mean_rank": 1.2857142857142858,
+      "source": "firebench_recoverability.json#rows.instruction"
+    },
+    {
+      "setting": "FIRE RQ\u2192conclusion",
+      "n": 30,
+      "R_avail": 0.5216441870759281,
+      "R_id_MRR": 0.9833333333333333,
+      "gold_at_1_k": 29,
+      "gold_at_1_n": 30,
+      "gold_at_1_wilson": [
+        0.83,
+        0.99
+      ],
+      "source": "firebench_recoverability.json#rows.RQ"
+    },
+    {
+      "setting": "RB retrieve (RQ\u2192gold insp)",
+      "n": 12,
+      "R_avail": 0.09321087800433195,
+      "R_id_MRR": 0.639520202020202,
+      "gold_in_top3": 0.6666666666666666,
+      "mean_best_gold_rank": 2.8333333333333335,
+      "source": "researchbench_retrieve_recoverability.json"
+    },
+    {
+      "setting": "Disclosure proxy S3",
+      "n": 86,
+      "R_avail": 0.21452469377839964,
+      "R_id": "sc",
+      "note": "no multi-candidate endpoint pool; R_id out of protocol scope",
+      "source": "pilot_controls.json#stage_summary.S3_methods_mid"
+    },
+    {
+      "setting": "AI Idea topic+refs",
+      "n": 3495,
+      "R_avail": 0.23322588380689968,
+      "lexical_coverage_component": 0.17479074613406032,
+      "R_id": "sc",
+      "note": "structured summary gold; no ranked alternate-endpoint pool in public release",
+      "source": "ai_idea_bench_recoverability_full.json#summary"
+    }
+  ]
+}

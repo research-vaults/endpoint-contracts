@@ -1,0 +1,405 @@
+{
+  "panel": {
+    "n_rows": 228,
+    "n_models": 4,
+    "models": [
+      "google/gemma-3-4b-it",
+      "meta-llama/llama-3.2-3b-instruct",
+      "qwen/qwen-2.5-7b-instruct",
+      "openai/gpt-4o-mini"
+    ],
+    "pooled_pearson": 0.7493517499989469,
+    "pooled_pearson_ci95": [
+      0.6858109833004103,
+      0.8087548526444409
+    ],
+    "pooled_spearman": 0.7792942429559462,
+    "pooled_ols_slope": 0.2854814341699867,
+    "per_model": {
+      "google/gemma-3-4b-it": {
+        "n": 36,
+        "pearson": 0.7067190996997704,
+        "spearman": 0.705019305019305,
+        "pearson_ci95": [
+          0.5619744527005391,
+          0.8241829730073852
+        ],
+        "ols_intercept": 0.03700979372864297,
+        "ols_slope_dScore_dR": 0.2150401990243679,
+        "mean_score": 0.05968488984939959,
+        "mean_R": 0.10544584790952097
+      },
+      "meta-llama/llama-3.2-3b-instruct": {
+        "n": 36,
+        "pearson": 0.7127273690017982,
+        "spearman": 0.7243243243243244,
+        "pearson_ci95": [
+          0.5637837085384112,
+          0.8314858622412744
+        ],
+        "ols_intercept": 0.03283445599906931,
+        "ols_slope_dScore_dR": 0.25723510558496915,
+        "mean_score": 0.05995882981957154,
+        "mean_R": 0.10544584790952097
+      },
+      "qwen/qwen-2.5-7b-instruct": {
+        "n": 96,
+        "pearson": 0.7949259044758731,
+        "spearman": 0.8178106348345091,
+        "pearson_ci95": [
+          0.7067698680726541,
+          0.8849402075576591
+        ],
+        "ols_intercept": 0.021352603725909268,
+        "ols_slope_dScore_dR": 0.307848904485475,
+        "mean_score": 0.05381624456259231,
+        "mean_R": 0.10545316343074644
+      },
+      "openai/gpt-4o-mini": {
+        "n": 60,
+        "pearson": 0.7400266348387048,
+        "spearman": 0.8005001389274797,
+        "pearson_ci95": [
+          0.6087366834418455,
+          0.8910224673398892
+        ],
+        "ols_intercept": 0.020837562026316224,
+        "ols_slope_dScore_dR": 0.304306874711352,
+        "mean_score": 0.052692286793478094,
+        "mean_R": 0.10467960934953385
+      }
+    },
+    "stage_model_means": {
+      "S0_topic": {
+        "google/gemma-3-4b-it": 0.03634661257977652,
+        "meta-llama/llama-3.2-3b-instruct": 0.03055644066272256,
+        "qwen/qwen-2.5-7b-instruct": 0.023237404369637425,
+        "openai/gpt-4o-mini": 0.0199816542208232
+      },
+      "S1_abstract": {
+        "google/gemma-3-4b-it": 0.0691761971900586,
+        "meta-llama/llama-3.2-3b-instruct": 0.07238383774293715,
+        "qwen/qwen-2.5-7b-instruct": 0.06279756993872988,
+        "openai/gpt-4o-mini": 0.06633635675265195
+      },
+      "S3_methods_mid": {
+        "google/gemma-3-4b-it": 0.07353185977836363,
+        "meta-llama/llama-3.2-3b-instruct": 0.07693621105305491,
+        "qwen/qwen-2.5-7b-instruct": 0.07541375937940963,
+        "openai/gpt-4o-mini": 0.07175884940695913
+      }
+    },
+    "stage_rankings": {
+      "S0_topic": [
+        "google/gemma-3-4b-it",
+        "meta-llama/llama-3.2-3b-instruct",
+        "qwen/qwen-2.5-7b-instruct",
+        "openai/gpt-4o-mini"
+      ],
+      "S1_abstract": [
+        "meta-llama/llama-3.2-3b-instruct",
+        "google/gemma-3-4b-it",
+        "openai/gpt-4o-mini",
+        "qwen/qwen-2.5-7b-instruct"
+      ],
+      "S3_methods_mid": [
+        "meta-llama/llama-3.2-3b-instruct",
+        "qwen/qwen-2.5-7b-instruct",
+        "google/gemma-3-4b-it",
+        "openai/gpt-4o-mini"
+      ]
+    },
+    "ranking_changes_across_stages": true,
+    "item_winner_flip_S0_vs_S3": {
+      "flips": 13,
+      "comparable": 20,
+      "rate": 0.65
+    },
+    "stage_slopes": {
+      "S0_topic": {
+        "ols_slope": -0.5101740676807552,
+        "pearson": -0.40477008768002,
+        "n": 76
+      },
+      "S1_abstract": {
+        "ols_slope": 0.41430397419503945,
+        "pearson": 0.736250271859361,
+        "n": 76
+      },
+      "S3_methods_mid": {
+        "ols_slope": 0.23735139838253524,
+        "pearson": 0.6004655842496714,
+        "n": 76
+      }
+    },
+    "bootstrap_top_model_freq": {
+      "google/gemma-3-4b-it": 0.422,
+      "meta-llama/llama-3.2-3b-instruct": 0.47,
+      "qwen/qwen-2.5-7b-instruct": 0.053,
+      "openai/gpt-4o-mini": 0.055
+    }
+  },
+  "disclosure_controls": {
+    "n": 86,
+    "positive": {
+      "mean_R_availability_by_stage": [
+        0.017094941283577213,
+        0.12974468579876944,
+        0.1880519026367082,
+        0.21452469377839964,
+        0.23540891609732795
+      ],
+      "stage_deltas": [
+        0.11264974451519222,
+        0.05830721683793877,
+        0.026472791141691432,
+        0.02088422231892831
+      ],
+      "n_increasing_steps": 4,
+      "n_steps": 4,
+      "passed_soft": true,
+      "expectation": "R_availability rises with disclosure"
+    },
+    "negative": {
+      "mean_S4_true_R_avail": 0.23540891609732795,
+      "mean_S4_random_R_avail": 0.08124387654573566,
+      "gap_true_minus_random": 0.15416503955159228,
+      "passed": true
+    },
+    "hard": {
+      "n_true_beats_hard": 66,
+      "n_items": 86,
+      "fraction_true_beats_hard": 0.7674418604651163
+    }
+  },
+  "interventions": {
+    "n": 86,
+    "mean_R_orig": 0.21452469377839964,
+    "mean_R_shuffled": 0.07834475277080048,
+    "mean_R_topic": 0.017094941283577213,
+    "mean_R_S1": 0.12974468579876944,
+    "mean_R_masked": 0.0,
+    "mean_delta_shuffle": 0.13617994100759914,
+    "mean_delta_topic": 0.19742975249482242,
+    "mean_delta_mask": 0.21452469377839964,
+    "fraction_shuffle_hurts": 0.9767441860465116,
+    "fraction_shuffle_hurts_gt_0_01": 0.9651162790697675,
+    "fraction_topic_much_worse": 0.9767441860465116,
+    "identity_intervention_protocol": "measurement-contracts-0.6 deterministic length-nearest derangement v1",
+    "identity_intervention_length_match": {
+      "algorithm": "deterministic_length_nearest_derangement_v1",
+      "length_unit": "regex_tokens_before_stopword_removal",
+      "n": 86,
+      "donor_unique_count": 86,
+      "self_pair_count": 0,
+      "mean_source_tokens": 1353.6744186046512,
+      "mean_donor_tokens": 1353.6744186046512,
+      "median_absolute_log_length_ratio": 0.003218023694200731,
+      "p90_absolute_log_length_ratio": 0.012453461071286557,
+      "max_absolute_log_length_ratio": 0.03221872058016975,
+      "fraction_within_10_percent_source_length": 1.0,
+      "fraction_within_20_percent_source_length": 1.0
+    },
+    "interpretation": "Positive mean_delta_shuffle indicates evidence identity matters for recoverability (proxy for evidence dependence of the construct; model dependence needs system scores)."
+  },
+  "oracle": {
+    "metric": "lexical_coverage of stage-echo / oracle-extract vs target",
+    "mean_weak_topic_echo": 0.007241743475469857,
+    "mean_mid_abstract_echo": 0.11033523848010277,
+    "mean_best_S3_echo": 0.273670291958622,
+    "mean_oracle_extract": 0.14268694695096656,
+    "closure_oracle_of_weak_to_best": 0.5083734616527467,
+    "note": "Stage-echo panel is a diagnostic stand-in for weak\u2192best model gap when released system outputs are unavailable. Closure measures how much of the stage-information gap an extractive input-sufficiency oracle captures.",
+    "passed_material_closure": true
+  },
+  "researchbench_tiny_current": {
+    "source": "researchbench_generation_audit.json",
+    "n": 12,
+    "mean_R_RQ": 0.3027660398913595,
+    "mean_R_insp": 0.19127202909318183,
+    "mean_R_RQ_insp": 0.24656520035993257,
+    "mean_R_RQ_BG_insp": 0.2934746321875442,
+    "mean_R_shuffled": 0.13474153874028166,
+    "mean_delta_insp": -0.05620083953142691,
+    "mean_delta_shuffle": 0.1118236616196509,
+    "delta_shuffle_ci95": [
+      0.09549697193586419,
+      0.12930402158627924
+    ],
+    "frac_shuffle_hurts": 1.0,
+    "identity_intervention_protocol": "measurement-contracts-0.6 deterministic length-nearest derangement v1",
+    "identity_intervention_length_match": {
+      "algorithm": "deterministic_length_nearest_derangement_v1",
+      "length_unit": "regex_tokens_before_stopword_removal",
+      "n": 12,
+      "donor_unique_count": 12,
+      "self_pair_count": 0,
+      "mean_source_tokens": 327.0833333333333,
+      "mean_donor_tokens": 327.0833333333333,
+      "median_absolute_log_length_ratio": 0.05841076215641451,
+      "p90_absolute_log_length_ratio": 0.09243523771872572,
+      "max_absolute_log_length_ratio": 0.25534669180884456,
+      "fraction_within_10_percent_source_length": 0.8333333333333334,
+      "fraction_within_20_percent_source_length": 0.8333333333333334
+    },
+    "mean_rank_RQ": 1.1666666666666667,
+    "mean_rank_RQ_insp": 1.0833333333333333,
+    "oracle_closure": 0.8849126396755478,
+    "oracle_means": {
+      "weak": 0.31468582753644275,
+      "best": 0.5179538055147285,
+      "oracle": 0.4945602304907187
+    }
+  },
+  "ai_idea_full_current": {
+    "source": "ai_idea_bench_recoverability_full.json",
+    "metric_family": "R_availability_four_measure_mean",
+    "metric_components": [
+      "lexical_coverage",
+      "token_jaccard",
+      "rouge_l_f1",
+      "bow_cosine"
+    ],
+    "identity_intervention_protocol": "measurement-contracts-0.6 deterministic length-nearest derangement v1",
+    "identity_intervention_length_match": {
+      "algorithm": "deterministic_length_nearest_derangement_v1",
+      "length_unit": "regex_tokens_before_stopword_removal",
+      "n": 3495,
+      "donor_unique_count": 3495,
+      "self_pair_count": 0,
+      "mean_source_tokens": 41.329327610872674,
+      "mean_donor_tokens": 41.329327610872674,
+      "median_absolute_log_length_ratio": 0.0,
+      "p90_absolute_log_length_ratio": 0.0,
+      "max_absolute_log_length_ratio": 0.048790164169432056,
+      "fraction_within_10_percent_source_length": 1.0,
+      "fraction_within_20_percent_source_length": 1.0
+    },
+    "n": 3495,
+    "mean_R_title": 0.1745815055184356,
+    "mean_R_topic": 0.24128014553794475,
+    "mean_R_refs": 0.1404575064455755,
+    "mean_R_topic_refs": 0.23322588380689968,
+    "mean_R_topic_shuffled_refs": 0.16843836766842318,
+    "sem_R_topic": 0.0009980381300061752,
+    "sem_R_topic_refs": 0.0009090654711822461,
+    "sem_R_topic_shuffled_refs": 0.000910363189879223,
+    "mean_delta_refs_vs_topic": -0.00805426173104504,
+    "delta_refs_ci95": [
+      -0.009377436220901335,
+      -0.006706252870160867
+    ],
+    "frac_refs_help": 0.41030042918454934,
+    "mean_delta_shuffle": 0.06478751613847651,
+    "delta_shuffle_ci95": [
+      0.0633370048842145,
+      0.06622755100351604
+    ],
+    "frac_shuffle_hurts": 0.9419170243204578,
+    "R_topic_refs_p10": 0.17093321304631984,
+    "R_topic_refs_p50": 0.22817682781831045,
+    "R_topic_refs_p90": 0.3044117085244471,
+    "by_keyword_bucket": {
+      "nlp": {
+        "n": 1711,
+        "mean_R_topic_refs": 0.2378966679719462,
+        "mean_delta_refs": -0.013487347771660446,
+        "mean_delta_shuffle": 0.056770416132576856,
+        "frac_refs_help": 0.35417884278199885,
+        "frac_shuffle_hurts": 0.9246054938632379
+      },
+      "other": {
+        "n": 822,
+        "mean_R_topic_refs": 0.22578082251249462,
+        "mean_delta_refs": -0.0017967797231735994,
+        "mean_delta_shuffle": 0.07405093665612503,
+        "frac_refs_help": 0.4793187347931874,
+        "frac_shuffle_hurts": 0.9549878345498783
+      },
+      "vision": {
+        "n": 742,
+        "mean_R_topic_refs": 0.23013537747406881,
+        "mean_delta_refs": -0.003346548242288999,
+        "mean_delta_shuffle": 0.07051714201778861,
+        "frac_refs_help": 0.4474393530997305,
+        "frac_shuffle_hurts": 0.9595687331536388
+      },
+      "rl": {
+        "n": 78,
+        "mean_R_topic_refs": 0.23483758426251014,
+        "mean_delta_refs": -0.002325856931516015,
+        "mean_delta_shuffle": 0.06654134320195254,
+        "frac_refs_help": 0.5256410256410257,
+        "frac_shuffle_hurts": 0.9871794871794872
+      },
+      "systems": {
+        "n": 72,
+        "mean_R_topic_refs": 0.2242932000374254,
+        "mean_delta_refs": -0.02409155024608307,
+        "mean_delta_shuffle": 0.057731196558322706,
+        "frac_refs_help": 0.2638888888888889,
+        "frac_shuffle_hurts": 0.9166666666666666
+      },
+      "theory": {
+        "n": 57,
+        "mean_R_topic_refs": 0.24735594839000083,
+        "mean_delta_refs": 0.0070618382581716125,
+        "mean_delta_shuffle": 0.09280990298636405,
+        "frac_refs_help": 0.5263157894736842,
+        "frac_shuffle_hurts": 1.0
+      },
+      "science": {
+        "n": 13,
+        "mean_R_topic_refs": 0.24348059851418485,
+        "mean_delta_refs": 0.030829437938168454,
+        "mean_delta_shuffle": 0.11288940003293675,
+        "frac_refs_help": 0.9230769230769231,
+        "frac_shuffle_hurts": 1.0
+      }
+    },
+    "lexical_coverage_component": {
+      "mean_title": 0.08817757887893779,
+      "mean_topic": 0.12060461717225386,
+      "mean_refs": 0.09886491656129653,
+      "mean_topic_refs": 0.17479074613406032,
+      "mean_topic_shuffled_refs": 0.1423357479728023
+    }
+  },
+  "minimum_legs": {
+    "disclosure_monotone": true,
+    "random_negative": true,
+    "shuffle_dependence": true,
+    "oracle_material": true,
+    "model_R_correlation": true,
+    "ranking_flips": true,
+    "multi_bench": true
+  },
+  "n_legs": 7,
+  "_supersession_note": {
+    "status": "PARTIALLY_SUPERSEDED",
+    "authority": "NOT_CLAIM_BEARING - no value printed in the manuscript is sourced from this file; it is retained for provenance",
+    "per_key": {
+      "panel.bootstrap_top_model_freq": {
+        "status": "SUPERSEDED",
+        "superseded_by": "results/panel_ranking_stability.json#S3_top_model_bootstrap_freq",
+        "reason": "computed under an earlier panel epoch"
+      },
+      "panel.stage_model_means.S3_methods_mid": {
+        "status": "SUPERSEDED",
+        "superseded_by": "results/panel_ranking_stability.json",
+        "reason": "orders the panel L > Q > Ge > GP under the earlier epoch; the current authority and Table 11 order it L > Ge > Q > GP"
+      },
+      "panel.pooled_pearson_ci95": {
+        "status": "DIFFERENT_ESTIMATOR",
+        "definition_here": "non-clustered percentile interval",
+        "authority_for_the_manuscript": "results/formal_significance.json#panel_pooled_r.ci95, an item-cluster bootstrap interval"
+      },
+      "interventions.fraction_shuffle_hurts": {
+        "status": "CONTRACT_ALIGNED",
+        "definition_here": "fraction with delta > 0",
+        "matches": "results/evidence_interventions.json#fraction_shuffle_hurts and the typed contract in paper/anonymous_release_stub/README.md",
+        "companion_key": "interventions.fraction_shuffle_hurts_gt_0_01 carries the delta > 0.01 variant"
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "measure_agreement_S3": {
+    "lex_vs_jac": 0.9338405256819406,
+    "lex_vs_rouge": 0.9101085887895671,
+    "lex_vs_bow": 0.6660646566569525,
+    "jac_vs_rouge": 0.9737189417909555,
+    "jac_vs_bow": 0.6708343056092504,
+    "rouge_vs_bow": 0.7045699875699499
+  },
+  "panel_rank_stability": {
+    "true_ranking_by_mean_score": [
+      "meta-llama/llama-3.2-3b-instruct",
+      "google/gemma-3-4b-it",
+      "qwen/qwen-2.5-7b-instruct",
+      "openai/gpt-4o-mini"
+    ],
+    "true_means": {
+      "google/gemma-3-4b-it": 0.05968488984939959,
+      "meta-llama/llama-3.2-3b-instruct": 0.05995882981957154,
+      "openai/gpt-4o-mini": 0.052692286793478094,
+      "qwen/qwen-2.5-7b-instruct": 0.05381624456259231
+    },
+    "bootstrap_mean_kendall_tau_vs_true": 0.492,
+    "bootstrap_tau_ci95": [
+      -0.3333333333333333,
+      1.0
+    ],
+    "bootstrap_top1_agreement": 0.467
+  },
+  "stage_stats": {
+    "S0_topic": {
+      "mean_R": 0.014203666065036674,
+      "mean_score": 0.025606140304669088,
+      "pearson": -0.40477008768002,
+      "n": 76
+    },
+    "S1_abstract": {
+      "mean_R": 0.1171657783302938,
+      "mean_score": 0.0662496025301098,
+      "pearson": 0.7362502718593611,
+      "n": 76
+    },
+    "S3_methods_mid": {
+      "mean_R": 0.1843724148126853,
+      "mean_score": 0.0743951860297015,
+      "pearson": 0.6004655842496714,
+      "n": 76
+    }
+  },
+  "researchbench_by_discipline": {
+    "Astronomy": {
+      "n": 1,
+      "mean_R_RQ": 0.33758748238470837,
+      "mean_delta_shuffle": 0.1563924267810263
+    },
+    "Biology": {
+      "n": 1,
+      "mean_R_RQ": 0.3670164544853456,
+      "mean_delta_shuffle": 0.1091889307293101
+    },
+    "Business": {
+      "n": 1,
+      "mean_R_RQ": 0.278952338369285,
+      "mean_delta_shuffle": 0.07733337446694252
+    },
+    "Cell Biology": {
+      "n": 1,
+      "mean_R_RQ": 0.09370107697290117,
+      "mean_delta_shuffle": 0.1545466993459778
+    },
+    "Chemistry": {
+      "n": 1,
+      "mean_R_RQ": 0.2588023194938808,
+      "mean_delta_shuffle": 0.09651986905570328
+    },
+    "Earth Science": {
+      "n": 1,
+      "mean_R_RQ": 0.3322813999216461,
+      "mean_delta_shuffle": 0.0806162648842966
+    },
+    "Energy Science": {
+      "n": 1,
+      "mean_R_RQ": 0.16699249682781844,
+      "mean_delta_shuffle": 0.08147517612385835
+    },
+    "Environmental Science": {
+      "n": 1,
+      "mean_R_RQ": 0.5139980187382731,
+      "mean_delta_shuffle": 0.10807611137375417
+    },
+    "Law": {
+      "n": 1,
+      "mean_R_RQ": 0.49842032967032973,
+      "mean_delta_shuffle": 0.12372487489909512
+    },
+    "Material Science": {
+      "n": 1,
+      "mean_R_RQ": 0.2427545743127585,
+      "mean_delta_shuffle": 0.11480116797193082
+    },
+    "Math": {
+      "n": 1,
+      "mean_R_RQ": 0.31886066544303865,
+      "mean_delta_shuffle": 0.15767758802896104
+    },
+    "Physics": {
+      "n": 1,
+      "mean_R_RQ": 0.22382532207632838,
+      "mean_delta_shuffle": 0.08153145577495467
+    }
+  },
+  "disclosure_S4_minus_S0": {
+    "n": 86,
+    "mean": 0.21831397481375076,
+    "stdev": 0.12243966663866511,
+    "p10": 0.10201878657243778,
+    "p50": 0.19883964933882875,
+    "p90": 0.3044942675448323,
+    "frac_positive": 1.0
+  }
+}

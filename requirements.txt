@@ -1,0 +1,5 @@
+# Offline measurement-contract analysis stack
+matplotlib>=3.7
+numpy>=1.24
+# Optional full-input constrained donor assignment
+scipy>=1.10

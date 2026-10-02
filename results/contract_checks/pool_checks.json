@@ -1,0 +1,1112 @@
+{
+  "pool_n": 35,
+  "unique_conclusions": 35,
+  "candidate_origin": "all retained FIRE conclusions, including query gold; no alternative validity annotations",
+  "populations": {
+    "instruction": {
+      "bow": {
+        "n": 35,
+        "MRR": 0.927891156462585,
+        "gold1": 31,
+        "tied_query_count": 0,
+        "mean_margin": 0.08818540889287867,
+        "pool_sizes": {
+          "5": {
+            "random_mean_MRR": 0.9846190476190476,
+            "random_mean_gold1": 0.9701428571428571,
+            "hard_MRR": 0.9295238095238094,
+            "hard_gold1": 0.8857142857142857
+          },
+          "10": {
+            "random_mean_MRR": 0.9702619047619047,
+            "random_mean_gold1": 0.9469999999999998,
+            "hard_MRR": 0.927891156462585,
+            "hard_gold1": 0.8857142857142857
+          },
+          "20": {
+            "random_mean_MRR": 0.9497653061224489,
+            "random_mean_gold1": 0.9177142857142858,
+            "hard_MRR": 0.927891156462585,
+            "hard_gold1": 0.8857142857142857
+          },
+          "35": {
+            "random_mean_MRR": 0.927891156462585,
+            "random_mean_gold1": 0.8857142857142857,
+            "hard_MRR": 0.927891156462585,
+            "hard_gold1": 0.8857142857142857
+          }
+        },
+        "rows": [
+          {
+            "task_id": "activation_control",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.003790561026186967
+          },
+          {
+            "task_id": "awareness_detection",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.1647338243177372
+          },
+          {
+            "task_id": "charxiv_chart_understanding",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.035539360684715415
+          },
+          {
+            "task_id": "cot_faithfulness_gaps",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.07413896867655048
+          },
+          {
+            "task_id": "cot_in_planning",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.05474665130215578
+          },
+          {
+            "task_id": "cot_without_prompting",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.06425781845209216
+          },
+          {
+            "task_id": "counterfactual_simulatability",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.22921409178360158
+          },
+          {
+            "task_id": "distributive_fairness",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.10983100508438495
+          },
+          {
+            "task_id": "fallback_behaviors",
+            "rank": 2,
+            "rank_best": 2,
+            "rank_worst": 2,
+            "margin": -0.03854082580661092
+          },
+          {
+            "task_id": "fractal_complexity_of_language",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.08304547985373999
+          },
+          {
+            "task_id": "hallucination_awareness",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.06758491133724165
+          },
+          {
+            "task_id": "hallucination_snowballing",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.1403010040576836
+          },
+          {
+            "task_id": "hallusionbench_illusion",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.14032183456272743
+          },
+          {
+            "task_id": "icl_from_repetition",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.13479696102045308
+          },
+          {
+            "task_id": "introspective_learning",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.14792893306659077
+          },
+          {
+            "task_id": "lifebench_length_following",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.17039863213115458
+          },
+          {
+            "task_id": "llm_confidence_elicitation",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.05982824035954107
+          },
+          {
+            "task_id": "llm_racial_bias_in_medicine",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.006418492565967479
+          },
+          {
+            "task_id": "llm_value_consistency",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.05829634728559355
+          },
+          {
+            "task_id": "llms_assume_rationality",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.02621718340110879
+          },
+          {
+            "task_id": "llms_lack_self_correction",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.08672783757291525
+          },
+          {
+            "task_id": "lost_in_the_middle",
+            "rank": 3,
+            "rank_best": 3,
+            "rank_worst": 3,
+            "margin": -0.02587652308238836
+          },
+          {
+            "task_id": "mathvista_visual_math",
+            "rank": 7,
+            "rank_best": 7,
+            "rank_worst": 7,
+            "margin": -0.06727224889435786
+          },
+          {
+            "task_id": "mcq_selection_bias",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.051404713548458686
+          },
+          {
+            "task_id": "object_hallucination_pope",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.2444347775471459
+          },
+          {
+            "task_id": "persona_reasoning_biases",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.1319094301899067
+          },
+          {
+            "task_id": "persona_with_catch",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.09385529829677619
+          },
+          {
+            "task_id": "premise_order_effects",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.07132618927688408
+          },
+          {
+            "task_id": "prompt_formatting_sensitivity",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.11581445013939251
+          },
+          {
+            "task_id": "questbench",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.21048000641042333
+          },
+          {
+            "task_id": "seca_hallucination",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.18442064056006663
+          },
+          {
+            "task_id": "space_time_representations",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.10693695749023266
+          },
+          {
+            "task_id": "to_cot_or_not_to_cot",
+            "rank": 2,
+            "rank_best": 2,
+            "rank_worst": 2,
+            "margin": -0.017349967789837578
+          },
+          {
+            "task_id": "uncertainty_in_instruction_following",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.047933148684532495
+          },
+          {
+            "task_id": "vlms_are_blind",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.11889512613798711
+          }
+        ]
+      },
+      "coverage": {
+        "n": 35,
+        "MRR": 0.939047619047619,
+        "gold1": 32,
+        "tied_query_count": 0,
+        "mean_margin": 0.2502814770287699,
+        "pool_sizes": {
+          "5": {
+            "random_mean_MRR": 0.9844523809523809,
+            "random_mean_gold1": 0.9702857142857143,
+            "hard_MRR": 0.94,
+            "hard_gold1": 0.9142857142857143
+          },
+          "10": {
+            "random_mean_MRR": 0.9707285714285714,
+            "random_mean_gold1": 0.9471428571428571,
+            "hard_MRR": 0.939047619047619,
+            "hard_gold1": 0.9142857142857143
+          },
+          "20": {
+            "random_mean_MRR": 0.9532190476190477,
+            "random_mean_gold1": 0.9275714285714287,
+            "hard_MRR": 0.939047619047619,
+            "hard_gold1": 0.9142857142857143
+          },
+          "35": {
+            "random_mean_MRR": 0.939047619047619,
+            "random_mean_gold1": 0.9142857142857143,
+            "hard_MRR": 0.939047619047619,
+            "hard_gold1": 0.9142857142857143
+          }
+        },
+        "rows": [
+          {
+            "task_id": "activation_control",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.1150070126227209
+          },
+          {
+            "task_id": "awareness_detection",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.6693121693121693
+          },
+          {
+            "task_id": "charxiv_chart_understanding",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.25894736842105265
+          },
+          {
+            "task_id": "cot_faithfulness_gaps",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.6038961038961039
+          },
+          {
+            "task_id": "cot_in_planning",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3816425120772947
+          },
+          {
+            "task_id": "cot_without_prompting",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.11153846153846159
+          },
+          {
+            "task_id": "counterfactual_simulatability",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.7
+          },
+          {
+            "task_id": "distributive_fairness",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.04375000000000001
+          },
+          {
+            "task_id": "fallback_behaviors",
+            "rank": 5,
+            "rank_best": 5,
+            "rank_worst": 5,
+            "margin": -0.03198653198653198
+          },
+          {
+            "task_id": "fractal_complexity_of_language",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3423076923076923
+          },
+          {
+            "task_id": "hallucination_awareness",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.30341880341880345
+          },
+          {
+            "task_id": "hallucination_snowballing",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.21082621082621078
+          },
+          {
+            "task_id": "hallusionbench_illusion",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.24060150375939854
+          },
+          {
+            "task_id": "icl_from_repetition",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.23333333333333334
+          },
+          {
+            "task_id": "introspective_learning",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.18681318681318676
+          },
+          {
+            "task_id": "lifebench_length_following",
+            "rank": 2,
+            "rank_best": 2,
+            "rank_worst": 2,
+            "margin": -0.033333333333333326
+          },
+          {
+            "task_id": "llm_confidence_elicitation",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.046296296296296335
+          },
+          {
+            "task_id": "llm_racial_bias_in_medicine",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.18125960061443935
+          },
+          {
+            "task_id": "llm_value_consistency",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.4423076923076923
+          },
+          {
+            "task_id": "llms_assume_rationality",
+            "rank": 6,
+            "rank_best": 6,
+            "rank_worst": 6,
+            "margin": -0.06631299734748011
+          },
+          {
+            "task_id": "llms_lack_self_correction",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3166666666666667
+          },
+          {
+            "task_id": "lost_in_the_middle",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.17058823529411765
+          },
+          {
+            "task_id": "mathvista_visual_math",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.13684210526315793
+          },
+          {
+            "task_id": "mcq_selection_bias",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.022580645161290325
+          },
+          {
+            "task_id": "object_hallucination_pope",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3796992481203007
+          },
+          {
+            "task_id": "persona_reasoning_biases",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3981481481481482
+          },
+          {
+            "task_id": "persona_with_catch",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.2037037037037037
+          },
+          {
+            "task_id": "premise_order_effects",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.14666666666666667
+          },
+          {
+            "task_id": "prompt_formatting_sensitivity",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.22461170848267625
+          },
+          {
+            "task_id": "questbench",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.24253285543608127
+          },
+          {
+            "task_id": "seca_hallucination",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.65
+          },
+          {
+            "task_id": "space_time_representations",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.17619047619047618
+          },
+          {
+            "task_id": "to_cot_or_not_to_cot",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.09999999999999998
+          },
+          {
+            "task_id": "uncertainty_in_instruction_following",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.12169312169312169
+          },
+          {
+            "task_id": "vlms_are_blind",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.5303030303030303
+          }
+        ]
+      }
+    },
+    "research_question": {
+      "bow": {
+        "n": 30,
+        "MRR": 0.9833333333333333,
+        "gold1": 29,
+        "tied_query_count": 0,
+        "mean_margin": 0.3677170982935003,
+        "pool_sizes": {
+          "5": {
+            "random_mean_MRR": 0.9974166666666666,
+            "random_mean_gold1": 0.9948333333333333,
+            "hard_MRR": 0.9833333333333333,
+            "hard_gold1": 0.9666666666666667
+          },
+          "10": {
+            "random_mean_MRR": 0.9955833333333334,
+            "random_mean_gold1": 0.9911666666666666,
+            "hard_MRR": 0.9833333333333333,
+            "hard_gold1": 0.9666666666666667
+          },
+          "20": {
+            "random_mean_MRR": 0.9906666666666666,
+            "random_mean_gold1": 0.9813333333333333,
+            "hard_MRR": 0.9833333333333333,
+            "hard_gold1": 0.9666666666666667
+          },
+          "35": {
+            "random_mean_MRR": 0.9833333333333333,
+            "random_mean_gold1": 0.9666666666666667,
+            "hard_MRR": 0.9833333333333333,
+            "hard_gold1": 0.9666666666666667
+          }
+        },
+        "rows": [
+          {
+            "task_id": "activation_control",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.24646727338436902
+          },
+          {
+            "task_id": "awareness_detection",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.7093137488264418
+          },
+          {
+            "task_id": "charxiv_chart_understanding",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.4403697630213985
+          },
+          {
+            "task_id": "cot_faithfulness_gaps",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.5588877201817424
+          },
+          {
+            "task_id": "cot_in_planning",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.44913853279790567
+          },
+          {
+            "task_id": "cot_without_prompting",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.2879809514258794
+          },
+          {
+            "task_id": "counterfactual_simulatability",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.7717822677061807
+          },
+          {
+            "task_id": "distributive_fairness",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.17697702974649532
+          },
+          {
+            "task_id": "fallback_behaviors",
+            "rank": 2,
+            "rank_best": 2,
+            "rank_worst": 2,
+            "margin": -0.026469047119797584
+          },
+          {
+            "task_id": "fractal_complexity_of_language",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3374069427661588
+          },
+          {
+            "task_id": "hallucination_awareness",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.429756683073933
+          },
+          {
+            "task_id": "hallucination_snowballing",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.21808891579280804
+          },
+          {
+            "task_id": "hallusionbench_illusion",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.5065147381122101
+          },
+          {
+            "task_id": "icl_from_repetition",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.4177296982159138
+          },
+          {
+            "task_id": "introspective_learning",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.36041678975145386
+          },
+          {
+            "task_id": "lifebench_length_following",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.29463689435559337
+          },
+          {
+            "task_id": "llm_confidence_elicitation",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.16951587590520256
+          },
+          {
+            "task_id": "llm_value_consistency",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3712235365960022
+          },
+          {
+            "task_id": "llms_lack_self_correction",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.468291896143172
+          },
+          {
+            "task_id": "lost_in_the_middle",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.29814239699997197
+          },
+          {
+            "task_id": "mathvista_visual_math",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.15072117547726427
+          },
+          {
+            "task_id": "mcq_selection_bias",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.1595432334446887
+          },
+          {
+            "task_id": "object_hallucination_pope",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.5106510966196701
+          },
+          {
+            "task_id": "persona_reasoning_biases",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3983733160960572
+          },
+          {
+            "task_id": "premise_order_effects",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.14552156950326078
+          },
+          {
+            "task_id": "prompt_formatting_sensitivity",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.26785715379674047
+          },
+          {
+            "task_id": "seca_hallucination",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.7919874264155393
+          },
+          {
+            "task_id": "space_time_representations",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3276082318267127
+          },
+          {
+            "task_id": "uncertainty_in_instruction_following",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.09428090415820634
+          },
+          {
+            "task_id": "vlms_are_blind",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.6987962337838349
+          }
+        ]
+      },
+      "coverage": {
+        "n": 30,
+        "MRR": 1.0,
+        "gold1": 30,
+        "tied_query_count": 0,
+        "mean_margin": 0.30889127465389554,
+        "pool_sizes": {
+          "5": {
+            "random_mean_MRR": 1.0,
+            "random_mean_gold1": 1.0,
+            "hard_MRR": 1.0,
+            "hard_gold1": 1.0
+          },
+          "10": {
+            "random_mean_MRR": 1.0,
+            "random_mean_gold1": 1.0,
+            "hard_MRR": 1.0,
+            "hard_gold1": 1.0
+          },
+          "20": {
+            "random_mean_MRR": 1.0,
+            "random_mean_gold1": 1.0,
+            "hard_MRR": 1.0,
+            "hard_gold1": 1.0
+          },
+          "35": {
+            "random_mean_MRR": 1.0,
+            "random_mean_gold1": 1.0,
+            "hard_MRR": 1.0,
+            "hard_gold1": 1.0
+          }
+        },
+        "rows": [
+          {
+            "task_id": "activation_control",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.04985337243401761
+          },
+          {
+            "task_id": "awareness_detection",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.7032967032967032
+          },
+          {
+            "task_id": "charxiv_chart_understanding",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.32105263157894737
+          },
+          {
+            "task_id": "cot_faithfulness_gaps",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.6877470355731226
+          },
+          {
+            "task_id": "cot_in_planning",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.42292490118577075
+          },
+          {
+            "task_id": "cot_without_prompting",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.15034965034965037
+          },
+          {
+            "task_id": "counterfactual_simulatability",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.8461538461538461
+          },
+          {
+            "task_id": "distributive_fairness",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.11249999999999999
+          },
+          {
+            "task_id": "fallback_behaviors",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.027272727272727254
+          },
+          {
+            "task_id": "fractal_complexity_of_language",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.29615384615384616
+          },
+          {
+            "task_id": "hallucination_awareness",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.2692307692307692
+          },
+          {
+            "task_id": "hallucination_snowballing",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.10541310541310539
+          },
+          {
+            "task_id": "hallusionbench_illusion",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3508771929824561
+          },
+          {
+            "task_id": "icl_from_repetition",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3
+          },
+          {
+            "task_id": "introspective_learning",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.2637362637362637
+          },
+          {
+            "task_id": "lifebench_length_following",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.08974358974358973
+          },
+          {
+            "task_id": "llm_confidence_elicitation",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.1388888888888889
+          },
+          {
+            "task_id": "llm_value_consistency",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.41923076923076924
+          },
+          {
+            "task_id": "llms_lack_self_correction",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.4
+          },
+          {
+            "task_id": "lost_in_the_middle",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.2117647058823529
+          },
+          {
+            "task_id": "mathvista_visual_math",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.14473684210526316
+          },
+          {
+            "task_id": "mcq_selection_bias",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.1225806451612903
+          },
+          {
+            "task_id": "object_hallucination_pope",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.3358395989974937
+          },
+          {
+            "task_id": "persona_reasoning_biases",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.45833333333333337
+          },
+          {
+            "task_id": "premise_order_effects",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.033333333333333354
+          },
+          {
+            "task_id": "prompt_formatting_sensitivity",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.23185483870967744
+          },
+          {
+            "task_id": "seca_hallucination",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.8333333333333334
+          },
+          {
+            "task_id": "space_time_representations",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.26190476190476186
+          },
+          {
+            "task_id": "uncertainty_in_instruction_following",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.0509259259259259
+          },
+          {
+            "task_id": "vlms_are_blind",
+            "rank": 1,
+            "rank_best": 1,
+            "rank_worst": 1,
+            "margin": 0.6277056277056278
+          }
+        ]
+      }
+    }
+  },
+  "logical_controls": {
+    "negation": {
+      "positive": "Treatment does improve survival.",
+      "negative": "Treatment does not improve survival.",
+      "tokens": [
+        "treatment",
+        "improve",
+        "survival"
+      ],
+      "R": 1.0,
+      "bow": 1.0000000000000002,
+      "status": "analytic polarity contrast, not human scientific judgment"
+    },
+    "endpoint_family": {
+      "definition": "f_c(t)=t+c*t*(t-1); exact observed f(0)=0,f(1)=1",
+      "cases": [
+        {
+          "c": -1,
+          "observations": [
+            0,
+            1
+          ],
+          "prediction_at_2": 0,
+          "affine_admissible": false,
+          "quadratic_admissible": true
+        },
+        {
+          "c": 0,
+          "observations": [
+            0,
+            1
+          ],
+          "prediction_at_2": 2,
+          "affine_admissible": true,
+          "quadratic_admissible": true
+        },
+        {
+          "c": 1,
+          "observations": [
+            0,
+            1
+          ],
+          "prediction_at_2": 4,
+          "affine_admissible": false,
+          "quadratic_admissible": true
+        }
+      ],
+      "unique_under_affine": true,
+      "nonunique_under_quadratic": true
+    }
+  }
+}

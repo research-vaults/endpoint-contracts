@@ -1,0 +1,26 @@
+{
+  "protocol": "FIRE panel metric-disjoint r(R_embed, s_lex)",
+  "encoder": "openai/text-embedding-3-small via OpenRouter",
+  "seed": 20260731,
+  "conditions": {
+    "instruction": {
+      "n_cells": 140,
+      "n_tasks": 35,
+      "r_Rembed_slex": 0.1713714535718553,
+      "ci95_item_cluster": [
+        -0.07480269365959523,
+        0.41273784182850637
+      ]
+    },
+    "RQ": {
+      "n_cells": 120,
+      "n_tasks": 30,
+      "r_Rembed_slex": 0.5395780985959125,
+      "ci95_item_cluster": [
+        0.23964018317184146,
+        0.7356078148118469
+      ]
+    }
+  },
+  "note": "R_embed = cos(e(input), e(conclusion)); outcome is lexical coverage of conclusion in model prediction"
+}

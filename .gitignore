@@ -1,0 +1,63 @@
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.json
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Editors, notebooks, and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+.ipynb_checkpoints/
+
+# LaTeX and temporary output
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.tmp
+tmp/
+
+# Private or machine-local data conventions
+data/private/
+data/raw_private/
+private_data/
+checkpoints/
+
+# Inputs requiring separate redistribution permission
+data/disclosure_pilot/
+data/firebench/
+data/ai_idea/
+data/researchbench/
+# Never add private project records or manuscript archives
+Reviews/
+Comparators/
+ROADMAP.md
+PLAN_AND_OUTCOME_JOURNAL.md
+manuscript/
+submissions/
+results/figures/

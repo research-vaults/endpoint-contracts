@@ -1,0 +1,10 @@
+{
+  "metric": "lexical_coverage of stage-echo / oracle-extract vs target",
+  "mean_weak_topic_echo": 0.007241743475469857,
+  "mean_mid_abstract_echo": 0.11033523848010277,
+  "mean_best_S3_echo": 0.273670291958622,
+  "mean_oracle_extract": 0.14268694695096656,
+  "closure_oracle_of_weak_to_best": 0.5083734616527467,
+  "note": "Stage-echo panel is a diagnostic stand-in for weak\u2192best model gap when released system outputs are unavailable. Closure measures how much of the stage-information gap an extractive input-sufficiency oracle captures.",
+  "passed_material_closure": true
+}

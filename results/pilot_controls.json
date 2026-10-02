@@ -1,0 +1,281 @@
+{
+  "protocol": "measurement-contracts-0.1 disclosure pilot",
+  "n_items": 86,
+  "item_ids": [
+    "arxiv:2503.21248",
+    "arxiv:2411.02429",
+    "arxiv:2409.11363",
+    "arxiv:2502.05151",
+    "arxiv:2406.06769",
+    "arxiv:2407.01725",
+    "arxiv:2307.10635",
+    "arxiv:2412.17596",
+    "arxiv:2505.13259",
+    "arxiv:2503.13657",
+    "arxiv:2410.01792",
+    "arxiv:2501.05465",
+    "arxiv:2406.04598",
+    "arxiv:2311.07361",
+    "arxiv:2402.14034",
+    "arxiv:2501.09686",
+    "arxiv:2506.12345",
+    "arxiv:2410.19810",
+    "arxiv:2501.12948",
+    "arxiv:2409.05591",
+    "arxiv:2502.04364",
+    "arxiv:2412.05265",
+    "arxiv:2503.09516",
+    "arxiv:2504.01849",
+    "arxiv:2505.03422",
+    "arxiv:2408.12574",
+    "arxiv:2501.07542",
+    "arxiv:2411.14405",
+    "arxiv:2502.17416",
+    "arxiv:2503.16734",
+    "arxiv:2407.21783",
+    "arxiv:2504.08734",
+    "arxiv:2505.18098",
+    "arxiv:2410.05258",
+    "arxiv:2501.00663",
+    "arxiv:2502.06807",
+    "arxiv:2406.18532",
+    "arxiv:2504.16041",
+    "arxiv:2412.10360",
+    "arxiv:2503.04388",
+    "arxiv:2409.15277",
+    "arxiv:2502.09614",
+    "arxiv:2504.05186",
+    "arxiv:2411.05003",
+    "arxiv:2506.12993",
+    "arxiv:2605.23701",
+    "arxiv:2605.24060",
+    "arxiv:2607.22368",
+    "arxiv:2606.01789",
+    "arxiv:2606.26158",
+    "arxiv:2605.30284",
+    "arxiv:2503.13612",
+    "arxiv:2412.06438",
+    "arxiv:2501.05452",
+    "arxiv:2502.08791",
+    "arxiv:2411.14199",
+    "arxiv:2504.12371",
+    "arxiv:2505.00671",
+    "arxiv:2408.08309",
+    "arxiv:2501.17161",
+    "arxiv:2503.05555",
+    "arxiv:2410.24198",
+    "arxiv:2502.21231",
+    "arxiv:2504.21039",
+    "arxiv:2412.21154",
+    "arxiv:2501.19375",
+    "arxiv:2503.21778",
+    "arxiv:2407.07061",
+    "arxiv:2505.07271",
+    "arxiv:2410.07025",
+    "arxiv:2504.07640",
+    "arxiv:2411.17465",
+    "arxiv:2501.08528",
+    "arxiv:2409.18486",
+    "arxiv:2502.02561",
+    "arxiv:2504.03838",
+    "arxiv:2410.11939",
+    "arxiv:2501.13949",
+    "arxiv:2503.20009",
+    "arxiv:2408.04628",
+    "arxiv:2505.04358",
+    "arxiv:2411.09137",
+    "arxiv:2502.15707",
+    "arxiv:2504.12582",
+    "arxiv:2412.16178",
+    "arxiv:2501.04866"
+  ],
+  "corpus_note": "ar5iv progressive-disclosure pilot; NOT official ProjectionBench release",
+  "stage_summary": {
+    "S0_topic": {
+      "R_availability": {
+        "mean": 0.017094941283577213,
+        "stdev": 0.014040732172857506,
+        "n": 86,
+        "min": 0.0,
+        "max": 0.05039505041583814
+      },
+      "R_identifiability": {
+        "mean": 0.05943986134637571,
+        "stdev": 0.12446729315782833,
+        "n": 86,
+        "min": 0.011627906976744186,
+        "max": 1.0
+      },
+      "R_composite": {
+        "mean": 0.03826740131497646,
+        "stdev": 0.06647778137029016,
+        "n": 86,
+        "min": 0.005813953488372093,
+        "max": 0.5251975252079191
+      },
+      "lexical_coverage": {
+        "mean": 0.007241743475469857,
+        "stdev": 0.007862675184381064,
+        "n": 86,
+        "min": 0.0,
+        "max": 0.045454545454545456
+      }
+    },
+    "S1_abstract": {
+      "R_availability": {
+        "mean": 0.12974468579876944,
+        "stdev": 0.05564571214935477,
+        "n": 86,
+        "min": 0.012626948161897224,
+        "max": 0.3194345184555561
+      },
+      "R_identifiability": {
+        "mean": 0.6966555144251986,
+        "stdev": 0.3854381629149612,
+        "n": 86,
+        "min": 0.012048192771084338,
+        "max": 1.0
+      },
+      "R_composite": {
+        "mean": 0.413200100111984,
+        "stdev": 0.2139822006785925,
+        "n": 86,
+        "min": 0.01233757046649078,
+        "max": 0.659717259227778
+      },
+      "lexical_coverage": {
+        "mean": 0.11033523848010277,
+        "stdev": 0.04594807889079949,
+        "n": 86,
+        "min": 0.02247191011235955,
+        "max": 0.3384615384615385
+      }
+    },
+    "S2_intro": {
+      "R_availability": {
+        "mean": 0.1880519026367082,
+        "stdev": 0.09259462221346121,
+        "n": 86,
+        "min": 0.015580323274672514,
+        "max": 0.5560182347282037
+      },
+      "R_identifiability": {
+        "mean": 0.7522635443995493,
+        "stdev": 0.35938668747983615,
+        "n": 86,
+        "min": 0.011904761904761904,
+        "max": 1.0
+      },
+      "R_composite": {
+        "mean": 0.47015772351812873,
+        "stdev": 0.21047418634191406,
+        "n": 86,
+        "min": 0.013742542589717209,
+        "max": 0.7780091173641018
+      },
+      "lexical_coverage": {
+        "mean": 0.1963673570874343,
+        "stdev": 0.10415843770696236,
+        "n": 86,
+        "min": 0.033707865168539325,
+        "max": 0.6649214659685864
+      }
+    },
+    "S3_methods_mid": {
+      "R_availability": {
+        "mean": 0.21452469377839964,
+        "stdev": 0.12502194078021095,
+        "n": 86,
+        "min": 0.04687058323520892,
+        "max": 0.7621652359957327
+      },
+      "R_identifiability": {
+        "mean": 0.7574179820698481,
+        "stdev": 0.36248798413224553,
+        "n": 86,
+        "min": 0.012658227848101266,
+        "max": 1.0
+      },
+      "R_composite": {
+        "mean": 0.4859713379241239,
+        "stdev": 0.2167693282376032,
+        "n": 86,
+        "min": 0.029764405541655093,
+        "max": 0.8810826179978664
+      },
+      "lexical_coverage": {
+        "mean": 0.273670291958622,
+        "stdev": 0.16281401716599195,
+        "n": 86,
+        "min": 0.10674157303370786,
+        "max": 1.0
+      }
+    },
+    "S4_body": {
+      "R_availability": {
+        "mean": 0.23540891609732795,
+        "stdev": 0.1252150889845167,
+        "n": 86,
+        "min": 0.04604161058025226,
+        "max": 0.7831228510075231
+      },
+      "R_identifiability": {
+        "mean": 0.7459254363216986,
+        "stdev": 0.36429904395073326,
+        "n": 86,
+        "min": 0.0125,
+        "max": 1.0
+      },
+      "R_composite": {
+        "mean": 0.4906671762095133,
+        "stdev": 0.21450406254293167,
+        "n": 86,
+        "min": 0.02927080529012613,
+        "max": 0.8915614255037616
+      },
+      "lexical_coverage": {
+        "mean": 0.3222732302481873,
+        "stdev": 0.16385809339021867,
+        "n": 86,
+        "min": 0.11797752808988764,
+        "max": 1.0
+      }
+    }
+  },
+  "positive_control": {
+    "mean_R_availability_by_stage": [
+      0.017094941283577213,
+      0.12974468579876944,
+      0.1880519026367082,
+      0.21452469377839964,
+      0.23540891609732795
+    ],
+    "stage_deltas": [
+      0.11264974451519222,
+      0.05830721683793877,
+      0.026472791141691432,
+      0.02088422231892831
+    ],
+    "n_increasing_steps": 4,
+    "n_steps": 4,
+    "passed_soft": true,
+    "expectation": "R_availability rises with disclosure"
+  },
+  "negative_control_random_target": {
+    "mean_S4_true_R_avail": 0.23540891609732795,
+    "mean_S4_random_R_avail": 0.08124387654573566,
+    "gap_true_minus_random": 0.15416503955159228,
+    "passed": true
+  },
+  "hard_negative_S1": {
+    "n_true_beats_hard": 66,
+    "n_items": 86,
+    "fraction_true_beats_hard": 0.7674418604651163
+  },
+  "oracle_proxy": {
+    "mean_S4_lexical_coverage": 0.23540891609732795,
+    "mean_S0_lexical_coverage": 0.007241743475469857,
+    "note": "Without released weak/best model scores, closure % cannot be computed. We report S4 lexical coverage as input-sufficiency ceiling proxy."
+  },
+  "claim_ceiling": "PILOT only. Supports measurement-construct sanity on public proxy corpus. Does NOT yet establish multi-benchmark TRA claims or ranking consequences."
+}

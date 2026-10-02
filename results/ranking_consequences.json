@@ -1,0 +1,62 @@
+{
+  "score_panel_type": "SYNTHETIC_SCORE_PANEL",
+  "warning": "Not real LLM outputs; validates ranking-consequence methodology and claims only if real panel later confirms.",
+  "n_items": 86,
+  "mean_recoverability_S2": 0.1880519026367082,
+  "overall_ranking": [
+    "A_recon",
+    "B_explore",
+    "C_uniform"
+  ],
+  "low_R_ranking": [
+    "B_explore",
+    "C_uniform",
+    "A_recon"
+  ],
+  "mid_R_ranking": [
+    "A_recon",
+    "B_explore",
+    "C_uniform"
+  ],
+  "high_R_ranking": [
+    "A_recon",
+    "C_uniform",
+    "B_explore"
+  ],
+  "reweighted_ranking": [
+    "A_recon",
+    "B_explore",
+    "C_uniform"
+  ],
+  "stratum_means": {
+    "low": {
+      "A_recon": 0.370248336716274,
+      "B_explore": 0.48471585745956763,
+      "C_uniform": 0.42550702063112456
+    },
+    "mid": {
+      "A_recon": 0.47212285493603634,
+      "B_explore": 0.45056835834197045,
+      "C_uniform": 0.4241478448233023
+    },
+    "high": {
+      "A_recon": 0.5816022155906952,
+      "B_explore": 0.37952295616101883,
+      "C_uniform": 0.4589398540878658
+    }
+  },
+  "reweighted_means": {
+    "A_recon": 0.4746578024143352,
+    "B_explore": 0.4382690573208523,
+    "C_uniform": 0.4361982398474309
+  },
+  "flips": {
+    "overall_vs_low": true,
+    "overall_vs_high": true,
+    "overall_vs_reweighted": false,
+    "low_vs_high": true
+  },
+  "any_material_flip": true,
+  "bootstrap_top_system_mode": "A_recon",
+  "bootstrap_top_frequency": 0.99
+}

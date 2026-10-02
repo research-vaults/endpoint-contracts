@@ -1,0 +1,17 @@
+{
+  "assignment": "budget-driven expansion: core 12 items full 4-model grid first, then Qwen-only then GPT+Qwen on additional items until API budget; not random",
+  "balance_by_n_models": {
+    "1": {
+      "n_items": 12,
+      "mean_S3_R": 0.17505893259837801
+    },
+    "2": {
+      "n_items": 8,
+      "mean_S3_R": 0.18857486177689795
+    },
+    "4": {
+      "n_items": 12,
+      "mean_S3_R": 0.17924447863002171
+    }
+  }
+}

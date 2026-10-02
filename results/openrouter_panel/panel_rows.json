@@ -1,0 +1,2018 @@
+[
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.006088913542101303,
+    "score_lex_target_in_pred": 0.03003003003003003,
+    "score_jaccard": 0.02506265664160401,
+    "pred_chars": 1004
+  },
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.006088913542101303,
+    "score_lex_target_in_pred": 0.036036036036036036,
+    "score_jaccard": 0.029556650246305417,
+    "pred_chars": 1486
+  },
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.15918347557339185,
+    "score_lex_target_in_pred": 0.09009009009009009,
+    "score_jaccard": 0.0797872340425532,
+    "pred_chars": 1004
+  },
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.15918347557339185,
+    "score_lex_target_in_pred": 0.057057057057057055,
+    "score_jaccard": 0.054441260744985676,
+    "pred_chars": 432
+  },
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.24681999377018396,
+    "score_lex_target_in_pred": 0.10510510510510511,
+    "score_jaccard": 0.09308510638297872,
+    "pred_chars": 1067
+  },
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.24681999377018396,
+    "score_lex_target_in_pred": 0.06906906906906907,
+    "score_jaccard": 0.0659025787965616,
+    "pred_chars": 464
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.009405918884835952,
+    "score_lex_target_in_pred": 0.05,
+    "score_jaccard": 0.04,
+    "pred_chars": 901
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.009405918884835952,
+    "score_lex_target_in_pred": 0.031818181818181815,
+    "score_jaccard": 0.02456140350877193,
+    "pred_chars": 1121
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.09378532203733561,
+    "score_lex_target_in_pred": 0.05,
+    "score_jaccard": 0.041044776119402986,
+    "pred_chars": 749
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.09378532203733561,
+    "score_lex_target_in_pred": 0.05454545454545454,
+    "score_jaccard": 0.041811846689895474,
+    "pred_chars": 1274
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.11425916740605643,
+    "score_lex_target_in_pred": 0.05909090909090909,
+    "score_jaccard": 0.046762589928057555,
+    "pred_chars": 922
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.11425916740605643,
+    "score_lex_target_in_pred": 0.04090909090909091,
+    "score_jaccard": 0.030612244897959183,
+    "pred_chars": 1379
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.034351931059157445,
+    "score_lex_target_in_pred": 0.015197568389057751,
+    "score_jaccard": 0.012531328320802004,
+    "pred_chars": 1033
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.034351931059157445,
+    "score_lex_target_in_pred": 0.02127659574468085,
+    "score_jaccard": 0.017587939698492462,
+    "pred_chars": 1325
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.1453082793644736,
+    "score_lex_target_in_pred": 0.0668693009118541,
+    "score_jaccard": 0.05774278215223097,
+    "pred_chars": 979
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.1453082793644736,
+    "score_lex_target_in_pred": 0.02735562310030395,
+    "score_jaccard": 0.026392961876832845,
+    "pred_chars": 284
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.1714422684321203,
+    "score_lex_target_in_pred": 0.05167173252279635,
+    "score_jaccard": 0.044270833333333336,
+    "pred_chars": 945
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.1714422684321203,
+    "score_lex_target_in_pred": 0.03343465045592705,
+    "score_jaccard": 0.03216374269005848,
+    "pred_chars": 306
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.020754505779517055,
+    "score_lex_target_in_pred": 0.03678929765886288,
+    "score_jaccard": 0.03021978021978022,
+    "pred_chars": 931
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.020754505779517055,
+    "score_lex_target_in_pred": 0.023411371237458192,
+    "score_jaccard": 0.019178082191780823,
+    "pred_chars": 1357
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.1466780854039009,
+    "score_lex_target_in_pred": 0.0802675585284281,
+    "score_jaccard": 0.06818181818181818,
+    "pred_chars": 902
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.1466780854039009,
+    "score_lex_target_in_pred": 0.10367892976588629,
+    "score_jaccard": 0.09144542772861357,
+    "pred_chars": 1136
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.2090296518695117,
+    "score_lex_target_in_pred": 0.0802675585284281,
+    "score_jaccard": 0.06593406593406594,
+    "pred_chars": 1134
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.2090296518695117,
+    "score_lex_target_in_pred": 0.12040133779264214,
+    "score_jaccard": 0.09703504043126684,
+    "pred_chars": 1776
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.05439330543933055,
+    "score_jaccard": 0.0429042904290429,
+    "pred_chars": 1048
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.03347280334728033,
+    "score_jaccard": 0.025974025974025976,
+    "pred_chars": 1248
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.19004031193250062,
+    "score_lex_target_in_pred": 0.08368200836820083,
+    "score_jaccard": 0.06920415224913495,
+    "pred_chars": 894
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.19004031193250062,
+    "score_lex_target_in_pred": 0.100418410041841,
+    "score_jaccard": 0.08108108108108109,
+    "pred_chars": 1169
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.231896618024312,
+    "score_lex_target_in_pred": 0.09205020920502092,
+    "score_jaccard": 0.07719298245614035,
+    "pred_chars": 879
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.231896618024312,
+    "score_lex_target_in_pred": 0.08786610878661087,
+    "score_jaccard": 0.0726643598615917,
+    "pred_chars": 1176
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.016020940816893654,
+    "score_lex_target_in_pred": 0.010238907849829351,
+    "score_jaccard": 0.008333333333333333,
+    "pred_chars": 944
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.016020940816893654,
+    "score_lex_target_in_pred": 0.013651877133105802,
+    "score_jaccard": 0.011267605633802818,
+    "pred_chars": 1223
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.1076695714853264,
+    "score_lex_target_in_pred": 0.06143344709897611,
+    "score_jaccard": 0.052941176470588235,
+    "pred_chars": 801
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.1076695714853264,
+    "score_lex_target_in_pred": 0.06484641638225255,
+    "score_jaccard": 0.05367231638418079,
+    "pred_chars": 1148
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.11368616816426846,
+    "score_lex_target_in_pred": 0.07849829351535836,
+    "score_jaccard": 0.06824925816023739,
+    "pred_chars": 788
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.11368616816426846,
+    "score_lex_target_in_pred": 0.08191126279863481,
+    "score_jaccard": 0.06997084548104957,
+    "pred_chars": 1095
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.02144614490621684,
+    "score_lex_target_in_pred": 0.023809523809523808,
+    "score_jaccard": 0.01652892561983471,
+    "pred_chars": 1042
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.02144614490621684,
+    "score_lex_target_in_pred": 0.041666666666666664,
+    "score_jaccard": 0.03070175438596491,
+    "pred_chars": 1113
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.09700481007278551,
+    "score_lex_target_in_pred": 0.07142857142857142,
+    "score_jaccard": 0.055299539170506916,
+    "pred_chars": 735
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.09700481007278551,
+    "score_lex_target_in_pred": 0.07142857142857142,
+    "score_jaccard": 0.049586776859504134,
+    "pred_chars": 1303
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.18101988080286446,
+    "score_lex_target_in_pred": 0.041666666666666664,
+    "score_jaccard": 0.029661016949152543,
+    "pred_chars": 949
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.18101988080286446,
+    "score_lex_target_in_pred": 0.05952380952380952,
+    "score_jaccard": 0.04201680672268908,
+    "pred_chars": 1207
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.0043280637293278326,
+    "score_lex_target_in_pred": 0.03717472118959108,
+    "score_jaccard": 0.030395136778115502,
+    "pred_chars": 878
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.0043280637293278326,
+    "score_lex_target_in_pred": 0.04460966542750929,
+    "score_jaccard": 0.03488372093023256,
+    "pred_chars": 1442
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.10322912460207596,
+    "score_lex_target_in_pred": 0.08178438661710037,
+    "score_jaccard": 0.06646525679758308,
+    "pred_chars": 1057
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.10322912460207596,
+    "score_lex_target_in_pred": 0.05204460966542751,
+    "score_jaccard": 0.04242424242424243,
+    "pred_chars": 1144
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.11957374628055473,
+    "score_lex_target_in_pred": 0.03717472118959108,
+    "score_jaccard": 0.03058103975535168,
+    "pred_chars": 878
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.11957374628055473,
+    "score_lex_target_in_pred": 0.05204460966542751,
+    "score_jaccard": 0.04093567251461988,
+    "pred_chars": 1325
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.01875,
+    "score_jaccard": 0.0125,
+    "pred_chars": 1064
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.025,
+    "score_jaccard": 0.016666666666666666,
+    "pred_chars": 1252
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.03436054253493116,
+    "score_lex_target_in_pred": 0.04375,
+    "score_jaccard": 0.03333333333333333,
+    "pred_chars": 783
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.03436054253493116,
+    "score_lex_target_in_pred": 0.08125,
+    "score_jaccard": 0.056768558951965066,
+    "pred_chars": 1345
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.27166949429649523,
+    "score_lex_target_in_pred": 0.0625,
+    "score_jaccard": 0.04310344827586207,
+    "pred_chars": 1080
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.27166949429649523,
+    "score_lex_target_in_pred": 0.1,
+    "score_jaccard": 0.06504065040650407,
+    "pred_chars": 1529
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.043478260869565216,
+    "score_jaccard": 0.03255813953488372,
+    "pred_chars": 830
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.043478260869565216,
+    "score_jaccard": 0.029045643153526972,
+    "pred_chars": 1514
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.04132893310389098,
+    "score_lex_target_in_pred": 0.043478260869565216,
+    "score_jaccard": 0.030434782608695653,
+    "pred_chars": 1018
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.04132893310389098,
+    "score_lex_target_in_pred": 0.049689440993788817,
+    "score_jaccard": 0.037209302325581395,
+    "pred_chars": 787
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.06438778744390329,
+    "score_lex_target_in_pred": 0.049689440993788817,
+    "score_jaccard": 0.03463203463203463,
+    "pred_chars": 928
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.06438778744390329,
+    "score_lex_target_in_pred": 0.049689440993788817,
+    "score_jaccard": 0.03347280334728033,
+    "pred_chars": 1178
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.007040178345774869,
+    "score_lex_target_in_pred": 0.056818181818181816,
+    "score_jaccard": 0.046012269938650305,
+    "pred_chars": 1054
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.007040178345774869,
+    "score_lex_target_in_pred": 0.011363636363636364,
+    "score_jaccard": 0.008310249307479225,
+    "pred_chars": 1644
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.18583649818658127,
+    "score_lex_target_in_pred": 0.06439393939393939,
+    "score_jaccard": 0.05592105263157895,
+    "pred_chars": 784
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.18583649818658127,
+    "score_lex_target_in_pred": 0.09848484848484848,
+    "score_jaccard": 0.08496732026143791,
+    "pred_chars": 951
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.2955860955561047,
+    "score_lex_target_in_pred": 0.08712121212121213,
+    "score_jaccard": 0.07395498392282958,
+    "pred_chars": 809
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.2955860955561047,
+    "score_lex_target_in_pred": 0.08712121212121213,
+    "score_jaccard": 0.07796610169491526,
+    "pred_chars": 696
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S0_topic",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.05947955390334572,
+    "score_jaccard": 0.050156739811912224,
+    "pred_chars": 907
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S0_topic",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.040892193308550186,
+    "score_jaccard": 0.03374233128834356,
+    "pred_chars": 1185
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S1_abstract",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.12436737251742984,
+    "score_lex_target_in_pred": 0.09293680297397769,
+    "score_jaccard": 0.08169934640522876,
+    "pred_chars": 786
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S1_abstract",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.12436737251742984,
+    "score_lex_target_in_pred": 0.10780669144981413,
+    "score_jaccard": 0.09235668789808917,
+    "pred_chars": 1216
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S3_methods_mid",
+    "model": "google/gemma-3-4b-it",
+    "R_availability": 0.22845072881793102,
+    "score_lex_target_in_pred": 0.137546468401487,
+    "score_jaccard": 0.11077844311377245,
+    "pred_chars": 1347
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S3_methods_mid",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "R_availability": 0.22845072881793102,
+    "score_lex_target_in_pred": 0.1412639405204461,
+    "score_jaccard": 0.11838006230529595,
+    "pred_chars": 1236
+  },
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.006088913542101303,
+    "score_lex_target_in_pred": 0.03303303303303303,
+    "score_jaccard": 0.02849740932642487,
+    "pred_chars": 883
+  },
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.15918347557339185,
+    "score_lex_target_in_pred": 0.0990990990990991,
+    "score_jaccard": 0.09065934065934066,
+    "pred_chars": 875
+  },
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.24681999377018396,
+    "score_lex_target_in_pred": 0.12312312312312312,
+    "score_jaccard": 0.10817941952506596,
+    "pred_chars": 1378
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.009405918884835952,
+    "score_lex_target_in_pred": 0.01818181818181818,
+    "score_jaccard": 0.015267175572519083,
+    "pred_chars": 1013
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.09378532203733561,
+    "score_lex_target_in_pred": 0.05454545454545454,
+    "score_jaccard": 0.04285714285714286,
+    "pred_chars": 1075
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.11425916740605643,
+    "score_lex_target_in_pred": 0.05454545454545454,
+    "score_jaccard": 0.043478260869565216,
+    "pred_chars": 966
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.034351931059157445,
+    "score_lex_target_in_pred": 0.02127659574468085,
+    "score_jaccard": 0.017994858611825194,
+    "pred_chars": 872
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.1453082793644736,
+    "score_lex_target_in_pred": 0.06382978723404255,
+    "score_jaccard": 0.056,
+    "pred_chars": 1019
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.1714422684321203,
+    "score_lex_target_in_pred": 0.060790273556231005,
+    "score_jaccard": 0.05361930294906166,
+    "pred_chars": 917
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.020754505779517055,
+    "score_lex_target_in_pred": 0.020066889632107024,
+    "score_jaccard": 0.017142857142857144,
+    "pred_chars": 756
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.1466780854039009,
+    "score_lex_target_in_pred": 0.11705685618729098,
+    "score_jaccard": 0.10324483775811209,
+    "pred_chars": 952
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2090296518695117,
+    "score_lex_target_in_pred": 0.10367892976588629,
+    "score_jaccard": 0.09064327485380116,
+    "pred_chars": 977
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.008368200836820083,
+    "score_jaccard": 0.006711409395973154,
+    "pred_chars": 658
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.19004031193250062,
+    "score_lex_target_in_pred": 0.09205020920502092,
+    "score_jaccard": 0.07885304659498207,
+    "pred_chars": 777
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.231896618024312,
+    "score_lex_target_in_pred": 0.11715481171548117,
+    "score_jaccard": 0.0979020979020979,
+    "pred_chars": 981
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.016020940816893654,
+    "score_lex_target_in_pred": 0.030716723549488054,
+    "score_jaccard": 0.025423728813559324,
+    "pred_chars": 1052
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.1076695714853264,
+    "score_lex_target_in_pred": 0.06825938566552901,
+    "score_jaccard": 0.060240963855421686,
+    "pred_chars": 814
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.11368616816426846,
+    "score_lex_target_in_pred": 0.06143344709897611,
+    "score_jaccard": 0.054380664652567974,
+    "pred_chars": 784
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.02144614490621684,
+    "score_lex_target_in_pred": 0.017857142857142856,
+    "score_jaccard": 0.01282051282051282,
+    "pred_chars": 949
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.09700481007278551,
+    "score_lex_target_in_pred": 0.05952380952380952,
+    "score_jaccard": 0.046948356807511735,
+    "pred_chars": 669
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.18101988080286446,
+    "score_lex_target_in_pred": 0.06547619047619048,
+    "score_jaccard": 0.05045871559633028,
+    "pred_chars": 726
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.0043280637293278326,
+    "score_lex_target_in_pred": 0.040892193308550186,
+    "score_jaccard": 0.03459119496855346,
+    "pred_chars": 718
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.10322912460207596,
+    "score_lex_target_in_pred": 0.048327137546468404,
+    "score_jaccard": 0.04304635761589404,
+    "pred_chars": 702
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.11957374628055473,
+    "score_lex_target_in_pred": 0.06319702602230483,
+    "score_jaccard": 0.05362776025236593,
+    "pred_chars": 879
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.025,
+    "score_jaccard": 0.01818181818181818,
+    "pred_chars": 799
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.03436054253493116,
+    "score_lex_target_in_pred": 0.0375,
+    "score_jaccard": 0.027777777777777776,
+    "pred_chars": 846
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.27166949429649523,
+    "score_lex_target_in_pred": 0.08125,
+    "score_jaccard": 0.05963302752293578,
+    "pred_chars": 910
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.043478260869565216,
+    "score_jaccard": 0.030837004405286344,
+    "pred_chars": 1101
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.04132893310389098,
+    "score_lex_target_in_pred": 0.055900621118012424,
+    "score_jaccard": 0.038135593220338986,
+    "pred_chars": 969
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.06438778744390329,
+    "score_lex_target_in_pred": 0.043478260869565216,
+    "score_jaccard": 0.03017241379310345,
+    "pred_chars": 1186
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.007040178345774869,
+    "score_lex_target_in_pred": 0.01893939393939394,
+    "score_jaccard": 0.015822784810126583,
+    "pred_chars": 719
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.18583649818658127,
+    "score_lex_target_in_pred": 0.10606060606060606,
+    "score_jaccard": 0.09621993127147767,
+    "pred_chars": 958
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2955860955561047,
+    "score_lex_target_in_pred": 0.09848484848484848,
+    "score_jaccard": 0.0896551724137931,
+    "pred_chars": 937
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.04460966542750929,
+    "score_jaccard": 0.036923076923076927,
+    "pred_chars": 826
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.12436737251742984,
+    "score_lex_target_in_pred": 0.09293680297397769,
+    "score_jaccard": 0.08650519031141868,
+    "pred_chars": 614
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.22845072881793102,
+    "score_lex_target_in_pred": 0.08921933085501858,
+    "score_jaccard": 0.08080808080808081,
+    "pred_chars": 700
+  },
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.006088913542101303,
+    "score_lex_target_in_pred": 0.03003003003003003,
+    "score_jaccard": 0.027700831024930747,
+    "pred_chars": 528
+  },
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.15918347557339185,
+    "score_lex_target_in_pred": 0.0960960960960961,
+    "score_jaccard": 0.0886426592797784,
+    "pred_chars": 812
+  },
+  {
+    "item_id": "arxiv:2503.21248",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.24833149962457157,
+    "score_lex_target_in_pred": 0.11411411411411411,
+    "score_jaccard": 0.10526315789473684,
+    "pred_chars": 883
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.009405918884835952,
+    "score_lex_target_in_pred": 0.03636363636363636,
+    "score_jaccard": 0.03076923076923077,
+    "pred_chars": 639
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.09378532203733561,
+    "score_lex_target_in_pred": 0.05,
+    "score_jaccard": 0.04059040590405904,
+    "pred_chars": 806
+  },
+  {
+    "item_id": "arxiv:2411.02429",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.10828507661228975,
+    "score_lex_target_in_pred": 0.03636363636363636,
+    "score_jaccard": 0.029850746268656716,
+    "pred_chars": 809
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.034351931059157445,
+    "score_lex_target_in_pred": 0.015197568389057751,
+    "score_jaccard": 0.013440860215053764,
+    "pred_chars": 734
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.1453082793644736,
+    "score_lex_target_in_pred": 0.0486322188449848,
+    "score_jaccard": 0.043010752688172046,
+    "pred_chars": 853
+  },
+  {
+    "item_id": "arxiv:2409.11363",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.17105448726755645,
+    "score_lex_target_in_pred": 0.0547112462006079,
+    "score_jaccard": 0.046632124352331605,
+    "pred_chars": 1048
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.020754505779517055,
+    "score_lex_target_in_pred": 0.030100334448160536,
+    "score_jaccard": 0.026470588235294117,
+    "pred_chars": 691
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.1466780854039009,
+    "score_lex_target_in_pred": 0.12374581939799331,
+    "score_jaccard": 0.11349693251533742,
+    "pred_chars": 852
+  },
+  {
+    "item_id": "arxiv:2502.05151",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.2050777393179486,
+    "score_lex_target_in_pred": 0.11371237458193979,
+    "score_jaccard": 0.10179640718562874,
+    "pred_chars": 856
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.016736401673640166,
+    "score_jaccard": 0.01444043321299639,
+    "pred_chars": 612
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.19004031193250062,
+    "score_lex_target_in_pred": 0.09205020920502092,
+    "score_jaccard": 0.07829181494661921,
+    "pred_chars": 853
+  },
+  {
+    "item_id": "arxiv:2406.06769",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.22173182162042196,
+    "score_lex_target_in_pred": 0.10460251046025104,
+    "score_jaccard": 0.08833922261484099,
+    "pred_chars": 909
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.016020940816893654,
+    "score_lex_target_in_pred": 0.006825938566552901,
+    "score_jaccard": 0.005970149253731343,
+    "pred_chars": 625
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.1076695714853264,
+    "score_lex_target_in_pred": 0.07167235494880546,
+    "score_jaccard": 0.06158357771260997,
+    "pred_chars": 880
+  },
+  {
+    "item_id": "arxiv:2407.01725",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.11650422312420639,
+    "score_lex_target_in_pred": 0.08191126279863481,
+    "score_jaccard": 0.07250755287009064,
+    "pred_chars": 833
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.02144614490621684,
+    "score_lex_target_in_pred": 0.005952380952380952,
+    "score_jaccard": 0.0045662100456621,
+    "pred_chars": 756
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.09700481007278551,
+    "score_lex_target_in_pred": 0.05357142857142857,
+    "score_jaccard": 0.04128440366972477,
+    "pred_chars": 699
+  },
+  {
+    "item_id": "arxiv:2307.10635",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.1826114679286592,
+    "score_lex_target_in_pred": 0.06547619047619048,
+    "score_jaccard": 0.04741379310344827,
+    "pred_chars": 927
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.0043280637293278326,
+    "score_lex_target_in_pred": 0.022304832713754646,
+    "score_jaccard": 0.019801980198019802,
+    "pred_chars": 525
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.10322912460207596,
+    "score_lex_target_in_pred": 0.048327137546468404,
+    "score_jaccard": 0.040880503144654086,
+    "pred_chars": 831
+  },
+  {
+    "item_id": "arxiv:2412.17596",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.11866719294322349,
+    "score_lex_target_in_pred": 0.06319702602230483,
+    "score_jaccard": 0.051829268292682924,
+    "pred_chars": 1076
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.0125,
+    "score_jaccard": 0.009433962264150943,
+    "pred_chars": 732
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.03436054253493116,
+    "score_lex_target_in_pred": 0.0375,
+    "score_jaccard": 0.027649769585253458,
+    "pred_chars": 857
+  },
+  {
+    "item_id": "arxiv:2505.13259",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.22314798062933133,
+    "score_lex_target_in_pred": 0.025,
+    "score_jaccard": 0.017777777777777778,
+    "pred_chars": 927
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.018633540372670808,
+    "score_jaccard": 0.015306122448979591,
+    "pred_chars": 513
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.04132893310389098,
+    "score_lex_target_in_pred": 0.043478260869565216,
+    "score_jaccard": 0.030303030303030304,
+    "pred_chars": 1015
+  },
+  {
+    "item_id": "arxiv:2503.13657",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.06358490964714025,
+    "score_lex_target_in_pred": 0.043478260869565216,
+    "score_jaccard": 0.029045643153526972,
+    "pred_chars": 1165
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.007040178345774869,
+    "score_lex_target_in_pred": 0.015151515151515152,
+    "score_jaccard": 0.013114754098360656,
+    "pred_chars": 659
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.18583649818658127,
+    "score_lex_target_in_pred": 0.07954545454545454,
+    "score_jaccard": 0.07216494845360824,
+    "pred_chars": 618
+  },
+  {
+    "item_id": "arxiv:2410.01792",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.2686591025263186,
+    "score_lex_target_in_pred": 0.07954545454545454,
+    "score_jaccard": 0.06885245901639345,
+    "pred_chars": 796
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.048327137546468404,
+    "score_jaccard": 0.043333333333333335,
+    "pred_chars": 596
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.12436737251742984,
+    "score_lex_target_in_pred": 0.09665427509293681,
+    "score_jaccard": 0.08873720136518772,
+    "pred_chars": 683
+  },
+  {
+    "item_id": "arxiv:2501.05465",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.22327824231859297,
+    "score_lex_target_in_pred": 0.12639405204460966,
+    "score_jaccard": 0.1111111111111111,
+    "pred_chars": 1006
+  },
+  {
+    "item_id": "arxiv:2406.04598",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.029259907552920204,
+    "score_lex_target_in_pred": 0.021021021021021023,
+    "score_jaccard": 0.0171990171990172,
+    "pred_chars": 1163
+  },
+  {
+    "item_id": "arxiv:2406.04598",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.029259907552920204,
+    "score_lex_target_in_pred": 0.015015015015015015,
+    "score_jaccard": 0.013404825737265416,
+    "pred_chars": 659
+  },
+  {
+    "item_id": "arxiv:2406.04598",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.16188496249360423,
+    "score_lex_target_in_pred": 0.07807807807807808,
+    "score_jaccard": 0.07046070460704607,
+    "pred_chars": 902
+  },
+  {
+    "item_id": "arxiv:2406.04598",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.16188496249360423,
+    "score_lex_target_in_pred": 0.06606606606606606,
+    "score_jaccard": 0.058823529411764705,
+    "pred_chars": 913
+  },
+  {
+    "item_id": "arxiv:2406.04598",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.18025182783025617,
+    "score_lex_target_in_pred": 0.07807807807807808,
+    "score_jaccard": 0.06824146981627296,
+    "pred_chars": 1015
+  },
+  {
+    "item_id": "arxiv:2406.04598",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.18025182783025617,
+    "score_lex_target_in_pred": 0.06906906906906907,
+    "score_jaccard": 0.059895833333333336,
+    "pred_chars": 1095
+  },
+  {
+    "item_id": "arxiv:2311.07361",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.04240681815079572,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 794
+  },
+  {
+    "item_id": "arxiv:2311.07361",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.04240681815079572,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 725
+  },
+  {
+    "item_id": "arxiv:2311.07361",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.036291342068909466,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 797
+  },
+  {
+    "item_id": "arxiv:2311.07361",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.036291342068909466,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 798
+  },
+  {
+    "item_id": "arxiv:2311.07361",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.03355435235639561,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 1137
+  },
+  {
+    "item_id": "arxiv:2311.07361",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.03355435235639561,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 1079
+  },
+  {
+    "item_id": "arxiv:2402.14034",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.00506894952835687,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 920
+  },
+  {
+    "item_id": "arxiv:2402.14034",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.00506894952835687,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 908
+  },
+  {
+    "item_id": "arxiv:2402.14034",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.012626948161897224,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 705
+  },
+  {
+    "item_id": "arxiv:2402.14034",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.012626948161897224,
+    "score_lex_target_in_pred": 0.0056179775280898875,
+    "score_jaccard": 0.00398406374501992,
+    "pred_chars": 990
+  },
+  {
+    "item_id": "arxiv:2402.14034",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.015260982287606095,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 982
+  },
+  {
+    "item_id": "arxiv:2402.14034",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.015260982287606095,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 1138
+  },
+  {
+    "item_id": "arxiv:2501.09686",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.033749307755035374,
+    "score_lex_target_in_pred": 0.026881720430107527,
+    "score_jaccard": 0.02288329519450801,
+    "pred_chars": 924
+  },
+  {
+    "item_id": "arxiv:2501.09686",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.033749307755035374,
+    "score_lex_target_in_pred": 0.010752688172043012,
+    "score_jaccard": 0.009592326139088728,
+    "pred_chars": 719
+  },
+  {
+    "item_id": "arxiv:2501.09686",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.12251816524398365,
+    "score_lex_target_in_pred": 0.06182795698924731,
+    "score_jaccard": 0.05569007263922518,
+    "pred_chars": 881
+  },
+  {
+    "item_id": "arxiv:2501.09686",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.12251816524398365,
+    "score_lex_target_in_pred": 0.07526881720430108,
+    "score_jaccard": 0.06572769953051644,
+    "pred_chars": 1135
+  },
+  {
+    "item_id": "arxiv:2501.09686",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.14524548274305804,
+    "score_lex_target_in_pred": 0.05913978494623656,
+    "score_jaccard": 0.0535279805352798,
+    "pred_chars": 859
+  },
+  {
+    "item_id": "arxiv:2501.09686",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.14524548274305804,
+    "score_lex_target_in_pred": 0.06989247311827956,
+    "score_jaccard": 0.06132075471698113,
+    "pred_chars": 1090
+  },
+  {
+    "item_id": "arxiv:2506.12345",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.04338375166599836,
+    "score_lex_target_in_pred": 0.0,
+    "score_jaccard": 0.0,
+    "pred_chars": 716
+  },
+  {
+    "item_id": "arxiv:2506.12345",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.04338375166599836,
+    "score_lex_target_in_pred": 0.015789473684210527,
+    "score_jaccard": 0.014285714285714285,
+    "pred_chars": 239
+  },
+  {
+    "item_id": "arxiv:2506.12345",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.10273944748202983,
+    "score_lex_target_in_pred": 0.06315789473684211,
+    "score_jaccard": 0.05333333333333334,
+    "pred_chars": 808
+  },
+  {
+    "item_id": "arxiv:2506.12345",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.10273944748202983,
+    "score_lex_target_in_pred": 0.06315789473684211,
+    "score_jaccard": 0.0502092050209205,
+    "pred_chars": 874
+  },
+  {
+    "item_id": "arxiv:2506.12345",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.47344582809579006,
+    "score_lex_target_in_pred": 0.08421052631578947,
+    "score_jaccard": 0.06926406926406926,
+    "pred_chars": 1014
+  },
+  {
+    "item_id": "arxiv:2506.12345",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.47344582809579006,
+    "score_lex_target_in_pred": 0.06842105263157895,
+    "score_jaccard": 0.05531914893617021,
+    "pred_chars": 914
+  },
+  {
+    "item_id": "arxiv:2410.19810",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.006338559019056568,
+    "score_lex_target_in_pred": 0.09615384615384616,
+    "score_jaccard": 0.08223684210526316,
+    "pred_chars": 1055
+  },
+  {
+    "item_id": "arxiv:2410.19810",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.006338559019056568,
+    "score_lex_target_in_pred": 0.04230769230769231,
+    "score_jaccard": 0.037037037037037035,
+    "pred_chars": 714
+  },
+  {
+    "item_id": "arxiv:2410.19810",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2323512453936284,
+    "score_lex_target_in_pred": 0.11538461538461539,
+    "score_jaccard": 0.10869565217391304,
+    "pred_chars": 689
+  },
+  {
+    "item_id": "arxiv:2410.19810",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.2323512453936284,
+    "score_lex_target_in_pred": 0.15,
+    "score_jaccard": 0.1387900355871886,
+    "pred_chars": 838
+  },
+  {
+    "item_id": "arxiv:2410.19810",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.25971263606651507,
+    "score_lex_target_in_pred": 0.11923076923076924,
+    "score_jaccard": 0.11151079136690648,
+    "pred_chars": 720
+  },
+  {
+    "item_id": "arxiv:2410.19810",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.25971263606651507,
+    "score_lex_target_in_pred": 0.16153846153846155,
+    "score_jaccard": 0.1494661921708185,
+    "pred_chars": 864
+  },
+  {
+    "item_id": "arxiv:2501.12948",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.01712418971971213,
+    "score_lex_target_in_pred": 0.043010752688172046,
+    "score_jaccard": 0.03715170278637771,
+    "pred_chars": 786
+  },
+  {
+    "item_id": "arxiv:2501.12948",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.01712418971971213,
+    "score_lex_target_in_pred": 0.043010752688172046,
+    "score_jaccard": 0.03870967741935484,
+    "pred_chars": 575
+  },
+  {
+    "item_id": "arxiv:2501.12948",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.11931563489645086,
+    "score_lex_target_in_pred": 0.06093189964157706,
+    "score_jaccard": 0.05501618122977346,
+    "pred_chars": 748
+  },
+  {
+    "item_id": "arxiv:2501.12948",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.11931563489645086,
+    "score_lex_target_in_pred": 0.07168458781362007,
+    "score_jaccard": 0.0641025641025641,
+    "pred_chars": 785
+  },
+  {
+    "item_id": "arxiv:2501.12948",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.24041995766194046,
+    "score_lex_target_in_pred": 0.10752688172043011,
+    "score_jaccard": 0.09230769230769231,
+    "pred_chars": 1074
+  },
+  {
+    "item_id": "arxiv:2501.12948",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.24041995766194046,
+    "score_lex_target_in_pred": 0.0967741935483871,
+    "score_jaccard": 0.07988165680473373,
+    "pred_chars": 1289
+  },
+  {
+    "item_id": "arxiv:2409.05591",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.009074633960490913,
+    "score_lex_target_in_pred": 0.026829268292682926,
+    "score_jaccard": 0.02386117136659436,
+    "pred_chars": 934
+  },
+  {
+    "item_id": "arxiv:2409.05591",
+    "stage": "S0_topic",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.009074633960490913,
+    "score_lex_target_in_pred": 0.014634146341463415,
+    "score_jaccard": 0.01279317697228145,
+    "pred_chars": 1009
+  },
+  {
+    "item_id": "arxiv:2409.05591",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.09888113622526842,
+    "score_lex_target_in_pred": 0.04878048780487805,
+    "score_jaccard": 0.04524886877828054,
+    "pred_chars": 693
+  },
+  {
+    "item_id": "arxiv:2409.05591",
+    "stage": "S1_abstract",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.09888113622526842,
+    "score_lex_target_in_pred": 0.05365853658536585,
+    "score_jaccard": 0.048672566371681415,
+    "pred_chars": 910
+  },
+  {
+    "item_id": "arxiv:2409.05591",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.16070782717362214,
+    "score_lex_target_in_pred": 0.05365853658536585,
+    "score_jaccard": 0.04835164835164835,
+    "pred_chars": 962
+  },
+  {
+    "item_id": "arxiv:2409.05591",
+    "stage": "S3_methods_mid",
+    "model": "openai/gpt-4o-mini",
+    "R_availability": 0.16070782717362214,
+    "score_lex_target_in_pred": 0.06097560975609756,
+    "score_jaccard": 0.05482456140350877,
+    "pred_chars": 942
+  },
+  {
+    "item_id": "arxiv:2502.04364",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.030766164264225557,
+    "score_lex_target_in_pred": 0.018115942028985508,
+    "pred_chars": 415
+  },
+  {
+    "item_id": "arxiv:2502.04364",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.14413536903274232,
+    "score_lex_target_in_pred": 0.07246376811594203,
+    "pred_chars": 737
+  },
+  {
+    "item_id": "arxiv:2502.04364",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.259214468711255,
+    "score_lex_target_in_pred": 0.11594202898550725,
+    "pred_chars": 1332
+  },
+  {
+    "item_id": "arxiv:2412.05265",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.013761467889908258,
+    "pred_chars": 573
+  },
+  {
+    "item_id": "arxiv:2412.05265",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.05232141769756749,
+    "score_lex_target_in_pred": 0.022935779816513763,
+    "pred_chars": 627
+  },
+  {
+    "item_id": "arxiv:2412.05265",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.14317488815083135,
+    "score_lex_target_in_pred": 0.05045871559633028,
+    "pred_chars": 1061
+  },
+  {
+    "item_id": "arxiv:2503.09516",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.03306731182255184,
+    "score_lex_target_in_pred": 0.008379888268156424,
+    "pred_chars": 427
+  },
+  {
+    "item_id": "arxiv:2503.09516",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.06711321957227764,
+    "score_lex_target_in_pred": 0.025139664804469275,
+    "pred_chars": 713
+  },
+  {
+    "item_id": "arxiv:2503.09516",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.18089651986535496,
+    "score_lex_target_in_pred": 0.0446927374301676,
+    "pred_chars": 1203
+  },
+  {
+    "item_id": "arxiv:2504.01849",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.01177129768043525,
+    "score_lex_target_in_pred": 0.023809523809523808,
+    "pred_chars": 541
+  },
+  {
+    "item_id": "arxiv:2504.01849",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.09514188073230836,
+    "score_lex_target_in_pred": 0.047619047619047616,
+    "pred_chars": 701
+  },
+  {
+    "item_id": "arxiv:2504.01849",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.09280021261592758,
+    "score_lex_target_in_pred": 0.04421768707482993,
+    "pred_chars": 750
+  },
+  {
+    "item_id": "arxiv:2505.03422",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.019084792021841483,
+    "score_lex_target_in_pred": 0.013513513513513514,
+    "pred_chars": 414
+  },
+  {
+    "item_id": "arxiv:2505.03422",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.17480946629226118,
+    "score_lex_target_in_pred": 0.08445945945945946,
+    "pred_chars": 614
+  },
+  {
+    "item_id": "arxiv:2505.03422",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2161078934816254,
+    "score_lex_target_in_pred": 0.11824324324324324,
+    "pred_chars": 1335
+  },
+  {
+    "item_id": "arxiv:2408.12574",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.02628995615934018,
+    "score_lex_target_in_pred": 0.020080321285140562,
+    "pred_chars": 533
+  },
+  {
+    "item_id": "arxiv:2408.12574",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.144664043267964,
+    "score_lex_target_in_pred": 0.09236947791164658,
+    "pred_chars": 615
+  },
+  {
+    "item_id": "arxiv:2408.12574",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.1588629585632032,
+    "score_lex_target_in_pred": 0.12048192771084337,
+    "pred_chars": 1019
+  },
+  {
+    "item_id": "arxiv:2501.07542",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.006744864615820316,
+    "score_lex_target_in_pred": 0.010169491525423728,
+    "pred_chars": 473
+  },
+  {
+    "item_id": "arxiv:2501.07542",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.10988748820572007,
+    "score_lex_target_in_pred": 0.04406779661016949,
+    "pred_chars": 548
+  },
+  {
+    "item_id": "arxiv:2501.07542",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.12417566618984618,
+    "score_lex_target_in_pred": 0.0711864406779661,
+    "pred_chars": 1441
+  },
+  {
+    "item_id": "arxiv:2411.14405",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.025947730341750366,
+    "score_lex_target_in_pred": 0.025547445255474453,
+    "pred_chars": 538
+  },
+  {
+    "item_id": "arxiv:2411.14405",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.10063636109292498,
+    "score_lex_target_in_pred": 0.08029197080291971,
+    "pred_chars": 771
+  },
+  {
+    "item_id": "arxiv:2411.14405",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.2199584834109965,
+    "score_lex_target_in_pred": 0.08759124087591241,
+    "pred_chars": 1191
+  },
+  {
+    "item_id": "arxiv:2502.17416",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.03742548140622733,
+    "score_lex_target_in_pred": 0.017241379310344827,
+    "pred_chars": 579
+  },
+  {
+    "item_id": "arxiv:2502.17416",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.15906827972426535,
+    "score_lex_target_in_pred": 0.05172413793103448,
+    "pred_chars": 747
+  },
+  {
+    "item_id": "arxiv:2502.17416",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.21424843943760358,
+    "score_lex_target_in_pred": 0.06896551724137931,
+    "pred_chars": 1339
+  },
+  {
+    "item_id": "arxiv:2503.16734",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.025714242310974272,
+    "score_lex_target_in_pred": 0.01592356687898089,
+    "pred_chars": 365
+  },
+  {
+    "item_id": "arxiv:2503.16734",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.1027039736157388,
+    "score_lex_target_in_pred": 0.07006369426751592,
+    "pred_chars": 694
+  },
+  {
+    "item_id": "arxiv:2503.16734",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.14482129755139758,
+    "score_lex_target_in_pred": 0.08280254777070063,
+    "pred_chars": 1542
+  },
+  {
+    "item_id": "arxiv:2407.21783",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.0,
+    "score_lex_target_in_pred": 0.00784313725490196,
+    "pred_chars": 353
+  },
+  {
+    "item_id": "arxiv:2407.21783",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.09362000082810519,
+    "score_lex_target_in_pred": 0.0392156862745098,
+    "pred_chars": 576
+  },
+  {
+    "item_id": "arxiv:2407.21783",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.12236144395100465,
+    "score_lex_target_in_pred": 0.06274509803921569,
+    "pred_chars": 1341
+  },
+  {
+    "item_id": "arxiv:2504.08734",
+    "stage": "S0_topic",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.012108157359588537,
+    "score_lex_target_in_pred": 0.03289473684210526,
+    "pred_chars": 532
+  },
+  {
+    "item_id": "arxiv:2504.08734",
+    "stage": "S1_abstract",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.17211058185041495,
+    "score_lex_target_in_pred": 0.05592105263157895,
+    "pred_chars": 1092
+  },
+  {
+    "item_id": "arxiv:2504.08734",
+    "stage": "S3_methods_mid",
+    "model": "qwen/qwen-2.5-7b-instruct",
+    "R_availability": 0.22408491925149016,
+    "score_lex_target_in_pred": 0.08223684210526316,
+    "pred_chars": 1358
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "benchmark": "AI_Idea_Bench_2025",
+  "n": 3495,
+  "summary": {
+    "metric_family": "R_availability_four_measure_mean",
+    "metric_components": [
+      "lexical_coverage",
+      "token_jaccard",
+      "rouge_l_f1",
+      "bow_cosine"
+    ],
+    "identity_intervention_protocol": "measurement-contracts-0.6 deterministic length-nearest derangement v1",
+    "identity_intervention_length_match": {
+      "algorithm": "deterministic_length_nearest_derangement_v1",
+      "length_unit": "regex_tokens_before_stopword_removal",
+      "n": 3495,
+      "donor_unique_count": 3495,
+      "self_pair_count": 0,
+      "mean_source_tokens": 41.329327610872674,
+      "mean_donor_tokens": 41.329327610872674,
+      "median_absolute_log_length_ratio": 0.0,
+      "p90_absolute_log_length_ratio": 0.0,
+      "max_absolute_log_length_ratio": 0.048790164169432056,
+      "fraction_within_10_percent_source_length": 1.0,
+      "fraction_within_20_percent_source_length": 1.0
+    },
+    "n": 3495,
+    "mean_R_title": 0.1745815055184356,
+    "mean_R_topic": 0.24128014553794475,
+    "mean_R_refs": 0.1404575064455755,
+    "mean_R_topic_refs": 0.23322588380689968,
+    "mean_R_topic_shuffled_refs": 0.16843836766842318,
+    "sem_R_topic": 0.0009980381300061752,
+    "sem_R_topic_refs": 0.0009090654711822461,
+    "sem_R_topic_shuffled_refs": 0.000910363189879223,
+    "mean_delta_refs_vs_topic": -0.00805426173104504,
+    "delta_refs_ci95": [
+      -0.009377436220901335,
+      -0.006706252870160867
+    ],
+    "frac_refs_help": 0.41030042918454934,
+    "mean_delta_shuffle": 0.06478751613847651,
+    "delta_shuffle_ci95": [
+      0.0633370048842145,
+      0.06622755100351604
+    ],
+    "frac_shuffle_hurts": 0.9419170243204578,
+    "R_topic_refs_p10": 0.17093321304631984,
+    "R_topic_refs_p50": 0.22817682781831045,
+    "R_topic_refs_p90": 0.3044117085244471,
+    "by_keyword_bucket": {
+      "nlp": {
+        "n": 1711,
+        "mean_R_topic_refs": 0.2378966679719462,
+        "mean_delta_refs": -0.013487347771660446,
+        "mean_delta_shuffle": 0.056770416132576856,
+        "frac_refs_help": 0.35417884278199885,
+        "frac_shuffle_hurts": 0.9246054938632379
+      },
+      "other": {
+        "n": 822,
+        "mean_R_topic_refs": 0.22578082251249462,
+        "mean_delta_refs": -0.0017967797231735994,
+        "mean_delta_shuffle": 0.07405093665612503,
+        "frac_refs_help": 0.4793187347931874,
+        "frac_shuffle_hurts": 0.9549878345498783
+      },
+      "vision": {
+        "n": 742,
+        "mean_R_topic_refs": 0.23013537747406881,
+        "mean_delta_refs": -0.003346548242288999,
+        "mean_delta_shuffle": 0.07051714201778861,
+        "frac_refs_help": 0.4474393530997305,
+        "frac_shuffle_hurts": 0.9595687331536388
+      },
+      "rl": {
+        "n": 78,
+        "mean_R_topic_refs": 0.23483758426251014,
+        "mean_delta_refs": -0.002325856931516015,
+        "mean_delta_shuffle": 0.06654134320195254,
+        "frac_refs_help": 0.5256410256410257,
+        "frac_shuffle_hurts": 0.9871794871794872
+      },
+      "systems": {
+        "n": 72,
+        "mean_R_topic_refs": 0.2242932000374254,
+        "mean_delta_refs": -0.02409155024608307,
+        "mean_delta_shuffle": 0.057731196558322706,
+        "frac_refs_help": 0.2638888888888889,
+        "frac_shuffle_hurts": 0.9166666666666666
+      },
+      "theory": {
+        "n": 57,
+        "mean_R_topic_refs": 0.24735594839000083,
+        "mean_delta_refs": 0.0070618382581716125,
+        "mean_delta_shuffle": 0.09280990298636405,
+        "frac_refs_help": 0.5263157894736842,
+        "frac_shuffle_hurts": 1.0
+      },
+      "science": {
+        "n": 13,
+        "mean_R_topic_refs": 0.24348059851418485,
+        "mean_delta_refs": 0.030829437938168454,
+        "mean_delta_shuffle": 0.11288940003293675,
+        "frac_refs_help": 0.9230769230769231,
+        "frac_shuffle_hurts": 1.0
+      }
+    },
+    "lexical_coverage_component": {
+      "mean_title": 0.08817757887893779,
+      "mean_topic": 0.12060461717225386,
+      "mean_refs": 0.09886491656129653,
+      "mean_topic_refs": 0.17479074613406032,
+      "mean_topic_shuffled_refs": 0.1423357479728023
+    }
+  },
+  "protocol": "measurement-contracts-0.6 full four-measure R_availability + length-nearest ref derangement + keyword strata"
+}
